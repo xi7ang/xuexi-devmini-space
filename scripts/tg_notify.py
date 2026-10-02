@@ -24,7 +24,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 MSWNLZ_SKILL = Path("/root/.openclaw/workspace/skills/quark-mswnlz-publisher")
 XUEXI_ENV = Path("/root/.openclaw/credentials/quark-xuexi-publisher.env")
-STATE = ROOT / ".tg_state_items.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import state_store  # noqa: E402
+
+# 幂等状态存在仓库外的持久目录（见 scripts/state_store.py），不进内容仓库
+STATE = state_store.state_path(".tg_state_items.json")
 SITE = "https://xuexi.devmini.space"
 BOT_API_URL = "https://goodstudydayupbot-telegram-bot.wsheng-980210.workers.dev"
 

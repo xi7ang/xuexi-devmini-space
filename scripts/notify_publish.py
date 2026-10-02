@@ -11,24 +11,27 @@ import datetime
 import json
 import os
 import subprocess
+import sys
 
 ROOT = "/root/.openclaw/workspace/projects/xuexi-devmini-space"
 IMA_API = "/root/.openclaw/workspace/skills/ima-skill/ima_api.cjs"
 KB_ID = "voS8_o4CR0hrhboJS6VXlHdFyk512g3zOPf2r_1DImk="
 FEISHU_DOC = "https://my.feishu.cn/docx/PaIwdt4dRoNxJ5xYOvncM8u9nkM"
-STATE = os.path.join(ROOT, ".notify_state.json")
 CATS = {"exam": "考试真题", "study": "中小学资料", "office": "办公素材"}
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import state_store  # noqa: E402
+
+# 幂等状态存在仓库外的持久目录（见 scripts/state_store.py），不进内容仓库
+STATE_NAME = ".notify_state.json"
 
 
 def load_state():
-    try:
-        return json.load(open(STATE, encoding="utf-8"))
-    except Exception:
-        return {"feishu": [], "ima": []}
+    return state_store.load(STATE_NAME, default={"feishu": [], "ima": []})
 
 
 def save_state(s):
-    json.dump(s, open(STATE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    state_store.save(STATE_NAME, s)
 
 
 def ima(method, body):
