@@ -3,74 +3,94 @@
   "count": 5,
   "items": [
     {
-      "id": "demo-guokao-xingce",
-      "title": "2026 国考行测真题解析合集",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": ["国考", "行测", "真题"],
-      "size": "2.4GB",
-      "formats": "PDF / 视频",
-      "desc": "2026 国家公务员考试行测真题 + 逐题解析，含数量关系、判断推理、资料分析模块精讲。",
-      "shareUrl": "",
-      "pwd": "",
-      "updatedAt": "2026-10-02",
-      "demo": true
+      "id": "844a8603a018",
+      "title": "上升趋势图表背景的工作总结述职报告PPT模板",
+      "category": "office",
+      "subcategory": "zhishu",
+      "tags": [
+        "述职报告",
+        "工作总结",
+        "PPT模板"
+      ],
+      "size": "",
+      "formats": "PPTX",
+      "desc": "24页可编辑述职报告PPT模板，含数据图表页与总结页。",
+      "shareUrl": "https://pan.quark.cn/s/d6417da1ec2b",
+      "pwd": "qzio",
+      "sourceUrl": "https://pan.quark.cn/s/fbb69249ef89",
+      "updatedAt": "2026-10-02"
     },
     {
-      "id": "demo-shengkao-shenlun",
-      "title": "省考申论万能模板与范文库",
-      "category": "exam",
-      "subcategory": "shengkao",
-      "tags": ["省考", "申论", "模板"],
-      "size": "860MB",
-      "formats": "PDF / Word",
-      "desc": "归纳概括、综合分析、公文写作、大作文四类题型的万能框架与高分范文，可直接套用。",
-      "shareUrl": "",
-      "pwd": "",
-      "updatedAt": "2026-10-02",
-      "demo": true
-    },
-    {
-      "id": "demo-shiye-zonghe",
-      "title": "事业编综合应用能力讲义（A/B/C 类）",
-      "category": "exam",
-      "subcategory": "shiye",
-      "tags": ["事业编", "综合应用", "讲义"],
-      "size": "1.2GB",
-      "formats": "PDF / 视频",
-      "desc": "事业单位公开招聘综合应用能力分类讲义，配套例题精讲与模拟卷。",
-      "shareUrl": "",
-      "pwd": "",
-      "updatedAt": "2026-10-02",
-      "demo": true
-    },
-    {
-      "id": "demo-office-excel",
-      "title": "Excel 函数与数据透视表实战",
+      "id": "62b2af8fcc58",
+      "title": "蓝色矢量商务人士剪切画背景的Excel基础知识操作培训PPT模板",
       "category": "office",
       "subcategory": "excel",
-      "tags": ["Excel", "函数", "数据透视表"],
-      "size": "3.1GB",
-      "formats": "视频 / 练习文件",
-      "desc": "从 VLOOKUP 到动态数组，配合真实业务表的练习文件，学完直接上手工作。",
-      "shareUrl": "",
-      "pwd": "",
-      "updatedAt": "2026-10-02",
-      "demo": true
+      "tags": [
+        "Excel",
+        "办公培训",
+        "PPT模板"
+      ],
+      "size": "",
+      "formats": "PPTX",
+      "desc": "39页Excel基础知识操作培训课件，适合企业内训与自学。",
+      "shareUrl": "https://pan.quark.cn/s/9e012398d1b6",
+      "pwd": "4Sil",
+      "sourceUrl": "https://pan.quark.cn/s/ab2ac40abacb",
+      "updatedAt": "2026-10-02"
     },
     {
-      "id": "demo-office-ppt",
-      "title": "商务汇报 PPT 模板精选合集",
+      "id": "85669b572da0",
+      "title": "不负过去不惧未来，彩色扁平化个人竞聘简历PPT模板",
       "category": "office",
-      "subcategory": "ppt",
-      "tags": ["PPT", "模板", "汇报"],
-      "size": "5.6GB",
+      "subcategory": "jianli",
+      "tags": [
+        "简历",
+        "竞聘",
+        "PPT模板"
+      ],
+      "size": "",
       "formats": "PPTX",
-      "desc": "年终总结、项目汇报、竞聘述职等多场景可编辑 PPT 模板，含图表与配色方案。",
-      "shareUrl": "",
-      "pwd": "",
-      "updatedAt": "2026-10-02",
-      "demo": true
+      "desc": "30页彩色扁平化个人竞聘简历模板，可直接替换文字使用。",
+      "shareUrl": "https://pan.quark.cn/s/c91fb2e93b2f",
+      "pwd": "UZ66",
+      "sourceUrl": "https://pan.quark.cn/s/572353bce12f",
+      "updatedAt": "2026-10-02"
+    },
+    {
+      "id": "c0c2efab85f8",
+      "title": "卡通“开学啦”小学开学第一课PPT模板",
+      "category": "study",
+      "subcategory": "k12",
+      "tags": [
+        "开学第一课",
+        "小学",
+        "主题班会"
+      ],
+      "size": "",
+      "formats": "PPTX",
+      "desc": "35页卡通风格小学开学第一课/主题班会PPT模板。",
+      "shareUrl": "https://pan.quark.cn/s/cbc79a2a9e28",
+      "pwd": "OniA",
+      "sourceUrl": "https://pan.quark.cn/s/ad03f5a55e69",
+      "updatedAt": "2026-10-02"
+    },
+    {
+      "id": "8ddaee693d0b",
+      "title": "蓝色雅致会计专业毕业答辩PPT模板",
+      "category": "study",
+      "subcategory": "daxue",
+      "tags": [
+        "毕业答辩",
+        "论文答辩",
+        "PPT模板"
+      ],
+      "size": "",
+      "formats": "PPTX",
+      "desc": "25页蓝色雅致会计专业毕业答辩PPT模板，含论文框架页。",
+      "shareUrl": "https://pan.quark.cn/s/84a8281164e1",
+      "pwd": "vWV4",
+      "sourceUrl": "https://pan.quark.cn/s/a0e4ecd23142",
+      "updatedAt": "2026-10-02"
     }
   ]
 }
