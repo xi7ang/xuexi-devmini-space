@@ -45,12 +45,12 @@ def esc(s):
 
 
 def item_text(it):
+    # 展示给用户的资源链接 = 站点详情页（不再暴露夸克原链）
     return {
         "title": it["title"],
         "desc": it.get("desc") or "",
         "tags": it.get("tags") or [],
-        "link": it["shareUrl"] + (f"?pwd={it['pwd']}" if it.get("pwd") else ""),
-        "pwd": it.get("pwd") or "",
+        "link": f"https://xuexi.devmini.space/resource.html?id={it['id']}",
         "cat": CATS.get(it["category"], it["category"]),
     }
 
@@ -61,9 +61,7 @@ def push_ima_one(it):
           f"- **分类**：{t['cat']}\n"
           f"- **标签**：{'、'.join(t['tags']) if t['tags'] else '无'}\n"
           f"- **描述**：{t['desc'] or '无'}\n"
-          f"- **夸克网盘**：{t['link']}\n")
-    if t["pwd"]:
-        md += f"- **提取码**：{t['pwd']}\n"
+          f"- **资源详情页**：{t['link']}\n")
     r1 = ima("note/v1/import_doc", {"content_format": 1, "content": md})
     nid = (r1.get("data") or {}).get("note_id")
     if not nid:
@@ -77,11 +75,10 @@ def push_ima_one(it):
 def push_feishu_one(it):
     t = item_text(it)
     tags = "、".join(t["tags"]) if t["tags"] else "无"
-    pwd = f"　提取码 <code>{t['pwd']}</code>" if t["pwd"] else ""
     xml = (f"<h2>{esc(t['title'])}</h2>"
            f"<p><b>分类</b>：{t['cat']}　<b>标签</b>：{esc(tags)}</p>"
            f"<p><b>描述</b>：{esc(t['desc']) or '无'}</p>"
-           f"<p><b>夸克网盘</b>：<a href=\"{it['shareUrl']}\">{it['shareUrl']}</a>{pwd}</p><hr/>")
+           f"<p><b>详情页</b>：<a href=\"{t['link']}\">{t['link']}</a></p><hr/>")
     env = {k: v for k, v in os.environ.items() if not k.startswith("OPENCLAW")}
     out = subprocess.run(
         ["lark-cli", "docs", "+update", "--api-version", "v2", "--doc", FEISHU_DOC,
