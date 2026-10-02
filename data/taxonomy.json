@@ -1,39 +1,39 @@
 {
   "exam": {
-    "name": "考试",
-    "desc": "国考、省考、事业编、教师资格等招录与资格考试资料",
+    "name": "考试真题",
+    "desc": "高考、中考历年真题，按学科与年份整理",
     "subs": [
-      { "slug": "guokao", "name": "国考" },
-      { "slug": "shengkao", "name": "省考" },
-      { "slug": "shiye", "name": "事业编" },
-      { "slug": "jiaoshi", "name": "教师资格" },
-      { "slug": "kaoyan", "name": "考研" },
-      { "slug": "cet", "name": "四六级" },
-      { "slug": "zhiye", "name": "职业资格" }
+      { "slug": "gaokao", "name": "高考真题" },
+      { "slug": "zhongkao", "name": "中考真题" },
+      { "slug": "shuxue", "name": "数学" },
+      { "slug": "yuwen", "name": "语文" },
+      { "slug": "yingyu", "name": "英语" },
+      { "slug": "wuli", "name": "物理" },
+      { "slug": "huaxue", "name": "化学" }
     ]
   },
   "study": {
-    "name": "学习",
-    "desc": "按学习领域整理的教材、课程与能力提升资料",
+    "name": "中小学资料",
+    "desc": "小学、初中、高中各年级资料：试卷、一课一练、知识点、课件",
     "subs": [
-      { "slug": "k12", "name": "中小学" },
-      { "slug": "daxue", "name": "大学课程" },
-      { "slug": "yuyan", "name": "语言学习" },
-      { "slug": "biancheng", "name": "编程技术" },
-      { "slug": "ai", "name": "AI 学习" },
-      { "slug": "shuji", "name": "电子书" }
+      { "slug": "primary", "name": "小学" },
+      { "slug": "junior", "name": "初中" },
+      { "slug": "senior", "name": "高中" },
+      { "slug": "daxue", "name": "大学" },
+      { "slug": "shijuan", "name": "试卷" },
+      { "slug": "zhishidian", "name": "知识点" }
     ]
   },
   "office": {
-    "name": "办公",
-    "desc": "按技能点整理的办公素材与效率工具",
+    "name": "办公素材",
+    "desc": "PPT 模板、简历、述职报告与教学课件等办公素材",
     "subs": [
-      { "slug": "excel", "name": "Excel 表格" },
-      { "slug": "word", "name": "Word 文档" },
-      { "slug": "ppt", "name": "PPT 演示" },
+      { "slug": "ppt", "name": "PPT 模板" },
       { "slug": "jianli", "name": "简历求职" },
-      { "slug": "hetong", "name": "合同文书" },
-      { "slug": "zhishu", "name": "述职总结" }
+      { "slug": "zhishu", "name": "述职总结" },
+      { "slug": "kejian", "name": "教学课件" },
+      { "slug": "excel", "name": "Excel 表格" },
+      { "slug": "hetong", "name": "合同文书" }
     ]
   }
 }

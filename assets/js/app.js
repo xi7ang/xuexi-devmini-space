@@ -139,10 +139,10 @@ function renderHome() {
   $('#main').innerHTML = `
   <section class="hero">
     <div class="wrap">
-      <h1>考试 · 学习 · 办公 <em>资料库</em></h1>
-      <p>精选夸克网盘学习资料，一键转存到自己的网盘，永久有效、随时取用。</p>
+      <h1>考试真题 · 中小学 · <em>办公素材</em></h1>
+      <p>高考/中考真题、中小学试卷与知识点、PPT 办公模板，一键转存到自己的夸克网盘，永久有效。</p>
       <form class="hero-search" onsubmit="location.href='search.html?q='+encodeURIComponent(this.q.value);return false">
-        <input name="q" placeholder="搜国考、考研、Excel、PPT 模板…">
+        <input name="q" placeholder="搜高考数学真题、三年级语文、述职 PPT…">
         <button>搜索</button>
       </form>
       <div class="stats">
@@ -154,7 +154,7 @@ function renderHome() {
     </div>
   </section>
   <div class="wrap">
-    <div class="sec-title">🔥 热门分类 <small>按考试 / 学习 / 办公浏览</small></div>
+    <div class="sec-title">🔥 热门分类 <small>按 考试真题 / 中小学资料 / 办公素材 浏览</small></div>
     ${chipsHTML()}
     <div id="grid"></div>
     <div class="notice">📌 本站仅整理公开分享信息，资源版权归原作者所有；转存后请自行遵守夸克网盘规则。</div>
