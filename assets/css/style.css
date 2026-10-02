@@ -16,8 +16,12 @@ img{max-width:100%}
 /* ---------- header ---------- */
 .hd{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .hd-inner{display:flex;align-items:center;gap:18px;height:60px}
-.logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:18px;white-space:nowrap}
-.logo b{color:var(--accent)}
+.logo{display:flex;align-items:center;gap:10px;white-space:nowrap}
+.logo-mark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#ff8a4c,#ff5f2e);box-shadow:0 4px 12px rgba(255,107,53,.35);flex:none}
+.logo-text{display:flex;flex-direction:column;line-height:1.15}
+.logo-text b{font-size:17px;font-weight:800;letter-spacing:-.2px}
+.logo-text i{font-style:normal;font-size:11px;color:var(--muted);letter-spacing:.2px}
+@media (max-width:560px){.logo-text i{display:none}}
 .hd-nav{display:flex;gap:4px;margin-left:8px;overflow:auto}
 .hd-nav a{padding:7px 12px;border-radius:9px;font-size:14px;color:#3a3f47;white-space:nowrap}
 .hd-nav a:hover{background:#f0f1f4}

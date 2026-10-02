@@ -1,0 +1,40 @@
+name: Rebuild sitemap
+
+# 数据一变就重建 sitemap.xml / robots.txt（不再依赖本地手动跑）
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/resources.json'
+      - 'data/taxonomy.json'
+      - 'scripts/build_sitemap.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sitemap
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Rebuild sitemap
+        run: python scripts/build_sitemap.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml robots.txt
+          if git diff --cached --quiet; then
+            echo "sitemap 无变化"
+          else
+            git commit -m "chore: auto rebuild sitemap [skip ci]"
+            git push
+          fi

@@ -30,10 +30,13 @@ function headerHTML() {
   const navs = Object.entries(state.tax).map(([slug, c]) =>
     `<a href="category.html?c=${slug}"${on('category-' + slug)}>${esc(c.name)}</a>`).join('');
   return `<div class="wrap hd-inner">
-    <a class="logo" href="index.html">📚 <span>学习<b>资源站</b></span></a>
+    <a class="logo" href="index.html" aria-label="学习资料站首页">
+      <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg></span>
+      <span class="logo-text"><b>学习资料站</b><i>真题 · 中小学 · 办公素材</i></span>
+    </a>
     <nav class="hd-nav"><a href="index.html"${on('home')}>首页</a>${navs}</nav>
     <form class="hd-search" onsubmit="location.href='search.html?q='+encodeURIComponent(this.q.value);return false">
-      <input name="q" placeholder="搜索资料 / 考试 / 技能" value="${esc(qs('q') || '')}">
+      <input name="q" placeholder="搜高考数学真题、三年级语文…" value="${esc(qs('q') || '')}">
     </form>
   </div>`;
 }
@@ -48,6 +51,18 @@ function footerHTML() {
       <a href="sitemap.xml">站点地图</a>
     </div>
   </div>`;
+}
+
+function setMeta(title, desc, canonical) {
+  document.title = title;
+  if (desc) {
+    let d = document.head.querySelector('meta[name=description]');
+    if (!d) { d = document.createElement('meta'); d.setAttribute('name', 'description'); document.head.appendChild(d); }
+    d.setAttribute('content', desc);
+  }
+  let c = document.head.querySelector('link[rel=canonical]');
+  if (!c) { c = document.createElement('link'); c.rel = 'canonical'; document.head.appendChild(c); }
+  c.href = canonical || location.origin + location.pathname + location.search;
 }
 
 function catName(c) { return (state.tax[c] && state.tax[c].name) || c; }
@@ -134,6 +149,8 @@ function paint() {
 
 /* ---------- pages ---------- */
 function renderHome() {
+  setMeta('学习资料站 - 高考真题|中考真题|中小学试卷|办公PPT模板 夸克网盘资源',
+    '免费夸克网盘学习资料：高考真题、中考真题、中小学试卷与知识点、PPT 办公模板，一键转存、永久有效。');
   const n = state.items.filter(x => !x.demo).length || state.items.length;
   const subs = Object.values(state.tax).reduce((a, c) => a + (c.subs ? c.subs.length : 0), 0);
   $('#main').innerHTML = `
@@ -168,6 +185,7 @@ function renderCategory() {
   state.cat = state.tax[c] ? c : 'all';
   state.sub = 'all';
   const t = state.tax[state.cat];
+  setMeta(`${t ? t.name : '全部资料'} - 学习资料站`, `${t ? (t.desc || t.name) : '全部资料'}｜夸克网盘资源免费转存。`);
   $('#main').innerHTML = `<div class="wrap">
     <div class="crumb"><a href="index.html">首页</a> / ${esc(t ? t.name : '全部')}</div>
     <div class="sec-title">${esc(t ? t.name : '全部资料')} <small>${esc(t ? (t.desc || '') : '')}</small></div>
@@ -185,6 +203,7 @@ function renderCategory() {
 function renderSearch() {
   const q = (qs('q') || '').trim();
   const low = q.toLowerCase();
+  setMeta(`搜索「${q}」 - 学习资料站`, `在学习资料站搜索「${q}」的夸克网盘资源。`);
   const items = q ? state.items.filter(it => {
     const hay = [it.title, it.desc, it.category, it.subcategory, catName(it.category), subName(it.category, it.subcategory), ...(it.tags || [])].join(' ').toLowerCase();
     return hay.includes(low);
@@ -204,7 +223,8 @@ function renderResource() {
     return;
   }
   const pwd = it.pwd || '';
-  const url = it.shareUrl || '#';
+  const url = it.shareUrl ? (it.pwd ? it.shareUrl + '?pwd=' + encodeURIComponent(it.pwd) : it.shareUrl) : '#';
+  setMeta(`${it.title} - 学习资料站`, `${it.desc || it.title}｜${catName(it.category)}·夸克网盘转存，永久有效。`);
   const related = state.items.filter(x => x.id !== it.id && x.category === it.category).slice(0, 4);
   $('#main').innerHTML = `<div class="wrap">
     <div class="crumb"><a href="index.html">首页</a> / <a href="category.html?c=${it.category}">${esc(catName(it.category))}</a>${it.subcategory ? ' / <a href="category.html?c=' + it.category + '&s=' + it.subcategory + '">' + esc(subName(it.category, it.subcategory)) + '</a>' : ''} / ${esc(it.title)}</div>
