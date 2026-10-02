@@ -1,0 +1,39 @@
+name: Stamp asset versions
+
+# assets 一变就给 HTML 里的引用打内容哈希版本号（解决 4 小时长缓存导致用户看不到更新）
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/**'
+      - 'scripts/stamp_assets.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stamp-assets
+  cancel-in-progress: true
+
+jobs:
+  stamp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Stamp
+        run: python scripts/stamp_assets.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add '*.html'
+          if git diff --cached --quiet; then
+            echo "无变化"
+          else
+            git commit -m "chore: stamp asset versions [skip ci]"
+            git push
+          fi
