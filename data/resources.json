@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-02",
-  "count": 20,
+  "count": 25,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -359,6 +359,97 @@
       "shareUrl": "https://pan.quark.cn/s/cbc79a2a9e28",
       "pwd": "OniA",
       "sourceUrl": "https://pan.quark.cn/s/ad03f5a55e69",
+      "updatedAt": "2026-10-02"
+    },
+    {
+      "id": "157d28a9f822",
+      "title": "2025年高考化学试卷（全国卷）",
+      "category": "exam",
+      "subcategory": "huaxue",
+      "tags": [
+        "化学",
+        "2025"
+      ],
+      "size": "",
+      "formats": "[\"DOCX\"]",
+      "desc": "2025年高考化学试卷（全国卷），收录 空白卷、解析卷，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/1a14b833bead",
+      "pwd": "MsQl",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-f9e25d1214c8b879",
+      "updatedAt": "2026-10-02"
+    },
+    {
+      "id": "437d29fb547c",
+      "title": "2024年上海中考数学真题",
+      "category": "exam",
+      "subcategory": "zhongkao",
+      "tags": [
+        "数学",
+        "上海",
+        "2024"
+      ],
+      "size": "",
+      "formats": "[\"DOCX\"]",
+      "desc": "2024年上海中考数学真题，收录 原卷版、解析版，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/57c4cc62656a",
+      "pwd": "xw6S",
+      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-10b82283945f3bdb",
+      "updatedAt": "2026-10-02"
+    },
+    {
+      "id": "b8a2141b8281",
+      "title": "【人教PEP】一课一练",
+      "category": "study",
+      "subcategory": "primary",
+      "tags": [
+        "英语",
+        "五年级",
+        "一课一练",
+        "人教版"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "【人教PEP】一课一练资料包，覆盖小学五年级英语，含一课一练同步练习，共 40 份资料。",
+      "shareUrl": "https://pan.quark.cn/s/5841d759544a",
+      "pwd": "GxVD",
+      "sourceUrl": "https://quarksource.com/resource/人教pep-一课一练-fefa9cd5",
+      "updatedAt": "2026-10-02"
+    },
+    {
+      "id": "7d24709c0626",
+      "title": "【沪粤】八上物理一课一练",
+      "category": "study",
+      "subcategory": "junior",
+      "tags": [
+        "物理",
+        "八年级",
+        "一课一练",
+        "沪粤版"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "【沪粤版】八年级上册物理一课一练资料包，按课时同步练习，共 54 份资料。",
+      "shareUrl": "https://pan.quark.cn/s/eefda5645421",
+      "pwd": "lVG9",
+      "sourceUrl": "https://quarksource.com/resource/沪粤-八上物理一课一练-fe53d8dd",
+      "updatedAt": "2026-10-02"
+    },
+    {
+      "id": "d92bc1982576",
+      "title": "棕色新员工入职培训PPT模板",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": [
+        "PPT模板",
+        "入职培训",
+        "企业培训"
+      ],
+      "size": "",
+      "formats": "PPTX",
+      "desc": "棕色系新员工入职培训 PPT 模板，26 页可编辑演示内容，含预览页，适合企业内训。",
+      "shareUrl": "https://pan.quark.cn/s/94e5f9775577",
+      "pwd": "AhDY",
+      "sourceUrl": "https://quarksource.com/resource/棕色新员工入职培训ppt模板-4d638d51be",
       "updatedAt": "2026-10-02"
     }
   ]
