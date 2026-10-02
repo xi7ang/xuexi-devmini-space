@@ -1,0 +1,39 @@
+{
+  "exam": {
+    "name": "考试",
+    "desc": "国考、省考、事业编、教师资格等招录与资格考试资料",
+    "subs": [
+      { "slug": "guokao", "name": "国考" },
+      { "slug": "shengkao", "name": "省考" },
+      { "slug": "shiye", "name": "事业编" },
+      { "slug": "jiaoshi", "name": "教师资格" },
+      { "slug": "kaoyan", "name": "考研" },
+      { "slug": "cet", "name": "四六级" },
+      { "slug": "zhiye", "name": "职业资格" }
+    ]
+  },
+  "study": {
+    "name": "学习",
+    "desc": "按学习领域整理的教材、课程与能力提升资料",
+    "subs": [
+      { "slug": "k12", "name": "中小学" },
+      { "slug": "daxue", "name": "大学课程" },
+      { "slug": "yuyan", "name": "语言学习" },
+      { "slug": "biancheng", "name": "编程技术" },
+      { "slug": "ai", "name": "AI 学习" },
+      { "slug": "shuji", "name": "电子书" }
+    ]
+  },
+  "office": {
+    "name": "办公",
+    "desc": "按技能点整理的办公素材与效率工具",
+    "subs": [
+      { "slug": "excel", "name": "Excel 表格" },
+      { "slug": "word", "name": "Word 文档" },
+      { "slug": "ppt", "name": "PPT 演示" },
+      { "slug": "jianli", "name": "简历求职" },
+      { "slug": "hetong", "name": "合同文书" },
+      { "slug": "zhishu", "name": "述职总结" }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "updatedAt": "2026-10-02",
+  "count": 5,
+  "items": [
+    {
+      "id": "demo-guokao-xingce",
+      "title": "2026 国考行测真题解析合集",
+      "category": "exam",
+      "subcategory": "guokao",
+      "tags": ["国考", "行测", "真题"],
+      "size": "2.4GB",
+      "formats": "PDF / 视频",
+      "desc": "2026 国家公务员考试行测真题 + 逐题解析，含数量关系、判断推理、资料分析模块精讲。",
+      "shareUrl": "",
+      "pwd": "",
+      "updatedAt": "2026-10-02",
+      "demo": true
+    },
+    {
+      "id": "demo-shengkao-shenlun",
+      "title": "省考申论万能模板与范文库",
+      "category": "exam",
+      "subcategory": "shengkao",
+      "tags": ["省考", "申论", "模板"],
+      "size": "860MB",
+      "formats": "PDF / Word",
+      "desc": "归纳概括、综合分析、公文写作、大作文四类题型的万能框架与高分范文，可直接套用。",
+      "shareUrl": "",
+      "pwd": "",
+      "updatedAt": "2026-10-02",
+      "demo": true
+    },
+    {
+      "id": "demo-shiye-zonghe",
+      "title": "事业编综合应用能力讲义（A/B/C 类）",
+      "category": "exam",
+      "subcategory": "shiye",
+      "tags": ["事业编", "综合应用", "讲义"],
+      "size": "1.2GB",
+      "formats": "PDF / 视频",
+      "desc": "事业单位公开招聘综合应用能力分类讲义，配套例题精讲与模拟卷。",
+      "shareUrl": "",
+      "pwd": "",
+      "updatedAt": "2026-10-02",
+      "demo": true
+    },
+    {
+      "id": "demo-office-excel",
+      "title": "Excel 函数与数据透视表实战",
+      "category": "office",
+      "subcategory": "excel",
+      "tags": ["Excel", "函数", "数据透视表"],
+      "size": "3.1GB",
+      "formats": "视频 / 练习文件",
+      "desc": "从 VLOOKUP 到动态数组，配合真实业务表的练习文件，学完直接上手工作。",
+      "shareUrl": "",
+      "pwd": "",
+      "updatedAt": "2026-10-02",
+      "demo": true
+    },
+    {
+      "id": "demo-office-ppt",
+      "title": "商务汇报 PPT 模板精选合集",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": ["PPT", "模板", "汇报"],
+      "size": "5.6GB",
+      "formats": "PPTX",
+      "desc": "年终总结、项目汇报、竞聘述职等多场景可编辑 PPT 模板，含图表与配色方案。",
+      "shareUrl": "",
+      "pwd": "",
+      "updatedAt": "2026-10-02",
+      "demo": true
+    }
+  ]
+}
