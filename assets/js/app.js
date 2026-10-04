@@ -121,7 +121,6 @@ async function boot() {
   else if (page === 'search') renderSearch();
   else if (page === 'resource') renderResource();
   else if (page === 'favorites') renderFavorites();
-  initSearch();
 }
 
 function headerHTML() {
@@ -191,7 +190,7 @@ function cardHTML(it) {
   return `<a class="card" href="${href}">
     <div class="card-top">
       <div class="card-ico">${iconOf(it)}</div>
-      <h3>${esc(it.title)} ${demo}${it.updatedAt === localDateKey() ? '<span class="badge badge-new">今日上新</span>' : ''}</h3>
+      <h3>${esc(it.title)} ${demo}</h3>
     </div>
     <p class="card-desc">${esc(it.desc || '')}</p>
     <div class="tags">${tags}</div>
@@ -305,14 +304,15 @@ function renderCategory() {
 
 function renderSearch() {
   const q = (qs('q') || '').trim();
+  const low = q.toLowerCase();
   setMeta(`搜索「${q}」 - 学习资料站`, `在学习资料站搜索「${q}」的夸克网盘资源。`);
-  const res = q ? searchItems(q) : { total: state.items.length, hits: state.items, tier: 'all' };
-  const items = res.hits;
-  const fuzzyNote = q && (res.tier === 'subsequence' || res.tier === 'typo')
-    ? ' · 模糊匹配' : '';
+  const items = q ? state.items.filter(it => {
+    const hay = [it.title, it.desc, it.category, it.subcategory, catName(it.category), subName(it.category, it.subcategory), ...(it.tags || [])].join(' ').toLowerCase();
+    return hay.includes(low);
+  }) : state.items;
   $('#main').innerHTML = `<div class="wrap">
     <div class="crumb"><a href="index.html">首页</a> / 搜索</div>
-    <div class="sec-title">搜索「${esc(q)}」 <small>找到 ${items.length} 条${fuzzyNote}</small></div>
+    <div class="sec-title">搜索「${esc(q)}」 <small>找到 ${items.length} 条</small></div>
     ${gridOf(items)}
   </div>`;
 }
@@ -391,143 +391,5 @@ function renderFavorites() {
     ${body}
   </div>`;
 }
-/* ---------- 搜索（模糊匹配：归一化 + 级联分层命中即停；无依赖） ---------- */
-// 为什么级联而不加权求和：加权会让低级匹配污染高级结果（"2055" 在长数字串里被子序列随便命中）。
-// 顺序即优先级，任一层有命中就返回，不再往下掉级。最后两层的容错只在前几层全空时才触达，
-// 于是「容错」与「噪声」不再共用同一根旋钮。
-const PUNCT_RE = /[\s\u00a0\-_·:：,，.。!！?？'"“”‘’()（）[\]{}【】<>/\\|+*&@#$%^~`;；]/g;
-const norm = s => String(s == null ? '' : s).normalize('NFKC').toLowerCase().replace(PUNCT_RE, '');
-const isAscii = q => /^[\x20-\x7e]+$/.test(q);
-function editWithin(a, b, max) {
-  if (Math.abs(a.length - b.length) > max) return false;
-  if (a === b) return true;
-  const m = a.length, n = b.length;
-  let prev = new Array(n + 1), cur = new Array(n + 1);
-  for (let j = 0; j <= n; j++) prev[j] = j;
-  for (let i = 1; i <= m; i++) {
-    cur[0] = i; let rowMin = cur[0];
-    for (let j = 1; j <= n; j++) {
-      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
-      if (cur[j] < rowMin) rowMin = cur[j];
-    }
-    if (rowMin > max) return false;
-    const t = prev; prev = cur; cur = t;
-  }
-  return prev[n] <= max;
-}
-const isSubseq = (hay, needle) => { let i = 0; for (let k = 0; k < hay.length && i < needle.length; k++) if (hay[k] === needle[i]) i++; return i === needle.length; };
-
-// subcategory slug 本身是拼音（gaokao/zhongkao/shuxue/ppt…），纳入匹配面 = 免费一层拼音检索
-let SINDEX = null;
-function buildSearchIndex() {
-  SINDEX = state.items.map(it => ({
-    it,
-    t: norm(it.title),
-    d: norm(it.desc),
-    g: norm((it.tags || []).join(' ')),
-    c: norm(it.category),
-    s: norm(it.subcategory),
-    rank: Number(String(it.updatedAt || '').replace(/-/g, '')) || 0,
-  }));
-}
-const STIERS = [
-  { name: 'equal', score: (r, q) => (r.t === q ? 100 : 0) + (r.s === q ? 40 : 0) },
-  { name: 'prefix', score: (r, q) => (r.t.startsWith(q) ? 80 : 0) + (r.s.startsWith(q) ? 45 : 0) + (r.g.startsWith(q) ? 35 : 0) },
-  { name: 'contains', score: (r, q) => (r.t.includes(q) ? 60 : 0) + (r.g.includes(q) ? 40 : 0) + (r.s.includes(q) ? 38 : 0) + (r.c.includes(q) ? 15 : 0) + (r.d.includes(q) ? 20 : 0) },
-  { name: 'subsequence', when: (q, a) => !a && q.length >= 3, score: (r, q) => (isSubseq(r.t, q) ? 30 : 0) },
-  { name: 'typo', when: q => q.length >= 3, score: (r, q) => (editWithin(r.t, q, 1) ? 10 : 0) },
-];
-function searchItems(rawQ, limit) {
-  const q = norm(rawQ);
-  if (!q) return { total: 0, hits: [], tier: 'empty' };
-  if (!SINDEX) buildSearchIndex();
-  const ascii = isAscii(q);
-  for (const tier of STIERS) {
-    if (tier.when && !tier.when(q, ascii)) continue;
-    const m = [];
-    for (const r of SINDEX) { const s = tier.score(r, q); if (s > 0) m.push({ r, s }); }
-    if (!m.length) continue;
-    m.sort((a, b) => b.s - a.s || b.r.rank - a.r.rank);
-    const hits = m.map(x => x.r.it);
-    return { total: hits.length, hits: limit ? hits.slice(0, limit) : hits, tier: tier.name };
-  }
-  return { total: 0, hits: [], tier: 'none' };
-}
-
-/* ---------- 搜索下拉（实时结果，点击进详情页） ---------- */
-let sdropEl = null;
-function ensureDrop() {
-  if (sdropEl) return sdropEl;
-  sdropEl = document.createElement('div');
-  sdropEl.className = 'sdrop';
-  sdropEl.hidden = true;
-  document.body.appendChild(sdropEl);
-  return sdropEl;
-}
-function hlText(text, q) {
-  const i = String(text).toLowerCase().indexOf(String(q).toLowerCase());
-  if (i < 0) return esc(text);
-  return esc(text.slice(0, i)) + '<mark>' + esc(text.slice(i, i + q.length)) + '</mark>' + esc(text.slice(i + q.length));
-}
-function placeDrop(input) {
-  const r = input.getBoundingClientRect();
-  const w = Math.max(260, r.width);
-  sdropEl.style.left = Math.max(8, Math.min(r.left, window.innerWidth - w - 8)) + 'px';
-  sdropEl.style.top = (r.bottom + 6) + 'px';
-  sdropEl.style.width = w + 'px';
-}
-function attachSearch(input) {
-  if (!input) return;
-  input.setAttribute('autocomplete', 'off');
-  let active = -1, items = [];
-  const close = () => { if (sdropEl) sdropEl.hidden = true; active = -1; };
-  const render = () => {
-    const q = input.value.trim();
-    if (!q) { close(); return; }
-    const res = searchItems(q, 8);
-    items = res.hits;
-    const box = ensureDrop();
-    placeDrop(input);
-    if (!items.length) {
-      box.innerHTML = `<div class="sdrop-empty">未找到「${esc(q)}」相关资源</div>`;
-    } else {
-      box.innerHTML = `<div class="sdrop-meta">${res.total} 条结果</div>` +
-        items.map((it, i) => `<a class="sdrop-item${i === active ? ' on' : ''}" href="resource.html?id=${encodeURIComponent(it.id)}" data-i="${i}">` +
-          `<span class="sdrop-ico">${iconOf(it)}</span>` +
-          `<span class="sdrop-title">${hlText(it.title, q)}</span>` +
-          `<span class="sdrop-cat">${esc(catName(it.category))}</span>` +
-        `</a>`).join('') +
-        `<a class="sdrop-more" href="search.html?q=${encodeURIComponent(q)}">查看全部 ${res.total} 条 →</a>`;
-    }
-    box.hidden = false;
-  };
-  input.addEventListener('input', () => { active = -1; render(); });
-  input.addEventListener('focus', render);
-  input.addEventListener('keydown', e => {
-    if (!sdropEl || sdropEl.hidden) return;
-    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
-      if (!items.length) return;
-      e.preventDefault();
-      active = (active + (e.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length;
-      sdropEl.querySelectorAll('.sdrop-item').forEach((el, i) => el.classList.toggle('on', i === active));
-    } else if (e.key === 'Enter') {
-      if (active >= 0 && items[active]) { e.preventDefault(); location.href = 'resource.html?id=' + encodeURIComponent(items[active].id); }
-    } else if (e.key === 'Escape') { close(); }
-  });
-  input.addEventListener('blur', () => setTimeout(close, 160));
-}
-function initSearch() {
-  $$('.hd-search input, .hero-search input').forEach(attachSearch);
-}
-document.addEventListener('mousedown', e => { if (sdropEl && !sdropEl.hidden && sdropEl.contains(e.target)) e.preventDefault(); });
-window.addEventListener('scroll', () => {
-  if (!sdropEl || sdropEl.hidden) return;
-  const inp = document.querySelector('.hd-search input, .hero-search input');
-  if (!inp) return;
-  const r = inp.getBoundingClientRect();
-  if (r.bottom < 0 || r.top > window.innerHeight) { sdropEl.hidden = true; return; }
-  placeDrop(inp);
-}, true);
 
 boot();
