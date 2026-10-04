@@ -4,6 +4,7 @@ const esc = (s = '') => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<':
 const qs = k => new URLSearchParams(location.search).get(k);
 
 const state = { items: [], tax: {}, meta: {}, cat: 'all', sub: 'all' };
+const track = (name, data) => { try { if (window.umami && typeof window.umami.track === 'function') window.umami.track(name, data); } catch (e) {} };
 
 async function boot() {
   const [res, tax] = await Promise.all([
@@ -222,6 +223,7 @@ function renderResource() {
     $('#main').innerHTML = `<div class="wrap"><div class="empty">没有找到这条资料，可能已下架。<br><a class="cta" style="margin-top:14px" href="index.html">返回首页</a></div></div>`;
     return;
   }
+  track('view:' + it.id);
   const pwd = it.pwd || '';
   const url = it.shareUrl ? (it.pwd ? it.shareUrl + '?pwd=' + encodeURIComponent(it.pwd) : it.shareUrl) : '#';
   setMeta(`${it.title} - 学习资料站`, `${it.desc || it.title}｜${catName(it.category)}·夸克网盘转存，永久有效。`);
@@ -243,7 +245,7 @@ function renderResource() {
         <p style="color:#3a3f47;font-size:14.5px">${esc(it.desc || '暂无简介。')}</p>
       </div>
       <aside class="cta-box panel">
-        <button class="big" onclick="openShare('${esc(url)}')">⬇ 转存到我的夸克网盘</button>
+        <button class="big" onclick="openShare('${esc(url)}', '${esc(it.id)}')">⬇ 转存到我的夸克网盘</button>
         <p class="sub">免费 · 永久有效 · 一键保存</p>
         ${pwd ? `<div class="copy"><input id="pwd" readonly value="${esc(pwd)}"><button onclick="copyPwd()">复制提取码</button></div>` : ''}
         <div class="hint">
@@ -258,8 +260,9 @@ function renderResource() {
   </div>`;
 }
 
-function openShare(url) {
+function openShare(url, id) {
   if (!url || url === '#') { alert('示例数据：真实转存链接待上线。'); return; }
+  track('get:' + (id || qs('id')));
   window.open(url, '_blank', 'noopener');
 }
 function copyPwd() {
