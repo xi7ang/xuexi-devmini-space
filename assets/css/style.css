@@ -50,13 +50,13 @@ img{max-width:100%}
 .sec-title{display:flex;align-items:center;gap:10px;margin:34px 0 14px;font-size:19px;font-weight:800}
 .sec-title small{font-weight:400;color:var(--muted);font-size:13px}
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
-.chip{padding:7px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:13px;color:#3a3f47;cursor:pointer}
+.chip{display:inline-block;padding:7px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:13px;color:#3a3f47;cursor:pointer}
 .chip:hover{border-color:#d3d7de}
 .chip.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
 
 /* ---------- grid / card ---------- */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin:18px 0 40px}
-.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:transform .16s,box-shadow .16s}
+.card{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:transform .16s,box-shadow .16s}
 .card:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(16,24,40,.13)}
 .card-top{display:flex;gap:12px;padding:16px 16px 0}
 .card-ico{width:44px;height:44px;border-radius:11px;display:grid;place-items:center;font-size:22px;background:#fff2ec;flex:none}
@@ -83,6 +83,7 @@ img{max-width:100%}
 .cta-box{position:sticky;top:76px;text-align:center}
 .cta-box .big{display:block;width:100%;padding:16px;border:0;border-radius:12px;background:var(--accent);color:#fff;font-size:17px;font-weight:800;cursor:pointer}
 .cta-box .big:hover{background:var(--accent-d)}
+.cta-box .big.got{background:var(--ok);font-size:15px}
 .cta-box .sub{margin:10px 0 0;font-size:12px;color:var(--muted)}
 .cta-box .hint{margin:14px 0 0;font-size:12px;color:var(--muted);text-align:left;background:#f7f8fa;border-radius:10px;padding:12px}
 .copy{margin-top:12px;display:flex;gap:8px}
@@ -147,7 +148,10 @@ img{max-width:100%}
 @media (max-width:820px){
   .detail{grid-template-columns:1fr}
   .cta-box{position:static}
-  .hd-nav{display:none}
+  /* 导航原来直接 display:none，手机端没有分类入口；改成横向可滑的 chips 行 */
+  .hd-inner{flex-wrap:wrap;height:auto;padding:8px 0}
+  .hd-nav{order:3;width:100%;margin-left:0;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px}
+  .hd-search{max-width:none}
   .hero h1{font-size:24px}
   .stats{gap:20px}
 }
@@ -168,3 +172,19 @@ img{max-width:100%}
 .sdrop-empty{padding:16px;text-align:center;color:var(--muted);font-size:13.5px}
 .sdrop-more{display:block;text-align:center;padding:9px;font-size:13px;color:var(--brand);border-top:1px solid var(--line);margin-top:4px}
 .badge-new{background:#e8fff0;color:#0f9d58;border:1px solid #b6ecc9}
+
+/* ---------- 品类色 / 卡片色条 / 详情页 chips ---------- */
+.card-bar{position:absolute;left:0;top:0;bottom:0;width:4px;z-index:2}
+.info-chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.info-chip{font-size:12.5px;color:#3a3f47;background:#f4f5f7;border:1px solid var(--line);border-radius:999px;padding:4px 11px;white-space:nowrap}
+.info-chip--cat{background:#fff;font-weight:600}
+.hero-new{margin-top:14px}
+.hero-new__pill{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:600;color:var(--accent-d);background:#fff2ec;border:1px solid #ffd9c7;border-radius:999px;padding:6px 14px}
+.hero-new__pill b{color:var(--accent)}
+.hero-new__pill:hover{background:#ffe8dc}
+.empty-block{text-align:center;padding:48px 16px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.empty-block__ico{font-size:40px}
+.empty-block p{margin:8px 0 0;color:var(--muted)}
+.empty-block__hint{font-size:13px}
+.chips--center{justify-content:center;margin-top:14px}
+html{scroll-behavior:smooth}

@@ -179,6 +179,9 @@ function iconOf(it) {
   const m = { exam: '📝', study: '📖', office: '💼' };
   return m[it.category] || '📦';
 }
+// 品类色：三个大类的专属色，用于卡片色条 / 详情页 chips / 图标底
+const CAT_COLOR = { exam: '#ff6b35', study: '#2f6bff', office: '#16a34a' };
+const catColor = c => CAT_COLOR[c] || '#8a8f98';
 function findSubOf(cat, sub) {
   const t = state.tax[cat];
   return t && (t.subs || []).find(x => x.slug === sub);
@@ -189,14 +192,15 @@ function cardHTML(it) {
   const tags = (it.tags || []).slice(0, 3).map(t => `<span class="tag">#${esc(t)}</span>`).join('');
   const demo = it.demo ? '<span class="badge">示例</span>' : '';
   return `<a class="card" href="${href}">
+    <span class="card-bar" style="background:${catColor(it.category)}" aria-hidden="true"></span>
     <div class="card-top">
-      <div class="card-ico">${iconOf(it)}</div>
+      <div class="card-ico" style="background:${catColor(it.category)}1a">${iconOf(it)}</div>
       <h3>${esc(it.title)} ${demo}${it.updatedAt === localDateKey() ? '<span class="badge badge-new">今日上新</span>' : ''}</h3>
     </div>
     <p class="card-desc">${esc(it.desc || '')}</p>
     <div class="tags">${tags}</div>
     <div class="card-foot">
-      <span class="card-meta">${esc(catName(it.category))}${it.subcategory ? ' · ' + esc(subName(it.category, it.subcategory)) : ''}${it.size ? ' · ' + esc(it.size) : ''}</span>
+      <span class="card-meta">${esc(catName(it.category))}${it.subcategory ? ' · ' + esc(subName(it.category, it.subcategory)) : ''}${it.updatedAt ? ' · ' + esc(String(it.updatedAt).slice(5)) : ''}</span>
       <span class="cta">转存 →</span>
     </div>
   </a>`;
@@ -256,6 +260,7 @@ function renderHome() {
     '免费夸克网盘学习资料：高考真题、中考真题、中小学试卷与知识点、PPT 办公模板，一键转存、永久有效。');
   const n = state.items.filter(x => !x.demo).length || state.items.length;
   const subs = Object.values(state.tax).reduce((a, c) => a + (c.subs ? c.subs.length : 0), 0);
+  const todayNew = state.items.filter(x => x.updatedAt === localDateKey()).length;
   $('#main').innerHTML = `
   <section class="hero">
     <div class="wrap">
@@ -265,6 +270,9 @@ function renderHome() {
         <input name="q" placeholder="搜高考数学真题、三年级语文、述职 PPT…">
         <button>搜索</button>
       </form>
+      <div class="hero-new">
+        <a class="hero-new__pill" href="#latest">🔥 今日上新 <b>${todayNew}</b> 条 · 看最新 →</a>
+      </div>
       <div class="stats">
         <div><b>${n}</b><span>已收录资料</span></div>
         <div><b>${Object.keys(state.tax).length}</b><span>大类</span></div>
@@ -276,6 +284,7 @@ function renderHome() {
   <div class="wrap">
     <div class="sec-title">🔥 热门分类 <small>按 考试真题 / 中小学资料 / 办公素材 浏览</small></div>
     ${chipsHTML()}
+    <div id="latest"></div>
     <div id="grid"></div>
     <div class="notice">📌 本站仅整理公开分享信息，资源版权归原作者所有；转存后请自行遵守夸克网盘规则。</div>
   </div>`;
@@ -310,10 +319,17 @@ function renderSearch() {
   const items = res.hits;
   const fuzzyNote = q && (res.tier === 'subsequence' || res.tier === 'typo')
     ? ' · 模糊匹配' : '';
+  const body = items.length ? gridOf(items) :
+    `<div class="empty-block">
+      <div class="empty-block__ico">🔍</div>
+      <p>没找到「${esc(q)}」相关的资料</p>
+      <p class="empty-block__hint">换个关键词试试，或直接逛分类：</p>
+      <div class="chips chips--center">${Object.entries(state.tax).map(([slug, c]) => `<a class="chip" href="category.html?c=${slug}">${esc(c.name)}</a>`).join('')}</div>
+    </div>`;
   $('#main').innerHTML = `<div class="wrap">
     <div class="crumb"><a href="index.html">首页</a> / 搜索</div>
     <div class="sec-title">搜索「${esc(q)}」 <small>找到 ${items.length} 条${fuzzyNote}</small></div>
-    ${gridOf(items)}
+    ${body}
   </div>`;
 }
 
@@ -328,25 +344,27 @@ function renderResource() {
   const pwd = it.pwd || '';
   const url = it.shareUrl ? (it.pwd ? it.shareUrl + '?pwd=' + encodeURIComponent(it.pwd) : it.shareUrl) : '#';
   setMeta(`${it.title} - 学习资料站`, `${it.desc || it.title}｜${catName(it.category)}·夸克网盘转存，永久有效。`);
-  const related = state.items.filter(x => x.id !== it.id && x.category === it.category).slice(0, 4);
+  const related = state.items.filter(x => x.id !== it.id && x.category === it.category)
+    .sort((a, b) => String(b.updatedAt || '').localeCompare(String(a.updatedAt || '')))
+    .slice(0, 4);
   $('#main').innerHTML = `<div class="wrap">
     <div class="crumb"><a href="index.html">首页</a> / <a href="category.html?c=${it.category}">${esc(catName(it.category))}</a>${it.subcategory ? ' / <a href="category.html?c=' + it.category + '&s=' + it.subcategory + '">' + esc(subName(it.category, it.subcategory)) + '</a>' : ''} / ${esc(it.title)}</div>
     <div class="detail">
       <div class="panel">
         <h1>${iconOf(it)} ${esc(it.title)}</h1>
         <div class="tags">${(it.tags || []).map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</div>
-        <dl class="kv">
-          <dt>分类</dt><dd>${esc(catName(it.category))}</dd>
-          ${it.subcategory ? `<dt>方向</dt><dd>${esc(subName(it.category, it.subcategory))}</dd>` : ''}
-          ${it.size ? `<dt>大小</dt><dd>${esc(it.size)}</dd>` : ''}
-          <dt>格式</dt><dd>${esc(it.formats || '文档 / 视频 / 压缩包')}</dd>
-          <dt>更新时间</dt><dd>${esc(it.updatedAt || '—')}</dd>
-        </dl>
+        <div class="info-chips">
+          <span class="info-chip info-chip--cat" style="border-color:${catColor(it.category)}66;color:${catColor(it.category)}">${iconOf(it)} ${esc(catName(it.category))}</span>
+          ${it.subcategory ? `<span class="info-chip">${esc(subName(it.category, it.subcategory))}</span>` : ''}
+          ${it.size ? `<span class="info-chip">📦 ${esc(it.size)}</span>` : ''}
+          <span class="info-chip">📄 ${esc(it.formats || '文档 / 视频 / 压缩包')}</span>
+          <span class="info-chip">🗓 ${esc(it.updatedAt || '—')}</span>
+        </div>
         <h2 style="font-size:16px;margin:22px 0 6px">资料简介</h2>
         <p style="color:#3a3f47;font-size:14.5px">${esc(it.desc || '暂无简介。')}</p>
       </div>
       <aside class="cta-box panel">
-        <button class="big" onclick="openShare('${esc(url)}', '${esc(it.id)}')">⬇ 转存到我的夸克网盘</button>
+        <button class="big" onclick="openShare('${esc(url)}', '${esc(it.id)}', this)">⬇ 转存到我的夸克网盘</button>
         <button class="fav-btn${isFav(it.id) ? ' on' : ''}" id="fav-btn" type="button" onclick="toggleFavClick('${esc(it.id)}')"><span class="fav-star">${isFav(it.id) ? '★' : '☆'}</span> ${isFav(it.id) ? '已收藏' : '收藏'}</button>
         <p class="sub">免费 · 永久有效 · 一键保存</p>
         ${pwd ? `<div class="copy"><input id="pwd" readonly value="${esc(pwd)}"><button onclick="copyPwd()">复制提取码</button></div>` : ''}
@@ -358,14 +376,20 @@ function renderResource() {
         </div>
       </aside>
     </div>
-    ${related.length ? `<div class="sec-title">相关推荐</div><div class="grid">${related.map(cardHTML).join('')}</div>` : ''}
+    ${related.length ? `<div class="sec-title">同类最新 <small>看更多同类型资料</small></div><div class="grid">${related.map(cardHTML).join('')}</div>` : ''}
   </div>`;
 }
 
-function openShare(url, id) {
+function openShare(url, id, btn) {
   if (!url || url === '#') { alert('示例数据：真实转存链接待上线。'); return; }
   track('get:' + (id || qs('id')));
   window.open(url, '_blank', 'noopener');
+  // 点击后兜底：网盘页被拦截/加载慢时，按钮自身变成可再点的提示（把没成功的用户捞回来）
+  const b = btn || document.querySelector('.cta-box .big');
+  if (b && !b.classList.contains('got')) {
+    b.classList.add('got');
+    b.innerHTML = '✅ 已跳转，没打开点这里';
+  }
 }
 function copyPwd() {
   const i = $('#pwd'); if (!i) return;
