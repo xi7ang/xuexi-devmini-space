@@ -2,9 +2,106 @@
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s = '') => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const qs = k => new URLSearchParams(location.search).get(k);
+const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
 
 const state = { items: [], tax: {}, meta: {}, cat: 'all', sub: 'all' };
 const track = (name, data) => { try { if (window.umami && typeof window.umami.track === 'function') window.umami.track(name, data); } catch (e) {} };
+
+/* ---------- 收藏（纯本地 localStorage，无后端） ---------- */
+const FAV_KEY = 'xx_favs';
+const FAV_MAX = 200;
+function readFavs() { try { const v = JSON.parse(localStorage.getItem(FAV_KEY) || '[]'); return Array.isArray(v) ? v : []; } catch (e) { return []; } }
+function writeFavs(v) { try { localStorage.setItem(FAV_KEY, JSON.stringify(v)); } catch (e) {} }
+const favs = readFavs();
+const isFav = id => !!id && favs.some(f => f.id === id);
+const favCount = () => favs.length;
+function toggleFav(it) {
+  if (!it || !it.id) return false;
+  const i = favs.findIndex(f => f.id === it.id);
+  if (i >= 0) { favs.splice(i, 1); writeFavs(favs); return false; }
+  favs.unshift({ id: it.id, title: it.title || '', category: it.category || '', subcategory: it.subcategory || '', desc: it.desc || '', size: it.size || '', tags: it.tags || [], favAt: new Date().toISOString() });
+  if (favs.length > FAV_MAX) favs.length = FAV_MAX;
+  writeFavs(favs);
+  return true;
+}
+function removeFav(id) { const i = favs.findIndex(f => f.id === id); if (i >= 0) { favs.splice(i, 1); writeFavs(favs); } }
+function updateFavBtn(id) {
+  const btn = document.getElementById('fav-btn'); if (!btn) return;
+  const on = isFav(id);
+  btn.classList.toggle('on', on);
+  btn.innerHTML = `<span class="fav-star">${on ? '★' : '☆'}</span> ${on ? '已收藏' : '收藏'}`;
+}
+window.toggleFavClick = function (id) {
+  const it = state.items.find(x => x.id === id);
+  if (!it) return;
+  const on = toggleFav(it);
+  updateFavBtn(id);
+  track((on ? 'fav:' : 'unfav:') + id);
+};
+window.removeFavClick = function (id) { removeFav(id); renderFavorites(); };
+
+/* ---------- 公告弹窗（数据在 data/site.json） ---------- */
+const ANN_KEY = 'xx-announcement-dismissed';
+function localDateKey() { const n = new Date(), p = v => String(v).padStart(2, '0'); return `${n.getFullYear()}-${p(n.getMonth() + 1)}-${p(n.getDate())}`; }
+function linkify(text) {
+  const e = esc(text).replace(/(https?:\/\/[^\s<)】]+)/g, u => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
+  return e.replace(/\n/g, '<br>');
+}
+window.toggleAnn = function (i) {
+  const body = document.getElementById('ann-body-' + i);
+  const chev = document.getElementById('ann-chev-' + i);
+  if (!body) return;
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : '';
+  if (chev) chev.textContent = open ? '▸' : '▾';
+};
+window.closeAnn = function () { const m = document.getElementById('ann-mask'); if (m) m.remove(); };
+window.closeAnnToday = function () {
+  try {
+    const m = document.getElementById('ann-mask');
+    if (m) localStorage.setItem(ANN_KEY, JSON.stringify({ version: m.dataset.version || '', date: localDateKey() }));
+  } catch (e) {}
+  closeAnn();
+};
+async function loadAnnouncement() {
+  let site = null;
+  try { const r = await fetch('data/site.json', { cache: 'no-store' }); if (r.ok) site = await r.json(); } catch (e) { return; }
+  const a = site && site.announcementModal;
+  if (!a || !a.enabled) return;
+  const items = Array.isArray(a.items) ? a.items : [];
+  if (!a.content && !items.length) return;
+  const version = a.version || ((a.title || '') + ':' + (a.content || ''));
+  try { const d = JSON.parse(localStorage.getItem(ANN_KEY) || 'null'); if (d && d.version === version && d.date === localDateKey()) return; } catch (e) {}
+  const timeline = items.length ? `<div class="ann-timeline">${items.map((it, i) => `
+    <div class="ann-tl${i === 0 ? ' latest' : ''}">
+      <button type="button" class="ann-tl-head" aria-expanded="${i === 0}" onclick="toggleAnn(${i})">
+        <span class="ann-tl-dot" aria-hidden="true"></span>
+        <span class="ann-tl-main">
+          <span class="ann-tl-top"><span class="ann-tl-date">${esc(it.date || '')}</span>${it.tag ? `<span class="ann-tl-tag">${esc(it.tag)}</span>` : ''}</span>
+          <span class="ann-tl-title">${esc(it.title || '')}</span>
+        </span>
+        <span class="ann-tl-chev" id="ann-chev-${i}" aria-hidden="true">${i === 0 ? '▾' : '▸'}</span>
+      </button>
+      <div class="ann-tl-body" id="ann-body-${i}"${i === 0 ? '' : ' style="display:none"'}>${linkify(it.content || '')}</div>
+    </div>`).join('')}</div>` : `<div class="ann-text">${linkify(a.content || '')}</div>`;
+  const box = document.createElement('div');
+  box.className = 'ann-mask';
+  box.id = 'ann-mask';
+  box.dataset.version = version;
+  box.innerHTML = `<section class="ann" role="dialog" aria-modal="true" aria-labelledby="ann-title">
+    <button class="ann-close" type="button" title="关闭" aria-label="关闭公告" onclick="closeAnn()">✕</button>
+    <div class="ann-icon">📢</div>
+    <p class="ann-eyebrow">XUEXI NOTICE</p>
+    <h2 id="ann-title">${esc(a.title || '站点公告')}</h2>
+    ${timeline}
+    <div class="ann-actions">
+      <button class="ann-btn ghost" type="button" onclick="closeAnnToday()">今日关闭</button>
+      <button class="ann-btn primary" type="button" onclick="closeAnn()">关闭</button>
+    </div>
+  </section>`;
+  box.addEventListener('click', e => { if (e.target === box) closeAnn(); });
+  document.body.appendChild(box);
+}
 
 async function boot() {
   const [res, tax] = await Promise.all([
@@ -19,10 +116,11 @@ async function boot() {
   $('#site-footer').innerHTML = footerHTML();
 
   const page = document.body.dataset.page;
-  if (page === 'home') renderHome();
+  if (page === 'home') { renderHome(); loadAnnouncement(); }
   else if (page === 'category') renderCategory();
   else if (page === 'search') renderSearch();
   else if (page === 'resource') renderResource();
+  else if (page === 'favorites') renderFavorites();
 }
 
 function headerHTML() {
@@ -39,6 +137,9 @@ function headerHTML() {
     <form class="hd-search" onsubmit="location.href='search.html?q='+encodeURIComponent(this.q.value);return false">
       <input name="q" placeholder="搜高考数学真题、三年级语文…" value="${esc(qs('q') || '')}">
     </form>
+    <a class="hd-fav" href="favorites.html" title="我的收藏" aria-label="我的收藏">
+      <span class="hd-fav-star">⭐</span><span class="hd-fav-text">收藏</span>${favCount() ? `<b>${favCount()}</b>` : ''}
+    </a>
   </div>`;
 }
 
@@ -246,6 +347,7 @@ function renderResource() {
       </div>
       <aside class="cta-box panel">
         <button class="big" onclick="openShare('${esc(url)}', '${esc(it.id)}')">⬇ 转存到我的夸克网盘</button>
+        <button class="fav-btn${isFav(it.id) ? ' on' : ''}" id="fav-btn" type="button" onclick="toggleFavClick('${esc(it.id)}')"><span class="fav-star">${isFav(it.id) ? '★' : '☆'}</span> ${isFav(it.id) ? '已收藏' : '收藏'}</button>
         <p class="sub">免费 · 永久有效 · 一键保存</p>
         ${pwd ? `<div class="copy"><input id="pwd" readonly value="${esc(pwd)}"><button onclick="copyPwd()">复制提取码</button></div>` : ''}
         <div class="hint">
@@ -272,5 +374,22 @@ function copyPwd() {
   const b = event.target; const old = b.textContent; b.textContent = '已复制 ✓'; setTimeout(() => b.textContent = old, 1500);
 }
 window.openShare = openShare; window.copyPwd = copyPwd;
+
+function favItemHTML(it) {
+  return `<div class="fav-item">${cardHTML(it)}<button class="fav-del" type="button" title="取消收藏" onclick="removeFavClick('${esc(it.id)}')">✕ 取消收藏</button></div>`;
+}
+
+function renderFavorites() {
+  setMeta('我的收藏 - 学习资料站', '你在学习资料站收藏的夸克网盘资料，只保存在你自己的浏览器里。');
+  const list = favs.map(f => state.items.find(x => x.id === f.id) || f);
+  const body = list.length
+    ? `<div class="grid">${list.map(favItemHTML).join('')}</div>`
+    : `<div class="empty">还没有收藏。去资料详情页点「☆ 收藏」，下次就能在这里找到。<br><a class="cta" style="margin-top:14px" href="index.html">去逛逛资料库</a></div>`;
+  $('#main').innerHTML = `<div class="wrap">
+    <div class="crumb"><a href="index.html">首页</a> / 我的收藏</div>
+    <div class="sec-title">⭐ 我的收藏 <small>共 ${list.length} 条 · 只存在你的浏览器里</small></div>
+    ${body}
+  </div>`;
+}
 
 boot();
