@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-02",
-  "count": 25,
+  "updatedAt": "2026-10-04",
+  "count": 30,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -451,6 +451,103 @@
       "pwd": "AhDY",
       "sourceUrl": "https://quarksource.com/resource/棕色新员工入职培训ppt模板-4d638d51be",
       "updatedAt": "2026-10-02"
+    },
+    {
+      "id": "c48716453af7",
+      "title": "2025年高考化学试卷（北京卷）",
+      "category": "exam",
+      "subcategory": "huaxue",
+      "tags": [
+        "高考",
+        "化学",
+        "2025",
+        "北京",
+        "真题"
+      ],
+      "size": "",
+      "formats": "DOCX",
+      "desc": "2025年高考化学试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/770319a6394e",
+      "pwd": "C7Iy",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-fb5bc444dc5283eb",
+      "updatedAt": "2026-10-04"
+    },
+    {
+      "id": "317c73cf5b66",
+      "title": "2024年上海中考历史真题",
+      "category": "exam",
+      "subcategory": "zhongkao",
+      "tags": [
+        "中考",
+        "历史",
+        "2024",
+        "上海",
+        "真题"
+      ],
+      "size": "",
+      "formats": "DOCX",
+      "desc": "2024年上海中考历史真题，收录 原卷版、解析版，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/d5a103a42194",
+      "pwd": "ojow",
+      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-0378d4c71fe1f1e5",
+      "updatedAt": "2026-10-04"
+    },
+    {
+      "id": "b15b18521368",
+      "title": "初中语文【写作素材】",
+      "category": "study",
+      "subcategory": "junior",
+      "tags": [
+        "初中",
+        "语文",
+        "写作素材",
+        "八年级"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "八年级下册初中语文100写作素材，中高考作文金句例句。",
+      "shareUrl": "https://pan.quark.cn/s/a5f0fe21fdb1",
+      "pwd": "yFdv",
+      "sourceUrl": "https://quarksource.com/resource/初中语文-写作素材-fef4660a",
+      "updatedAt": "2026-10-04"
+    },
+    {
+      "id": "936d1366422b",
+      "title": "【冀教（三）】知识清单",
+      "category": "study",
+      "subcategory": "primary",
+      "tags": [
+        "小学",
+        "英语",
+        "冀教版",
+        "知识清单",
+        "四年级"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "四年级下册英语冀教版（三年级起点）知识清单。",
+      "shareUrl": "https://pan.quark.cn/s/c8cddeb4bf01",
+      "pwd": "25Xa",
+      "sourceUrl": "https://quarksource.com/resource/冀教-三-知识清单-ff8171c6",
+      "updatedAt": "2026-10-04"
+    },
+    {
+      "id": "2e38a3bdc9ba",
+      "title": "中国消防幻灯片模板 PPT模板",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": [
+        "PPT模板",
+        "消防",
+        "企业培训"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "中国消防主题幻灯片模板，适合消防安全培训、企业宣讲场景。",
+      "shareUrl": "https://pan.quark.cn/s/009b0018aee9",
+      "pwd": "a71A",
+      "sourceUrl": "https://quarksource.com/resource/中国消防幻灯片模板-ppt模板-5486b86f1d",
+      "updatedAt": "2026-10-04"
     }
   ]
 }
