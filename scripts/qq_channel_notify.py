@@ -18,6 +18,7 @@ credentials/quark-xuexi-publisher.env 的 XUEXI_QQ_GUILD_ID / XUEXI_QQ_CHANNEL_I
 from __future__ import annotations
 
 import argparse
+import fcntl
 import json
 import os
 import re
@@ -39,6 +40,27 @@ CLI = "tencent-channel-cli"
 # 兜底默认（实际以 env 为准）：考公考试办公资料
 DEFAULT_GUILD_ID = "11015291791075810"
 DEFAULT_CHANNEL_ID = "743606659"
+
+# 「posting」占位超过此时长（秒）视为僵死，允许重试
+CLAIM_TTL = 600
+
+
+def _already_done(prev: dict) -> bool:
+    """幂等判据：该资源是否已被（本次或其他实例）处理过。
+
+    ok   → 已发成功，跳过；
+    posting 且未超 CLAIM_TTL → 有实例正在发，跳过（防并发重发）；
+    超时或缺失 → 可发。
+    """
+    s = (prev or {}).get("status")
+    if s == "ok":
+        return True
+    if s == "posting":
+        try:
+            return (time.time() - float((prev or {}).get("epoch", 0))) < CLAIM_TTL
+        except Exception:
+            return True
+    return False
 
 
 def read_env_file(p: Path) -> dict:
@@ -151,29 +173,42 @@ def main() -> int:
     if a.limit:
         items = items[: a.limit]
 
+    # 闸一：单实例文件锁。并发/重复触发时只允许一个实例发帖，其余立即退出。
+    lock_fh = open(state_store.state_dir() / ".qq_channel_notify.lock", "w")
+    try:
+        fcntl.flock(lock_fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        print("已有另一个 qq_channel_notify 实例在运行，本次跳过（防重复发帖）")
+        return 0
+
     cats, subs = tax_names()
-    st = state_store.load(STATE_NAME, {})
     ok = fail = skip = 0
     for it in items:
-        prev = st.get(it["id"], {})
-        if not a.force and prev.get("status") == "ok":
+        # 闸二：每条发帖前重读状态并占位，锁之外的重叠触发也不会重复发同一条
+        st = state_store.load(STATE_NAME, {})
+        if not a.force and _already_done(st.get(it["id"], {})):
             skip += 1
             continue
+        st[it["id"]] = {"status": "posting", "epoch": time.time(),
+                        "at": time.strftime("%Y-%m-%d %H:%M:%S")}
+        state_store.save(STATE_NAME, st)
         title = it.get("title", "")
         res = publish(guild_id, channel_id, title, build_content(it, cats, subs))
+        st = state_store.load(STATE_NAME, {})
         st[it["id"]] = {
             "status": "ok" if res["ok"] else "fail",
             "feed_id": res.get("feed_id", ""),
             "share_url": res.get("share_url", ""),
             "err": res.get("err", ""),
+            "epoch": time.time(),
             "at": time.strftime("%Y-%m-%d %H:%M:%S"),
         }
+        state_store.save(STATE_NAME, st)
         print(f"[{'ok  ' if res['ok'] else 'FAIL'}] {title[:36]} | "
               f"{res.get('share_url') or res.get('err', '')}")
         ok += res["ok"]
         fail += (not res["ok"])
         time.sleep(max(0.0, a.sleep))
-    state_store.save(STATE_NAME, st)
     print(f"\n成功 {ok} / 失败 {fail} / 跳过 {skip}（频道 {guild_id} · 版块 {channel_id}）")
     return 0 if fail == 0 else 1
 
