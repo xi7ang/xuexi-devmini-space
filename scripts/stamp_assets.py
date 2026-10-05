@@ -28,10 +28,15 @@ def digest(p: Path) -> str:
     return hashlib.sha256(p.read_bytes()).hexdigest()[:8]
 
 
+def all_pages() -> list[Path]:
+    """根目录页面 + 预生成的资源静态页 r/*.html。"""
+    return sorted(list(ROOT.glob("*.html")) + list((ROOT / "r").glob("*.html")))
+
+
 def main() -> int:
     vers = {a: digest(ROOT / a) for a in discover_assets() if (ROOT / a).exists()}
     changed = []
-    for html in sorted(ROOT.glob("*.html")):
+    for html in all_pages():
         text = orig = html.read_text(encoding="utf-8")
         for asset, ver in vers.items():
             # 匹配 href/src="<asset>" 或已带 ?v=... 的形式

@@ -23,9 +23,14 @@ def block():
 <meta name="twitter:card" content="summary_large_image">
 """
 
+def all_pages():
+    """根目录页面 + 预生成的资源静态页 r/*.html。"""
+    return sorted(list(ROOT.glob("*.html")) + list((ROOT / "r").glob("*.html")))
+
+
 def main():
     blk=block(); changed=[]
-    for p in sorted(ROOT.glob("*.html")):
+    for p in all_pages():
         t=orig=p.read_text("utf-8")
         if "</head>" not in t: continue
         if MARK in t:

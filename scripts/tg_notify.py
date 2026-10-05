@@ -54,11 +54,16 @@ def read_env_file(p: Path) -> dict:
 
 
 def get_token() -> str:
-    for src in (os.environ.get("XUEXI_TG_BOT_TOKEN", "").strip(),
-                read_env_file(MSWNLZ_SKILL / ".env").get("TELEGRAM_BOT_TOKEN", "").strip(),
-                read_env_file(XUEXI_ENV).get("XUEXI_TG_BOT_TOKEN", "").strip()):
-        if src:
-            return src
+    # 单一来源：优先 xuexi 自己的 env（XUEXI_ENV 里的 XUEXI_TG_BOT_TOKEN）。
+    # mswnlz 的 .env 只作**已废弃**的兜底：一旦走到那里就告警，提醒把 token 迁到本技能 env。
+    token = os.environ.get("XUEXI_TG_BOT_TOKEN", "").strip() or \
+        read_env_file(XUEXI_ENV).get("XUEXI_TG_BOT_TOKEN", "").strip()
+    if token:
+        return token
+    legacy = read_env_file(MSWNLZ_SKILL / ".env").get("TELEGRAM_BOT_TOKEN", "").strip()
+    if legacy:
+        print("⚠ TG token 来自 mswnlz 的 .env（已废弃路径），请迁到 XUEXI_ENV 的 XUEXI_TG_BOT_TOKEN", file=sys.stderr)
+        return legacy
     return ""
 
 

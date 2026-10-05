@@ -8,6 +8,7 @@ on:
       - 'data/resources.json'
       - 'data/taxonomy.json'
       - 'scripts/build_sitemap.py'
+      - 'scripts/gen_resource_pages.py'
   workflow_dispatch:
 
 permissions:
@@ -27,16 +28,22 @@ jobs:
           python-version: '3.x'
       - name: Rebuild sitemap
         run: python scripts/build_sitemap.py
+      - name: Generate static resource pages
+        run: python scripts/gen_resource_pages.py
+      - name: Head meta + asset stamp for generated pages
+        run: |
+          python scripts/inject_head_meta.py
+          python scripts/stamp_assets.py
       - name: Validate sitemap XML
         run: python -c "import xml.dom.minidom as m; m.parse('sitemap.xml'); print('sitemap.xml OK')"
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add sitemap.xml robots.txt
+          git add sitemap.xml robots.txt r '*.html'
           if git diff --cached --quiet; then
-            echo "sitemap 无变化"
+            echo "无变化"
           else
-            git commit -m "chore: auto rebuild sitemap [skip ci]"
+            git commit -m "chore: auto rebuild sitemap + resource pages [skip ci]"
             git push
           fi

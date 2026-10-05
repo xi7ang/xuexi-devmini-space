@@ -31,7 +31,8 @@ def main():
         if it.get("demo") or not it.get("shareUrl"):
             continue
         # 详情页用各自的 updatedAt 做 lastmod（全站同一个值对 SEO 信号弱）
-        urls.append((f"/resource.html?id={it['id']}", "0.9", "weekly", it.get("updatedAt") or site_lm))
+        # 详情页指向预生成的静态页（head 里写死真标题，爬虫可见）
+        urls.append((f"/r/{it['id']}.html", "0.9", "weekly", it.get("updatedAt") or site_lm))
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

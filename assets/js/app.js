@@ -394,7 +394,7 @@ function renderSearch() {
 }
 
 function renderResource() {
-  const id = qs('id');
+  const id = document.body.dataset.id || qs('id');   // 预生成静态页 r/<id>.html 用 data-id 传 id
   const it = state.items.find(x => x.id === id);
   if (!it) {
     $('#main').innerHTML = `<div class="wrap"><div class="empty">没有找到这条资料，可能已下架。<br><a class="cta" style="margin-top:14px" href="index.html">返回首页</a></div></div>`;
@@ -403,7 +403,8 @@ function renderResource() {
   track('view:' + it.id);
   const pwd = it.pwd || '';
   const url = it.shareUrl ? (it.pwd ? it.shareUrl + '?pwd=' + encodeURIComponent(it.pwd) : it.shareUrl) : '#';
-  setMeta(`${it.title} - 学习资料站`, `${it.desc || it.title}｜${catName(it.category)}·夸克网盘转存，永久有效。`, `${location.origin}/resource.html?id=${encodeURIComponent(it.id)}`);
+  setMeta(`${it.title} - 学习资料站`, `${it.desc || it.title}｜${catName(it.category)}·夸克网盘转存，永久有效。`,
+    it.demo ? `${location.origin}/resource.html?id=${encodeURIComponent(it.id)}` : `${location.origin}/r/${encodeURIComponent(it.id)}.html`);
   const related = state.items.filter(x => x.id !== it.id && x.category === it.category)
     .sort((a, b) => String(b.updatedAt || '').localeCompare(String(a.updatedAt || '')))
     .slice(0, 4);
