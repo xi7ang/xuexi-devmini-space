@@ -154,3 +154,21 @@ img{max-width:100%}
 @media (max-width:640px){
   .hd-fav-text{display:none}
 }
+
+/* ---------- 品牌优化：品类色 / 卡片 / 详情页 / 空状态 ---------- */
+.card-bar{position:absolute;left:0;top:0;bottom:0;width:4px;z-index:2}
+.info-chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.info-chip{font-size:12.5px;color:#3a3f47;background:#f4f5f7;border:1px solid var(--line);border-radius:999px;padding:4px 11px;white-space:nowrap}
+.info-chip--cat{background:#fff;font-weight:600}
+.hero-new{margin-top:14px}
+.hero-new__pill{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:600;color:var(--accent-d);background:#fff2ec;border:1px solid #ffd9c7;border-radius:999px;padding:6px 14px}
+.hero-new__pill b{color:var(--accent)}
+.hero-new__pill:hover{background:#ffe8dc}
+.empty-block{text-align:center;padding:48px 16px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.empty-block__ico{font-size:40px}
+.empty-block p{margin:8px 0 0;color:var(--muted)}
+.empty-block__hint{font-size:13px}
+.chips--center{justify-content:center;margin-top:14px}
+.chips--center .chip{display:inline-block;padding:7px 14px}
+.cta-box .big.got{background:var(--ok);font-size:15px}
+.badge-new{background:#e8fff0;color:#0f9d58;border:1px solid #b6ecc9}
