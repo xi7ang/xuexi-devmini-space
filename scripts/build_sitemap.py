@@ -45,7 +45,8 @@ def main():
         f.write("\n".join(lines) + "\n")
 
     with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8") as f:
-        f.write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
+        # 收藏页是私密页，不该被收录
+        f.write(f"User-agent: *\nAllow: /\nDisallow: /favorites.html\n\nSitemap: {SITE}/sitemap.xml\n")
 
     print(f"[sitemap] {len(urls)} urls -> sitemap.xml / robots.txt")
 

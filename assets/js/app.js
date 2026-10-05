@@ -33,14 +33,14 @@ function updateFavBtn(id) {
   btn.classList.toggle('on', on);
   btn.innerHTML = `<span class="fav-star">${on ? '★' : '☆'}</span> ${on ? '已收藏' : '收藏'}`;
 }
-window.toggleFavClick = function (id) {
+function toggleFavClick(id) {
   const it = state.items.find(x => x.id === id);
   if (!it) return;
   const on = toggleFav(it);
   updateFavBtn(id);
   track((on ? 'fav:' : 'unfav:') + id);
-};
-window.removeFavClick = function (id) { removeFav(id); renderFavorites(); };
+}
+function removeFavClick(id) { removeFav(id); renderFavorites(); }
 
 /* ---------- 公告弹窗（数据在 data/site.json） ---------- */
 const ANN_KEY = 'xx-announcement-dismissed';
@@ -49,25 +49,30 @@ function linkify(text) {
   const e = esc(text).replace(/(https?:\/\/[^\s<)】]+)/g, u => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
   return e.replace(/\n/g, '<br>');
 }
-window.toggleAnn = function (i) {
+function toggleAnn(i) {
   const body = document.getElementById('ann-body-' + i);
   const chev = document.getElementById('ann-chev-' + i);
   if (!body) return;
   const open = body.style.display !== 'none';
   body.style.display = open ? 'none' : '';
   if (chev) chev.textContent = open ? '▸' : '▾';
-};
-window.closeAnn = function () { const m = document.getElementById('ann-mask'); if (m) m.remove(); };
-window.closeAnnToday = function () {
+}
+function annEsc(e) { if (e.key === 'Escape') closeAnn(); }
+function closeAnn() {
+  const m = document.getElementById('ann-mask');
+  if (m) m.remove();
+  document.removeEventListener('keydown', annEsc);
+}
+function closeAnnToday() {
   try {
     const m = document.getElementById('ann-mask');
     if (m) localStorage.setItem(ANN_KEY, JSON.stringify({ version: m.dataset.version || '', date: localDateKey() }));
   } catch (e) {}
   closeAnn();
-};
+}
 async function loadAnnouncement() {
   let site = null;
-  try { const r = await fetch('data/site.json', { cache: 'no-store' }); if (r.ok) site = await r.json(); } catch (e) { return; }
+  try { const r = await fetch('data/site.json', { cache: 'no-cache' }); if (r.ok) site = await r.json(); } catch (e) { return; }
   const a = site && site.announcementModal;
   if (!a || !a.enabled) return;
   const items = Array.isArray(a.items) ? a.items : [];
@@ -76,7 +81,7 @@ async function loadAnnouncement() {
   try { const d = JSON.parse(localStorage.getItem(ANN_KEY) || 'null'); if (d && d.version === version && d.date === localDateKey()) return; } catch (e) {}
   const timeline = items.length ? `<div class="ann-timeline">${items.map((it, i) => `
     <div class="ann-tl${i === 0 ? ' latest' : ''}">
-      <button type="button" class="ann-tl-head" aria-expanded="${i === 0}" onclick="toggleAnn(${i})">
+      <button type="button" class="ann-tl-head" aria-expanded="${i === 0}" data-ann-i="${i}">
         <span class="ann-tl-dot" aria-hidden="true"></span>
         <span class="ann-tl-main">
           <span class="ann-tl-top"><span class="ann-tl-date">${esc(it.date || '')}</span>${it.tag ? `<span class="ann-tl-tag">${esc(it.tag)}</span>` : ''}</span>
@@ -91,7 +96,7 @@ async function loadAnnouncement() {
   box.id = 'ann-mask';
   box.dataset.version = version;
   box.innerHTML = `<section class="ann" role="dialog" aria-modal="true" aria-labelledby="ann-title">
-    <button class="ann-close" type="button" title="关闭" aria-label="关闭公告" onclick="closeAnn()">✕</button>
+    <button class="ann-close" type="button" title="关闭" aria-label="关闭公告">✕</button>
     <div class="ann-icon">📢</div>
     <p class="ann-eyebrow">XUEXI NOTICE</p>
     <h2 id="ann-title">${esc(a.title || '站点公告')}</h2>
@@ -103,19 +108,32 @@ async function loadAnnouncement() {
     </div>
     ${timeline}
     <div class="ann-actions">
-      <button class="ann-btn ghost" type="button" onclick="closeAnnToday()">今日关闭</button>
-      <button class="ann-btn primary" type="button" onclick="closeAnn()">关闭</button>
+      <button class="ann-btn ghost" type="button" data-act="dismiss-today">今日关闭</button>
+      <button class="ann-btn primary" type="button" data-act="close">关闭</button>
     </div>
   </section>`;
   box.addEventListener('click', e => { if (e.target === box) closeAnn(); });
+  box.querySelectorAll('.ann-tl-head').forEach(el => el.addEventListener('click', () => toggleAnn(Number(el.dataset.annI))));
+  const aClose = box.querySelector('.ann-close'); if (aClose) aClose.addEventListener('click', () => closeAnn());
+  const aDismiss = box.querySelector('[data-act="dismiss-today"]'); if (aDismiss) aDismiss.addEventListener('click', () => closeAnnToday());
+  const aOk = box.querySelector('[data-act="close"]'); if (aOk) aOk.addEventListener('click', () => closeAnn());
+  document.addEventListener('keydown', annEsc);
   document.body.appendChild(box);
 }
 
 async function boot() {
-  const [res, tax] = await Promise.all([
-    fetch('data/resources.json', { cache: 'no-store' }).then(r => r.json()),
-    fetch('data/taxonomy.json', { cache: 'no-store' }).then(r => r.json())
-  ]);
+  let res, tax;
+  try {
+    // no-cache = 存下来但每次校验（304 时几乎零流量）；别用 no-store（每次全量重下）
+    [res, tax] = await Promise.all([
+      fetch('data/resources.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error('resources ' + r.status); return r.json(); }),
+      fetch('data/taxonomy.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error('taxonomy ' + r.status); return r.json(); })
+    ]);
+  } catch (e) {
+    const m = $('#main');
+    if (m) m.innerHTML = '<div class="wrap"><div class="empty">数据加载失败，请刷新重试 🙏</div></div>';
+    return;
+  }
   state.items = res.items || [];
   state.meta = res;
   state.tax = tax;
@@ -166,7 +184,7 @@ function footerHTML() {
   </div>`;
 }
 
-function setMeta(title, desc, canonical) {
+function setMeta(title, desc, canonical, robots) {
   document.title = title;
   if (desc) {
     let d = document.head.querySelector('meta[name=description]');
@@ -175,7 +193,13 @@ function setMeta(title, desc, canonical) {
   }
   let c = document.head.querySelector('link[rel=canonical]');
   if (!c) { c = document.createElement('link'); c.rel = 'canonical'; document.head.appendChild(c); }
-  c.href = canonical || location.origin + location.pathname + location.search;
+  // canonical 不能照抄 location.search：分类的 ?s= 组合、搜索的 ?q= 会被各自判成独立页
+  c.href = canonical || location.origin + location.pathname;
+  let r = document.head.querySelector('meta[name=robots]');
+  if (robots) {
+    if (!r) { r = document.createElement('meta'); r.setAttribute('name', 'robots'); document.head.appendChild(r); }
+    r.setAttribute('content', robots);
+  } else if (r) { r.setAttribute('content', 'index,follow'); }
 }
 
 function catName(c) { return (state.tax[c] && state.tax[c].name) || c; }
@@ -268,7 +292,8 @@ function paint() {
 /* ---------- pages ---------- */
 function renderHome() {
   setMeta('学习资料站 - 高考真题|中考真题|中小学试卷|办公PPT模板 夸克网盘资源',
-    '免费夸克网盘学习资料：高考真题、中考真题、中小学试卷与知识点、PPT 办公模板，一键转存、永久有效。');
+    '免费夸克网盘学习资料：高考真题、中考真题、中小学试卷与知识点、PPT 办公模板，一键转存、永久有效。',
+    location.origin + '/');
   const n = state.items.filter(x => !x.demo).length || state.items.length;
   const subs = Object.values(state.tax).reduce((a, c) => a + (c.subs ? c.subs.length : 0), 0);
   const todayNew = state.items.filter(x => x.updatedAt === localDateKey()).length;
@@ -308,7 +333,7 @@ function renderCategory() {
   state.cat = state.tax[c] ? c : 'all';
   state.sub = 'all';
   const t = state.tax[state.cat];
-  setMeta(`${t ? t.name : '全部资料'} - 学习资料站`, `${t ? (t.desc || t.name) : '全部资料'}｜夸克网盘资源免费转存。`);
+  setMeta(`${t ? t.name : '全部资料'} - 学习资料站`, `${t ? (t.desc || t.name) : '全部资料'}｜夸克网盘资源免费转存。`, `${location.origin}/category.html?c=${state.cat}`);
   $('#main').innerHTML = `<div class="wrap">
     <div class="crumb"><a href="index.html">首页</a> / ${esc(t ? t.name : '全部')}</div>
     <div class="sec-title">${esc(t ? t.name : '全部资料')} <small>${esc(t ? (t.desc || '') : '')}</small></div>
@@ -325,7 +350,7 @@ function renderCategory() {
 
 function renderSearch() {
   const q = (qs('q') || '').trim();
-  setMeta(`搜索「${q}」 - 学习资料站`, `在学习资料站搜索「${q}」的夸克网盘资源。`);
+  setMeta(`搜索「${q}」 - 学习资料站`, `在学习资料站搜索「${q}」的夸克网盘资源。`, `${location.origin}/search.html`, 'noindex,follow');
   const low = q.toLowerCase();
   const items = q ? state.items.filter(it => {
     const hay = [it.title, it.desc, it.category, it.subcategory, catName(it.category), subName(it.category, it.subcategory), ...(it.tags || [])].join(' ').toLowerCase();
@@ -356,23 +381,17 @@ function renderResource() {
   track('view:' + it.id);
   const pwd = it.pwd || '';
   const url = it.shareUrl ? (it.pwd ? it.shareUrl + '?pwd=' + encodeURIComponent(it.pwd) : it.shareUrl) : '#';
-  setMeta(`${it.title} - 学习资料站`, `${it.desc || it.title}｜${catName(it.category)}·夸克网盘转存，永久有效。`);
+  setMeta(`${it.title} - 学习资料站`, `${it.desc || it.title}｜${catName(it.category)}·夸克网盘转存，永久有效。`, `${location.origin}/resource.html?id=${encodeURIComponent(it.id)}`);
   const related = state.items.filter(x => x.id !== it.id && x.category === it.category)
     .sort((a, b) => String(b.updatedAt || '').localeCompare(String(a.updatedAt || '')))
     .slice(0, 4);
+  const favOn = isFav(it.id);
   $('#main').innerHTML = `<div class="wrap">
     <div class="crumb"><a href="index.html">首页</a> / <a href="category.html?c=${it.category}">${esc(catName(it.category))}</a>${it.subcategory ? ' / <a href="category.html?c=' + it.category + '&s=' + it.subcategory + '">' + esc(subName(it.category, it.subcategory)) + '</a>' : ''} / ${esc(it.title)}</div>
     <div class="detail">
       <div class="panel">
         <h1>${iconOf(it)} ${esc(it.title)}</h1>
         <div class="tags">${(it.tags || []).map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</div>
-        <dl class="kv">
-          <dt>分类</dt><dd>${esc(catName(it.category))}</dd>
-          ${it.subcategory ? `<dt>方向</dt><dd>${esc(subName(it.category, it.subcategory))}</dd>` : ''}
-          ${it.size ? `<dt>大小</dt><dd>${esc(it.size)}</dd>` : ''}
-          <dt>格式</dt><dd>${esc(it.formats || '文档 / 视频 / 压缩包')}</dd>
-          <dt>更新时间</dt><dd>${esc(it.updatedAt || '—')}</dd>
-        </dl>
         <div class="info-chips">
           <span class="info-chip info-chip--cat" style="border-color:${catColor(it.category)}66;color:${catColor(it.category)}">${iconOf(it)} ${esc(catName(it.category))}</span>
           ${it.subcategory ? `<span class="info-chip">${esc(subName(it.category, it.subcategory))}</span>` : ''}
@@ -380,15 +399,14 @@ function renderResource() {
           <span class="info-chip">📄 ${esc(it.formats || '文档 / 视频 / 压缩包')}</span>
           <span class="info-chip">🗓 ${esc(it.updatedAt || '—')}</span>
         </div>
-        <style>.kv{display:none}.info-chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}.info-chip{font-size:12.5px;color:#3a3f47;background:#f4f5f7;border:1px solid var(--line);border-radius:999px;padding:4px 11px;white-space:nowrap}.info-chip--cat{background:#fff;font-weight:600}</style>
         <h2 style="font-size:16px;margin:22px 0 6px">资料简介</h2>
         <p style="color:#3a3f47;font-size:14.5px">${esc(it.desc || '暂无简介。')}</p>
       </div>
       <aside class="cta-box panel">
-        <button class="big" onclick="openShare('${esc(url)}', '${esc(it.id)}', this)">⬇ 转存到我的夸克网盘</button>
-        <button class="fav-btn${isFav(it.id) ? ' on' : ''}" id="fav-btn" type="button" onclick="toggleFavClick('${esc(it.id)}')"><span class="fav-star">${isFav(it.id) ? '★' : '☆'}</span> ${isFav(it.id) ? '已收藏' : '收藏'}</button>
+        <button class="big" id="share-btn" type="button" data-url="${esc(url)}" data-id="${esc(it.id)}">⬇ 转存到我的夸克网盘</button>
+        <button class="fav-btn${favOn ? ' on' : ''}" id="fav-btn" type="button" data-id="${esc(it.id)}"><span class="fav-star">${favOn ? '★' : '☆'}</span> ${favOn ? '已收藏' : '收藏'}</button>
         <p class="sub">免费 · 永久有效 · 一键保存</p>
-        ${pwd ? `<div class="copy"><input id="pwd" readonly value="${esc(pwd)}"><button onclick="copyPwd()">复制提取码</button></div>` : ''}
+        ${pwd ? `<div class="copy"><input id="pwd" readonly value="${esc(pwd)}"><button id="copy-pwd" type="button">复制提取码</button></div>` : ''}
         <div class="hint">
           <b>怎么用？</b><br>
           1. 点上面按钮打开夸克分享页<br>
@@ -399,6 +417,10 @@ function renderResource() {
     </div>
     ${related.length ? `<div class="sec-title">同类最新 <small>看更多同类型资料</small></div><div class="grid">${related.map(cardHTML).join('')}</div>` : ''}
   </div>`;
+  // 事件绑定代替内联 onclick（esc 是 HTML 转义，不是 JS 字符串转义，拼进 onclick 靠运气）
+  const sb = $('#share-btn'); if (sb) sb.addEventListener('click', () => openShare(sb.dataset.url, sb.dataset.id, sb));
+  const fb = $('#fav-btn'); if (fb) fb.addEventListener('click', () => toggleFavClick(fb.dataset.id));
+  const cp = $('#copy-pwd'); if (cp) cp.addEventListener('click', () => copyPwd(cp));
 }
 
 function openShare(url, id, btn) {
@@ -409,20 +431,21 @@ function openShare(url, id, btn) {
   const b = btn || document.querySelector('.cta-box .big');
   if (b && !b.classList.contains('got')) { b.classList.add('got'); b.innerHTML = '✅ 已跳转，没打开点这里'; }
 }
-function copyPwd() {
+function copyPwd(btn) {
   const i = $('#pwd'); if (!i) return;
-  i.select(); document.execCommand('copy');
+  i.select();
+  try { document.execCommand('copy'); } catch (e) {}
   if (navigator.clipboard) navigator.clipboard.writeText(i.value).catch(() => {});
-  const b = event.target; const old = b.textContent; b.textContent = '已复制 ✓'; setTimeout(() => b.textContent = old, 1500);
+  // 不依赖隐式全局 event（非标准）；按钮从参数来
+  if (btn) { const old = btn.textContent; btn.textContent = '已复制 ✓'; setTimeout(() => btn.textContent = old, 1500); }
 }
-window.openShare = openShare; window.copyPwd = copyPwd;
 
 function favItemHTML(it) {
-  return `<div class="fav-item">${cardHTML(it)}<button class="fav-del" type="button" title="取消收藏" onclick="removeFavClick('${esc(it.id)}')">✕ 取消收藏</button></div>`;
+  return `<div class="fav-item">${cardHTML(it)}<button class="fav-del" type="button" title="取消收藏" data-id="${esc(it.id)}">✕ 取消收藏</button></div>`;
 }
 
 function renderFavorites() {
-  setMeta('我的收藏 - 学习资料站', '你在学习资料站收藏的夸克网盘资料，只保存在你自己的浏览器里。');
+  setMeta('我的收藏 - 学习资料站', '你在学习资料站收藏的夸克网盘资料，只保存在你自己的浏览器里。', `${location.origin}/favorites.html`, 'noindex,nofollow');
   const list = favs.map(f => state.items.find(x => x.id === f.id) || f);
   const body = list.length
     ? `<div class="grid">${list.map(favItemHTML).join('')}</div>`
@@ -432,6 +455,7 @@ function renderFavorites() {
     <div class="sec-title">⭐ 我的收藏 <small>共 ${list.length} 条 · 只存在你的浏览器里</small></div>
     ${body}
   </div>`;
+  $$('.fav-del').forEach(b => b.addEventListener('click', () => removeFavClick(b.dataset.id)));
 }
 
 boot();
