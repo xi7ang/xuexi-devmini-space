@@ -22,7 +22,7 @@ function toggleFav(it) {
   const i = favs.findIndex(f => f.id === it.id);
   if (i >= 0) { favs.splice(i, 1); writeFavs(favs); return false; }
   favs.unshift({ id: it.id, title: it.title || '', category: it.category || '', subcategory: it.subcategory || '', desc: it.desc || '', size: it.size || '', tags: it.tags || [], favAt: new Date().toISOString() });
-  if (favs.length > FAV_MAX) favs.length = FAV_MAX;
+  if (favs.length > FAV_MAX) { console.warn('收藏已达上限', FAV_MAX, '，丢弃最旧'); favs.length = FAV_MAX; }
   writeFavs(favs);
   return true;
 }
@@ -119,6 +119,7 @@ async function loadAnnouncement() {
   const aOk = box.querySelector('[data-act="close"]'); if (aOk) aOk.addEventListener('click', () => closeAnn());
   document.addEventListener('keydown', annEsc);
   document.body.appendChild(box);
+  if (aClose) aClose.focus();   // 打开时把焦点移进弹窗（无障碍）
 }
 
 async function boot() {
@@ -226,6 +227,7 @@ function cardHTML(it) {
   const tags = (it.tags || []).slice(0, 3).map(t => `<span class="tag">#${esc(t)}</span>`).join('');
   const demo = it.demo ? '<span class="badge">示例</span>' : '';
   const today = it.updatedAt === localDateKey();
+  const meta = [catName(it.category), it.subcategory ? subName(it.category, it.subcategory) : '', it.updatedAt ? String(it.updatedAt).slice(5) : ''].filter(Boolean).join(' · ');
   return `<a class="card" href="${href}">
     <span class="card-bar" style="background:${catColor(it.category)}" aria-hidden="true"></span>
     <div class="card-top">
@@ -235,7 +237,7 @@ function cardHTML(it) {
     <p class="card-desc">${esc(it.desc || '')}</p>
     <div class="tags">${tags}</div>
     <div class="card-foot">
-      <span class="card-meta">${esc(catName(it.category))}${it.subcategory ? ' · ' + esc(subName(it.category, it.subcategory)) : ''}${it.updatedAt ? ' · ' + esc(String(it.updatedAt).slice(5)) : ''}</span>
+      <span class="card-meta">${esc(meta)}</span>
       <span class="cta">转存 →</span>
     </div>
   </a>`;
@@ -267,7 +269,7 @@ function bindChips() {
     const b = e.target.closest('.chip'); if (!b) return;
     state.cat = b.dataset.c; state.sub = 'all';
     document.querySelectorAll('#chips .chip').forEach(x => x.classList.toggle('on', x === b));
-    renderSubchips(); paint();
+    syncUrl(); renderSubchips(); paint();
   };
 }
 
@@ -281,12 +283,24 @@ function renderSubchips() {
     const b = e.target.closest('.chip'); if (!b) return;
     state.sub = b.dataset.s;
     box.querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === b));
-    paint();
+    syncUrl(); paint();
   };
 }
 
 function paint() {
   $('#grid').innerHTML = gridOf(filterItems());
+}
+
+// 分类 chip 点击后把状态同步进 URL（可分享 / 可回退）；只对分类页生效
+function syncUrl() {
+  if (document.body.dataset.page !== 'category') return;
+  try {
+    const p = new URLSearchParams();
+    if (state.cat && state.cat !== 'all') p.set('c', state.cat);
+    if (state.sub && state.sub !== 'all') p.set('s', state.sub);
+    const query = p.toString();
+    history.replaceState(null, '', location.pathname + (query ? '?' + query : ''));
+  } catch (e) {}
 }
 
 /* ---------- pages ---------- */
@@ -351,11 +365,19 @@ function renderCategory() {
 function renderSearch() {
   const q = (qs('q') || '').trim();
   setMeta(`搜索「${q}」 - 学习资料站`, `在学习资料站搜索「${q}」的夸克网盘资源。`, `${location.origin}/search.html`, 'noindex,follow');
-  const low = q.toLowerCase();
-  const items = q ? state.items.filter(it => {
-    const hay = [it.title, it.desc, it.category, it.subcategory, catName(it.category), subName(it.category, it.subcategory), ...(it.tags || [])].join(' ').toLowerCase();
-    return hay.includes(low);
-  }) : state.items;
+  // 模糊匹配（归一化 + 级联分层）；异常则退回朴素 includes——搜索不能挂
+  let items, fuzzy = '';
+  if (!q) { items = state.items; }
+  else {
+    try {
+      const r = searchItems(q);
+      items = r.hits;
+      if (r.tier === 'subsequence' || r.tier === 'typo') fuzzy = ' · 模糊匹配';
+    } catch (e) {
+      const low = q.toLowerCase();
+      items = state.items.filter(it => [it.title, it.desc, it.category, it.subcategory, catName(it.category), subName(it.category, it.subcategory), ...(it.tags || [])].join(' ').toLowerCase().includes(low));
+    }
+  }
   const body = items.length
     ? gridOf(items)
     : `<div class="empty-block">
@@ -366,7 +388,7 @@ function renderSearch() {
       </div>`;
   $('#main').innerHTML = `<div class="wrap">
     <div class="crumb"><a href="index.html">首页</a> / 搜索</div>
-    <div class="sec-title">搜索「${esc(q)}」 <small>找到 ${items.length} 条</small></div>
+    <div class="sec-title">搜索「${esc(q)}」 <small>找到 ${items.length} 条${fuzzy}</small></div>
     ${body}
   </div>`;
 }
@@ -456,6 +478,65 @@ function renderFavorites() {
     ${body}
   </div>`;
   $$('.fav-del').forEach(b => b.addEventListener('click', () => removeFavClick(b.dataset.id)));
+}
+
+/* ---------- 搜索匹配（归一化 + 级联分层，命中即停；无依赖） ---------- */
+// 级联而非加权求和：加权会让低级匹配污染高级结果。任一层命中即返回。
+const PUNCT_RE = /[\s\u00a0\-_·:：,，.。!！?？'"“”‘’()（）[\]{}【】<>/\\|+*&@#$%^~`;；]/g;
+const norm = s => String(s == null ? '' : s).normalize('NFKC').toLowerCase().replace(PUNCT_RE, '');
+const isAscii = q => /^[\x20-\x7e]+$/.test(q);
+function editWithin(a, b, max) {
+  if (Math.abs(a.length - b.length) > max) return false;
+  if (a === b) return true;
+  const m = a.length, n = b.length;
+  let prev = new Array(n + 1), cur = new Array(n + 1);
+  for (let j = 0; j <= n; j++) prev[j] = j;
+  for (let i = 1; i <= m; i++) {
+    cur[0] = i; let rowMin = cur[0];
+    for (let j = 1; j <= n; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+      if (cur[j] < rowMin) rowMin = cur[j];
+    }
+    if (rowMin > max) return false;
+    const t = prev; prev = cur; cur = t;
+  }
+  return prev[n] <= max;
+}
+const isSubseq = (hay, needle) => { let i = 0; for (let k = 0; k < hay.length && i < needle.length; k++) if (hay[k] === needle[i]) i++; return i === needle.length; };
+
+// subcategory slug 本身就是拼音（gaokao/zhongkao/shuxue/ppt…），纳入匹配面 = 白捡一层拼音检索
+let SINDEX = null;
+function buildSearchIndex() {
+  SINDEX = state.items.map(it => ({
+    it,
+    t: norm(it.title), d: norm(it.desc), g: norm((it.tags || []).join(' ')),
+    c: norm(it.category), s: norm(it.subcategory),
+    rank: Number(String(it.updatedAt || '').replace(/-/g, '')) || 0,
+  }));
+}
+const STIERS = [
+  { name: 'equal', score: (r, q) => (r.t === q ? 100 : 0) + (r.s === q ? 40 : 0) },
+  { name: 'prefix', score: (r, q) => (r.t.startsWith(q) ? 80 : 0) + (r.s.startsWith(q) ? 45 : 0) + (r.g.startsWith(q) ? 35 : 0) },
+  { name: 'contains', score: (r, q) => (r.t.includes(q) ? 60 : 0) + (r.g.includes(q) ? 40 : 0) + (r.s.includes(q) ? 38 : 0) + (r.c.includes(q) ? 15 : 0) + (r.d.includes(q) ? 20 : 0) },
+  { name: 'subsequence', when: (q, a) => !a && q.length >= 3, score: (r, q) => (isSubseq(r.t, q) ? 30 : 0) },
+  { name: 'typo', when: q => q.length >= 3, score: (r, q) => (editWithin(r.t, q, 1) ? 10 : 0) },
+];
+function searchItems(rawQ, limit) {
+  const q = norm(rawQ);
+  if (!q) return { total: 0, hits: [], tier: 'empty' };
+  if (!SINDEX) buildSearchIndex();
+  const ascii = isAscii(q);
+  for (const tier of STIERS) {
+    if (tier.when && !tier.when(q, ascii)) continue;
+    const m = [];
+    for (const r of SINDEX) { const s = tier.score(r, q); if (s > 0) m.push({ r, s }); }
+    if (!m.length) continue;
+    m.sort((a, b) => b.s - a.s || b.r.rank - a.r.rank);
+    const hits = m.map(x => x.r.it);
+    return { total: hits.length, hits: limit ? hits.slice(0, limit) : hits, tier: tier.name };
+  }
+  return { total: 0, hits: [], tier: 'none' };
 }
 
 boot();

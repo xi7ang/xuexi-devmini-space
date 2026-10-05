@@ -26,6 +26,20 @@ jobs:
           python-version: '3.x'
       - name: Stamp
         run: python scripts/stamp_assets.py
+      - name: Verify asset refs resolve
+        run: |
+          python - <<'PY'
+          import re, sys
+          from pathlib import Path
+          root = Path('.')
+          bad = []
+          for html in sorted(root.glob('*.html')):
+              for m in re.finditer(r'(?:href|src)="(assets/[^"?]+)', html.read_text(encoding='utf-8')):
+                  if not (root / m.group(1)).exists():
+                      bad.append(f"{html.name}: {m.group(1)}")
+          print('\n'.join(bad) if bad else 'all asset refs resolve')
+          sys.exit(1 if bad else 0)
+          PY
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"

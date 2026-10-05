@@ -14,7 +14,14 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-ASSETS = ["assets/js/app.js", "assets/css/style.css"]
+
+
+def discover_assets() -> list[str]:
+    """从 assets/ 发现所有 js/css。别硬编码列表：新增文件会静默不打号，
+    又被 4 小时长缓存咬。"""
+    return sorted(p.relative_to(ROOT).as_posix()
+                  for p in ROOT.glob("assets/**/*")
+                  if p.suffix in (".js", ".css"))
 
 
 def digest(p: Path) -> str:
@@ -22,7 +29,7 @@ def digest(p: Path) -> str:
 
 
 def main() -> int:
-    vers = {a: digest(ROOT / a) for a in ASSETS if (ROOT / a).exists()}
+    vers = {a: digest(ROOT / a) for a in discover_assets() if (ROOT / a).exists()}
     changed = []
     for html in sorted(ROOT.glob("*.html")):
         text = orig = html.read_text(encoding="utf-8")

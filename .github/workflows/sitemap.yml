@@ -27,6 +27,8 @@ jobs:
           python-version: '3.x'
       - name: Rebuild sitemap
         run: python scripts/build_sitemap.py
+      - name: Validate sitemap XML
+        run: python -c "import xml.dom.minidom as m; m.parse('sitemap.xml'); print('sitemap.xml OK')"
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"

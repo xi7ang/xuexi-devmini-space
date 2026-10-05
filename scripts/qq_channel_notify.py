@@ -78,9 +78,12 @@ def read_env_file(p: Path) -> dict:
 
 
 def cfg(key: str, default: str) -> str:
-    return (os.environ.get(key, "").strip()
-            or read_env_file(XUEXI_ENV).get(key, "").strip()
-            or default)
+    v = os.environ.get(key, "").strip() or read_env_file(XUEXI_ENV).get(key, "").strip()
+    if not v:
+        # 兜底默认值与真实频道容易漂移，回退时大声提醒
+        print(f"⚠ {key} 未配置，回退到内置默认值 {default}（请写进 {XUEXI_ENV}）", file=sys.stderr)
+        return default
+    return v
 
 
 def tax_names() -> tuple[dict, dict]:
