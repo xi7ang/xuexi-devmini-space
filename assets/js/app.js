@@ -5,6 +5,8 @@ const qs = k => new URLSearchParams(location.search).get(k);
 const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
 
 const state = { items: [], tax: {}, meta: {}, cat: 'all', sub: 'all' };
+// TG 频道入口（公告弹窗 + 导航栏共用）
+const TG_URL = 'https://t.me/aixuexi66';
 const track = (name, data) => { try { if (window.umami && typeof window.umami.track === 'function') window.umami.track(name, data); } catch (e) {} };
 
 /* ---------- 收藏（纯本地 localStorage，无后端） ---------- */
@@ -93,6 +95,12 @@ async function loadAnnouncement() {
     <div class="ann-icon">📢</div>
     <p class="ann-eyebrow">XUEXI NOTICE</p>
     <h2 id="ann-title">${esc(a.title || '站点公告')}</h2>
+    <div class="ann-socials">
+      <a class="ann-social ann-social--tg" href="${TG_URL}" target="_blank" rel="noreferrer">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M21.9 3.6c.3-1.2-.9-2.2-2-1.7L2.7 9.8c-1.2.5-1.1 2.2.1 2.6l4.8 1.6 1.8 5.7c.4 1.1 1.8 1.4 2.6.6l2.5-2.5 4.7 3.5c1 .7 2.4.2 2.7-1l2.9-16.7zM9 14.2l8.5-6.9c.3-.2.6.2.4.5l-6.6 7.2c-.3.3-.8.4-1.2.3l-2.3-.8 1.2-.3z"/></svg>
+        <span>TG频道</span>
+      </a>
+    </div>
     ${timeline}
     <div class="ann-actions">
       <button class="ann-btn ghost" type="button" onclick="closeAnnToday()">今日关闭</button>
@@ -134,12 +142,15 @@ function headerHTML() {
       <span class="logo-text"><b>学习资料站</b><i>真题 · 中小学 · 办公素材</i></span>
     </a>
     <nav class="hd-nav"><a href="index.html"${on('home')}>首页</a>${navs}</nav>
-    <form class="hd-search" onsubmit="location.href='search.html?q='+encodeURIComponent(this.q.value);return false">
-      <input name="q" placeholder="搜高考数学真题、三年级语文…" value="${esc(qs('q') || '')}">
-    </form>
-    <a class="hd-fav" href="favorites.html" title="我的收藏" aria-label="我的收藏">
-      <span class="hd-fav-star">⭐</span><span class="hd-fav-text">收藏</span>${favCount() ? `<b>${favCount()}</b>` : ''}
-    </a>
+    <div class="hd-right">
+      <a class="hd-fav" href="favorites.html" title="我的收藏" aria-label="我的收藏">
+        <span class="hd-fav-star">⭐</span><span class="hd-fav-text">收藏</span>${favCount() ? `<b>${favCount()}</b>` : ''}
+      </a>
+      <a class="hd-tg" href="${TG_URL}" target="_blank" rel="noreferrer" title="TG 频道" aria-label="TG 频道">
+        <svg class="hd-tg-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M21.9 3.6c.3-1.2-.9-2.2-2-1.7L2.7 9.8c-1.2.5-1.1 2.2.1 2.6l4.8 1.6 1.8 5.7c.4 1.1 1.8 1.4 2.6.6l2.5-2.5 4.7 3.5c1 .7 2.4.2 2.7-1l2.9-16.7zM9 14.2l8.5-6.9c.3-.2.6.2.4.5l-6.6 7.2c-.3.3-.8.4-1.2.3l-2.3-.8 1.2-.3z"/></svg>
+        <span class="hd-tg-text">TG频道</span>
+      </a>
+    </div>
   </div>`;
 }
 

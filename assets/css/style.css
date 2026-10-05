@@ -26,9 +26,7 @@ img{max-width:100%}
 .hd-nav a{padding:7px 12px;border-radius:9px;font-size:14px;color:#3a3f47;white-space:nowrap}
 .hd-nav a:hover{background:#f0f1f4}
 .hd-nav a.on{background:#fff2ec;color:var(--accent-d);font-weight:600}
-.hd-search{margin-left:auto;display:flex;align-items:center;gap:8px;flex:1;max-width:320px}
-.hd-search input{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:10px;font-size:14px;outline:none;background:#fff}
-.hd-search input:focus{border-color:var(--accent)}
+/* 导航栏搜索框已按要求移除（搜索入口保留首页 hero 搜索 + search.html） */
 
 /* ---------- hero ---------- */
 .hero{padding:44px 0 26px;text-align:center}
@@ -104,6 +102,10 @@ img{max-width:100%}
 .hd-fav{display:inline-flex;align-items:center;gap:4px;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:#fff;font-size:13px;font-weight:600;color:#3a3f47;white-space:nowrap;flex:none}
 .hd-fav:hover{border-color:var(--accent);color:var(--accent-d)}
 .hd-fav b{color:var(--accent-d);font-size:12px}
+.hd-right{margin-left:auto;display:flex;align-items:center;gap:10px;flex:none}
+.hd-tg{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:10px;background:#229ED9;color:#fff;font-size:13px;font-weight:600;white-space:nowrap;flex:none}
+.hd-tg:hover{background:#1c8dc0}
+.hd-tg-icon{flex:none}
 .fav-btn{display:block;width:100%;margin-top:10px;padding:11px;border:1px solid var(--line);border-radius:12px;background:#fff;color:#3a3f47;font-size:14px;font-weight:700;cursor:pointer;transition:all .18s}
 .fav-btn:hover{border-color:var(--accent);color:var(--accent-d)}
 .fav-btn .fav-star{font-size:15px}
@@ -143,6 +145,10 @@ img{max-width:100%}
 .ann-btn.ghost:hover{border-color:var(--accent);color:var(--accent-d)}
 .ann-btn.primary{border:0;background:var(--accent);color:#fff}
 .ann-btn.primary:hover{background:var(--accent-d)}
+.ann-socials{display:flex;justify-content:center;gap:8px;margin:-2px 0 16px}
+.ann-social{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;color:#fff;font-size:13px;font-weight:600}
+.ann-social--tg{background:#229ED9;border:1px solid #1c8dc0}
+.ann-social--tg:hover{background:#1c8dc0;box-shadow:0 0 12px rgba(34,158,217,.45)}
 
 @media (max-width:820px){
   .detail{grid-template-columns:1fr}
@@ -153,6 +159,7 @@ img{max-width:100%}
 }
 @media (max-width:640px){
   .hd-fav-text{display:none}
+  .hd-tg-text{display:none}
 }
 
 /* ---------- 品牌优化：品类色 / 卡片 / 详情页 / 空状态 ---------- */
