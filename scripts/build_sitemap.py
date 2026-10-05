@@ -3,6 +3,7 @@
 import json
 import os
 from datetime import date
+from xml.sax.saxutils import escape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.environ.get("SITE_URL", "https://xuexi.devmini.space").rstrip("/")
@@ -33,7 +34,9 @@ def main():
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, pri, freq in urls:
-        lines.append(f"  <url><loc>{SITE}{path}</loc>"
+        # <loc> 里必须做 XML 转义：分类链接带 ?c=x&s=y，裸 & 会让 sitemap 解析报
+        # “EntityRef: expecting ';'”。saxutils.escape 把 & < > 转成实体。
+        lines.append(f"  <url><loc>{escape(SITE + path)}</loc>"
                      f"<lastmod>{res.get('updatedAt', today)}</lastmod>"
                      f"<changefreq>{freq}</changefreq><priority>{pri}</priority></url>")
     lines.append("</urlset>")
