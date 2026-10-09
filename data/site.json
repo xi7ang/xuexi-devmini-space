@@ -1,10 +1,16 @@
 {
   "announcementModal": {
     "enabled": true,
-    "version": "2026-10-06-2",
+    "version": "2026-10-09-3",
     "title": "📢 学习资料站公告",
     "content": "本站每日更新学习资料：高考/中考真题、中小学试卷与知识点、办公 PPT 模板，一键转存夸克网盘，永久有效。",
     "items": [
+      {
+        "date": "2026-10-09",
+        "tag": "更新",
+        "title": "【2026-10-09】学习资料更新通知",
+        "content": "哈喽～今天的资料更新又来啦，一口气上新 5 份，考试党和办公党都有份，往下翻！\n\n📚《2025年高考化学试卷（安徽卷）》（考试真题）\n2025 高考化学安徽卷，空白卷 + 解析卷共 2 个文件一次收齐\n详情：https://xuexi.devmini.space/resource.html?id=2ea47a25ef19\n\n📚《2024年内蒙古包头市中考数学真题》（考试真题）\n2024 包头中考数学真题，原卷直接开刷\n详情：https://xuexi.devmini.space/resource.html?id=5a43b32cf79d\n\n📚《八上语文读读写写过关训练（4份）》（中小学资料）\n八年级上册语文读读写写过关训练共 4 份，基础字词一网打尽\n详情：https://xuexi.devmini.space/resource.html?id=9e39f19f4b9b\n\n📚《【济南】七下生物期末试卷》（中小学资料）\n济南地区七年级下册生物期末试卷，含多份期末模拟测试卷\n详情：https://xuexi.devmini.space/resource.html?id=c08bfd6a6937\n\n📚《蓝色简约商务风竞聘晋升述职报告PPT模板》（办公素材）\n蓝色简约商务风竞聘/晋升/述职 PPT，汇报直接套用\n详情：https://xuexi.devmini.space/resource.html?id=f0bc4772b6bf\n\n资料挂了或找不到，来群里喊一声，看到就补～"
+      },
       {
         "date": "2026-10-06",
         "tag": "更新",
