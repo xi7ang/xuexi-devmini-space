@@ -1,10 +1,16 @@
 {
   "announcementModal": {
     "enabled": true,
-    "version": "2026-10-09-3",
+    "version": "2026-10-10-4",
     "title": "📢 学习资料站公告",
     "content": "本站每日更新学习资料：高考/中考真题、中小学试卷与知识点、办公 PPT 模板，一键转存夸克网盘，永久有效。",
     "items": [
+      {
+        "date": "2026-10-10",
+        "tag": "更新",
+        "title": "【2026-10-10】学习资料更新通知",
+        "content": "今天的更新来咯，5 份新资料已入库，直接开捞～\n\n📚《2025年高考化学试卷(山东卷)》（考试真题）\n山东卷真题，考前刷题找手感，化学考点全梳理～\n详情：https://xuexi.devmini.space/resource.html?id=f8e5f7b96ebe\n\n📚《2024年北京中考数学真题》（考试真题）\n北京中考数学真题，题型参考价值高，刷起来不亏\n详情：https://xuexi.devmini.space/resource.html?id=41d49d94a5db\n\n📚《西师六上数学期末检测卷》（中小学资料）\n六年级上册期末检测卷，考前自测一套带走\n详情：https://xuexi.devmini.space/resource.html?id=215a6ef72919\n\n📚《九下语文期末试卷》（中小学资料）\n九年级下册语文期末卷，文言文阅读都在里面\n详情：https://xuexi.devmini.space/resource.html?id=3abd8033818a\n\n📚《棕色商务人士背景的个人述职报告PPT模板》（办公素材）\n商务风述职 PPT 模板，汇报直接用，改改就能交\n详情：https://xuexi.devmini.space/resource.html?id=885c6f8add36\n\n资料挂了或找不到？来群里喊一声，看到就补～"
+      },
       {
         "date": "2026-10-09",
         "tag": "更新",
