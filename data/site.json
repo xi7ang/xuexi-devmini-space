@@ -1,10 +1,16 @@
 {
   "announcementModal": {
     "enabled": true,
-    "version": "2026-10-10-4",
+    "version": "2026-10-11-6",
     "title": "📢 学习资料站公告",
     "content": "本站每日更新学习资料：高考/中考真题、中小学试卷与知识点、办公 PPT 模板，一键转存夸克网盘，永久有效。",
     "items": [
+      {
+        "date": "2026-10-11",
+        "tag": "更新",
+        "title": "【2026-10-11】学习资料更新通知",
+        "content": "宝子们，今天的资料又来啦 👋\n\n刚整理完，一共 5 份，卷子、字帖、PPT 都有，按需自取 👇\n\n📚《2025年高考历史试卷（北京卷）》（考试真题）\n2025年高考历史试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。\n详情 https://xuexi.devmini.space/resource.html?id=f639082af6e7\n\n📚《2025年高考地理试卷（全国新课标卷）》（考试真题）\n2025年高考地理试卷（全国新课标卷），收录 空白卷、解析卷，共 2 个文件。\n详情 https://xuexi.devmini.space/resource.html?id=eea30175323a\n\n📚《四年级必会500字字帖描红》（中小学资料）\n四年级必会500字字帖描红，小学语文书写练习资料。\n详情 https://xuexi.devmini.space/resource.html?id=45141a846810\n\n📚《八上历史期中模拟试卷》（中小学资料）\n八年级上册历史期中模拟试卷，初中历史阶段检测资料。\n详情 https://xuexi.devmini.space/resource.html?id=9830778e41dc\n\n📚《稳重大方述职报告PPT模板》（办公素材）\n述职转正 · 稳重大方述职报告PPT模板，包含 16 页可编辑演示内容。\n详情 https://xuexi.devmini.space/resource.html?id=9d85485d8e67\n\n资料挂了或者找不到，来群里喊一声，看到就补～"
+      },
       {
         "date": "2026-10-10",
         "tag": "更新",
