@@ -129,15 +129,8 @@ def publish(guild_id: str, channel_id: str, title: str, content: str) -> dict:
              "--title", title[:100], "--content-file", tmp, "--json"],
             capture_output=True, text=True, timeout=120)
         raw = (proc.stdout or "").strip() or (proc.stderr or "").strip()
-        # 频率限制（retCode 153）：sleep 70s 后原样重试一次
-        if raw.lstrip().startswith("{") is False and "153" in raw:
-            time.sleep(70)
-            proc = subprocess.run(
-                [CLI, "feed", "publish-feed",
-                 "--guild-id", str(guild_id), "--channel-id", str(channel_id),
-                 "--title", title[:100], "--content-file", tmp, "--json"],
-                capture_output=True, text=True, timeout=120)
-            raw = (proc.stdout or "").strip() or (proc.stderr or "").strip()
+        # 单次尝试，不重试（2026-10-12 用户明确要求）：反复撞 graph.qq.com 会触发腾讯风控、
+        # 可能封本机 IP。失败就如实记录返回，交给下一轮 cron 按 id 幂等补发（已 ok 的会跳过）。
         try:
             d = json.loads(raw)
         except Exception:
