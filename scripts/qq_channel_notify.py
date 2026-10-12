@@ -44,6 +44,11 @@ DEFAULT_CHANNEL_ID = "743606659"
 # 「posting」占位超过此时长（秒）视为僵死，允许重试
 CLAIM_TTL = 600
 
+# 发布重试上限（2026-10-12 用户要求）：**最多重试 1 次** = 首发 + 1 次重试，共 2 次尝试。
+# 绝不无限重试——反复撞 graph.qq.com 会触发腾讯风控、可能封本机 IP。
+MAX_ATTEMPTS = 2
+RETRY_DELAY = 8  # 两次尝试之间的等待秒数
+
 
 def _already_done(prev: dict) -> bool:
     """幂等判据：该资源是否已被（本次或其他实例）处理过。
@@ -123,21 +128,28 @@ def publish(guild_id: str, channel_id: str, title: str, content: str) -> dict:
         fh.write(content)
         tmp = fh.name
     try:
-        proc = subprocess.run(
-            [CLI, "feed", "publish-feed",
-             "--guild-id", str(guild_id), "--channel-id", str(channel_id),
-             "--title", title[:100], "--content-file", tmp, "--json"],
-            capture_output=True, text=True, timeout=120)
-        raw = (proc.stdout or "").strip() or (proc.stderr or "").strip()
-        # 单次尝试，不重试（2026-10-12 用户明确要求）：反复撞 graph.qq.com 会触发腾讯风控、
-        # 可能封本机 IP。失败就如实记录返回，交给下一轮 cron 按 id 幂等补发（已 ok 的会跳过）。
+        raw = ""
+        for attempt in range(MAX_ATTEMPTS):  # 首发 + 最多 1 次重试
+            proc = subprocess.run(
+                [CLI, "feed", "publish-feed",
+                 "--guild-id", str(guild_id), "--channel-id", str(channel_id),
+                 "--title", title[:100], "--content-file", tmp, "--json"],
+                capture_output=True, text=True, timeout=120)
+            raw = (proc.stdout or "").strip() or (proc.stderr or "").strip()
+            try:
+                d = json.loads(raw)
+            except Exception:
+                d = None
+            if d and d.get("success") and isinstance(d.get("data"), dict) and d["data"].get("feed_id"):
+                return {"ok": True, "feed_id": d["data"]["feed_id"],
+                        "share_url": d["data"].get("share_url", "")}
+            if attempt < MAX_ATTEMPTS - 1:
+                time.sleep(RETRY_DELAY)
+        # 达到重试上限（最多 1 次）仍失败：如实返回，交给下一轮 cron 按 id 幂等补发（已 ok 的会跳过）
         try:
             d = json.loads(raw)
         except Exception:
             return {"ok": False, "err": f"非 JSON 输出: {raw[:160]}"}
-        if d.get("success") and isinstance(d.get("data"), dict) and d["data"].get("feed_id"):
-            return {"ok": True, "feed_id": d["data"]["feed_id"],
-                    "share_url": d["data"].get("share_url", "")}
         if re.search(r'"retCode"\s*:\s*153', raw) or "153" in raw:
             return {"ok": False, "err": "接口频率限制（153），请稍后再试"}
         return {"ok": False, "err": raw[:200]}
