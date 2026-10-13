@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-12",
-  "count": 55,
+  "updatedAt": "2026-10-13",
+  "count": 60,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -1001,6 +1001,92 @@
       "pwd": "rLRM",
       "sourceUrl": "https://quarksource.com/resource/棕色帆船背景的-激流勇进奋楫争先-励志风述职报告ppt模板-79b566b2fe",
       "updatedAt": "2026-10-12"
+    },
+    {
+      "id": "e3e24ab1260e",
+      "title": "2025年高考化学试卷（广东卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "化学",
+        "广东",
+        "2025"
+      ],
+      "size": "",
+      "formats": "[\"DOCX\"]",
+      "desc": "2025年高考化学试卷（广东卷），收录 空白卷、解析卷，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/a7c31930e01e",
+      "pwd": "MBFz",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-73a2fcb64e060676",
+      "updatedAt": "2026-10-13"
+    },
+    {
+      "id": "8f17dffaa5b7",
+      "title": "2024年上海中考地理真题",
+      "category": "exam",
+      "subcategory": "zhongkao",
+      "tags": [
+        "地理",
+        "上海",
+        "2024"
+      ],
+      "size": "",
+      "formats": "[\"DOCX\"]",
+      "desc": "2024年上海中考地理真题，收录 原卷版、解析版，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/82d2fef024c7",
+      "pwd": "q1G7",
+      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-46c386cd01ba9312",
+      "updatedAt": "2026-10-13"
+    },
+    {
+      "id": "5880989ecc14",
+      "title": "【陕旅（三）】五上英语一课一练",
+      "category": "study",
+      "subcategory": "primary",
+      "tags": [
+        "英语",
+        "5年级"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "【陕旅（三）】五上英语一课一练",
+      "shareUrl": "https://pan.quark.cn/s/8b22d554cca3",
+      "pwd": "V8gE",
+      "sourceUrl": "https://quarksource.com/resource/陕旅-三-五上英语一课一练-faf6435f",
+      "updatedAt": "2026-10-13"
+    },
+    {
+      "id": "9d9931fc3da7",
+      "title": "八上英语期中复习（25个专题）",
+      "category": "study",
+      "subcategory": "junior",
+      "tags": [
+        "英语",
+        "8年级"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "八上英语期中复习（25个专题）",
+      "shareUrl": "https://pan.quark.cn/s/87a7dd8a19c5",
+      "pwd": "AME3",
+      "sourceUrl": "https://quarksource.com/resource/八上英语期中复习-25个专题-faa6d87c",
+      "updatedAt": "2026-10-13"
+    },
+    {
+      "id": "163990480b7c",
+      "title": "矢量剪切画背景的年终述职报告PPT模板",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": [
+        "PPT模板"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "矢量剪切画背景的年终述职报告ppt模板-483920c3de",
+      "shareUrl": "https://pan.quark.cn/s/8559c26a6f2a",
+      "pwd": "wrIc",
+      "sourceUrl": "https://quarksource.com/resource/矢量剪切画背景的年终述职报告ppt模板-483920c3de",
+      "updatedAt": "2026-10-13"
     }
   ]
 }
