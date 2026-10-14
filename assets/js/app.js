@@ -138,6 +138,8 @@ async function boot() {
   state.items = res.items || [];
   state.meta = res;
   state.tax = tax;
+  // 「新更新的资料放到最前面」：列表一律按 updatedAt 倒序（补链/换链后该条会顶到最前）
+  state.items.sort((a, b) => String(b.updatedAt || '').localeCompare(String(a.updatedAt || '')));
 
   $('#site-header').innerHTML = headerHTML();
   $('#site-footer').innerHTML = footerHTML();

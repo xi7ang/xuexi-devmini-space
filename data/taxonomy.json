@@ -1,7 +1,7 @@
 {
   "exam": {
     "name": "考试真题",
-    "desc": "高考、中考历年真题，按学科与年份整理",
+    "desc": "高考、中考等各类考试真题与备考资料，按类型整理",
     "subs": [
       { "slug": "gaokao", "name": "高考真题" },
       { "slug": "zhongkao", "name": "中考真题" },
@@ -9,7 +9,13 @@
       { "slug": "yuwen", "name": "语文" },
       { "slug": "yingyu", "name": "英语" },
       { "slug": "wuli", "name": "物理" },
-      { "slug": "huaxue", "name": "化学" }
+      { "slug": "huaxue", "name": "化学" },
+      { "slug": "gongkao", "name": "公考" },
+      { "slug": "shikao", "name": "事考" },
+      { "slug": "kaoyan", "name": "考研" },
+      { "slug": "siliuji", "name": "四六级" },
+      { "slug": "zhuanshengben", "name": "专升本" },
+      { "slug": "jiaozige", "name": "教资" }
     ]
   },
   "study": {
