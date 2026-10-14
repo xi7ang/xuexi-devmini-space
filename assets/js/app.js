@@ -316,7 +316,7 @@ function renderHome() {
   $('#main').innerHTML = `
   <section class="hero">
     <div class="wrap">
-      <h1>考试真题 · 中小学 · <em>办公素材</em></h1>
+      <h1>考试资料 · 中小学 · <em>办公素材</em></h1>
       <p>高考/中考真题、中小学试卷与知识点、PPT 办公模板，一键转存到自己的夸克网盘，永久有效。</p>
       <form class="hero-search" onsubmit="location.href='search.html?q='+encodeURIComponent(this.q.value);return false">
         <input name="q" placeholder="搜高考数学真题、三年级语文、述职 PPT…">
@@ -334,7 +334,7 @@ function renderHome() {
     </div>
   </section>
   <div class="wrap">
-    <div class="sec-title">🔥 热门分类 <small>按 考试真题 / 中小学资料 / 办公素材 浏览</small></div>
+    <div class="sec-title">🔥 热门分类 <small>按 考试资料 / 中小学资料 / 办公素材 浏览</small></div>
     ${chipsHTML()}
     <div id="latest"></div>
     <div id="grid"></div>

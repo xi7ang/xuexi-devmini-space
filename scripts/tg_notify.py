@@ -35,7 +35,7 @@ BOT_API_URL = "https://goodstudydayupbot-telegram-bot.wsheng-980210.workers.dev"
 sys.path.insert(0, str(MSWNLZ_SKILL / "scripts"))
 from telegram_album_notify import send_text_message  # noqa: E402
 
-CATS = {"exam": "考试真题", "study": "中小学资料", "office": "办公素材"}
+CATS = {"exam": "考试资料", "study": "中小学资料", "office": "办公素材"}
 _start_link_cache: dict[str, str] = {}
 
 
