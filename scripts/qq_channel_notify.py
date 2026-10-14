@@ -177,7 +177,8 @@ def main() -> int:
         want = {x.strip() for x in a.ids.split(",") if x.strip()}
         items = [i for i in items if i["id"] in want]
     elif a.date:
-        items = [i for i in items if i.get("updatedAt") == a.date]
+        # updatedAt 已精确到秒，按日期筛只取前 10 位
+        items = [i for i in items if str(i.get("updatedAt") or "")[:10] == a.date]
     if a.limit:
         items = items[: a.limit]
 

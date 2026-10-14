@@ -102,7 +102,8 @@ def main():
     a = ap.parse_args()
     items = json.load(open(os.path.join(ROOT, "data/resources.json"), encoding="utf-8"))["items"]
     if a.date:
-        items = [i for i in items if i.get("updatedAt") == a.date]
+        # updatedAt 已精确到秒，按日期筛只取前 10 位
+        items = [i for i in items if str(i.get("updatedAt") or "")[:10] == a.date]
     st = load_state()
     for it in items:
         key = it["id"]

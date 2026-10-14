@@ -18,7 +18,7 @@ import json
 import os
 import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -74,7 +74,7 @@ def main():
             "shareUrl": sr.get("share_url") or sr.get("shareUrl") or "",
             "pwd": sr.get("pwd") or it.get("pwd", ""),
             "sourceUrl": src,
-            "updatedAt": date.today().isoformat(),
+            "updatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
         }
         existing[rid_] = entry
         added += 1
@@ -82,7 +82,7 @@ def main():
 
     db["items"] = list(existing.values())
     db["count"] = len(db["items"])
-    db["updatedAt"] = date.today().isoformat()
+    db["updatedAt"] = datetime.now().astimezone().isoformat(timespec="seconds")
     json.dump(db, open(db_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"[db] 新增 {added} 条，共 {db['count']} 条")
 

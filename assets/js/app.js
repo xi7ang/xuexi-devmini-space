@@ -45,6 +45,13 @@ function removeFavClick(id) { removeFav(id); renderFavorites(); }
 /* ---------- 公告弹窗（数据在 data/site.json） ---------- */
 const ANN_KEY = 'xx-announcement-dismissed';
 function localDateKey() { const n = new Date(), p = v => String(v).padStart(2, '0'); return `${n.getFullYear()}-${p(n.getMonth() + 1)}-${p(n.getDate())}`; }
+// updatedAt 自 2026-10-14 起精确到秒（ISO8601，如 2026-10-14T09:45:40+08:00）。
+// 比较「是不是今天」必须只取日期部分——直接拿全串比会永远为 false。
+function datePart(s) { return String(s || '').slice(0, 10); }
+// 卡片副标题用「10-14 09:45」（只有日期时回落「10-14」）
+function fmtShort(s) { const t = String(s || ''); return t.length > 10 ? `${t.slice(5, 10)} ${t.slice(11, 16)}` : t.slice(5); }
+// 详情页 / 首页统计用「2026-10-14 09:45:40」
+function fmtFull(s) { const t = String(s || ''); return t.length > 10 ? `${t.slice(0, 10)} ${t.slice(11, 19)}` : t; }
 function linkify(text) {
   const e = esc(text).replace(/(https?:\/\/[^\s<)】]+)/g, u => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
   return e.replace(/\n/g, '<br>');
@@ -228,8 +235,8 @@ function cardHTML(it) {
   const href = `resource.html?id=${encodeURIComponent(it.id)}`;
   const tags = (it.tags || []).slice(0, 3).map(t => `<span class="tag">#${esc(t)}</span>`).join('');
   const demo = it.demo ? '<span class="badge">示例</span>' : '';
-  const today = it.updatedAt === localDateKey();
-  const meta = [catName(it.category), it.subcategory ? subName(it.category, it.subcategory) : '', it.updatedAt ? String(it.updatedAt).slice(5) : ''].filter(Boolean).join(' · ');
+  const today = datePart(it.updatedAt) === localDateKey();
+  const meta = [catName(it.category), it.subcategory ? subName(it.category, it.subcategory) : '', it.updatedAt ? fmtShort(it.updatedAt) : ''].filter(Boolean).join(' · ');
   return `<a class="card" href="${href}">
     <span class="card-bar" style="background:${catColor(it.category)}" aria-hidden="true"></span>
     <div class="card-top">
@@ -312,7 +319,7 @@ function renderHome() {
     location.origin + '/');
   const n = state.items.filter(x => !x.demo).length || state.items.length;
   const subs = Object.values(state.tax).reduce((a, c) => a + (c.subs ? c.subs.length : 0), 0);
-  const todayNew = state.items.filter(x => x.updatedAt === localDateKey()).length;
+  const todayNew = state.items.filter(x => datePart(x.updatedAt) === localDateKey()).length;
   $('#main').innerHTML = `
   <section class="hero">
     <div class="wrap">
@@ -329,7 +336,7 @@ function renderHome() {
         <div><b>${n}</b><span>已收录资料</span></div>
         <div><b>${Object.keys(state.tax).length}</b><span>大类</span></div>
         <div><b>${subs}</b><span>细分方向</span></div>
-        <div><b>${esc(state.meta.updatedAt || '—')}</b><span>最近更新</span></div>
+        <div><b>${esc(state.meta.updatedAt ? fmtFull(state.meta.updatedAt) : '—')}</b><span>最近更新</span></div>
       </div>
     </div>
   </section>
@@ -422,7 +429,7 @@ function renderResource() {
           ${it.subcategory ? `<span class="info-chip">${esc(subName(it.category, it.subcategory))}</span>` : ''}
           ${it.size ? `<span class="info-chip">📦 ${esc(it.size)}</span>` : ''}
           <span class="info-chip">📄 ${esc(it.formats || '文档 / 视频 / 压缩包')}</span>
-          <span class="info-chip">🗓 ${esc(it.updatedAt || '—')}</span>
+          <span class="info-chip">🗓 ${esc(it.updatedAt ? fmtFull(it.updatedAt) : '—')}</span>
         </div>
         <h2 style="font-size:16px;margin:22px 0 6px">资料简介</h2>
         <p style="color:#3a3f47;font-size:14.5px">${esc(it.desc || '暂无简介。')}</p>
@@ -515,7 +522,8 @@ function buildSearchIndex() {
     it,
     t: norm(it.title), d: norm(it.desc), g: norm((it.tags || []).join(' ')),
     c: norm(it.category), s: norm(it.subcategory),
-    rank: Number(String(it.updatedAt || '').replace(/-/g, '')) || 0,
+    // 时间戳精确到秒后要剥掉 T/:/+ 等分隔符才是纯数字（否则 Number() 得 NaN，排序全归零）
+    rank: Number(String(it.updatedAt || '').replace(/[-:T+]/g, '').slice(0, 14)) || 0,
   }));
 }
 const STIERS = [
