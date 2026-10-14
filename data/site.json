@@ -1,10 +1,16 @@
 {
   "announcementModal": {
     "enabled": true,
-    "version": "2026-10-13-7",
+    "version": "2026-10-14-8",
     "title": "📢 学习资料站公告",
     "content": "本站每日更新学习资料：高考/中考真题、中小学试卷与知识点、办公 PPT 模板，一键转存夸克网盘，永久有效。",
     "items": [
+      {
+        "date": "2026-10-14",
+        "tag": "更新",
+        "title": "【2026-10-14】学习资料更新通知",
+        "content": "家人们，今天的更新又到啦 🎉 一口气上了 5 份新料，卷王们自取～\n\n📚《2025年高考化学试卷（江苏卷）》（考试资料）\n江苏卷化学，空白卷+解析卷都在，刷题党直接起飞 → https://xuexi.devmini.space/resource.html?id=cfd644d8c49e\n\n📚《2024年上海中考物理真题》（考试资料）\n上海中考物理原卷+解析版，初三党提前感受一下难度 → https://xuexi.devmini.space/resource.html?id=be426f677e78\n\n📚《人教（一）一课一练》（中小学资料）\n人教版三年级英语一课一练，基础打牢就靠它 → https://xuexi.devmini.space/resource.html?id=f2615f0d2904\n\n📚《【仁爱】七下英语期中、期末试卷（有听力）》（中小学资料）\n仁爱版七下英语期中期末卷，还带听力，考前冲刺必备 → https://xuexi.devmini.space/resource.html?id=8df49ed54a98\n\n📚《紫色攀登者背景的-无畏征程赢战未来-个人述职报告PPT模板》（办公素材）\n紫色攀登者风述职 PPT 模板，年底述职直接套 → https://xuexi.devmini.space/resource.html?id=a3b3d38f25b7\n\n资料挂了或者找不到，来群里喊一声，看到就补～"
+      },
       {
         "date": "2026-10-13",
         "tag": "更新",
