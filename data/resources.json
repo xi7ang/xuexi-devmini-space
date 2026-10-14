@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-13T22:55:00+08:00",
-  "count": 65,
+  "updatedAt": "2026-10-14",
+  "count": 70,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -1182,6 +1182,92 @@
       "pwd": "2HoT",
       "sourceUrl": "https://pan.quark.cn/s/356130a74cd9",
       "updatedAt": "2026-10-13T22:55:00+08:00"
+    },
+    {
+      "id": "cfd644d8c49e",
+      "title": "2025年高考化学试卷（江苏卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "化学",
+        "江苏",
+        "2025"
+      ],
+      "size": "",
+      "formats": "\"[\\\"DOCX\\\"]\"",
+      "desc": "2025年高考化学试卷（江苏卷），收录 空白卷、解析卷，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/1a8b1104ce32",
+      "pwd": "uRqY",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6f1ddc5a69d9223a",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "id": "be426f677e78",
+      "title": "2024年上海中考物理真题",
+      "category": "exam",
+      "subcategory": "zhongkao",
+      "tags": [
+        "物理",
+        "上海",
+        "2024"
+      ],
+      "size": "",
+      "formats": "\"[\\\"DOCX\\\"]\"",
+      "desc": "2024年上海中考物理真题，收录 原卷版、解析版，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/8f1787f2d474",
+      "pwd": "PVgC",
+      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-2dbeaebe8d390c98",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "id": "f2615f0d2904",
+      "title": "人教（一）一课一练",
+      "category": "study",
+      "subcategory": "primary",
+      "tags": [
+        "英语",
+        "3年级"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "人教（一）一课一练",
+      "shareUrl": "https://pan.quark.cn/s/5cd26ea7c49b",
+      "pwd": "adM9",
+      "sourceUrl": "https://quarksource.com/resource/人教-一-一课一练-fa940ed4",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "id": "8df49ed54a98",
+      "title": "【仁爱】七下英语期中、期末试卷（有听力）",
+      "category": "study",
+      "subcategory": "junior",
+      "tags": [
+        "英语",
+        "7年级"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "【仁爱】七下英语期中、期末试卷（有听力）",
+      "shareUrl": "https://pan.quark.cn/s/13f4153f72cd",
+      "pwd": "U7qQ",
+      "sourceUrl": "https://quarksource.com/resource/仁爱-七下英语期中-期末试卷-有听力-fb4246d1",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "id": "a3b3d38f25b7",
+      "title": "紫色攀登者背景的-无畏征程赢战未来-个人述职报告PPT模板",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": [
+        "PPT模板"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "紫色攀登者背景的-无畏征程赢战未来-个人述职报告ppt模板-572d093b4b",
+      "shareUrl": "https://pan.quark.cn/s/f270e0934299",
+      "pwd": "ezhg",
+      "sourceUrl": "https://quarksource.com/resource/紫色攀登者背景的-无畏征程赢战未来-个人述职报告ppt模板-572d093b4b",
+      "updatedAt": "2026-10-14"
     }
   ]
 }
