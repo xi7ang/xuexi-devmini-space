@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T10:56:00+08:00",
-  "count": 105,
+  "updatedAt": "2026-10-18T10:08:01+08:00",
+  "count": 110,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -1953,6 +1953,106 @@
       "pwd": "63sE",
       "sourceUrl": "https://pan.quark.cn/s/79a3ce9ddef3",
       "updatedAt": "2026-10-17T10:56:00+08:00"
+    },
+    {
+      "id": "74106ad1d2d2",
+      "title": "2025年高考化学试卷（湖北卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "高考",
+        "2025",
+        "化学",
+        "湖北",
+        "真题"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "2025年高考化学试卷（湖北卷），含空白卷与解析卷，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/3e74352b7453",
+      "pwd": "bmds",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-28b4922212e1b748",
+      "updatedAt": "2026-10-18T10:05:33+08:00"
+    },
+    {
+      "id": "039c543162ca",
+      "title": "2024年云南中考历史真题",
+      "category": "exam",
+      "subcategory": "zhongkao",
+      "tags": [
+        "中考",
+        "2024",
+        "历史",
+        "云南",
+        "真题"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "2024年云南中考历史真题，含原卷版与解析版，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/6573187da35b",
+      "pwd": "uqot",
+      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-bcffd9323f48247e",
+      "updatedAt": "2026-10-18T10:05:33+08:00"
+    },
+    {
+      "id": "2d3a9aad08b4",
+      "title": "【人教】七上数学专题复习",
+      "category": "study",
+      "subcategory": "junior",
+      "tags": [
+        "数学",
+        "七年级",
+        "初中",
+        "人教",
+        "专题复习"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "人教七年级上册数学专题复习资料包，含综合测试与专项提升，共 36 份资料。",
+      "shareUrl": "https://pan.quark.cn/s/e0e6e3ca71c3",
+      "pwd": "WaCD",
+      "sourceUrl": "https://quarksource.com/resource/人教-七上数学专题复习-fb88d637",
+      "updatedAt": "2026-10-18T10:08:01+08:00"
+    },
+    {
+      "id": "4b23004145ab",
+      "title": "小学语文【写作素材】",
+      "category": "study",
+      "subcategory": "primary",
+      "tags": [
+        "语文",
+        "小学",
+        "写作素材",
+        "作文",
+        "积累"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "小学语文写作素材资料包，含作文金句与素材积累，共 27 份资料。",
+      "shareUrl": "https://pan.quark.cn/s/3b0c96c74c13",
+      "pwd": "jsOO",
+      "sourceUrl": "https://quarksource.com/resource/小学语文-写作素材-f46f3bfa",
+      "updatedAt": "2026-10-18T10:08:01+08:00"
+    },
+    {
+      "id": "3082c22b8b3d",
+      "title": "员工转正述职报告PPT模板",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": [
+        "述职报告",
+        "PPT模板",
+        "转正",
+        "职场",
+        "办公"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "员工转正述职报告PPT模板，23 页可编辑，适合职场转正与述职汇报。",
+      "shareUrl": "https://pan.quark.cn/s/ebbcbad350ef",
+      "pwd": "qU0g",
+      "sourceUrl": "https://quarksource.com/resource/员工转正述职报告ppt模板-756ee91f2e",
+      "updatedAt": "2026-10-18T10:08:01+08:00"
     }
   ]
 }
