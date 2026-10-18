@@ -1,10 +1,16 @@
 {
   "announcementModal": {
     "enabled": true,
-    "version": "2026-10-17-11",
+    "version": "2026-10-18-12",
     "title": "📢 学习资料站公告",
     "content": "本站每日更新学习资料：高考/中考真题、中小学试卷与知识点、办公 PPT 模板，一键转存夸克网盘，永久有效。",
     "items": [
+      {
+        "date": "2026-10-18",
+        "tag": "更新",
+        "title": "【2026-10-18】学习资料更新通知",
+        "content": "家人们，今天的资料又上新了 🎉 今天一共 5 份，高考卷、中考真题、初中数学复习、小学写作素材，还有一份述职 PPT 模板，都给你摆好了，自取～\n\n📚《2025年高考化学试卷（湖北卷）》（高考真题）\n2025年高考化学试卷（湖北卷），含空白卷与解析卷，共 2 个文件。 → https://xuexi.devmini.space/resource.html?id=74106ad1d2d2\n\n📚《2024年云南中考历史真题》（中考真题）\n2024年云南中考历史真题，含原卷版与解析版，共 2 个文件。 → https://xuexi.devmini.space/resource.html?id=039c543162ca\n\n📚《【人教】七上数学专题复习》（初中）\n人教七年级上册数学专题复习资料包，含综合测试与专项提升，共 36 份资料。 → https://xuexi.devmini.space/resource.html?id=2d3a9aad08b4\n\n📚《小学语文【写作素材】》（小学）\n小学语文写作素材资料包，含作文金句与素材积累，共 27 份资料。 → https://xuexi.devmini.space/resource.html?id=4b23004145ab\n\n📚《员工转正述职报告PPT模板》（PPT 模板）\n员工转正述职报告PPT模板，23 页可编辑，适合职场转正与述职汇报。 → https://xuexi.devmini.space/resource.html?id=3082c22b8b3d\n\n资料挂了或者找不到，来群里喊一声，看到就补～\n"
+      },
       {
         "date": "2026-10-17",
         "tag": "更新",
