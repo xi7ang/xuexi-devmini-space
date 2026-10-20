@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T12:57:14+08:00",
-  "count": 121,
+  "updatedAt": "2026-10-20T10:04:16+08:00",
+  "count": 126,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -2271,6 +2271,104 @@
       "pwd": "SMk9",
       "sourceUrl": "https://pan.quark.cn/s/8c9541e4c9d1",
       "updatedAt": "2026-10-19T12:57:14+08:00"
+    },
+    {
+      "id": "ea6c8f34378b",
+      "title": "2025年高考化学试卷（湖南卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "高考",
+        "化学",
+        "2025",
+        "湖南"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "2025年高考化学试卷（湖南卷），收录空白卷、解析卷，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/22a7c47eb362",
+      "pwd": "lrFD",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6d322ffbdb747474",
+      "updatedAt": "2026-10-20T10:04:16+08:00"
+    },
+    {
+      "id": "3d451688d844",
+      "title": "2025年高考化学试卷（甘肃卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "高考",
+        "化学",
+        "2025",
+        "甘肃"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "2025年高考化学试卷（甘肃卷），收录空白卷、解析卷，共 2 个文件。",
+      "shareUrl": "https://pan.quark.cn/s/c089e5ccd6aa",
+      "pwd": "dVUf",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6180070c909f77d7",
+      "updatedAt": "2026-10-20T10:04:16+08:00"
+    },
+    {
+      "id": "d4ef203a5c1d",
+      "title": "【人教】八上地理期末专项练习",
+      "category": "study",
+      "subcategory": "junior",
+      "tags": [
+        "地理",
+        "八年级",
+        "人教",
+        "期末",
+        "专项练习"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "人教版八年级上册地理期末专项练习，按专项分类整理，含我国人口状况等专题。",
+      "shareUrl": "https://pan.quark.cn/s/83ea476e57ed",
+      "pwd": "IrGS",
+      "sourceUrl": "https://quarksource.com/resource/人教-八上地理期末专项练习-fdf40680",
+      "updatedAt": "2026-10-20T10:04:16+08:00"
+    },
+    {
+      "id": "c02c3f94771b",
+      "title": "【苏教】六下数学知识清单",
+      "category": "study",
+      "subcategory": "primary",
+      "tags": [
+        "数学",
+        "六年级",
+        "苏教",
+        "知识清单",
+        "小学"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "苏教版六年级下册数学知识清单，按单元梳理扇形统计图等核心知识点。",
+      "shareUrl": "https://pan.quark.cn/s/d95c82565bcf",
+      "pwd": "mWnX",
+      "sourceUrl": "https://quarksource.com/resource/苏教-六下数学知识清单-fd3c6622",
+      "updatedAt": "2026-10-20T10:04:16+08:00"
+    },
+    {
+      "id": "ca15296ee78e",
+      "title": "蓝色商务风竞聘述职报告PPT模板",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": [
+        "PPT模板",
+        "述职报告",
+        "竞聘",
+        "蓝色",
+        "商务"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "蓝色商务风竞聘述职报告 PPT 模板，适用于岗位竞聘、年度述职汇报。",
+      "shareUrl": "https://pan.quark.cn/s/651e386b352e",
+      "pwd": "IkTO",
+      "sourceUrl": "https://quarksource.com/resource/蓝色商务风竞聘述职报告ppt模板-738d2b9012",
+      "updatedAt": "2026-10-20T10:04:16+08:00"
     }
   ]
 }
