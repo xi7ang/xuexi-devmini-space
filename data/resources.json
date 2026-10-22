@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21T15:02:40+08:00",
-  "count": 142,
+  "updatedAt": "2026-10-22T11:15:04+08:00",
+  "count": 147,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -2670,6 +2670,101 @@
       "pwd": "ltSr",
       "sourceUrl": "https://pan.quark.cn/s/31fedfc643e0",
       "updatedAt": "2026-10-21T15:02:40+08:00"
+    },
+    {
+      "id": "1a0788c2bb10",
+      "title": "2025年高考化学试卷（重庆卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "化学",
+        "重庆",
+        "2025",
+        "高考"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "2025年高考化学试卷（重庆卷），含空白卷与解析卷，重庆考区考生可直接对答案、查漏补缺。",
+      "shareUrl": "https://pan.quark.cn/s/70fbaa622b9e",
+      "pwd": "QobI",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-a579dc4a913cc8c0",
+      "updatedAt": "2026-10-22T11:15:04+08:00"
+    },
+    {
+      "id": "a68e5fd3f610",
+      "title": "2024年云南中考生物真题",
+      "category": "exam",
+      "subcategory": "zhongkao",
+      "tags": [
+        "生物",
+        "云南",
+        "2024",
+        "中考"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "2024年云南中考生物真题，原卷+解析，云南中考生物刷题与考点复盘一份够用。",
+      "shareUrl": "https://pan.quark.cn/s/91cb126516e8",
+      "pwd": "RmCn",
+      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-9b171a7bbad1f4c6",
+      "updatedAt": "2026-10-22T11:15:04+08:00"
+    },
+    {
+      "id": "3a3fc36d2dee",
+      "title": "【浙教】八上科学知识清单",
+      "category": "study",
+      "subcategory": "junior",
+      "tags": [
+        "浙教",
+        "八年级",
+        "科学",
+        "知识点"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "浙教版八年级上册科学知识清单，按章节梳理核心概念与考点，期末复习直接背。",
+      "shareUrl": "https://pan.quark.cn/s/9ac56c1d20e3",
+      "pwd": "5gwp",
+      "sourceUrl": "https://quarksource.com/resource/浙教-八上科学知识清单-fb9b5174",
+      "updatedAt": "2026-10-22T11:15:04+08:00"
+    },
+    {
+      "id": "8afa814fdf84",
+      "title": "小学语文【名著阅读、文学常识】",
+      "category": "study",
+      "subcategory": "primary",
+      "tags": [
+        "小学",
+        "语文",
+        "名著阅读",
+        "文学常识"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "小学语文名著阅读与文学常识整理，覆盖常考名著与常识考点，适合小升初与日常积累。",
+      "shareUrl": "https://pan.quark.cn/s/10fb63c87aaa",
+      "pwd": "VCyb",
+      "sourceUrl": "https://quarksource.com/resource/小学语文-名著阅读-文学常识-fbd58740",
+      "updatedAt": "2026-10-22T11:15:04+08:00"
+    },
+    {
+      "id": "b6e311fa3665",
+      "title": "蓝色高山山峰背景岗位竞聘述职报告PPT模板",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": [
+        "述职报告",
+        "竞聘",
+        "PPT模板",
+        "商务"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "蓝色高山山峰背景岗位竞聘述职报告PPT模板，商务风版式可编辑，改字即用。",
+      "shareUrl": "https://pan.quark.cn/s/9e345cb8e86f",
+      "pwd": "0BFa",
+      "sourceUrl": "https://quarksource.com/resource/蓝色高山山峰背景岗位竞聘述职报告ppt模板-44ea6f80e4",
+      "updatedAt": "2026-10-22T11:15:04+08:00"
     }
   ]
 }
