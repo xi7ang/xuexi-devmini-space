@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'data/resources.json'
+      - 'data/site.json'
       - 'data/taxonomy.json'
       - 'scripts/build_sitemap.py'
       - 'scripts/gen_resource_pages.py'
@@ -26,6 +27,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Validate data
+        run: python scripts/validate_data.py
       - name: Rebuild sitemap
         run: python scripts/build_sitemap.py
       - name: Generate static resource pages
