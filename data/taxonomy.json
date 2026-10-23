@@ -3,43 +3,130 @@
     "name": "考试资料",
     "desc": "高考、中考及公考、考研等各类考试资料与备考资料，按类型整理",
     "subs": [
-      { "slug": "gaokao", "name": "高考真题" },
-      { "slug": "zhongkao", "name": "中考真题" },
-      { "slug": "shuxue", "name": "数学" },
-      { "slug": "yuwen", "name": "语文" },
-      { "slug": "yingyu", "name": "英语" },
-      { "slug": "wuli", "name": "物理" },
-      { "slug": "huaxue", "name": "化学" },
-      { "slug": "gongkao", "name": "公考" },
-      { "slug": "shikao", "name": "事考" },
-      { "slug": "kaoyan", "name": "考研" },
-      { "slug": "siliuji", "name": "四六级" },
-      { "slug": "zhuanshengben", "name": "专升本" },
-      { "slug": "jiaozige", "name": "教资" }
+      {
+        "slug": "gaokao",
+        "name": "高考真题"
+      },
+      {
+        "slug": "zhongkao",
+        "name": "中考真题"
+      },
+      {
+        "slug": "shuxue",
+        "name": "数学"
+      },
+      {
+        "slug": "yuwen",
+        "name": "语文"
+      },
+      {
+        "slug": "yingyu",
+        "name": "英语"
+      },
+      {
+        "slug": "wuli",
+        "name": "物理"
+      },
+      {
+        "slug": "huaxue",
+        "name": "化学"
+      },
+      {
+        "slug": "shengwu",
+        "name": "生物"
+      },
+      {
+        "slug": "gongkao",
+        "name": "公考"
+      },
+      {
+        "slug": "shikao",
+        "name": "事考"
+      },
+      {
+        "slug": "kaoyan",
+        "name": "考研"
+      },
+      {
+        "slug": "siliuji",
+        "name": "四六级"
+      },
+      {
+        "slug": "zhuanshengben",
+        "name": "专升本"
+      },
+      {
+        "slug": "jiaozige",
+        "name": "教资"
+      },
+      {
+        "slug": "guokao",
+        "name": "国考"
+      },
+      {
+        "slug": "zhiye",
+        "name": "职业资格"
+      }
     ]
   },
   "study": {
     "name": "中小学资料",
     "desc": "小学、初中、高中各年级资料：试卷、一课一练、知识点、课件",
     "subs": [
-      { "slug": "primary", "name": "小学" },
-      { "slug": "junior", "name": "初中" },
-      { "slug": "senior", "name": "高中" },
-      { "slug": "daxue", "name": "大学" },
-      { "slug": "shijuan", "name": "试卷" },
-      { "slug": "zhishidian", "name": "知识点" }
+      {
+        "slug": "primary",
+        "name": "小学"
+      },
+      {
+        "slug": "junior",
+        "name": "初中"
+      },
+      {
+        "slug": "senior",
+        "name": "高中"
+      },
+      {
+        "slug": "daxue",
+        "name": "大学"
+      },
+      {
+        "slug": "shijuan",
+        "name": "试卷"
+      },
+      {
+        "slug": "zhishidian",
+        "name": "知识点"
+      }
     ]
   },
   "office": {
     "name": "办公素材",
     "desc": "PPT 模板、简历、述职报告与教学课件等办公素材",
     "subs": [
-      { "slug": "ppt", "name": "PPT 模板" },
-      { "slug": "jianli", "name": "简历求职" },
-      { "slug": "zhishu", "name": "述职总结" },
-      { "slug": "kejian", "name": "教学课件" },
-      { "slug": "excel", "name": "Excel 表格" },
-      { "slug": "hetong", "name": "合同文书" }
+      {
+        "slug": "ppt",
+        "name": "PPT 模板"
+      },
+      {
+        "slug": "jianli",
+        "name": "简历求职"
+      },
+      {
+        "slug": "zhishu",
+        "name": "述职总结"
+      },
+      {
+        "slug": "kejian",
+        "name": "教学课件"
+      },
+      {
+        "slug": "excel",
+        "name": "Excel 表格"
+      },
+      {
+        "slug": "hetong",
+        "name": "合同文书"
+      }
     ]
   }
 }
