@@ -1,10 +1,16 @@
 {
   "announcementModal": {
     "enabled": true,
-    "version": "2026-10-22-16",
+    "version": "2026-10-23-18",
     "title": "📢 学习资料站公告",
     "content": "本站每日更新学习资料：高考/中考真题、中小学试卷与知识点、办公 PPT 模板，一键转存夸克网盘，永久有效。",
     "items": [
+      {
+        "date": "2026-10-23",
+        "tag": "更新",
+        "title": "【2026-10-23】学习资料更新通知",
+        "content": "家人们，今天的资料到了 👇\n一共 5 份，都是刚上架的，先转存再慢慢看。\n\n📚《2025年高考化学试卷（陕晋青宁卷）》（考试资料）\n陕晋青宁四省联考卷，题型新、难度贴近真考，化学冲刺练手感首选 详情：https://xuexi.devmini.space/resource.html?id=4d440be80263\n\n📚《2024年吉林中考数学真题》（考试资料）\n吉林中考数学原卷，命题风格稳定，初二初三都能拿来对答案找漏洞 详情：https://xuexi.devmini.space/resource.html?id=131671b147dc\n\n📚《四上语文1-8单元基础复习》（中小学资料）\n四年级上册语文 1-8 单元基础全覆盖，期末前带娃过一遍稳如老狗 详情：https://xuexi.devmini.space/resource.html?id=9ec69eb01b0b\n\n📚《七上数学期中模拟试卷（13个版本）》（中小学资料）\n13 个版本一次给全，七上数学期中不同难度梯度都有，总有一版适合你家孩子 详情：https://xuexi.devmini.space/resource.html?id=1b4b0a641550\n\n📚《蓝色简约竞聘晋升述职报告PPT模板》（办公素材）\n蓝色简约风述职 PPT，竞聘晋升直接改字就能用，不用再熬夜排版 详情：https://xuexi.devmini.space/resource.html?id=6121494d87f9\n\n链接打不开、资料对不上号、或者想找的东西站里没有——来群里喊一声，看到就补～"
+      },
       {
         "date": "2026-10-22",
         "tag": "更新",
