@@ -50,6 +50,7 @@ def main():
     db_path = os.path.join(ROOT, "data/resources.json")
     db = json.load(open(db_path, encoding="utf-8"))
     existing = {it["id"]: it for it in db.get("items", [])}
+    now_iso = datetime.now().astimezone().isoformat(timespec="seconds")
 
     added = 0
     for it in items:
@@ -74,7 +75,10 @@ def main():
             "shareUrl": sr.get("share_url") or sr.get("shareUrl") or "",
             "pwd": sr.get("pwd") or it.get("pwd", ""),
             "sourceUrl": src,
-            "updatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
+            # addedAt = 首次入库时间，一经写入不再改动；updatedAt = 最近一次内容/链接变更时间。
+            # 两个字段都必须存在：外部脚本（每日公告）靠 addedAt 判断「今天有没有新增」。
+            "addedAt": now_iso,
+            "updatedAt": now_iso,
         }
         existing[rid_] = entry
         added += 1
@@ -82,7 +86,14 @@ def main():
 
     db["items"] = list(existing.values())
     db["count"] = len(db["items"])
-    db["updatedAt"] = datetime.now().astimezone().isoformat(timespec="seconds")
+    db["updatedAt"] = now_iso
+
+    # 写入前必填校验：缺字段就中止，绝不静默落库。
+    # 2026-10-22 事故：addedAt 全站为空，公告脚本据此判定「今日无新增」，静默漏发一整天。
+    missing = [it.get("id") for it in db["items"] if not it.get("addedAt") or not it.get("updatedAt")]
+    if missing:
+        print(f"[fatal] {len(missing)} 条缺 addedAt/updatedAt，拒绝写入：{missing[:8]}", file=sys.stderr)
+        raise SystemExit(2)
     json.dump(db, open(db_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"[db] 新增 {added} 条，共 {db['count']} 条")
 
