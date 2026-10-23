@@ -14,7 +14,7 @@ import sys
 
 ROOT = "/root/.openclaw/workspace/projects/xuexi-devmini-space"
 IMA_API = "/root/.openclaw/workspace/skills/ima-skill/ima_api.cjs"
-KB_ID = "voS8_o4CR0hrhboJS6VXlHdFyk512g3zOPf2r_1DImk="
+KB_ID = os.environ.get("XUEXI_IMA_KB_ID") or "ima_kb_QSyj9fxg"
 FEISHU_DOC = "https://my.feishu.cn/docx/PaIwdt4dRoNxJ5xYOvncM8u9nkM"
 CATS = {"exam": "考试资料", "study": "中小学资料", "office": "办公素材"}
 
