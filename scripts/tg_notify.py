@@ -107,14 +107,16 @@ def register(item: dict) -> str | None:
     return None
 
 
-def build_caption(item: dict) -> str:
+def build_caption(item: dict, start_link: str | None = None) -> str:
     title = item["title"]
     tags = " ".join("#" + t.replace(" ", "") for t in (item.get("tags") or [])[:3])
     head = f"<b>{esc(title)}</b>" + (f" {esc(tags)}" if tags else "")
     parts = [head]
     if item.get("desc"):
         parts += ["", esc(item["desc"])]
-    start_link = register(item)
+    # 调用方已持有 link（重跑/续跑）就直接复用，不在 caption 里偷偷注册
+    if start_link is None:
+        start_link = register(item)
     if start_link:
         parts += ["", f'💾 获取资源：<a href="{start_link}">👉 点我获取{esc(title)}👈</a>']
     else:
@@ -157,7 +159,10 @@ def main() -> int:
         if not a.force and st.get(it["id"], {}).get("status") == "ok":
             skip += 1
             continue
-        caption = build_caption(it)
+        prev = st.get(it["id"], {})
+        # 一条资源只注册一次：发送失败重跑时复用上次的 start_link
+        start_link = prev.get("start_link") or register(it)
+        caption = build_caption(it, start_link=start_link)
         sent, mids = [], []
         for cid in targets:
             try:
@@ -168,7 +173,8 @@ def main() -> int:
             except Exception as e:  # noqa: BLE001
                 sent.append(f"{cid}:ERR {str(e)[:80]}")
         good = bool(sent) and all("ok" in s for s in sent)
-        st[it["id"]] = {"status": "ok" if good else "fail", "result": ";".join(sent), "message_ids": mids}
+        st[it["id"]] = {"status": "ok" if good else "fail", "result": ";".join(sent),
+                        "message_ids": mids, "start_link": start_link}
         print(f"[{'ok  ' if good else 'FAIL'}] {it['title'][:36]} | {' '.join(sent)}")
         ok += good
         fail += (not good)
