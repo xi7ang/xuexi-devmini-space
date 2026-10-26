@@ -1,3444 +1,3545 @@
 {
-  "updatedAt": "2026-10-26T00:31:22+08:00",
-  "count": 173,
-  "items": [
-    {
-      "id": "9fcd2984bf50",
-      "title": "2025年高考历史试卷（云南卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "历史",
-        "云南",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考历史试卷（云南卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/0158bb6cc696",
-      "pwd": "Nbhv",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-eb2955ebe1673e2f",
-      "updatedAt": "2026-10-02T16:43:22+08:00",
-      "addedAt": "2026-10-02T16:43:22+08:00"
-    },
-    {
-      "id": "707448205323",
-      "title": "2025年高考历史试卷（全国卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "历史",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考历史试卷（全国卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/89e04b3cd41e",
-      "pwd": "hRao",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-c41fab231dcacbc3",
-      "updatedAt": "2026-10-02T19:32:42+08:00",
-      "addedAt": "2026-10-02T19:32:42+08:00"
-    },
-    {
-      "id": "4131a988639e",
-      "title": "2025年高考地理试卷（上海卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "地理",
-        "上海",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考地理试卷（上海卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/300271ed5b4c",
-      "pwd": "WsaA",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-28dab184d7d288ed",
-      "updatedAt": "2026-10-02T16:43:22+08:00",
-      "addedAt": "2026-10-02T16:43:22+08:00"
-    },
-    {
-      "id": "57775b31dbc0",
-      "title": "2025年高考地理试卷（云南卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "地理",
-        "云南",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考地理试卷（云南卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/06ca1b4c7a8b",
-      "pwd": "cyVJ",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-5df88f2a37860fc2",
-      "updatedAt": "2026-10-02T19:32:42+08:00",
-      "addedAt": "2026-10-02T19:32:42+08:00"
-    },
-    {
-      "id": "581b9cf2664c",
-      "title": "2025年高考政治试卷（云南卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "政治",
-        "云南",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考政治试卷（云南卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/4d4f03ac9e84",
-      "pwd": "fwca",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-a2745636eebe89bd",
-      "updatedAt": "2026-10-02T16:43:22+08:00",
-      "addedAt": "2026-10-02T16:43:22+08:00"
-    },
-    {
-      "id": "e5465eafaf01",
-      "title": "2025年高考政治试卷（北京卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "政治",
-        "北京",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考政治试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/31417257117c",
-      "pwd": "pXOi",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-830598f04d1d0fc4",
-      "updatedAt": "2026-10-02T19:32:42+08:00",
-      "addedAt": "2026-10-02T19:32:42+08:00"
-    },
-    {
-      "id": "dd82fd29e847",
-      "title": "2025年高考化学试卷（上海卷_回忆版）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "化学",
-        "上海",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考化学试卷（上海卷_回忆版），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/ecbbff23dd06",
-      "pwd": "mvXM",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-5c068f059721c3f6",
-      "updatedAt": "2026-10-02T16:43:22+08:00",
-      "addedAt": "2026-10-02T16:43:22+08:00"
-    },
-    {
-      "id": "2e1f1a61017a",
-      "title": "2025年高考化学试卷（云南卷）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "化学",
-        "云南",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考化学试卷（云南卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/7e32f01d964c",
-      "pwd": "HhCq",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-ce9350d3283335a6",
-      "updatedAt": "2026-10-02T19:32:42+08:00",
-      "addedAt": "2026-10-02T19:32:42+08:00"
-    },
-    {
-      "id": "bbfee2436178",
-      "title": "2025年高考数学试卷（上海6月）",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "数学",
-        "上海",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考数学试卷（上海6月），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/8d2900eb1c5c",
-      "pwd": "CdbW",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-26ddb72dd5f8507f",
-      "updatedAt": "2026-10-02T16:43:22+08:00",
-      "addedAt": "2026-10-02T16:43:22+08:00"
-    },
-    {
-      "id": "a83713be2942",
-      "title": "2025年高考数学试卷（北京）",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "数学",
-        "北京",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考数学试卷（北京），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/bebaf927c5eb",
-      "pwd": "l9mn",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-732fd8d8c162dd30",
-      "updatedAt": "2026-10-02T19:32:42+08:00",
-      "addedAt": "2026-10-02T19:32:42+08:00"
-    },
-    {
-      "id": "e55d189976e2",
-      "title": "2025年高考数学试卷（天津）",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "数学",
-        "天津",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考数学试卷（天津），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/c783fc88f5c6",
-      "pwd": "AEe4",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-4ee2f33e5cc3287a",
-      "updatedAt": "2026-10-02T17:53:58+08:00",
-      "addedAt": "2026-10-02T17:53:58+08:00"
-    },
-    {
-      "id": "93ba66f3f807",
-      "title": "2025年高考英语试卷（北京）",
-      "category": "exam",
-      "subcategory": "yingyu",
-      "tags": [
-        "英语",
-        "北京",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考英语试卷（北京），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/19a0c81bb04a",
-      "pwd": "dXib",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-e93751d8359f03de",
-      "updatedAt": "2026-10-02T17:53:58+08:00",
-      "addedAt": "2026-10-02T17:53:58+08:00"
-    },
-    {
-      "id": "cfabea63bca5",
-      "title": "2025年高考语文试卷（北京卷）",
-      "category": "exam",
-      "subcategory": "yuwen",
-      "tags": [
-        "语文",
-        "北京",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考语文试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/2919c6f9ca5d",
-      "pwd": "3RWE",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-da5c450c0ea15000",
-      "updatedAt": "2026-10-02T17:53:58+08:00",
-      "addedAt": "2026-10-02T17:53:58+08:00"
-    },
-    {
-      "id": "78bee5c793f7",
-      "title": "2024年云南中考化学真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "化学",
-        "云南",
-        "2024"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2024年云南中考化学真题，收录 原卷版、解析版，共 2 个文件。 本页提供资源主题、更新时间、标签与公开分享入口。",
-      "shareUrl": "https://pan.quark.cn/s/a2dcbcbccc1d",
-      "pwd": "sh1H",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-a0c395e7e2efbb2d",
-      "updatedAt": "2026-10-02T17:53:58+08:00",
-      "addedAt": "2026-10-02T17:53:58+08:00"
-    },
-    {
-      "id": "ef42effcffa6",
-      "title": "2024年云南中考物理真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "物理",
-        "云南",
-        "2024"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2024年云南中考物理真题，收录 原卷版、解析版，共 2 个文件。 本页提供资源主题、更新时间、标签与公开分享入口。",
-      "shareUrl": "https://pan.quark.cn/s/2a5433ab829b",
-      "pwd": "Tngu",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-257945ea7a59f2d2",
-      "updatedAt": "2026-10-02T17:53:58+08:00",
-      "addedAt": "2026-10-02T17:53:58+08:00"
-    },
-    {
-      "id": "62b2af8fcc58",
-      "title": "蓝色矢量商务人士剪切画背景的Excel基础知识操作培训PPT模板",
-      "category": "office",
-      "subcategory": "excel",
-      "tags": [
-        "Excel",
-        "办公培训",
-        "PPT模板"
-      ],
-      "size": "",
-      "formats": "PPTX",
-      "desc": "39页Excel基础知识操作培训课件，适合企业内训与自学。",
-      "shareUrl": "https://pan.quark.cn/s/9e012398d1b6",
-      "pwd": "4Sil",
-      "sourceUrl": "https://pan.quark.cn/s/ab2ac40abacb",
-      "updatedAt": "2026-10-02T15:48:23+08:00",
-      "addedAt": "2026-10-02T15:48:23+08:00"
-    },
-    {
-      "id": "85669b572da0",
-      "title": "不负过去不惧未来，彩色扁平化个人竞聘简历PPT模板",
-      "category": "office",
-      "subcategory": "jianli",
-      "tags": [
-        "简历",
-        "竞聘",
-        "PPT模板"
-      ],
-      "size": "",
-      "formats": "PPTX",
-      "desc": "30页彩色扁平化个人竞聘简历模板，可直接替换文字使用。",
-      "shareUrl": "https://pan.quark.cn/s/c91fb2e93b2f",
-      "pwd": "UZ66",
-      "sourceUrl": "https://pan.quark.cn/s/572353bce12f",
-      "updatedAt": "2026-10-02T15:48:23+08:00",
-      "addedAt": "2026-10-02T15:48:23+08:00"
-    },
-    {
-      "id": "844a8603a018",
-      "title": "上升趋势图表背景的工作总结述职报告PPT模板",
-      "category": "office",
-      "subcategory": "zhishu",
-      "tags": [
-        "述职报告",
-        "工作总结",
-        "PPT模板"
-      ],
-      "size": "",
-      "formats": "PPTX",
-      "desc": "24页可编辑述职报告PPT模板，含数据图表页与总结页。",
-      "shareUrl": "https://pan.quark.cn/s/d6417da1ec2b",
-      "pwd": "qzio",
-      "sourceUrl": "https://pan.quark.cn/s/fbb69249ef89",
-      "updatedAt": "2026-10-02T15:48:23+08:00",
-      "addedAt": "2026-10-02T15:48:23+08:00"
-    },
-    {
-      "id": "8ddaee693d0b",
-      "title": "蓝色雅致会计专业毕业答辩PPT模板",
-      "category": "study",
-      "subcategory": "daxue",
-      "tags": [
-        "毕业答辩",
-        "论文答辩",
-        "PPT模板"
-      ],
-      "size": "",
-      "formats": "PPTX",
-      "desc": "25页蓝色雅致会计专业毕业答辩PPT模板，含论文框架页。",
-      "shareUrl": "https://pan.quark.cn/s/84a8281164e1",
-      "pwd": "vWV4",
-      "sourceUrl": "https://pan.quark.cn/s/a0e4ecd23142",
-      "updatedAt": "2026-10-02T15:48:23+08:00",
-      "addedAt": "2026-10-02T15:48:23+08:00"
-    },
-    {
-      "id": "c0c2efab85f8",
-      "title": "卡通“开学啦”小学开学第一课PPT模板",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "开学第一课",
-        "小学",
-        "主题班会"
-      ],
-      "size": "",
-      "formats": "PPTX",
-      "desc": "35页卡通风格小学开学第一课/主题班会PPT模板。",
-      "shareUrl": "https://pan.quark.cn/s/cbc79a2a9e28",
-      "pwd": "OniA",
-      "sourceUrl": "https://pan.quark.cn/s/ad03f5a55e69",
-      "updatedAt": "2026-10-02T15:48:23+08:00",
-      "addedAt": "2026-10-02T15:48:23+08:00"
-    },
-    {
-      "id": "157d28a9f822",
-      "title": "2025年高考化学试卷（全国卷）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "化学",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考化学试卷（全国卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/1a14b833bead",
-      "pwd": "MsQl",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-f9e25d1214c8b879",
-      "updatedAt": "2026-10-02T20:22:02+08:00",
-      "addedAt": "2026-10-02T20:22:02+08:00"
-    },
-    {
-      "id": "437d29fb547c",
-      "title": "2024年上海中考数学真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "数学",
-        "上海",
-        "2024"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2024年上海中考数学真题，收录 原卷版、解析版，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/57c4cc62656a",
-      "pwd": "xw6S",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-10b82283945f3bdb",
-      "updatedAt": "2026-10-02T20:22:02+08:00",
-      "addedAt": "2026-10-02T20:22:02+08:00"
-    },
-    {
-      "id": "b8a2141b8281",
-      "title": "【人教PEP】一课一练",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "英语",
-        "五年级",
-        "一课一练",
-        "人教版"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "【人教PEP】一课一练资料包，覆盖小学五年级英语，含一课一练同步练习，共 40 份资料。",
-      "shareUrl": "https://pan.quark.cn/s/5841d759544a",
-      "pwd": "GxVD",
-      "sourceUrl": "https://quarksource.com/resource/人教pep-一课一练-fefa9cd5",
-      "updatedAt": "2026-10-02T20:22:02+08:00",
-      "addedAt": "2026-10-02T20:22:02+08:00"
-    },
-    {
-      "id": "7d24709c0626",
-      "title": "【沪粤】八上物理一课一练",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "物理",
-        "八年级",
-        "一课一练",
-        "沪粤版"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "【沪粤版】八年级上册物理一课一练资料包，按课时同步练习，共 54 份资料。",
-      "shareUrl": "https://pan.quark.cn/s/eefda5645421",
-      "pwd": "lVG9",
-      "sourceUrl": "https://quarksource.com/resource/沪粤-八上物理一课一练-fe53d8dd",
-      "updatedAt": "2026-10-02T20:22:02+08:00",
-      "addedAt": "2026-10-02T20:22:02+08:00"
-    },
-    {
-      "id": "d92bc1982576",
-      "title": "棕色新员工入职培训PPT模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "PPT模板",
-        "入职培训",
-        "企业培训"
-      ],
-      "size": "",
-      "formats": "PPTX",
-      "desc": "棕色系新员工入职培训 PPT 模板，26 页可编辑演示内容，含预览页，适合企业内训。",
-      "shareUrl": "https://pan.quark.cn/s/94e5f9775577",
-      "pwd": "AhDY",
-      "sourceUrl": "https://quarksource.com/resource/棕色新员工入职培训ppt模板-4d638d51be",
-      "updatedAt": "2026-10-02T20:22:02+08:00",
-      "addedAt": "2026-10-02T20:22:02+08:00"
-    },
-    {
-      "id": "c48716453af7",
-      "title": "2025年高考化学试卷（北京卷）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "高考",
-        "化学",
-        "2025",
-        "北京",
-        "真题"
-      ],
-      "size": "",
-      "formats": "DOCX",
-      "desc": "2025年高考化学试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/770319a6394e",
-      "pwd": "C7Iy",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-fb5bc444dc5283eb",
-      "updatedAt": "2026-10-04T10:17:26+08:00",
-      "addedAt": "2026-10-04T10:17:26+08:00"
-    },
-    {
-      "id": "317c73cf5b66",
-      "title": "2024年上海中考历史真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "历史",
-        "2024",
-        "上海",
-        "真题"
-      ],
-      "size": "",
-      "formats": "DOCX",
-      "desc": "2024年上海中考历史真题，收录 原卷版、解析版，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/d5a103a42194",
-      "pwd": "ojow",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-0378d4c71fe1f1e5",
-      "updatedAt": "2026-10-04T10:17:26+08:00",
-      "addedAt": "2026-10-04T10:17:26+08:00"
-    },
-    {
-      "id": "b15b18521368",
-      "title": "初中语文【写作素材】",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "初中",
-        "语文",
-        "写作素材",
-        "八年级"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "八年级下册初中语文100写作素材，中高考作文金句例句。",
-      "shareUrl": "https://pan.quark.cn/s/a5f0fe21fdb1",
-      "pwd": "yFdv",
-      "sourceUrl": "https://quarksource.com/resource/初中语文-写作素材-fef4660a",
-      "updatedAt": "2026-10-04T10:17:26+08:00",
-      "addedAt": "2026-10-04T10:17:26+08:00"
-    },
-    {
-      "id": "936d1366422b",
-      "title": "【冀教（三）】知识清单",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "小学",
-        "英语",
-        "冀教版",
-        "知识清单",
-        "四年级"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "四年级下册英语冀教版（三年级起点）知识清单。",
-      "shareUrl": "https://pan.quark.cn/s/c8cddeb4bf01",
-      "pwd": "25Xa",
-      "sourceUrl": "https://quarksource.com/resource/冀教-三-知识清单-ff8171c6",
-      "updatedAt": "2026-10-04T10:17:26+08:00",
-      "addedAt": "2026-10-04T10:17:26+08:00"
-    },
-    {
-      "id": "2e38a3bdc9ba",
-      "title": "中国消防幻灯片模板 PPT模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "PPT模板",
-        "消防",
-        "企业培训"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "中国消防主题幻灯片模板，适合消防安全培训、企业宣讲场景。",
-      "shareUrl": "https://pan.quark.cn/s/009b0018aee9",
-      "pwd": "a71A",
-      "sourceUrl": "https://quarksource.com/resource/中国消防幻灯片模板-ppt模板-5486b86f1d",
-      "updatedAt": "2026-10-04T10:17:26+08:00",
-      "addedAt": "2026-10-04T10:17:26+08:00"
-    },
-    {
-      "id": "d395d95fac34",
-      "title": "2025年高考化学试卷（四川卷）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "化学",
-        "四川",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考化学试卷（四川卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/de0018b993a8",
-      "pwd": "iE60",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-a205059f6b16c66a",
-      "updatedAt": "2026-10-06T10:17:46+08:00",
-      "addedAt": "2026-10-06T10:17:46+08:00"
-    },
-    {
-      "id": "2d02c37f4385",
-      "title": "2024年云南中考数学真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "数学",
-        "云南",
-        "2024"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2024年云南中考数学真题，收录 原卷版、解析版，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/0bbe714258ac",
-      "pwd": "rSAe",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-019d3d9525df657e",
-      "updatedAt": "2026-10-06T10:17:46+08:00",
-      "addedAt": "2026-10-06T10:17:46+08:00"
-    },
-    {
-      "id": "d0718aa9eca5",
-      "title": "七年级道法月考、期中、期末试卷",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "道法",
-        "七年级",
-        "月考",
-        "期中",
-        "期末"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "七年级全一册道法月考、期中、期末试卷，含基础知识达标测试A，共 4 份。",
-      "shareUrl": "https://pan.quark.cn/s/2b272ff35b2e",
-      "pwd": "9Pez",
-      "sourceUrl": "https://quarksource.com/resource/七年级道法月考-期中-期末试卷-ffcff0fd",
-      "updatedAt": "2026-10-06T10:17:46+08:00",
-      "addedAt": "2026-10-06T10:17:46+08:00"
-    },
-    {
-      "id": "4b72bd3debc5",
-      "title": "【外研】八上英语必背内容默写卷",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "英语",
-        "外研版",
-        "八年级",
-        "默写",
-        "上册"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "外研版八年级上册英语必背内容默写卷，按单元覆盖必背词汇与句型。",
-      "shareUrl": "https://pan.quark.cn/s/b4fd5a434590",
-      "pwd": "niyz",
-      "sourceUrl": "https://quarksource.com/resource/外研-八上英语必背内容默写卷-ff604cbf",
-      "updatedAt": "2026-10-06T10:17:46+08:00",
-      "addedAt": "2026-10-06T10:17:46+08:00"
-    },
-    {
-      "id": "5eeda550a2c3",
-      "title": "青色职场办公背景的工作述职总结汇报PPT模板",
-      "category": "office",
-      "subcategory": "zhishu",
-      "tags": [
-        "述职报告",
-        "工作总结",
-        "PPT模板"
-      ],
-      "size": "",
-      "formats": "PPTX",
-      "desc": "青色职场办公背景的工作述职总结汇报PPT模板，适合年终/季度述职汇报场景。",
-      "shareUrl": "https://pan.quark.cn/s/9d47ae5a2a30",
-      "pwd": "eBYU",
-      "sourceUrl": "https://quarksource.com/resource/青色职场办公背景的工作述职总结汇报ppt模板-214aaef9da",
-      "updatedAt": "2026-10-06T10:17:46+08:00",
-      "addedAt": "2026-10-06T10:17:46+08:00"
-    },
-    {
-      "id": "2ea47a25ef19",
-      "title": "2025年高考化学试卷(安徽卷)",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "化学",
-        "安徽",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考化学试卷(安徽卷),收录 空白卷、解析卷,共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/df73c1be8a19",
-      "pwd": "CMmX",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-c722fd03d25e6108",
-      "updatedAt": "2026-10-09T10:09:25+08:00",
-      "addedAt": "2026-10-09T10:09:25+08:00"
-    },
-    {
-      "id": "5a43b32cf79d",
-      "title": "2024年内蒙古包头市中考数学真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "数学",
-        "内蒙古",
-        "2024"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2024年内蒙古包头市中考数学真题",
-      "shareUrl": "https://pan.quark.cn/s/5f80d1e50c7e",
-      "pwd": "VfOF",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-ecbab3e093d57fa9",
-      "updatedAt": "2026-10-09T10:09:25+08:00",
-      "addedAt": "2026-10-09T10:09:25+08:00"
-    },
-    {
-      "id": "9e39f19f4b9b",
-      "title": "八上语文读读写写过关训练(4份)",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "语文",
-        "8年级"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "8年级语文上册学习资料,含 4 份读读写写过关训练。",
-      "shareUrl": "https://pan.quark.cn/s/e926c46b6fbc",
-      "pwd": "KSmN",
-      "sourceUrl": "https://quarksource.com/resource/八上语文读读写写过关训练-4份-febfe2bb",
-      "updatedAt": "2026-10-09T10:09:25+08:00",
-      "addedAt": "2026-10-09T10:09:25+08:00"
-    },
-    {
-      "id": "c08bfd6a6937",
-      "title": "【济南】七下生物期末试卷",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "生物",
-        "7年级"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "7年级生物下册期末试卷(济南地区),含多份期末模拟测试卷。",
-      "shareUrl": "https://pan.quark.cn/s/d1f68ff14521",
-      "pwd": "SL6t",
-      "sourceUrl": "https://quarksource.com/resource/济南-七下生物期末试卷-ff43ca01",
-      "updatedAt": "2026-10-09T10:09:25+08:00",
-      "addedAt": "2026-10-09T10:09:25+08:00"
-    },
-    {
-      "id": "f0bc4772b6bf",
-      "title": "蓝色简约商务风竞聘晋升述职报告PPT模板",
-      "category": "office",
-      "subcategory": "zhishu",
-      "tags": [],
-      "size": "",
-      "formats": "",
-      "desc": "蓝色简约商务风竞聘晋升述职报告PPT模板,适用于竞聘、晋升、述职汇报场景。",
-      "shareUrl": "https://pan.quark.cn/s/6550f427856e",
-      "pwd": "qZ2u",
-      "sourceUrl": "https://quarksource.com/resource/蓝色简约商务风竞聘晋升述职报告ppt模板-4c6efd1527",
-      "updatedAt": "2026-10-09T10:09:25+08:00",
-      "addedAt": "2026-10-09T10:09:25+08:00"
-    },
-    {
-      "id": "f8e5f7b96ebe",
-      "title": "2025年高考化学试卷(山东卷)",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "化学",
-        "山东",
-        "2025",
-        "高考"
-      ],
-      "size": "",
-      "formats": "[]",
-      "desc": "2025年高考化学试卷(山东卷),收录 空白卷、解析卷,共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/c93420bb782f",
-      "pwd": "aXJL",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-55a0313383186223",
-      "updatedAt": "2026-10-10T10:07:31+08:00",
-      "addedAt": "2026-10-10T10:07:31+08:00"
-    },
-    {
-      "id": "41d49d94a5db",
-      "title": "2024年北京中考数学真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "数学",
-        "北京",
-        "2024",
-        "中考"
-      ],
-      "size": "",
-      "formats": "[]",
-      "desc": "2024年北京中考数学真题,收录 原卷版、解析版,共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/625cb5383e22",
-      "pwd": "3p7M",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-f341345b38fac410",
-      "updatedAt": "2026-10-10T10:07:31+08:00",
-      "addedAt": "2026-10-10T10:07:31+08:00"
-    },
-    {
-      "id": "215a6ef72919",
-      "title": "西师六上数学期末检测卷",
-      "category": "study",
-      "subcategory": "shuxue",
-      "tags": [
-        "数学",
-        "六年级",
-        "西师版"
-      ],
-      "size": "",
-      "formats": "[]",
-      "desc": "西师版六年级上册数学期末检测卷。",
-      "shareUrl": "https://pan.quark.cn/s/1a7aef802db3",
-      "pwd": "pqex",
-      "sourceUrl": "https://quarksource.com/resource/西师-单元测试卷-ffd8b4ec",
-      "updatedAt": "2026-10-10T10:07:31+08:00",
-      "addedAt": "2026-10-10T10:07:31+08:00"
-    },
-    {
-      "id": "3abd8033818a",
-      "title": "九下语文期末试卷",
-      "category": "study",
-      "subcategory": "yuwen",
-      "tags": [
-        "语文",
-        "九年级",
-        "期末"
-      ],
-      "size": "",
-      "formats": "[]",
-      "desc": "九年级下册语文月考、期中、期末试卷合集之期末试卷。",
-      "shareUrl": "https://pan.quark.cn/s/9c3896016c08",
-      "pwd": "MIOK",
-      "sourceUrl": "https://quarksource.com/resource/九下语文月考-期中-期末试卷-fe6d3fb2",
-      "updatedAt": "2026-10-10T10:07:31+08:00",
-      "addedAt": "2026-10-10T10:07:31+08:00"
-    },
-    {
-      "id": "885c6f8add36",
-      "title": "棕色商务人士背景的个人述职报告PPT模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "PPT",
-        "述职报告",
-        "商务"
-      ],
-      "size": "",
-      "formats": "[]",
-      "desc": "述职转正 · 棕色商务人士背景的个人述职报告PPT模板,包含 26 页可编辑演示内容。",
-      "shareUrl": "https://pan.quark.cn/s/6025e273852b",
-      "pwd": "r1Lg",
-      "sourceUrl": "https://quarksource.com/resource/棕色商务人士背景的个人述职报告ppt模板-3e81d2713e",
-      "updatedAt": "2026-10-10T10:07:31+08:00",
-      "addedAt": "2026-10-10T10:07:31+08:00"
-    },
-    {
-      "id": "f639082af6e7",
-      "title": "2025年高考历史试卷（北京卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "历史",
-        "北京",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考历史试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/90d8e4801570",
-      "pwd": "udNd",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-13813daa8bf8e608",
-      "updatedAt": "2026-10-11T16:06:57+08:00",
-      "addedAt": "2026-10-11T16:06:57+08:00"
-    },
-    {
-      "id": "eea30175323a",
-      "title": "2025年高考地理试卷（全国新课标卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "地理",
-        "全国",
-        "2025",
-        "新课标"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考地理试卷（全国新课标卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/405fe88a60a5",
-      "pwd": "sMT0",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6e4f2a38093bbf4a",
-      "updatedAt": "2026-10-11T16:06:57+08:00",
-      "addedAt": "2026-10-11T16:06:57+08:00"
-    },
-    {
-      "id": "45141a846810",
-      "title": "四年级必会500字字帖描红",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "语文",
-        "四年级",
-        "字帖",
-        "小学"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "四年级必会500字字帖描红，小学语文书写练习资料。",
-      "shareUrl": "https://pan.quark.cn/s/3a583b0ebd19",
-      "pwd": "YOqJ",
-      "sourceUrl": "https://quarksource.com/resource/四年级必会500字-字帖描红-ffa1e2b5",
-      "updatedAt": "2026-10-11T16:06:57+08:00",
-      "addedAt": "2026-10-11T16:06:57+08:00"
-    },
-    {
-      "id": "9830778e41dc",
-      "title": "八上历史期中模拟试卷",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "历史",
-        "八年级",
-        "期中",
-        "模拟卷"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "八年级上册历史期中模拟试卷，初中历史阶段检测资料。",
-      "shareUrl": "https://pan.quark.cn/s/1f2970b69dba",
-      "pwd": "Nrdl",
-      "sourceUrl": "https://quarksource.com/resource/八上历史期中模拟试卷-fff7db6b",
-      "updatedAt": "2026-10-11T16:06:57+08:00",
-      "addedAt": "2026-10-11T16:06:57+08:00"
-    },
-    {
-      "id": "9d85485d8e67",
-      "title": "稳重大方述职报告PPT模板",
-      "category": "office",
-      "subcategory": "zhishu",
-      "tags": [
-        "述职报告",
-        "工作总结",
-        "PPT模板"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "述职转正 · 稳重大方述职报告PPT模板，包含 16 页可编辑演示内容。",
-      "shareUrl": "https://pan.quark.cn/s/dccc397bbd8c",
-      "pwd": "j2jr",
-      "sourceUrl": "https://quarksource.com/resource/稳重大方述职报告ppt模板-0ea2011539",
-      "updatedAt": "2026-10-11T16:06:57+08:00",
-      "addedAt": "2026-10-11T16:06:57+08:00"
-    },
-    {
-      "id": "c7bf1e0e139b",
-      "title": "2025年高考数学试卷（新高考Ⅰ卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "数学",
-        "2025",
-        "新高考I卷"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考数学试卷（新高考Ⅰ卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/e025d761c9e3",
-      "pwd": "hCtm",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-80c3b6a38cc3a6a0",
-      "updatedAt": "2026-10-12T10:10:55+08:00",
-      "addedAt": "2026-10-12T10:10:55+08:00"
-    },
-    {
-      "id": "cbd7e893fa73",
-      "title": "2025年高考物理试卷（上海卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "物理",
-        "上海",
-        "2025",
-        "上海卷"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考物理试卷（上海卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/d9b58ce045da",
-      "pwd": "oJjD",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-2fd0b166f694b755",
-      "updatedAt": "2026-10-12T10:10:55+08:00",
-      "addedAt": "2026-10-12T10:10:55+08:00"
-    },
-    {
-      "id": "f0a6d2805b01",
-      "title": "苏教-一课一练",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "数学",
-        "4年级",
-        "one_lesson_one_practice"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "苏教-一课一练",
-      "shareUrl": "https://pan.quark.cn/s/f1f19b79c6cb",
-      "pwd": "ABcG",
-      "sourceUrl": "https://quarksource.com/resource/苏教-一课一练-ffa177bc",
-      "updatedAt": "2026-10-12T10:10:55+08:00",
-      "addedAt": "2026-10-12T10:10:55+08:00"
-    },
-    {
-      "id": "1ecf381293d4",
-      "title": "【沪教】九下化学一课一练",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "化学",
-        "9年级",
-        "one_lesson_one_practice"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "【沪教】九下化学一课一练",
-      "shareUrl": "https://pan.quark.cn/s/ebf4ceb34b3c",
-      "pwd": "0DtN",
-      "sourceUrl": "https://quarksource.com/resource/沪教-九下化学一课一练-fb8fd282",
-      "updatedAt": "2026-10-12T10:10:55+08:00",
-      "addedAt": "2026-10-12T10:10:55+08:00"
-    },
-    {
-      "id": "8d6a3fb0d8a3",
-      "title": "棕色帆船背景的“激流勇进奋楫争先”励志风述职报告PPT模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "PPT模板",
-        "述职报告"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "棕色帆船背景的“激流勇进奋楫争先”励志风述职报告PPT模板",
-      "shareUrl": "https://pan.quark.cn/s/834f37f7f93e",
-      "pwd": "rLRM",
-      "sourceUrl": "https://quarksource.com/resource/棕色帆船背景的-激流勇进奋楫争先-励志风述职报告ppt模板-79b566b2fe",
-      "updatedAt": "2026-10-12T10:10:55+08:00",
-      "addedAt": "2026-10-12T10:10:55+08:00"
-    },
-    {
-      "id": "e3e24ab1260e",
-      "title": "2025年高考化学试卷（广东卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "化学",
-        "广东",
-        "2025"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考化学试卷（广东卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/a7c31930e01e",
-      "pwd": "MBFz",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-73a2fcb64e060676",
-      "updatedAt": "2026-10-13T10:14:34+08:00",
-      "addedAt": "2026-10-13T10:14:34+08:00"
-    },
-    {
-      "id": "8f17dffaa5b7",
-      "title": "2024年上海中考地理真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "地理",
-        "上海",
-        "2024"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2024年上海中考地理真题，收录 原卷版、解析版，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/82d2fef024c7",
-      "pwd": "q1G7",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-46c386cd01ba9312",
-      "updatedAt": "2026-10-13T10:14:34+08:00",
-      "addedAt": "2026-10-13T10:14:34+08:00"
-    },
-    {
-      "id": "5880989ecc14",
-      "title": "【陕旅（三）】五上英语一课一练",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "英语",
-        "5年级"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "【陕旅（三）】五上英语一课一练",
-      "shareUrl": "https://pan.quark.cn/s/8b22d554cca3",
-      "pwd": "V8gE",
-      "sourceUrl": "https://quarksource.com/resource/陕旅-三-五上英语一课一练-faf6435f",
-      "updatedAt": "2026-10-13T10:14:34+08:00",
-      "addedAt": "2026-10-13T10:14:34+08:00"
-    },
-    {
-      "id": "9d9931fc3da7",
-      "title": "八上英语期中复习（25个专题）",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "英语",
-        "8年级"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "八上英语期中复习（25个专题）",
-      "shareUrl": "https://pan.quark.cn/s/87a7dd8a19c5",
-      "pwd": "AME3",
-      "sourceUrl": "https://quarksource.com/resource/八上英语期中复习-25个专题-faa6d87c",
-      "updatedAt": "2026-10-13T10:14:34+08:00",
-      "addedAt": "2026-10-13T10:14:34+08:00"
-    },
-    {
-      "id": "163990480b7c",
-      "title": "矢量剪切画背景的年终述职报告PPT模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "PPT模板"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "矢量剪切画背景的年终述职报告ppt模板-483920c3de",
-      "shareUrl": "https://pan.quark.cn/s/8559c26a6f2a",
-      "pwd": "wrIc",
-      "sourceUrl": "https://quarksource.com/resource/矢量剪切画背景的年终述职报告ppt模板-483920c3de",
-      "updatedAt": "2026-10-13T10:14:34+08:00",
-      "addedAt": "2026-10-13T10:14:34+08:00"
-    },
-    {
-      "id": "fd565150a803",
-      "title": "2027李梦圆国考公告解读",
-      "category": "exam",
-      "subcategory": "gongkao",
-      "tags": [
-        "国考",
-        "2027",
-        "李梦圆",
-        "公告解读"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年国考公告解读（李梦圆）。",
-      "shareUrl": "https://pan.quark.cn/s/291d241092ca",
-      "pwd": "CbfO",
-      "sourceUrl": "https://pan.quark.cn/s/1c247a52bd46",
-      "updatedAt": "2026-10-13T22:55:00+08:00",
-      "addedAt": "2026-10-13T22:55:00+08:00"
-    },
-    {
-      "id": "4caf16405d06",
-      "title": "2027国考白皮书",
-      "category": "exam",
-      "subcategory": "gongkao",
-      "tags": [
-        "国考",
-        "2027",
-        "白皮书"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年国考白皮书。",
-      "shareUrl": "https://pan.quark.cn/s/cb43055f4884",
-      "pwd": "C5Os",
-      "sourceUrl": "https://pan.quark.cn/s/9613fa9e0665",
-      "updatedAt": "2026-10-13T22:55:00+08:00",
-      "addedAt": "2026-10-13T22:55:00+08:00"
-    },
-    {
-      "id": "5bf7757e3277",
-      "title": "2027陈怀安国考公告解读",
-      "category": "exam",
-      "subcategory": "gongkao",
-      "tags": [
-        "国考",
-        "2027",
-        "陈怀安",
-        "公告解读"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年国考公告解读（陈怀安）。",
-      "shareUrl": "https://pan.quark.cn/s/0bf7f9e9a197",
-      "pwd": "5H3p",
-      "sourceUrl": "https://pan.quark.cn/s/d5f48bb01fdd",
-      "updatedAt": "2026-10-13T22:55:00+08:00",
-      "addedAt": "2026-10-13T22:55:00+08:00"
-    },
-    {
-      "id": "f5f1ce8d2940",
-      "title": "2027李铁国考选岗指导",
-      "category": "exam",
-      "subcategory": "gongkao",
-      "tags": [
-        "国考",
-        "2027",
-        "李铁",
-        "选岗"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年国考选岗指导（李铁）。",
-      "shareUrl": "https://pan.quark.cn/s/d99282264394",
-      "pwd": "nf9Q",
-      "sourceUrl": "https://pan.quark.cn/s/18967574b59f",
-      "updatedAt": "2026-10-13T22:55:00+08:00",
-      "addedAt": "2026-10-13T22:55:00+08:00"
-    },
-    {
-      "id": "39c1ad999cb4",
-      "title": "2027国考资料包-分数线岗位表专业目录",
-      "category": "exam",
-      "subcategory": "gongkao",
-      "tags": [
-        "国考",
-        "2027",
-        "分数线",
-        "岗位表",
-        "专业目录"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年国考资料包：分数线、岗位表、专业目录。",
-      "shareUrl": "https://pan.quark.cn/s/dcc4d396159e",
-      "pwd": "2HoT",
-      "sourceUrl": "https://pan.quark.cn/s/356130a74cd9",
-      "updatedAt": "2026-10-13T22:55:00+08:00",
-      "addedAt": "2026-10-13T22:55:00+08:00"
-    },
-    {
-      "id": "cfd644d8c49e",
-      "title": "2025年高考化学试卷（江苏卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "化学",
-        "江苏",
-        "2025"
-      ],
-      "size": "",
-      "formats": "\"[\\\"DOCX\\\"]\"",
-      "desc": "2025年高考化学试卷（江苏卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/1a8b1104ce32",
-      "pwd": "uRqY",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6f1ddc5a69d9223a",
-      "updatedAt": "2026-10-14T10:05:30+08:00",
-      "addedAt": "2026-10-14T10:05:30+08:00"
-    },
-    {
-      "id": "be426f677e78",
-      "title": "2024年上海中考物理真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "物理",
-        "上海",
-        "2024"
-      ],
-      "size": "",
-      "formats": "\"[\\\"DOCX\\\"]\"",
-      "desc": "2024年上海中考物理真题，收录 原卷版、解析版，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/8f1787f2d474",
-      "pwd": "PVgC",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-2dbeaebe8d390c98",
-      "updatedAt": "2026-10-14T10:05:30+08:00",
-      "addedAt": "2026-10-14T10:05:30+08:00"
-    },
-    {
-      "id": "f2615f0d2904",
-      "title": "人教（一）一课一练",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "英语",
-        "3年级"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "人教（一）一课一练",
-      "shareUrl": "https://pan.quark.cn/s/5cd26ea7c49b",
-      "pwd": "adM9",
-      "sourceUrl": "https://quarksource.com/resource/人教-一-一课一练-fa940ed4",
-      "updatedAt": "2026-10-14T10:05:30+08:00",
-      "addedAt": "2026-10-14T10:05:30+08:00"
-    },
-    {
-      "id": "8df49ed54a98",
-      "title": "【仁爱】七下英语期中、期末试卷（有听力）",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "英语",
-        "7年级"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "【仁爱】七下英语期中、期末试卷（有听力）",
-      "shareUrl": "https://pan.quark.cn/s/13f4153f72cd",
-      "pwd": "U7qQ",
-      "sourceUrl": "https://quarksource.com/resource/仁爱-七下英语期中-期末试卷-有听力-fb4246d1",
-      "updatedAt": "2026-10-14T10:05:30+08:00",
-      "addedAt": "2026-10-14T10:05:30+08:00"
-    },
-    {
-      "id": "a3b3d38f25b7",
-      "title": "紫色攀登者背景的-无畏征程赢战未来-个人述职报告PPT模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "PPT模板"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "紫色攀登者背景的-无畏征程赢战未来-个人述职报告ppt模板-572d093b4b",
-      "shareUrl": "https://pan.quark.cn/s/f270e0934299",
-      "pwd": "ezhg",
-      "sourceUrl": "https://quarksource.com/resource/紫色攀登者背景的-无畏征程赢战未来-个人述职报告ppt模板-572d093b4b",
-      "updatedAt": "2026-10-14T10:05:30+08:00",
-      "addedAt": "2026-10-14T10:05:30+08:00"
-    },
-    {
-      "id": "6d9e7a07bc32",
-      "title": "2027仲春之阳数字推理讲练集（理论+刷题）",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "2027",
-        "行测",
-        "数字推理",
-        "仲春之阳"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年公考数字推理讲练集（仲春之阳）：理论 + 刷题。",
-      "shareUrl": "https://pan.quark.cn/s/b15ab0f3fabc",
-      "pwd": "I5vx",
-      "sourceUrl": "https://pan.quark.cn/s/3e0f50c9a264",
-      "updatedAt": "2026-10-14T20:55:10+08:00",
-      "addedAt": "2026-10-14T20:55:10+08:00"
-    },
-    {
-      "id": "064aced57fdd",
-      "title": "2027刘义恒图形推理700题",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "2027",
-        "行测",
-        "图形推理",
-        "刘义恒"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年公考图形推理 700 题（刘义恒）。",
-      "shareUrl": "https://pan.quark.cn/s/f7a7d79b1d21",
-      "pwd": "7TBU",
-      "sourceUrl": "https://pan.quark.cn/s/a0a976ea9974",
-      "updatedAt": "2026-10-14T20:55:10+08:00",
-      "addedAt": "2026-10-14T20:55:10+08:00"
-    },
-    {
-      "id": "838954ae1bc0",
-      "title": "2027袁东申论领跑营冲刺预测班",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "2027",
-        "申论",
-        "冲刺预测",
-        "袁东"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年公考申论领跑营冲刺预测班（袁东）。",
-      "shareUrl": "https://pan.quark.cn/s/dfc9833cd090",
-      "pwd": "7heR",
-      "sourceUrl": "https://pan.quark.cn/s/06e48673fdba",
-      "updatedAt": "2026-10-14T20:55:10+08:00",
-      "addedAt": "2026-10-14T20:55:10+08:00"
-    },
-    {
-      "id": "a2a88049ec5c",
-      "title": "2027行测+申论（五合一）超大杯刷题营",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "2027",
-        "行测",
-        "申论",
-        "刷题营"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年公考行测+申论刷题营（五合一·超大杯）。",
-      "shareUrl": "https://pan.quark.cn/s/d52666e45507",
-      "pwd": "FjZB",
-      "sourceUrl": "https://pan.quark.cn/s/f0efc0783539",
-      "updatedAt": "2026-10-14T20:55:10+08:00",
-      "addedAt": "2026-10-14T20:55:10+08:00"
-    },
-    {
-      "id": "cba024b99325",
-      "title": "2027行测+申论（六合一）实战公考疯狂刷2500题",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "2027",
-        "行测",
-        "申论",
-        "2500题"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年公考行测+申论实战刷题（六合一·2500 题）。",
-      "shareUrl": "https://pan.quark.cn/s/594ba48fd5ef",
-      "pwd": "inDi",
-      "sourceUrl": "https://pan.quark.cn/s/5cd1b9c6b316",
-      "updatedAt": "2026-10-14T20:55:10+08:00",
-      "addedAt": "2026-10-14T20:55:10+08:00"
-    },
-    {
-      "id": "13224d16be44",
-      "title": "2025年高考化学试卷（浙江1月卷）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "高考",
-        "化学",
-        "2025",
-        "浙江"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025年高考化学试卷（浙江1月卷），含空白卷与解析卷。",
-      "shareUrl": "https://pan.quark.cn/s/ab92849acdc8",
-      "pwd": "2SwW",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-86ecc07b625a154b",
-      "updatedAt": "2026-10-15T10:06:56+08:00",
-      "addedAt": "2026-10-15T10:07:10+08:00"
-    },
-    {
-      "id": "7033cb5a4b5e",
-      "title": "2024年上海中考生物真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "生物",
-        "2024",
-        "上海"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2024年上海中考生物真题，含答案与解析。",
-      "shareUrl": "https://pan.quark.cn/s/f00b266b9486",
-      "pwd": "crVE",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-0885a20920e0e7e0",
-      "updatedAt": "2026-10-15T10:06:56+08:00",
-      "addedAt": "2026-10-15T10:07:10+08:00"
-    },
-    {
-      "id": "266debe0cee1",
-      "title": "【人教】七上数学一课一练",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "数学",
-        "七年级",
-        "人教",
-        "一课一练"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "人教版七年级上册数学一课一练，同步教材单元练习。",
-      "shareUrl": "https://pan.quark.cn/s/bbf992173dc8",
-      "pwd": "Eh22",
-      "sourceUrl": "https://quarksource.com/resource/人教-七上数学一课一练-fdf50cf1",
-      "updatedAt": "2026-10-15T10:06:56+08:00",
-      "addedAt": "2026-10-15T10:07:10+08:00"
-    },
-    {
-      "id": "a4314063173a",
-      "title": "一上语文1-8单元基础复习",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "语文",
-        "一年级",
-        "单元复习",
-        "基础"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "小学一年级上册语文1-8单元基础复习资料。",
-      "shareUrl": "https://pan.quark.cn/s/c60e15657f00",
-      "pwd": "GGfO",
-      "sourceUrl": "https://quarksource.com/resource/一上语文1-8单元基础复习-fd8f9c13",
-      "updatedAt": "2026-10-15T10:06:56+08:00",
-      "addedAt": "2026-10-15T10:07:10+08:00"
-    },
-    {
-      "id": "18edf8bc747a",
-      "title": "山峰高山背景的励志风述职报告PPT模板",
-      "category": "office",
-      "subcategory": "zhishu",
-      "tags": [
-        "述职报告",
-        "PPT模板",
-        "励志"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "山峰高山背景励志风述职报告PPT模板，适合个人述职汇报。",
-      "shareUrl": "https://pan.quark.cn/s/8683eb876e86",
-      "pwd": "gwrm",
-      "sourceUrl": "https://quarksource.com/resource/山峰高山背景的励志风述职报告ppt模板-637445d7a1",
-      "updatedAt": "2026-10-15T10:06:56+08:00",
-      "addedAt": "2026-10-15T10:07:10+08:00"
-    },
-    {
-      "id": "d92678b9dde6",
-      "title": "2027《新东方•高中秋季培优讲义》（高一高二）（数学物理）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "高中",
-        "数学",
-        "物理",
-        "培优",
-        "新东方",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027版新东方高中秋季培优讲义（高一高二，数学+物理）。",
-      "shareUrl": "https://pan.quark.cn/s/989725a75b71",
-      "pwd": "jrU4",
-      "sourceUrl": "https://pan.quark.cn/s/335e7a32ab2e",
-      "updatedAt": "2026-10-15T15:30:55+08:00",
-      "addedAt": "2026-10-15T15:31:26+08:00"
-    },
-    {
-      "id": "34f3a91b1218",
-      "title": "【高中英语】2027版 单元阅读理解提升题型专练人教",
-      "category": "exam",
-      "subcategory": "yingyu",
-      "tags": [
-        "高中",
-        "英语",
-        "阅读理解",
-        "人教版",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027版高中英语单元阅读理解提升题型专练（人教版）。",
-      "shareUrl": "https://pan.quark.cn/s/31cfd6481229",
-      "pwd": "r69w",
-      "sourceUrl": "https://pan.quark.cn/s/2b1168674ac4",
-      "updatedAt": "2026-10-15T15:30:55+08:00",
-      "addedAt": "2026-10-15T15:31:26+08:00"
-    },
-    {
-      "id": "30ce19639217",
-      "title": "导数中的切线问题全归纳--2027年高考数学",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "高考",
-        "数学",
-        "导数",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年高考数学：导数中的切线问题全归纳。",
-      "shareUrl": "https://pan.quark.cn/s/0df9106851d3",
-      "pwd": "ZUW3",
-      "sourceUrl": "https://pan.quark.cn/s/9bd5321bd2a6",
-      "updatedAt": "2026-10-15T15:30:55+08:00",
-      "addedAt": "2026-10-15T15:31:26+08:00"
-    },
-    {
-      "id": "fd2550c4a326",
-      "title": "高中数学核心知识背记手册（背记版）",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "高中",
-        "数学",
-        "背记手册"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "高中数学核心知识背记手册（背记版）。",
-      "shareUrl": "https://pan.quark.cn/s/a100b5f13bd4",
-      "pwd": "pZpa",
-      "sourceUrl": "https://pan.quark.cn/s/aec4d013c43f",
-      "updatedAt": "2026-10-15T15:30:55+08:00",
-      "addedAt": "2026-10-15T15:31:26+08:00"
-    },
-    {
-      "id": "8041212e7c4a",
-      "title": "超唯美高中数学基础知识必备手册填空版和背记版",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "高中",
-        "数学",
-        "基础知识",
-        "填空",
-        "背记"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "超唯美高中数学基础知识必备手册（填空版 + 背记版）。",
-      "shareUrl": "https://pan.quark.cn/s/8afa1c99f4b5",
-      "pwd": "M1dk",
-      "sourceUrl": "https://pan.quark.cn/s/2ca906b6edeb",
-      "updatedAt": "2026-10-15T15:30:55+08:00",
-      "addedAt": "2026-10-15T15:31:26+08:00"
-    },
-    {
-      "id": "38227a0f7c4f",
-      "title": "2026-2027辽宁各市高中上学期月考试卷汇总",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "高中",
-        "月考",
-        "试卷",
-        "辽宁",
-        "2026",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2026-2027学年辽宁各市高中上学期月考试卷汇总。",
-      "shareUrl": "https://pan.quark.cn/s/04dc0bee6f3f",
-      "pwd": "8IfR",
-      "sourceUrl": "https://pan.quark.cn/s/c3cd63f8b5c5",
-      "updatedAt": "2026-10-15T15:30:55+08:00",
-      "addedAt": "2026-10-15T15:31:26+08:00"
-    },
-    {
-      "id": "65fac3dc4492",
-      "title": "2025年高考化学试卷（河北卷）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "高考",
-        "化学",
-        "2025",
-        "河北"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025年高考化学试卷（河北卷），含空白卷与解析卷。",
-      "shareUrl": "https://pan.quark.cn/s/1ebc642c0faf",
-      "pwd": "4SCu",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-14ab7d02d3efb7b6",
-      "updatedAt": "2026-10-16T10:06:35+08:00",
-      "addedAt": "2026-10-16T10:06:43+08:00"
-    },
-    {
-      "id": "0c8adde2dfbe",
-      "title": "2024年云南中考英语真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "英语",
-        "2024",
-        "云南"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2024年云南中考英语真题，含答案与解析。",
-      "shareUrl": "https://pan.quark.cn/s/2904910b6d2d",
-      "pwd": "Nsi1",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-ebe75ca9ce5b7ecc",
-      "updatedAt": "2026-10-16T10:06:35+08:00",
-      "addedAt": "2026-10-16T10:06:43+08:00"
-    },
-    {
-      "id": "201e9e35c020",
-      "title": "【通用】三年级口算练习",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "数学",
-        "三年级",
-        "口算",
-        "小学"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "小学三年级数学口算练习资料，适合日常计算能力训练。",
-      "shareUrl": "https://pan.quark.cn/s/64a778f26f7c",
-      "pwd": "kosc",
-      "sourceUrl": "https://quarksource.com/resource/通用-三年级口算练习-fdf49d77",
-      "updatedAt": "2026-10-16T10:06:35+08:00",
-      "addedAt": "2026-10-16T10:06:43+08:00"
-    },
-    {
-      "id": "735ebdf29a4e",
-      "title": "【湘教】七上地理综合检测",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "地理",
-        "七年级",
-        "湘教",
-        "初中"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "湘教版七年级上册地理综合检测，同步教材单元检测。",
-      "shareUrl": "https://pan.quark.cn/s/d2aa8e1a9f98",
-      "pwd": "tB23",
-      "sourceUrl": "https://quarksource.com/resource/湘教-七上地理综合检测-fd2ab78f",
-      "updatedAt": "2026-10-16T10:06:35+08:00",
-      "addedAt": "2026-10-16T10:06:43+08:00"
-    },
-    {
-      "id": "ba834a783137",
-      "title": "青色花卉背景的教师述职报告PPT模板",
-      "category": "office",
-      "subcategory": "zhishu",
-      "tags": [
-        "述职报告",
-        "PPT模板",
-        "教师",
-        "青色"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "青色花卉背景教师述职报告PPT模板，适合教师述职汇报。",
-      "shareUrl": "https://pan.quark.cn/s/591d8c45cc9f",
-      "pwd": "d4GF",
-      "sourceUrl": "https://quarksource.com/resource/青色花卉背景的教师述职报告ppt模板-5d753e728a",
-      "updatedAt": "2026-10-16T10:06:35+08:00",
-      "addedAt": "2026-10-16T10:06:43+08:00"
-    },
-    {
-      "id": "668ae6474269",
-      "title": "小p2027年笔记",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "2027",
-        "笔记",
-        "小p"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "小p 2027 年公考笔记。",
-      "shareUrl": "https://pan.quark.cn/s/ec5ccc0a0f29",
-      "pwd": "iEM9",
-      "sourceUrl": "https://pan.quark.cn/s/617bc434fcb4",
-      "updatedAt": "2026-10-16T23:36:33+08:00",
-      "addedAt": "2026-10-16T23:36:33+08:00"
-    },
-    {
-      "id": "c3cf5d88af1c",
-      "title": "2027杨攀政治理论实战冲刺课",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "2027",
-        "政治理论",
-        "杨攀",
-        "冲刺"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年公考政治理论实战冲刺课（杨攀）。",
-      "shareUrl": "https://pan.quark.cn/s/f2dc808a3d43",
-      "pwd": "2d55",
-      "sourceUrl": "https://pan.quark.cn/s/07097fff1457",
-      "updatedAt": "2026-10-16T23:36:33+08:00",
-      "addedAt": "2026-10-16T23:36:33+08:00"
-    },
-    {
-      "id": "c3a388e48a1b",
-      "title": "何炜健判断推理百题带刷",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "2027",
-        "判断推理",
-        "何炜健",
-        "刷题"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "何炜健判断推理百题带刷（2027公考）。",
-      "shareUrl": "https://pan.quark.cn/s/b58637b788d5",
-      "pwd": "3Ugw",
-      "sourceUrl": "https://pan.quark.cn/s/65be4320fba6",
-      "updatedAt": "2026-10-16T23:36:33+08:00",
-      "addedAt": "2026-10-16T23:36:33+08:00"
-    },
-    {
-      "id": "f0a1e231696d",
-      "title": "2025年高考化学试卷（河南卷）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "高考",
-        "化学",
-        "2025",
-        "河南"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025年高考化学试卷（河南卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/9cea99153045",
-      "pwd": "NPKz",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-c481a16188e49c2b",
-      "updatedAt": "2026-10-17T10:05:36+08:00",
-      "addedAt": "2026-10-17T10:06:15+08:00"
-    },
-    {
-      "id": "689ac351626a",
-      "title": "2024年云南中考语文真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "语文",
-        "2024",
-        "云南"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2024年云南中考语文真题，收录 原卷版、解析版，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/3bb1f656de33",
-      "pwd": "dQt5",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-a06099f59359e3d1",
-      "updatedAt": "2026-10-17T10:05:36+08:00",
-      "addedAt": "2026-10-17T10:06:15+08:00"
-    },
-    {
-      "id": "da795ded70ec",
-      "title": "【PEP】三上英语一课一练（有听力）",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "英语",
-        "三年级",
-        "PEP",
-        "小学",
-        "一课一练"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "PEP人教版三年级上册英语一课一练，含听力练习，同步教材单元。",
-      "shareUrl": "https://pan.quark.cn/s/ac8bb480d18a",
-      "pwd": "FpOZ",
-      "sourceUrl": "https://quarksource.com/resource/pep-三上英语一课一练-有听力-fa8bbad4",
-      "updatedAt": "2026-10-17T10:05:36+08:00",
-      "addedAt": "2026-10-17T10:06:15+08:00"
-    },
-    {
-      "id": "ca21de3a4d0d",
-      "title": "【沪粤】九上物理一课一练",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "物理",
-        "九年级",
-        "沪粤",
-        "初中",
-        "一课一练"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "沪粤版九年级上册物理一课一练，同步教材章节训练。",
-      "shareUrl": "https://pan.quark.cn/s/3a49270ce9ad",
-      "pwd": "6LN4",
-      "sourceUrl": "https://quarksource.com/resource/沪粤-九上物理一课一练-fbf88fe8",
-      "updatedAt": "2026-10-17T10:05:36+08:00",
-      "addedAt": "2026-10-17T10:06:15+08:00"
-    },
-    {
-      "id": "7fbe67444b77",
-      "title": "唯美小清新竞聘述职PPT模板",
-      "category": "office",
-      "subcategory": "zhishu",
-      "tags": [
-        "述职报告",
-        "PPT模板",
-        "竞聘",
-        "小清新"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "唯美小清新风格竞聘述职PPT模板，适合岗位竞聘与述职汇报。",
-      "shareUrl": "https://pan.quark.cn/s/dc500b42bb9b",
-      "pwd": "KKiz",
-      "sourceUrl": "https://quarksource.com/resource/唯美小清新竞聘述职ppt模板-a623a14f8c",
-      "updatedAt": "2026-10-17T10:05:36+08:00",
-      "addedAt": "2026-10-17T10:06:15+08:00"
-    },
-    {
-      "id": "c5815018ce2e",
-      "title": "【上海华育中学】2027版初中英语新题型—情景对话练习本",
-      "category": "exam",
-      "subcategory": "yingyu",
-      "tags": [
-        "初中",
-        "英语",
-        "情景对话",
-        "练习本",
-        "华育中学",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "【上海华育中学】2027版初中英语新题型——情景对话练习本。",
-      "shareUrl": "https://pan.quark.cn/s/7a07b8e28d5e",
-      "pwd": "TyVb",
-      "sourceUrl": "https://pan.quark.cn/s/dc32ead9005d",
-      "updatedAt": "2026-10-17T10:56:00+08:00",
-      "addedAt": "2026-10-17T10:56:01+08:00"
-    },
-    {
-      "id": "3d65ef3fdc21",
-      "title": "新七八上英语备课学霸培优试卷",
-      "category": "exam",
-      "subcategory": "yingyu",
-      "tags": [
-        "初中",
-        "英语",
-        "培优",
-        "试卷",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "新七八上英语备课学霸培优试卷。",
-      "shareUrl": "https://pan.quark.cn/s/711d4daa565b",
-      "pwd": "WBLg",
-      "sourceUrl": "https://pan.quark.cn/s/3599bbf0c9f6",
-      "updatedAt": "2026-10-17T10:56:00+08:00",
-      "addedAt": "2026-10-17T10:56:01+08:00"
-    },
-    {
-      "id": "1c607d356fc7",
-      "title": "2026-2027学年地大附校九上10月自测卷",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "九年级",
-        "自测卷",
-        "2026",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2026-2027学年地大附校九年级上册10月自测卷。",
-      "shareUrl": "https://pan.quark.cn/s/2b8683008b1d",
-      "pwd": "JwQ0",
-      "sourceUrl": "https://pan.quark.cn/s/fda74f8f8c6b",
-      "updatedAt": "2026-10-17T10:56:00+08:00",
-      "addedAt": "2026-10-17T10:56:01+08:00"
-    },
-    {
-      "id": "a9e4a68b5adf",
-      "title": "2027《基础训练》（9年级）（7科全）",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "九年级",
-        "基础训练",
-        "7科",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027《基础训练》9年级（7科全）。",
-      "shareUrl": "https://pan.quark.cn/s/eea2b743aa98",
-      "pwd": "kL0z",
-      "sourceUrl": "https://pan.quark.cn/s/f826f6e53a78",
-      "updatedAt": "2026-10-17T10:56:00+08:00",
-      "addedAt": "2026-10-17T10:56:01+08:00"
-    },
-    {
-      "id": "0b9694779dae",
-      "title": "2027《基础训练》（8年级上）（8科全）",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "八年级",
-        "基础训练",
-        "8科",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027《基础训练》8年级上（8科全）。",
-      "shareUrl": "https://pan.quark.cn/s/aa6759282a90",
-      "pwd": "RzGe",
-      "sourceUrl": "https://pan.quark.cn/s/3783be4449b0",
-      "updatedAt": "2026-10-17T10:56:00+08:00",
-      "addedAt": "2026-10-17T10:56:01+08:00"
-    },
-    {
-      "id": "54a3229f400b",
-      "title": "2027《基础训练》（7年级上）（7科全）",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "七年级",
-        "基础训练",
-        "7科",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027《基础训练》7年级上（7科全）。",
-      "shareUrl": "https://pan.quark.cn/s/082c27579c09",
-      "pwd": "63sE",
-      "sourceUrl": "https://pan.quark.cn/s/79a3ce9ddef3",
-      "updatedAt": "2026-10-17T10:56:00+08:00",
-      "addedAt": "2026-10-17T10:56:01+08:00"
-    },
-    {
-      "id": "74106ad1d2d2",
-      "title": "2025年高考化学试卷（湖北卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "高考",
-        "2025",
-        "化学",
-        "湖北",
-        "真题"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025年高考化学试卷（湖北卷），含空白卷与解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/3e74352b7453",
-      "pwd": "bmds",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-28b4922212e1b748",
-      "updatedAt": "2026-10-18T10:05:33+08:00",
-      "addedAt": "2026-10-18T10:08:15+08:00"
-    },
-    {
-      "id": "039c543162ca",
-      "title": "2024年云南中考历史真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "2024",
-        "历史",
-        "云南",
-        "真题"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2024年云南中考历史真题，含原卷版与解析版，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/6573187da35b",
-      "pwd": "uqot",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-bcffd9323f48247e",
-      "updatedAt": "2026-10-18T10:05:33+08:00",
-      "addedAt": "2026-10-18T10:08:15+08:00"
-    },
-    {
-      "id": "2d3a9aad08b4",
-      "title": "【人教】七上数学专题复习",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "数学",
-        "七年级",
-        "初中",
-        "人教",
-        "专题复习"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "人教七年级上册数学专题复习资料包，含综合测试与专项提升，共 36 份资料。",
-      "shareUrl": "https://pan.quark.cn/s/e0e6e3ca71c3",
-      "pwd": "WaCD",
-      "sourceUrl": "https://quarksource.com/resource/人教-七上数学专题复习-fb88d637",
-      "updatedAt": "2026-10-18T10:08:01+08:00",
-      "addedAt": "2026-10-18T10:08:15+08:00"
-    },
-    {
-      "id": "4b23004145ab",
-      "title": "小学语文【写作素材】",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "语文",
-        "小学",
-        "写作素材",
-        "作文",
-        "积累"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "小学语文写作素材资料包，含作文金句与素材积累，共 27 份资料。",
-      "shareUrl": "https://pan.quark.cn/s/3b0c96c74c13",
-      "pwd": "jsOO",
-      "sourceUrl": "https://quarksource.com/resource/小学语文-写作素材-f46f3bfa",
-      "updatedAt": "2026-10-18T10:08:01+08:00",
-      "addedAt": "2026-10-18T10:08:15+08:00"
-    },
-    {
-      "id": "3082c22b8b3d",
-      "title": "员工转正述职报告PPT模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "述职报告",
-        "PPT模板",
-        "转正",
-        "职场",
-        "办公"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "员工转正述职报告PPT模板，23 页可编辑，适合职场转正与述职汇报。",
-      "shareUrl": "https://pan.quark.cn/s/ebbcbad350ef",
-      "pwd": "qU0g",
-      "sourceUrl": "https://quarksource.com/resource/员工转正述职报告ppt模板-756ee91f2e",
-      "updatedAt": "2026-10-18T10:08:01+08:00",
-      "addedAt": "2026-10-18T10:08:15+08:00"
-    },
-    {
-      "id": "0de62962d67e",
-      "title": "2025年高考历史试卷（四川卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "高考",
-        "历史",
-        "2025",
-        "四川"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025年高考历史试卷（四川卷），收录解析卷，含参考答案与解析。",
-      "shareUrl": "https://pan.quark.cn/s/46746f1e01bd",
-      "pwd": "guks",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-945cf3badb100464",
-      "updatedAt": "2026-10-19T10:20:27+08:00",
-      "addedAt": "2026-10-19T10:20:49+08:00"
-    },
-    {
-      "id": "d8ab6e34bb1c",
-      "title": "2024年云南中考地理真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "地理",
-        "2024",
-        "云南"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2024年云南中考地理真题，收录原卷版、解析版，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/4f9ad5d471d4",
-      "pwd": "ItKR",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-752ad37c126f252b",
-      "updatedAt": "2026-10-19T10:20:27+08:00",
-      "addedAt": "2026-10-19T10:20:49+08:00"
-    },
-    {
-      "id": "2e0946c4c30d",
-      "title": "青岛63-一课一练",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "数学",
-        "五年级",
-        "青岛版",
-        "小学",
-        "一课一练"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "青岛版（63制）小学数学一课一练，同步教材单元，共整理 82 份资料。",
-      "shareUrl": "https://pan.quark.cn/s/bc9d841c1967",
-      "pwd": "jxBc",
-      "sourceUrl": "https://quarksource.com/resource/青岛63-一课一练-fc1aad15",
-      "updatedAt": "2026-10-19T10:20:27+08:00",
-      "addedAt": "2026-10-19T10:20:49+08:00"
-    },
-    {
-      "id": "0cf2fe6629d5",
-      "title": "【沪教】九上英语知识清单讲练测",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "英语",
-        "九年级",
-        "沪教版",
-        "初中",
-        "知识清单"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "沪教版九年级上册英语知识清单讲练测，含综合测试、专项提升与知识总结，共 26 份资料。",
-      "shareUrl": "https://pan.quark.cn/s/bbdee996cb8b",
-      "pwd": "1IQ0",
-      "sourceUrl": "https://quarksource.com/resource/沪教-九上英语知识清单讲练测-f93eecef",
-      "updatedAt": "2026-10-19T10:20:27+08:00",
-      "addedAt": "2026-10-19T10:20:49+08:00"
-    },
-    {
-      "id": "6c4a527c2fc2",
-      "title": "立体岗位竞聘述职报告PPT模板",
-      "category": "office",
-      "subcategory": "zhishu",
-      "tags": [
-        "述职报告",
-        "PPT模板",
-        "竞聘",
-        "职场",
-        "办公"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "立体风格岗位竞聘述职报告PPT模板，适合竞聘上岗与述职汇报。",
-      "shareUrl": "https://pan.quark.cn/s/ee98a67a8c00",
-      "pwd": "zYt5",
-      "sourceUrl": "https://quarksource.com/resource/立体岗位竞聘述职报告ppt模板-f969f23ec7",
-      "updatedAt": "2026-10-19T10:20:27+08:00",
-      "addedAt": "2026-10-19T10:20:49+08:00"
-    },
-    {
-      "id": "37c027bc6710",
-      "title": "备战2027年高考数学一轮复习全套PPT课件和word讲义(全品高考复习方案标准版)",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "高考",
-        "数学",
-        "一轮复习",
-        "PPT",
-        "讲义",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "备战2027年高考数学一轮复习全套 PPT 课件 + Word 讲义（全品高考复习方案·标准版）。",
-      "shareUrl": "https://pan.quark.cn/s/01a190dcdb2f",
-      "pwd": "aTGm",
-      "sourceUrl": "https://pan.quark.cn/s/802bc57fa2d5",
-      "updatedAt": "2026-10-19T12:57:14+08:00",
-      "addedAt": "2026-10-19T12:57:15+08:00"
-    },
-    {
-      "id": "798d33a940bf",
-      "title": "【凉学长】高中数学·课本精讲课程（人教A版课本全讲解）",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "高中",
-        "数学",
-        "课本精讲",
-        "人教A版",
-        "凉学长"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "【凉学长】高中数学课本精讲课程（人教A版课本全讲解）。",
-      "shareUrl": "https://pan.quark.cn/s/46a72e0060f3",
-      "pwd": "fxVo",
-      "sourceUrl": "https://pan.quark.cn/s/af71c0f40724",
-      "updatedAt": "2026-10-19T12:57:14+08:00",
-      "addedAt": "2026-10-19T12:57:15+08:00"
-    },
-    {
-      "id": "4679df880448",
-      "title": "2026北京北京中学高三9月月考生物",
-      "category": "exam",
-      "subcategory": "shengwu",
-      "tags": [
-        "高三",
-        "生物",
-        "月考",
-        "北京中学",
-        "2026"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2026学年北京中学高三 9 月月考生物试卷。",
-      "shareUrl": "https://pan.quark.cn/s/61408be2f26e",
-      "pwd": "iZo9",
-      "sourceUrl": "https://pan.quark.cn/s/0432970e9985",
-      "updatedAt": "2026-10-19T12:57:14+08:00",
-      "addedAt": "2026-10-19T12:57:15+08:00"
-    },
-    {
-      "id": "711e1d5d9c48",
-      "title": "2027届高考《全基础题型一轮复习专练》（数学）",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "高考",
-        "数学",
-        "基础题型",
-        "一轮复习",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027届高考《全基础题型一轮复习专练》（数学）。",
-      "shareUrl": "https://pan.quark.cn/s/6368d2bebe1b",
-      "pwd": "he1i",
-      "sourceUrl": "https://pan.quark.cn/s/651667beb39b",
-      "updatedAt": "2026-10-19T12:57:14+08:00",
-      "addedAt": "2026-10-19T12:57:15+08:00"
-    },
-    {
-      "id": "c2df8e733caf",
-      "title": "2027版高中《MST导数新思路》（数学）",
-      "category": "exam",
-      "subcategory": "shuxue",
-      "tags": [
-        "高考",
-        "数学",
-        "导数",
-        "MST",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027版高中《MST导数新思路》（数学）。",
-      "shareUrl": "https://pan.quark.cn/s/a038bc329370",
-      "pwd": "4n15",
-      "sourceUrl": "https://pan.quark.cn/s/5f4f9aae5a76",
-      "updatedAt": "2026-10-19T12:57:14+08:00",
-      "addedAt": "2026-10-19T12:57:15+08:00"
-    },
-    {
-      "id": "ef34bc4e5831",
-      "title": "2027届高考生物：变异与进化四大易混点",
-      "category": "exam",
-      "subcategory": "shengwu",
-      "tags": [
-        "高考",
-        "生物",
-        "变异与进化",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027届高考生物：变异与进化四大易混点。",
-      "shareUrl": "https://pan.quark.cn/s/db166c195ae7",
-      "pwd": "SMk9",
-      "sourceUrl": "https://pan.quark.cn/s/8c9541e4c9d1",
-      "updatedAt": "2026-10-19T12:57:14+08:00",
-      "addedAt": "2026-10-19T12:57:15+08:00"
-    },
-    {
-      "id": "ea6c8f34378b",
-      "title": "2025年高考化学试卷（湖南卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "高考",
-        "化学",
-        "2025",
-        "湖南"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025年高考化学试卷（湖南卷），收录空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/22a7c47eb362",
-      "pwd": "lrFD",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6d322ffbdb747474",
-      "updatedAt": "2026-10-20T10:04:16+08:00",
-      "addedAt": "2026-10-20T10:04:29+08:00"
-    },
-    {
-      "id": "3d451688d844",
-      "title": "2025年高考化学试卷（甘肃卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "高考",
-        "化学",
-        "2025",
-        "甘肃"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025年高考化学试卷（甘肃卷），收录空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/c089e5ccd6aa",
-      "pwd": "dVUf",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6180070c909f77d7",
-      "updatedAt": "2026-10-20T10:04:16+08:00",
-      "addedAt": "2026-10-20T10:04:29+08:00"
-    },
-    {
-      "id": "d4ef203a5c1d",
-      "title": "【人教】八上地理期末专项练习",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "地理",
-        "八年级",
-        "人教",
-        "期末",
-        "专项练习"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "人教版八年级上册地理期末专项练习，按专项分类整理，含我国人口状况等专题。",
-      "shareUrl": "https://pan.quark.cn/s/83ea476e57ed",
-      "pwd": "IrGS",
-      "sourceUrl": "https://quarksource.com/resource/人教-八上地理期末专项练习-fdf40680",
-      "updatedAt": "2026-10-20T10:04:16+08:00",
-      "addedAt": "2026-10-20T10:04:29+08:00"
-    },
-    {
-      "id": "c02c3f94771b",
-      "title": "【苏教】六下数学知识清单",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "数学",
-        "六年级",
-        "苏教",
-        "知识清单",
-        "小学"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "苏教版六年级下册数学知识清单，按单元梳理扇形统计图等核心知识点。",
-      "shareUrl": "https://pan.quark.cn/s/d95c82565bcf",
-      "pwd": "mWnX",
-      "sourceUrl": "https://quarksource.com/resource/苏教-六下数学知识清单-fd3c6622",
-      "updatedAt": "2026-10-20T10:04:16+08:00",
-      "addedAt": "2026-10-20T10:04:29+08:00"
-    },
-    {
-      "id": "ca15296ee78e",
-      "title": "蓝色商务风竞聘述职报告PPT模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "PPT模板",
-        "述职报告",
-        "竞聘",
-        "蓝色",
-        "商务"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "蓝色商务风竞聘述职报告 PPT 模板，适用于岗位竞聘、年度述职汇报。",
-      "shareUrl": "https://pan.quark.cn/s/651e386b352e",
-      "pwd": "IkTO",
-      "sourceUrl": "https://quarksource.com/resource/蓝色商务风竞聘述职报告ppt模板-738d2b9012",
-      "updatedAt": "2026-10-20T10:04:16+08:00",
-      "addedAt": "2026-10-20T10:04:29+08:00"
-    },
-    {
-      "id": "0e68b61aac62",
-      "title": "2027年初级会计",
-      "category": "exam",
-      "subcategory": "zhiye",
-      "tags": [
-        "初级会计",
-        "2027",
-        "职业资格"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年初级会计考试资料合集（初级会计职称）。",
-      "shareUrl": "https://pan.quark.cn/s/c1083e561da1",
-      "pwd": "",
-      "sourceUrl": "https://pan.quark.cn/s/c1083e561da1",
-      "updatedAt": "2026-10-20T19:00:31+08:00",
-      "addedAt": "2026-10-20T19:00:32+08:00"
-    },
-    {
-      "id": "f4bafd8bcee6",
-      "title": "2027年社会工作者",
-      "category": "exam",
-      "subcategory": "zhiye",
-      "tags": [
-        "社会工作者",
-        "2027",
-        "职业资格"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年社会工作者考试资料合集。",
-      "shareUrl": "https://pan.quark.cn/s/bef16e45901a",
-      "pwd": "",
-      "sourceUrl": "https://pan.quark.cn/s/bef16e45901a",
-      "updatedAt": "2026-10-20T19:00:31+08:00",
-      "addedAt": "2026-10-20T19:00:32+08:00"
-    },
-    {
-      "id": "18147f8a2bcb",
-      "title": "2027年初中级审计师",
-      "category": "exam",
-      "subcategory": "zhiye",
-      "tags": [
-        "审计师",
-        "2027",
-        "职业资格"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年初中级审计师考试资料合集。",
-      "shareUrl": "https://pan.quark.cn/s/cdac13cfdb10",
-      "pwd": "",
-      "sourceUrl": "https://pan.quark.cn/s/cdac13cfdb10",
-      "updatedAt": "2026-10-20T19:00:31+08:00",
-      "addedAt": "2026-10-20T19:00:32+08:00"
-    },
-    {
-      "id": "ff2a87e506cc",
-      "title": "2027年高级经济师",
-      "category": "exam",
-      "subcategory": "zhiye",
-      "tags": [
-        "高级经济师",
-        "2027",
-        "职业资格"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年高级经济师考试资料合集。",
-      "shareUrl": "https://pan.quark.cn/s/459e5caedae9",
-      "pwd": "",
-      "sourceUrl": "https://pan.quark.cn/s/459e5caedae9",
-      "updatedAt": "2026-10-20T19:00:31+08:00",
-      "addedAt": "2026-10-20T19:00:32+08:00"
-    },
-    {
-      "id": "b262be7f969d",
-      "title": "2027资产评估师",
-      "category": "exam",
-      "subcategory": "zhiye",
-      "tags": [
-        "资产评估师",
-        "2027",
-        "职业资格"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年资产评估师考试资料合集。",
-      "shareUrl": "https://pan.quark.cn/s/591c2732a980",
-      "pwd": "",
-      "sourceUrl": "https://pan.quark.cn/s/591c2732a980",
-      "updatedAt": "2026-10-20T19:00:31+08:00",
-      "addedAt": "2026-10-20T19:00:32+08:00"
-    },
-    {
-      "id": "a02653d962b3",
-      "title": "27年初会计押题班",
-      "category": "exam",
-      "subcategory": "zhiye",
-      "tags": [
-        "初级会计",
-        "押题班",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "27年初会计押题班资料合集。",
-      "shareUrl": "https://pan.quark.cn/s/793e42f36015",
-      "pwd": "",
-      "sourceUrl": "https://pan.quark.cn/s/793e42f36015",
-      "updatedAt": "2026-10-20T19:00:31+08:00",
-      "addedAt": "2026-10-20T19:00:32+08:00"
-    },
-    {
-      "id": "b03eb7030eed",
-      "title": "27年中级会计押题班",
-      "category": "exam",
-      "subcategory": "zhiye",
-      "tags": [
-        "中级会计",
-        "押题班",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "27年中级会计押题班资料合集。",
-      "shareUrl": "https://pan.quark.cn/s/3bd71f003f86",
-      "pwd": "",
-      "sourceUrl": "https://pan.quark.cn/s/3bd71f003f86",
-      "updatedAt": "2026-10-20T19:00:31+08:00",
-      "addedAt": "2026-10-20T19:00:32+08:00"
-    },
-    {
-      "id": "353a2f0e9676",
-      "title": "2026秋五哥（舅）九年级期中考试福利资料",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "九年级",
-        "期中",
-        "2026秋"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2026秋五哥（舅）九年级期中考试福利资料合集。",
-      "shareUrl": "https://pan.quark.cn/s/2a0d0755565e",
-      "pwd": "pYDl",
-      "sourceUrl": "https://pan.quark.cn/s/2a0d0755565e",
-      "updatedAt": "2026-10-21T15:02:40+08:00",
-      "addedAt": "2026-10-21T15:02:44+08:00"
-    },
-    {
-      "id": "8893ba284f2d",
-      "title": "2027《状元成才路•状元大课堂》（9年级上）（数学）（人教版）",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "初中",
-        "九年级",
-        "数学",
-        "人教版",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027版《状元成才路·状元大课堂》九年级上册数学（人教版）。",
-      "shareUrl": "https://pan.quark.cn/s/0787f6f4ec0a",
-      "pwd": "y6Do",
-      "sourceUrl": "https://pan.quark.cn/s/0787f6f4ec0a",
-      "updatedAt": "2026-10-21T15:02:40+08:00",
-      "addedAt": "2026-10-21T15:02:44+08:00"
-    },
-    {
-      "id": "06aa6e580b14",
-      "title": "26秋上学期《期中真题汇编》789年级全科（陕西专用）",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "期中",
-        "真题汇编",
-        "陕西",
-        "789年级"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "26秋上学期《期中真题汇编》7/8/9年级全科，陕西专用。",
-      "shareUrl": "https://pan.quark.cn/s/0fd423b2d07e",
-      "pwd": "lg6j",
-      "sourceUrl": "https://pan.quark.cn/s/0fd423b2d07e",
-      "updatedAt": "2026-10-21T15:02:40+08:00",
-      "addedAt": "2026-10-21T15:02:44+08:00"
-    },
-    {
-      "id": "d612a1b669a2",
-      "title": "新上好课10.19北师期中考点大串讲（讲义、模拟卷、真题重组卷、知识清单、期中专项训练）",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "北师版",
-        "期中",
-        "大串讲"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "新上好课10.19北师期中考点大串讲：讲义、模拟卷、真题重组卷、知识清单、期中专项训练。",
-      "shareUrl": "https://pan.quark.cn/s/beac11b833ce",
-      "pwd": "GwzM",
-      "sourceUrl": "https://pan.quark.cn/s/beac11b833ce",
-      "updatedAt": "2026-10-21T15:02:40+08:00",
-      "addedAt": "2026-10-21T15:02:44+08:00"
-    },
-    {
-      "id": "9438b3faea69",
-      "title": "2027版初中《培优讲义》789年级上册（数学）（人教）",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "初中",
-        "培优讲义",
-        "数学",
-        "人教版",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027版初中《培优讲义》7/8/9年级上册数学（人教版）。",
-      "shareUrl": "https://pan.quark.cn/s/ccca80ae1f76",
-      "pwd": "uqkT",
-      "sourceUrl": "https://pan.quark.cn/s/ccca80ae1f76",
-      "updatedAt": "2026-10-21T15:02:40+08:00",
-      "addedAt": "2026-10-21T15:02:44+08:00"
-    },
-    {
-      "id": "2f7d3477c11d",
-      "title": "初中书面表达主题分类训练27主题",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "初中",
-        "英语",
-        "作文",
-        "书面表达"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "初中英语书面表达主题分类训练，共27个主题。",
-      "shareUrl": "https://pan.quark.cn/s/e52cc88a51c3",
-      "pwd": "4mH7",
-      "sourceUrl": "https://pan.quark.cn/s/e52cc88a51c3",
-      "updatedAt": "2026-10-21T15:02:40+08:00",
-      "addedAt": "2026-10-21T15:02:44+08:00"
-    },
-    {
-      "id": "55b9a9c1253e",
-      "title": "广州市中考数学近六年真题汇编",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "数学",
-        "广州",
-        "真题"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "广州市中考数学近六年真题汇编。",
-      "shareUrl": "https://pan.quark.cn/s/4d60cbaeb052",
-      "pwd": "iCjg",
-      "sourceUrl": "https://pan.quark.cn/s/4d60cbaeb052",
-      "updatedAt": "2026-10-21T15:02:40+08:00",
-      "addedAt": "2026-10-21T15:02:44+08:00"
-    },
-    {
-      "id": "d388d0cc80a7",
-      "title": "2026秋《中考英语题型专练》",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "英语",
-        "题型专练",
-        "2026秋"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2026秋《中考英语题型专练》。",
-      "shareUrl": "https://pan.quark.cn/s/fe6b1aeaeede",
-      "pwd": "EsS3",
-      "sourceUrl": "https://pan.quark.cn/s/fe6b1aeaeede",
-      "updatedAt": "2026-10-21T15:02:40+08:00",
-      "addedAt": "2026-10-21T15:02:44+08:00"
-    },
-    {
-      "id": "24bb5ff9f3fc",
-      "title": "2027《中考语文•一模分类汇编》",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "语文",
-        "一模",
-        "分类汇编",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027《中考语文·一模分类汇编》。",
-      "shareUrl": "https://pan.quark.cn/s/31fedfc643e0",
-      "pwd": "ltSr",
-      "sourceUrl": "https://pan.quark.cn/s/31fedfc643e0",
-      "updatedAt": "2026-10-21T15:02:40+08:00",
-      "addedAt": "2026-10-21T15:02:44+08:00"
-    },
-    {
-      "id": "1a0788c2bb10",
-      "title": "2025年高考化学试卷（重庆卷）",
-      "category": "exam",
-      "subcategory": "gaokao",
-      "tags": [
-        "化学",
-        "重庆",
-        "2025",
-        "高考"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025年高考化学试卷（重庆卷），含空白卷与解析卷，重庆考区考生可直接对答案、查漏补缺。",
-      "shareUrl": "https://pan.quark.cn/s/70fbaa622b9e",
-      "pwd": "QobI",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-a579dc4a913cc8c0",
-      "updatedAt": "2026-10-22T11:15:04+08:00",
-      "addedAt": "2026-10-22T11:15:18+08:00"
-    },
-    {
-      "id": "a68e5fd3f610",
-      "title": "2024年云南中考生物真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "生物",
-        "云南",
-        "2024",
-        "中考"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2024年云南中考生物真题，原卷+解析，云南中考生物刷题与考点复盘一份够用。",
-      "shareUrl": "https://pan.quark.cn/s/91cb126516e8",
-      "pwd": "RmCn",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-9b171a7bbad1f4c6",
-      "updatedAt": "2026-10-22T11:15:04+08:00",
-      "addedAt": "2026-10-22T11:15:18+08:00"
-    },
-    {
-      "id": "3a3fc36d2dee",
-      "title": "【浙教】八上科学知识清单",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "浙教",
-        "八年级",
-        "科学",
-        "知识点"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "浙教版八年级上册科学知识清单，按章节梳理核心概念与考点，期末复习直接背。",
-      "shareUrl": "https://pan.quark.cn/s/9ac56c1d20e3",
-      "pwd": "5gwp",
-      "sourceUrl": "https://quarksource.com/resource/浙教-八上科学知识清单-fb9b5174",
-      "updatedAt": "2026-10-22T11:15:04+08:00",
-      "addedAt": "2026-10-22T11:15:18+08:00"
-    },
-    {
-      "id": "8afa814fdf84",
-      "title": "小学语文【名著阅读、文学常识】",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "小学",
-        "语文",
-        "名著阅读",
-        "文学常识"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "小学语文名著阅读与文学常识整理，覆盖常考名著与常识考点，适合小升初与日常积累。",
-      "shareUrl": "https://pan.quark.cn/s/10fb63c87aaa",
-      "pwd": "VCyb",
-      "sourceUrl": "https://quarksource.com/resource/小学语文-名著阅读-文学常识-fbd58740",
-      "updatedAt": "2026-10-22T11:15:04+08:00",
-      "addedAt": "2026-10-22T11:15:18+08:00"
-    },
-    {
-      "id": "b6e311fa3665",
-      "title": "蓝色高山山峰背景岗位竞聘述职报告PPT模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "述职报告",
-        "竞聘",
-        "PPT模板",
-        "商务"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "蓝色高山山峰背景岗位竞聘述职报告PPT模板，商务风版式可编辑，改字即用。",
-      "shareUrl": "https://pan.quark.cn/s/9e345cb8e86f",
-      "pwd": "0BFa",
-      "sourceUrl": "https://quarksource.com/resource/蓝色高山山峰背景岗位竞聘述职报告ppt模板-44ea6f80e4",
-      "updatedAt": "2026-10-22T11:15:04+08:00",
-      "addedAt": "2026-10-22T11:15:18+08:00"
-    },
-    {
-      "id": "4d440be80263",
-      "title": "2025年高考化学试卷（陕晋青宁卷）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "高考",
-        "化学",
-        "2025",
-        "真题",
-        "陕晋青宁"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025年高考化学真题（陕晋青宁卷），含试卷与答案解析。",
-      "shareUrl": "https://pan.quark.cn/s/c1da2a59cffe",
-      "pwd": "4ZvA",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-fcdc70ca30073cf4",
-      "updatedAt": "2026-10-23T10:07:27+08:00",
-      "addedAt": "2026-10-23T10:09:23+08:00"
-    },
-    {
-      "id": "131671b147dc",
-      "title": "2024年吉林中考数学真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "中考",
-        "数学",
-        "吉林",
-        "2024",
-        "真题"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2024年吉林省中考数学真题及答案解析。",
-      "shareUrl": "https://pan.quark.cn/s/9636fd205873",
-      "pwd": "8BEj",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-578bf331b01b7c0b",
-      "updatedAt": "2026-10-23T10:07:27+08:00",
-      "addedAt": "2026-10-23T10:09:23+08:00"
-    },
-    {
-      "id": "9ec69eb01b0b",
-      "title": "四上语文1-8单元基础复习",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "小学",
-        "四年级",
-        "语文",
-        "单元复习",
-        "上册"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "四年级上册语文1-8单元基础复习资料，按单元整理。",
-      "shareUrl": "https://pan.quark.cn/s/3264808223d1",
-      "pwd": "AlpS",
-      "sourceUrl": "https://quarksource.com/resource/四上语文1-8单元基础复习-fd10552b",
-      "updatedAt": "2026-10-23T10:07:27+08:00",
-      "addedAt": "2026-10-23T10:09:23+08:00"
-    },
-    {
-      "id": "1b4b0a641550",
-      "title": "七上数学期中模拟试卷（13个版本）",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "初中",
-        "七年级",
-        "数学",
-        "期中",
-        "模拟卷"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "七年级上册数学期中模拟试卷，共13个版本，适合考前刷题。",
-      "shareUrl": "https://pan.quark.cn/s/450dd0e8a048",
-      "pwd": "LsMX",
-      "sourceUrl": "https://quarksource.com/resource/七上数学期中模拟试卷-13个版本-f7081c30",
-      "updatedAt": "2026-10-23T10:07:27+08:00",
-      "addedAt": "2026-10-23T10:09:23+08:00"
-    },
-    {
-      "id": "6121494d87f9",
-      "title": "蓝色简约竞聘晋升述职报告PPT模板",
-      "category": "office",
-      "subcategory": "zhishu",
-      "tags": [
-        "述职报告",
-        "竞聘",
-        "PPT模板",
-        "商务"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "蓝色简约风格的竞聘晋升述职报告PPT模板，版式可编辑，改字即用。",
-      "shareUrl": "https://pan.quark.cn/s/46a8007ef757",
-      "pwd": "jwuJ",
-      "sourceUrl": "https://quarksource.com/resource/蓝色简约竞聘晋升述职报告ppt模板-927f635953",
-      "updatedAt": "2026-10-23T10:07:27+08:00",
-      "addedAt": "2026-10-23T10:09:23+08:00"
-    },
-    {
-      "id": "85365e2be9f8",
-      "title": "2027年赵晓曦言语实战500题",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "言语理解",
-        "2027",
-        "刷题"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027年赵晓曦言语实战500题资料。",
-      "shareUrl": "https://pan.quark.cn/s/a5dcf242ecae",
-      "pwd": "7OIr",
-      "sourceUrl": "https://pan.quark.cn/s/a5dcf242ecae",
-      "addedAt": "2026-10-23T22:18:30+08:00",
-      "updatedAt": "2026-10-23T22:18:30+08:00"
-    },
-    {
-      "id": "bd661d887b7b",
-      "title": "2027拾伊数量关系刷题课",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "数量关系",
-        "2027",
-        "刷题课"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027拾伊数量关系刷题课资料。",
-      "shareUrl": "https://pan.quark.cn/s/9e8df5bac8b2",
-      "pwd": "XHS2",
-      "sourceUrl": "https://pan.quark.cn/s/9e8df5bac8b2",
-      "addedAt": "2026-10-23T22:18:30+08:00",
-      "updatedAt": "2026-10-23T22:18:30+08:00"
-    },
-    {
-      "id": "28dfcaefe4fa",
-      "title": "2027公考套卷实战班（10套卷）+冲刺点睛",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "套卷",
-        "冲刺",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027公考套卷实战班（10套卷）+冲刺点睛资料。",
-      "shareUrl": "https://pan.quark.cn/s/d602f61be2c2",
-      "pwd": "m4y3",
-      "sourceUrl": "https://pan.quark.cn/s/d602f61be2c2",
-      "addedAt": "2026-10-23T22:18:30+08:00",
-      "updatedAt": "2026-10-23T22:18:30+08:00"
-    },
-    {
-      "id": "551ef035b20e",
-      "title": "2027行测+申论（六合一）实战公考疯狂刷2500题",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "行测",
-        "申论",
-        "刷题",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027行测+申论（六合一）实战公考疯狂刷2500题资料。",
-      "shareUrl": "https://pan.quark.cn/s/594ba48fd5ef",
-      "pwd": "inDi",
-      "sourceUrl": "https://pan.quark.cn/s/594ba48fd5ef",
-      "addedAt": "2026-10-23T22:18:30+08:00",
-      "updatedAt": "2026-10-23T22:18:30+08:00"
-    },
-    {
-      "id": "d64aa49d46f5",
-      "title": "2027国省事考小黑政治理论常识全家桶",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "政治理论",
-        "常识",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027国省事考小黑政治理论常识全家桶资料。",
-      "shareUrl": "https://pan.quark.cn/s/3d57e9c83d1e",
-      "pwd": "m2H6",
-      "sourceUrl": "https://pan.quark.cn/s/3d57e9c83d1e",
-      "addedAt": "2026-10-23T22:18:30+08:00",
-      "updatedAt": "2026-10-23T22:18:30+08:00"
-    },
-    {
-      "id": "4ae0a2148b29",
-      "title": "2027行测+申论（五合一）超大杯刷题营",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "行测",
-        "申论",
-        "刷题营",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027行测+申论（五合一）超大杯刷题营资料。",
-      "shareUrl": "https://pan.quark.cn/s/d52666e45507",
-      "pwd": "FjZB",
-      "sourceUrl": "https://pan.quark.cn/s/d52666e45507",
-      "addedAt": "2026-10-23T22:18:30+08:00",
-      "updatedAt": "2026-10-23T22:18:30+08:00"
-    },
-    {
-      "id": "40a96be800af",
-      "title": "2027邓健资料分析200题",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "资料分析",
-        "2027",
-        "刷题"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027邓健资料分析200题资料。",
-      "shareUrl": "https://pan.quark.cn/s/84810b0d6ff0",
-      "pwd": "bO61",
-      "sourceUrl": "https://pan.quark.cn/s/84810b0d6ff0",
-      "addedAt": "2026-10-23T22:18:30+08:00",
-      "updatedAt": "2026-10-23T22:18:30+08:00"
-    },
-    {
-      "id": "9ba39108d3ba",
-      "title": "2027薛睿国考冲刺形式逻辑＆分析推理（一拖五、一拖二）",
-      "category": "exam",
-      "subcategory": "guokao",
-      "tags": [
-        "公考",
-        "逻辑判断",
-        "分析推理",
-        "国考",
-        "2027"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2027薛睿国考冲刺形式逻辑＆分析推理（一拖五、一拖二）资料。",
-      "shareUrl": "https://pan.quark.cn/s/e49505defb6e",
-      "pwd": "rD0X",
-      "sourceUrl": "https://pan.quark.cn/s/e49505defb6e",
-      "addedAt": "2026-10-23T22:18:30+08:00",
-      "updatedAt": "2026-10-23T22:18:30+08:00"
-    },
-    {
-      "id": "6dbb9fda5929",
-      "title": "2025年高考化学试卷（黑吉辽蒙卷）",
-      "category": "exam",
-      "subcategory": "huaxue",
-      "tags": [
-        "化学",
-        "2025",
-        "高考",
-        "黑吉辽蒙"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2025年高考化学试卷（黑吉辽蒙卷），收录 空白卷、解析卷，共 2 个文件。",
-      "shareUrl": "https://pan.quark.cn/s/5a187e77fcb2",
-      "pwd": "0svG",
-      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-349617459cbb6f7f",
-      "addedAt": "2026-10-25T10:08:21+08:00",
-      "updatedAt": "2026-10-25T10:08:21+08:00"
-    },
-    {
-      "id": "f713c43af7c5",
-      "title": "2024年吉林中考语文真题",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "语文",
-        "2024",
-        "吉林",
-        "中考"
-      ],
-      "size": "",
-      "formats": "[\"DOCX\"]",
-      "desc": "2024年吉林中考语文真题，收录原卷与解析，适合中考备考刷题。",
-      "shareUrl": "https://pan.quark.cn/s/e21596ed75a6",
-      "pwd": "m2jf",
-      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-8a5422933d697dfb",
-      "addedAt": "2026-10-25T10:08:21+08:00",
-      "updatedAt": "2026-10-25T10:08:21+08:00"
-    },
-    {
-      "id": "c01109eed87f",
-      "title": "【沪科】九年级物理(全一册)单元测试卷",
-      "category": "study",
-      "subcategory": "junior",
-      "tags": [
-        "物理",
-        "九年级",
-        "单元测试卷",
-        "沪科版"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "沪科版九年级物理全一册单元测试卷，按章配套，适合同步检测。",
-      "shareUrl": "https://pan.quark.cn/s/2d8696c63b7e",
-      "pwd": "Ermk",
-      "sourceUrl": "https://quarksource.com/resource/沪科-九年级物理-全一册-单元测试卷-fe0e786c",
-      "addedAt": "2026-10-25T10:08:21+08:00",
-      "updatedAt": "2026-10-25T10:08:21+08:00"
-    },
-    {
-      "id": "1550f3e11dc1",
-      "title": "【西师】四下数学课前预习单",
-      "category": "study",
-      "subcategory": "primary",
-      "tags": [
-        "数学",
-        "四年级",
-        "课前预习单",
-        "西师版"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "西师大版四年级下册数学课前预习单，按课时配套，课前预习用。",
-      "shareUrl": "https://pan.quark.cn/s/2cc33eeb8506",
-      "pwd": "Q0C2",
-      "sourceUrl": "https://quarksource.com/resource/西师-四下数学课前预习单-fdb80f37",
-      "addedAt": "2026-10-25T10:08:21+08:00",
-      "updatedAt": "2026-10-25T10:08:21+08:00"
-    },
-    {
-      "id": "8448bb784ea8",
-      "title": "棕色抽象几何图形背景流程管理培训ppt模板",
-      "category": "office",
-      "subcategory": "ppt",
-      "tags": [
-        "PPT模板",
-        "培训",
-        "流程管理",
-        "棕色商务"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "棕色抽象几何背景流程管理培训 PPT 模板，适合企业内训与流程宣讲。",
-      "shareUrl": "https://pan.quark.cn/s/13c7a4e890e6",
-      "pwd": "Gs4E",
-      "sourceUrl": "https://quarksource.com/resource/棕色抽象几何图形背景流程管理培训ppt模板-60f6496080",
-      "addedAt": "2026-10-25T10:08:21+08:00",
-      "updatedAt": "2026-10-25T10:08:21+08:00"
-    },
-    {
-      "id": "3f43f54a7ac3",
-      "title": "新9上化学期中真题重组卷（湖南、苏州、长沙、无锡、盐城等专用）",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "化学",
-        "期中",
-        "真题重组卷"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "新9上化学期中真题重组卷，湖南/苏州/长沙/无锡/盐城等地区专用。",
-      "shareUrl": "https://pan.quark.cn/s/7af98a812257",
-      "pwd": "lMiZ",
-      "sourceUrl": "https://pan.quark.cn/s/7af98a812257",
-      "addedAt": "2026-10-26T00:31:22+08:00",
-      "updatedAt": "2026-10-26T00:31:22+08:00"
-    },
-    {
-      "id": "a7301266a632",
-      "title": "新8上数学期中真题重组卷（广东、广州、深圳、内蒙、新疆等专用10.22日）",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "数学",
-        "期中",
-        "真题重组卷"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "新8上数学期中真题重组卷，广东/广州/深圳/内蒙/新疆等地区专用（10.22更新）。",
-      "shareUrl": "https://pan.quark.cn/s/40cdf8fdf210",
-      "pwd": "nJ2A",
-      "sourceUrl": "https://pan.quark.cn/s/40cdf8fdf210",
-      "addedAt": "2026-10-26T00:31:22+08:00",
-      "updatedAt": "2026-10-26T00:31:22+08:00"
-    },
-    {
-      "id": "06a855de3925",
-      "title": "新8上数学期中真题重组卷（安徽、北京、上海、江苏南通、成都、吉林省等专用）",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "数学",
-        "期中",
-        "真题重组卷"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "新8上数学期中真题重组卷，安徽/北京/上海/南通/成都/吉林等地区专用。",
-      "shareUrl": "https://pan.quark.cn/s/54c37ede2b0c",
-      "pwd": "sWq2",
-      "sourceUrl": "https://pan.quark.cn/s/54c37ede2b0c",
-      "addedAt": "2026-10-26T00:31:22+08:00",
-      "updatedAt": "2026-10-26T00:31:22+08:00"
-    },
-    {
-      "id": "a033b422f15c",
-      "title": "培优辅导 初一初二初三数学跟踪练习 学而思培优教研中心",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "数学",
-        "培优",
-        "学而思"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "培优辅导：初一初二初三数学跟踪练习，学而思培优教研中心。",
-      "shareUrl": "https://pan.quark.cn/s/fe3706b06a91",
-      "pwd": "qiiw",
-      "sourceUrl": "https://pan.quark.cn/s/fe3706b06a91",
-      "addedAt": "2026-10-26T00:31:22+08:00",
-      "updatedAt": "2026-10-26T00:31:22+08:00"
-    },
-    {
-      "id": "2332a817a9af",
-      "title": "《2026秋10月月考模拟｜考前刷题检测含解析版》789上（语数英物化）",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "月考",
-        "模拟卷",
-        "含解析"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2026秋10月月考模拟，考前刷题检测含解析版，789年级上册语数英物化。",
-      "shareUrl": "https://pan.quark.cn/s/bb8f075ec7b8",
-      "pwd": "MuoX",
-      "sourceUrl": "https://pan.quark.cn/s/bb8f075ec7b8",
-      "addedAt": "2026-10-26T00:31:22+08:00",
-      "updatedAt": "2026-10-26T00:31:22+08:00"
-    },
-    {
-      "id": "f5c818e00510",
-      "title": "《初中数学知识大框架及考试占比》",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "数学",
-        "知识框架"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "初中数学知识大框架及考试占比梳理。",
-      "shareUrl": "https://pan.quark.cn/s/9cad245117d3",
-      "pwd": "dAFQ",
-      "sourceUrl": "https://pan.quark.cn/s/9cad245117d3",
-      "addedAt": "2026-10-26T00:31:22+08:00",
-      "updatedAt": "2026-10-26T00:31:22+08:00"
-    },
-    {
-      "id": "2c796f8e5f4a",
-      "title": "刘晓燕随堂趣讲初中英语26年上册789",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "英语",
-        "刘晓燕",
-        "2026"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "刘晓燕随堂趣讲初中英语2026年上册，789年级。",
-      "shareUrl": "https://pan.quark.cn/s/718a449af26d",
-      "pwd": "mjsM",
-      "sourceUrl": "https://pan.quark.cn/s/718a449af26d",
-      "addedAt": "2026-10-26T00:31:22+08:00",
-      "updatedAt": "2026-10-26T00:31:22+08:00"
-    },
-    {
-      "id": "1e8d6459e45f",
-      "title": "【名校之约】2025-2026名校之约九年级上册期中套卷",
-      "category": "exam",
-      "subcategory": "zhongkao",
-      "tags": [
-        "初中",
-        "九年级",
-        "期中",
-        "套卷",
-        "名校之约"
-      ],
-      "size": "",
-      "formats": "",
-      "desc": "2025-2026学年名校之约九年级上册期中套卷。",
-      "shareUrl": "https://pan.quark.cn/s/7d0692121fe2",
-      "pwd": "kCgi",
-      "sourceUrl": "https://pan.quark.cn/s/7d0692121fe2",
-      "addedAt": "2026-10-26T00:31:22+08:00",
-      "updatedAt": "2026-10-26T00:31:22+08:00"
-    }
-  ]
+ "updatedAt": "2026-10-26T10:16:39+08:00",
+ "count": 178,
+ "items": [
+  {
+   "id": "9fcd2984bf50",
+   "title": "2025年高考历史试卷（云南卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "历史",
+    "云南",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考历史试卷（云南卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/0158bb6cc696",
+   "pwd": "Nbhv",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-eb2955ebe1673e2f",
+   "updatedAt": "2026-10-02T16:43:22+08:00",
+   "addedAt": "2026-10-02T16:43:22+08:00"
+  },
+  {
+   "id": "707448205323",
+   "title": "2025年高考历史试卷（全国卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "历史",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考历史试卷（全国卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/89e04b3cd41e",
+   "pwd": "hRao",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-c41fab231dcacbc3",
+   "updatedAt": "2026-10-02T19:32:42+08:00",
+   "addedAt": "2026-10-02T19:32:42+08:00"
+  },
+  {
+   "id": "4131a988639e",
+   "title": "2025年高考地理试卷（上海卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "地理",
+    "上海",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考地理试卷（上海卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/300271ed5b4c",
+   "pwd": "WsaA",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-28dab184d7d288ed",
+   "updatedAt": "2026-10-02T16:43:22+08:00",
+   "addedAt": "2026-10-02T16:43:22+08:00"
+  },
+  {
+   "id": "57775b31dbc0",
+   "title": "2025年高考地理试卷（云南卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "地理",
+    "云南",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考地理试卷（云南卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/06ca1b4c7a8b",
+   "pwd": "cyVJ",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-5df88f2a37860fc2",
+   "updatedAt": "2026-10-02T19:32:42+08:00",
+   "addedAt": "2026-10-02T19:32:42+08:00"
+  },
+  {
+   "id": "581b9cf2664c",
+   "title": "2025年高考政治试卷（云南卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "政治",
+    "云南",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考政治试卷（云南卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/4d4f03ac9e84",
+   "pwd": "fwca",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-a2745636eebe89bd",
+   "updatedAt": "2026-10-02T16:43:22+08:00",
+   "addedAt": "2026-10-02T16:43:22+08:00"
+  },
+  {
+   "id": "e5465eafaf01",
+   "title": "2025年高考政治试卷（北京卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "政治",
+    "北京",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考政治试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/31417257117c",
+   "pwd": "pXOi",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-830598f04d1d0fc4",
+   "updatedAt": "2026-10-02T19:32:42+08:00",
+   "addedAt": "2026-10-02T19:32:42+08:00"
+  },
+  {
+   "id": "dd82fd29e847",
+   "title": "2025年高考化学试卷（上海卷_回忆版）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "化学",
+    "上海",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考化学试卷（上海卷_回忆版），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/ecbbff23dd06",
+   "pwd": "mvXM",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-5c068f059721c3f6",
+   "updatedAt": "2026-10-02T16:43:22+08:00",
+   "addedAt": "2026-10-02T16:43:22+08:00"
+  },
+  {
+   "id": "2e1f1a61017a",
+   "title": "2025年高考化学试卷（云南卷）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "化学",
+    "云南",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考化学试卷（云南卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/7e32f01d964c",
+   "pwd": "HhCq",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-ce9350d3283335a6",
+   "updatedAt": "2026-10-02T19:32:42+08:00",
+   "addedAt": "2026-10-02T19:32:42+08:00"
+  },
+  {
+   "id": "bbfee2436178",
+   "title": "2025年高考数学试卷（上海6月）",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "数学",
+    "上海",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考数学试卷（上海6月），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/8d2900eb1c5c",
+   "pwd": "CdbW",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-26ddb72dd5f8507f",
+   "updatedAt": "2026-10-02T16:43:22+08:00",
+   "addedAt": "2026-10-02T16:43:22+08:00"
+  },
+  {
+   "id": "a83713be2942",
+   "title": "2025年高考数学试卷（北京）",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "数学",
+    "北京",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考数学试卷（北京），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/bebaf927c5eb",
+   "pwd": "l9mn",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-732fd8d8c162dd30",
+   "updatedAt": "2026-10-02T19:32:42+08:00",
+   "addedAt": "2026-10-02T19:32:42+08:00"
+  },
+  {
+   "id": "e55d189976e2",
+   "title": "2025年高考数学试卷（天津）",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "数学",
+    "天津",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考数学试卷（天津），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/c783fc88f5c6",
+   "pwd": "AEe4",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-4ee2f33e5cc3287a",
+   "updatedAt": "2026-10-02T17:53:58+08:00",
+   "addedAt": "2026-10-02T17:53:58+08:00"
+  },
+  {
+   "id": "93ba66f3f807",
+   "title": "2025年高考英语试卷（北京）",
+   "category": "exam",
+   "subcategory": "yingyu",
+   "tags": [
+    "英语",
+    "北京",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考英语试卷（北京），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/19a0c81bb04a",
+   "pwd": "dXib",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-e93751d8359f03de",
+   "updatedAt": "2026-10-02T17:53:58+08:00",
+   "addedAt": "2026-10-02T17:53:58+08:00"
+  },
+  {
+   "id": "cfabea63bca5",
+   "title": "2025年高考语文试卷（北京卷）",
+   "category": "exam",
+   "subcategory": "yuwen",
+   "tags": [
+    "语文",
+    "北京",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考语文试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/2919c6f9ca5d",
+   "pwd": "3RWE",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-da5c450c0ea15000",
+   "updatedAt": "2026-10-02T17:53:58+08:00",
+   "addedAt": "2026-10-02T17:53:58+08:00"
+  },
+  {
+   "id": "78bee5c793f7",
+   "title": "2024年云南中考化学真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "化学",
+    "云南",
+    "2024"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2024年云南中考化学真题，收录 原卷版、解析版，共 2 个文件。 本页提供资源主题、更新时间、标签与公开分享入口。",
+   "shareUrl": "https://pan.quark.cn/s/a2dcbcbccc1d",
+   "pwd": "sh1H",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-a0c395e7e2efbb2d",
+   "updatedAt": "2026-10-02T17:53:58+08:00",
+   "addedAt": "2026-10-02T17:53:58+08:00"
+  },
+  {
+   "id": "ef42effcffa6",
+   "title": "2024年云南中考物理真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "物理",
+    "云南",
+    "2024"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2024年云南中考物理真题，收录 原卷版、解析版，共 2 个文件。 本页提供资源主题、更新时间、标签与公开分享入口。",
+   "shareUrl": "https://pan.quark.cn/s/2a5433ab829b",
+   "pwd": "Tngu",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-257945ea7a59f2d2",
+   "updatedAt": "2026-10-02T17:53:58+08:00",
+   "addedAt": "2026-10-02T17:53:58+08:00"
+  },
+  {
+   "id": "62b2af8fcc58",
+   "title": "蓝色矢量商务人士剪切画背景的Excel基础知识操作培训PPT模板",
+   "category": "office",
+   "subcategory": "excel",
+   "tags": [
+    "Excel",
+    "办公培训",
+    "PPT模板"
+   ],
+   "size": "",
+   "formats": "PPTX",
+   "desc": "39页Excel基础知识操作培训课件，适合企业内训与自学。",
+   "shareUrl": "https://pan.quark.cn/s/9e012398d1b6",
+   "pwd": "4Sil",
+   "sourceUrl": "https://pan.quark.cn/s/ab2ac40abacb",
+   "updatedAt": "2026-10-02T15:48:23+08:00",
+   "addedAt": "2026-10-02T15:48:23+08:00"
+  },
+  {
+   "id": "85669b572da0",
+   "title": "不负过去不惧未来，彩色扁平化个人竞聘简历PPT模板",
+   "category": "office",
+   "subcategory": "jianli",
+   "tags": [
+    "简历",
+    "竞聘",
+    "PPT模板"
+   ],
+   "size": "",
+   "formats": "PPTX",
+   "desc": "30页彩色扁平化个人竞聘简历模板，可直接替换文字使用。",
+   "shareUrl": "https://pan.quark.cn/s/c91fb2e93b2f",
+   "pwd": "UZ66",
+   "sourceUrl": "https://pan.quark.cn/s/572353bce12f",
+   "updatedAt": "2026-10-02T15:48:23+08:00",
+   "addedAt": "2026-10-02T15:48:23+08:00"
+  },
+  {
+   "id": "844a8603a018",
+   "title": "上升趋势图表背景的工作总结述职报告PPT模板",
+   "category": "office",
+   "subcategory": "zhishu",
+   "tags": [
+    "述职报告",
+    "工作总结",
+    "PPT模板"
+   ],
+   "size": "",
+   "formats": "PPTX",
+   "desc": "24页可编辑述职报告PPT模板，含数据图表页与总结页。",
+   "shareUrl": "https://pan.quark.cn/s/d6417da1ec2b",
+   "pwd": "qzio",
+   "sourceUrl": "https://pan.quark.cn/s/fbb69249ef89",
+   "updatedAt": "2026-10-02T15:48:23+08:00",
+   "addedAt": "2026-10-02T15:48:23+08:00"
+  },
+  {
+   "id": "8ddaee693d0b",
+   "title": "蓝色雅致会计专业毕业答辩PPT模板",
+   "category": "study",
+   "subcategory": "daxue",
+   "tags": [
+    "毕业答辩",
+    "论文答辩",
+    "PPT模板"
+   ],
+   "size": "",
+   "formats": "PPTX",
+   "desc": "25页蓝色雅致会计专业毕业答辩PPT模板，含论文框架页。",
+   "shareUrl": "https://pan.quark.cn/s/84a8281164e1",
+   "pwd": "vWV4",
+   "sourceUrl": "https://pan.quark.cn/s/a0e4ecd23142",
+   "updatedAt": "2026-10-02T15:48:23+08:00",
+   "addedAt": "2026-10-02T15:48:23+08:00"
+  },
+  {
+   "id": "c0c2efab85f8",
+   "title": "卡通“开学啦”小学开学第一课PPT模板",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "开学第一课",
+    "小学",
+    "主题班会"
+   ],
+   "size": "",
+   "formats": "PPTX",
+   "desc": "35页卡通风格小学开学第一课/主题班会PPT模板。",
+   "shareUrl": "https://pan.quark.cn/s/cbc79a2a9e28",
+   "pwd": "OniA",
+   "sourceUrl": "https://pan.quark.cn/s/ad03f5a55e69",
+   "updatedAt": "2026-10-02T15:48:23+08:00",
+   "addedAt": "2026-10-02T15:48:23+08:00"
+  },
+  {
+   "id": "157d28a9f822",
+   "title": "2025年高考化学试卷（全国卷）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "化学",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考化学试卷（全国卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/1a14b833bead",
+   "pwd": "MsQl",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-f9e25d1214c8b879",
+   "updatedAt": "2026-10-02T20:22:02+08:00",
+   "addedAt": "2026-10-02T20:22:02+08:00"
+  },
+  {
+   "id": "437d29fb547c",
+   "title": "2024年上海中考数学真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "数学",
+    "上海",
+    "2024"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2024年上海中考数学真题，收录 原卷版、解析版，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/57c4cc62656a",
+   "pwd": "xw6S",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-10b82283945f3bdb",
+   "updatedAt": "2026-10-02T20:22:02+08:00",
+   "addedAt": "2026-10-02T20:22:02+08:00"
+  },
+  {
+   "id": "b8a2141b8281",
+   "title": "【人教PEP】一课一练",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "英语",
+    "五年级",
+    "一课一练",
+    "人教版"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "【人教PEP】一课一练资料包，覆盖小学五年级英语，含一课一练同步练习，共 40 份资料。",
+   "shareUrl": "https://pan.quark.cn/s/5841d759544a",
+   "pwd": "GxVD",
+   "sourceUrl": "https://quarksource.com/resource/人教pep-一课一练-fefa9cd5",
+   "updatedAt": "2026-10-02T20:22:02+08:00",
+   "addedAt": "2026-10-02T20:22:02+08:00"
+  },
+  {
+   "id": "7d24709c0626",
+   "title": "【沪粤】八上物理一课一练",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "物理",
+    "八年级",
+    "一课一练",
+    "沪粤版"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "【沪粤版】八年级上册物理一课一练资料包，按课时同步练习，共 54 份资料。",
+   "shareUrl": "https://pan.quark.cn/s/eefda5645421",
+   "pwd": "lVG9",
+   "sourceUrl": "https://quarksource.com/resource/沪粤-八上物理一课一练-fe53d8dd",
+   "updatedAt": "2026-10-02T20:22:02+08:00",
+   "addedAt": "2026-10-02T20:22:02+08:00"
+  },
+  {
+   "id": "d92bc1982576",
+   "title": "棕色新员工入职培训PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "PPT模板",
+    "入职培训",
+    "企业培训"
+   ],
+   "size": "",
+   "formats": "PPTX",
+   "desc": "棕色系新员工入职培训 PPT 模板，26 页可编辑演示内容，含预览页，适合企业内训。",
+   "shareUrl": "https://pan.quark.cn/s/94e5f9775577",
+   "pwd": "AhDY",
+   "sourceUrl": "https://quarksource.com/resource/棕色新员工入职培训ppt模板-4d638d51be",
+   "updatedAt": "2026-10-02T20:22:02+08:00",
+   "addedAt": "2026-10-02T20:22:02+08:00"
+  },
+  {
+   "id": "c48716453af7",
+   "title": "2025年高考化学试卷（北京卷）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "高考",
+    "化学",
+    "2025",
+    "北京",
+    "真题"
+   ],
+   "size": "",
+   "formats": "DOCX",
+   "desc": "2025年高考化学试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/770319a6394e",
+   "pwd": "C7Iy",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-fb5bc444dc5283eb",
+   "updatedAt": "2026-10-04T10:17:26+08:00",
+   "addedAt": "2026-10-04T10:17:26+08:00"
+  },
+  {
+   "id": "317c73cf5b66",
+   "title": "2024年上海中考历史真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "历史",
+    "2024",
+    "上海",
+    "真题"
+   ],
+   "size": "",
+   "formats": "DOCX",
+   "desc": "2024年上海中考历史真题，收录 原卷版、解析版，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/d5a103a42194",
+   "pwd": "ojow",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-0378d4c71fe1f1e5",
+   "updatedAt": "2026-10-04T10:17:26+08:00",
+   "addedAt": "2026-10-04T10:17:26+08:00"
+  },
+  {
+   "id": "b15b18521368",
+   "title": "初中语文【写作素材】",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "初中",
+    "语文",
+    "写作素材",
+    "八年级"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "八年级下册初中语文100写作素材，中高考作文金句例句。",
+   "shareUrl": "https://pan.quark.cn/s/a5f0fe21fdb1",
+   "pwd": "yFdv",
+   "sourceUrl": "https://quarksource.com/resource/初中语文-写作素材-fef4660a",
+   "updatedAt": "2026-10-04T10:17:26+08:00",
+   "addedAt": "2026-10-04T10:17:26+08:00"
+  },
+  {
+   "id": "936d1366422b",
+   "title": "【冀教（三）】知识清单",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "小学",
+    "英语",
+    "冀教版",
+    "知识清单",
+    "四年级"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "四年级下册英语冀教版（三年级起点）知识清单。",
+   "shareUrl": "https://pan.quark.cn/s/c8cddeb4bf01",
+   "pwd": "25Xa",
+   "sourceUrl": "https://quarksource.com/resource/冀教-三-知识清单-ff8171c6",
+   "updatedAt": "2026-10-04T10:17:26+08:00",
+   "addedAt": "2026-10-04T10:17:26+08:00"
+  },
+  {
+   "id": "2e38a3bdc9ba",
+   "title": "中国消防幻灯片模板 PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "PPT模板",
+    "消防",
+    "企业培训"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "中国消防主题幻灯片模板，适合消防安全培训、企业宣讲场景。",
+   "shareUrl": "https://pan.quark.cn/s/009b0018aee9",
+   "pwd": "a71A",
+   "sourceUrl": "https://quarksource.com/resource/中国消防幻灯片模板-ppt模板-5486b86f1d",
+   "updatedAt": "2026-10-04T10:17:26+08:00",
+   "addedAt": "2026-10-04T10:17:26+08:00"
+  },
+  {
+   "id": "d395d95fac34",
+   "title": "2025年高考化学试卷（四川卷）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "化学",
+    "四川",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考化学试卷（四川卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/de0018b993a8",
+   "pwd": "iE60",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-a205059f6b16c66a",
+   "updatedAt": "2026-10-06T10:17:46+08:00",
+   "addedAt": "2026-10-06T10:17:46+08:00"
+  },
+  {
+   "id": "2d02c37f4385",
+   "title": "2024年云南中考数学真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "数学",
+    "云南",
+    "2024"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2024年云南中考数学真题，收录 原卷版、解析版，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/0bbe714258ac",
+   "pwd": "rSAe",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-019d3d9525df657e",
+   "updatedAt": "2026-10-06T10:17:46+08:00",
+   "addedAt": "2026-10-06T10:17:46+08:00"
+  },
+  {
+   "id": "d0718aa9eca5",
+   "title": "七年级道法月考、期中、期末试卷",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "道法",
+    "七年级",
+    "月考",
+    "期中",
+    "期末"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "七年级全一册道法月考、期中、期末试卷，含基础知识达标测试A，共 4 份。",
+   "shareUrl": "https://pan.quark.cn/s/2b272ff35b2e",
+   "pwd": "9Pez",
+   "sourceUrl": "https://quarksource.com/resource/七年级道法月考-期中-期末试卷-ffcff0fd",
+   "updatedAt": "2026-10-06T10:17:46+08:00",
+   "addedAt": "2026-10-06T10:17:46+08:00"
+  },
+  {
+   "id": "4b72bd3debc5",
+   "title": "【外研】八上英语必背内容默写卷",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "英语",
+    "外研版",
+    "八年级",
+    "默写",
+    "上册"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "外研版八年级上册英语必背内容默写卷，按单元覆盖必背词汇与句型。",
+   "shareUrl": "https://pan.quark.cn/s/b4fd5a434590",
+   "pwd": "niyz",
+   "sourceUrl": "https://quarksource.com/resource/外研-八上英语必背内容默写卷-ff604cbf",
+   "updatedAt": "2026-10-06T10:17:46+08:00",
+   "addedAt": "2026-10-06T10:17:46+08:00"
+  },
+  {
+   "id": "5eeda550a2c3",
+   "title": "青色职场办公背景的工作述职总结汇报PPT模板",
+   "category": "office",
+   "subcategory": "zhishu",
+   "tags": [
+    "述职报告",
+    "工作总结",
+    "PPT模板"
+   ],
+   "size": "",
+   "formats": "PPTX",
+   "desc": "青色职场办公背景的工作述职总结汇报PPT模板，适合年终/季度述职汇报场景。",
+   "shareUrl": "https://pan.quark.cn/s/9d47ae5a2a30",
+   "pwd": "eBYU",
+   "sourceUrl": "https://quarksource.com/resource/青色职场办公背景的工作述职总结汇报ppt模板-214aaef9da",
+   "updatedAt": "2026-10-06T10:17:46+08:00",
+   "addedAt": "2026-10-06T10:17:46+08:00"
+  },
+  {
+   "id": "2ea47a25ef19",
+   "title": "2025年高考化学试卷(安徽卷)",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "化学",
+    "安徽",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考化学试卷(安徽卷),收录 空白卷、解析卷,共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/df73c1be8a19",
+   "pwd": "CMmX",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-c722fd03d25e6108",
+   "updatedAt": "2026-10-09T10:09:25+08:00",
+   "addedAt": "2026-10-09T10:09:25+08:00"
+  },
+  {
+   "id": "5a43b32cf79d",
+   "title": "2024年内蒙古包头市中考数学真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "数学",
+    "内蒙古",
+    "2024"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2024年内蒙古包头市中考数学真题",
+   "shareUrl": "https://pan.quark.cn/s/5f80d1e50c7e",
+   "pwd": "VfOF",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-ecbab3e093d57fa9",
+   "updatedAt": "2026-10-09T10:09:25+08:00",
+   "addedAt": "2026-10-09T10:09:25+08:00"
+  },
+  {
+   "id": "9e39f19f4b9b",
+   "title": "八上语文读读写写过关训练(4份)",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "语文",
+    "8年级"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "8年级语文上册学习资料,含 4 份读读写写过关训练。",
+   "shareUrl": "https://pan.quark.cn/s/e926c46b6fbc",
+   "pwd": "KSmN",
+   "sourceUrl": "https://quarksource.com/resource/八上语文读读写写过关训练-4份-febfe2bb",
+   "updatedAt": "2026-10-09T10:09:25+08:00",
+   "addedAt": "2026-10-09T10:09:25+08:00"
+  },
+  {
+   "id": "c08bfd6a6937",
+   "title": "【济南】七下生物期末试卷",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "生物",
+    "7年级"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "7年级生物下册期末试卷(济南地区),含多份期末模拟测试卷。",
+   "shareUrl": "https://pan.quark.cn/s/d1f68ff14521",
+   "pwd": "SL6t",
+   "sourceUrl": "https://quarksource.com/resource/济南-七下生物期末试卷-ff43ca01",
+   "updatedAt": "2026-10-09T10:09:25+08:00",
+   "addedAt": "2026-10-09T10:09:25+08:00"
+  },
+  {
+   "id": "f0bc4772b6bf",
+   "title": "蓝色简约商务风竞聘晋升述职报告PPT模板",
+   "category": "office",
+   "subcategory": "zhishu",
+   "tags": [],
+   "size": "",
+   "formats": "",
+   "desc": "蓝色简约商务风竞聘晋升述职报告PPT模板,适用于竞聘、晋升、述职汇报场景。",
+   "shareUrl": "https://pan.quark.cn/s/6550f427856e",
+   "pwd": "qZ2u",
+   "sourceUrl": "https://quarksource.com/resource/蓝色简约商务风竞聘晋升述职报告ppt模板-4c6efd1527",
+   "updatedAt": "2026-10-09T10:09:25+08:00",
+   "addedAt": "2026-10-09T10:09:25+08:00"
+  },
+  {
+   "id": "f8e5f7b96ebe",
+   "title": "2025年高考化学试卷(山东卷)",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "化学",
+    "山东",
+    "2025",
+    "高考"
+   ],
+   "size": "",
+   "formats": "[]",
+   "desc": "2025年高考化学试卷(山东卷),收录 空白卷、解析卷,共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/c93420bb782f",
+   "pwd": "aXJL",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-55a0313383186223",
+   "updatedAt": "2026-10-10T10:07:31+08:00",
+   "addedAt": "2026-10-10T10:07:31+08:00"
+  },
+  {
+   "id": "41d49d94a5db",
+   "title": "2024年北京中考数学真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "数学",
+    "北京",
+    "2024",
+    "中考"
+   ],
+   "size": "",
+   "formats": "[]",
+   "desc": "2024年北京中考数学真题,收录 原卷版、解析版,共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/625cb5383e22",
+   "pwd": "3p7M",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-f341345b38fac410",
+   "updatedAt": "2026-10-10T10:07:31+08:00",
+   "addedAt": "2026-10-10T10:07:31+08:00"
+  },
+  {
+   "id": "215a6ef72919",
+   "title": "西师六上数学期末检测卷",
+   "category": "study",
+   "subcategory": "shuxue",
+   "tags": [
+    "数学",
+    "六年级",
+    "西师版"
+   ],
+   "size": "",
+   "formats": "[]",
+   "desc": "西师版六年级上册数学期末检测卷。",
+   "shareUrl": "https://pan.quark.cn/s/1a7aef802db3",
+   "pwd": "pqex",
+   "sourceUrl": "https://quarksource.com/resource/西师-单元测试卷-ffd8b4ec",
+   "updatedAt": "2026-10-10T10:07:31+08:00",
+   "addedAt": "2026-10-10T10:07:31+08:00"
+  },
+  {
+   "id": "3abd8033818a",
+   "title": "九下语文期末试卷",
+   "category": "study",
+   "subcategory": "yuwen",
+   "tags": [
+    "语文",
+    "九年级",
+    "期末"
+   ],
+   "size": "",
+   "formats": "[]",
+   "desc": "九年级下册语文月考、期中、期末试卷合集之期末试卷。",
+   "shareUrl": "https://pan.quark.cn/s/9c3896016c08",
+   "pwd": "MIOK",
+   "sourceUrl": "https://quarksource.com/resource/九下语文月考-期中-期末试卷-fe6d3fb2",
+   "updatedAt": "2026-10-10T10:07:31+08:00",
+   "addedAt": "2026-10-10T10:07:31+08:00"
+  },
+  {
+   "id": "885c6f8add36",
+   "title": "棕色商务人士背景的个人述职报告PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "PPT",
+    "述职报告",
+    "商务"
+   ],
+   "size": "",
+   "formats": "[]",
+   "desc": "述职转正 · 棕色商务人士背景的个人述职报告PPT模板,包含 26 页可编辑演示内容。",
+   "shareUrl": "https://pan.quark.cn/s/6025e273852b",
+   "pwd": "r1Lg",
+   "sourceUrl": "https://quarksource.com/resource/棕色商务人士背景的个人述职报告ppt模板-3e81d2713e",
+   "updatedAt": "2026-10-10T10:07:31+08:00",
+   "addedAt": "2026-10-10T10:07:31+08:00"
+  },
+  {
+   "id": "f639082af6e7",
+   "title": "2025年高考历史试卷（北京卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "历史",
+    "北京",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考历史试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/90d8e4801570",
+   "pwd": "udNd",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-13813daa8bf8e608",
+   "updatedAt": "2026-10-11T16:06:57+08:00",
+   "addedAt": "2026-10-11T16:06:57+08:00"
+  },
+  {
+   "id": "eea30175323a",
+   "title": "2025年高考地理试卷（全国新课标卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "地理",
+    "全国",
+    "2025",
+    "新课标"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考地理试卷（全国新课标卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/405fe88a60a5",
+   "pwd": "sMT0",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6e4f2a38093bbf4a",
+   "updatedAt": "2026-10-11T16:06:57+08:00",
+   "addedAt": "2026-10-11T16:06:57+08:00"
+  },
+  {
+   "id": "45141a846810",
+   "title": "四年级必会500字字帖描红",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "语文",
+    "四年级",
+    "字帖",
+    "小学"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "四年级必会500字字帖描红，小学语文书写练习资料。",
+   "shareUrl": "https://pan.quark.cn/s/3a583b0ebd19",
+   "pwd": "YOqJ",
+   "sourceUrl": "https://quarksource.com/resource/四年级必会500字-字帖描红-ffa1e2b5",
+   "updatedAt": "2026-10-11T16:06:57+08:00",
+   "addedAt": "2026-10-11T16:06:57+08:00"
+  },
+  {
+   "id": "9830778e41dc",
+   "title": "八上历史期中模拟试卷",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "历史",
+    "八年级",
+    "期中",
+    "模拟卷"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "八年级上册历史期中模拟试卷，初中历史阶段检测资料。",
+   "shareUrl": "https://pan.quark.cn/s/1f2970b69dba",
+   "pwd": "Nrdl",
+   "sourceUrl": "https://quarksource.com/resource/八上历史期中模拟试卷-fff7db6b",
+   "updatedAt": "2026-10-11T16:06:57+08:00",
+   "addedAt": "2026-10-11T16:06:57+08:00"
+  },
+  {
+   "id": "9d85485d8e67",
+   "title": "稳重大方述职报告PPT模板",
+   "category": "office",
+   "subcategory": "zhishu",
+   "tags": [
+    "述职报告",
+    "工作总结",
+    "PPT模板"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "述职转正 · 稳重大方述职报告PPT模板，包含 16 页可编辑演示内容。",
+   "shareUrl": "https://pan.quark.cn/s/dccc397bbd8c",
+   "pwd": "j2jr",
+   "sourceUrl": "https://quarksource.com/resource/稳重大方述职报告ppt模板-0ea2011539",
+   "updatedAt": "2026-10-11T16:06:57+08:00",
+   "addedAt": "2026-10-11T16:06:57+08:00"
+  },
+  {
+   "id": "c7bf1e0e139b",
+   "title": "2025年高考数学试卷（新高考Ⅰ卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "数学",
+    "2025",
+    "新高考I卷"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考数学试卷（新高考Ⅰ卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/e025d761c9e3",
+   "pwd": "hCtm",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-80c3b6a38cc3a6a0",
+   "updatedAt": "2026-10-12T10:10:55+08:00",
+   "addedAt": "2026-10-12T10:10:55+08:00"
+  },
+  {
+   "id": "cbd7e893fa73",
+   "title": "2025年高考物理试卷（上海卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "物理",
+    "上海",
+    "2025",
+    "上海卷"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考物理试卷（上海卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/d9b58ce045da",
+   "pwd": "oJjD",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-2fd0b166f694b755",
+   "updatedAt": "2026-10-12T10:10:55+08:00",
+   "addedAt": "2026-10-12T10:10:55+08:00"
+  },
+  {
+   "id": "f0a6d2805b01",
+   "title": "苏教-一课一练",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "数学",
+    "4年级",
+    "one_lesson_one_practice"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "苏教-一课一练",
+   "shareUrl": "https://pan.quark.cn/s/f1f19b79c6cb",
+   "pwd": "ABcG",
+   "sourceUrl": "https://quarksource.com/resource/苏教-一课一练-ffa177bc",
+   "updatedAt": "2026-10-12T10:10:55+08:00",
+   "addedAt": "2026-10-12T10:10:55+08:00"
+  },
+  {
+   "id": "1ecf381293d4",
+   "title": "【沪教】九下化学一课一练",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "化学",
+    "9年级",
+    "one_lesson_one_practice"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "【沪教】九下化学一课一练",
+   "shareUrl": "https://pan.quark.cn/s/ebf4ceb34b3c",
+   "pwd": "0DtN",
+   "sourceUrl": "https://quarksource.com/resource/沪教-九下化学一课一练-fb8fd282",
+   "updatedAt": "2026-10-12T10:10:55+08:00",
+   "addedAt": "2026-10-12T10:10:55+08:00"
+  },
+  {
+   "id": "8d6a3fb0d8a3",
+   "title": "棕色帆船背景的“激流勇进奋楫争先”励志风述职报告PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "PPT模板",
+    "述职报告"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "棕色帆船背景的“激流勇进奋楫争先”励志风述职报告PPT模板",
+   "shareUrl": "https://pan.quark.cn/s/834f37f7f93e",
+   "pwd": "rLRM",
+   "sourceUrl": "https://quarksource.com/resource/棕色帆船背景的-激流勇进奋楫争先-励志风述职报告ppt模板-79b566b2fe",
+   "updatedAt": "2026-10-12T10:10:55+08:00",
+   "addedAt": "2026-10-12T10:10:55+08:00"
+  },
+  {
+   "id": "e3e24ab1260e",
+   "title": "2025年高考化学试卷（广东卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "化学",
+    "广东",
+    "2025"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考化学试卷（广东卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/a7c31930e01e",
+   "pwd": "MBFz",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-73a2fcb64e060676",
+   "updatedAt": "2026-10-13T10:14:34+08:00",
+   "addedAt": "2026-10-13T10:14:34+08:00"
+  },
+  {
+   "id": "8f17dffaa5b7",
+   "title": "2024年上海中考地理真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "地理",
+    "上海",
+    "2024"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2024年上海中考地理真题，收录 原卷版、解析版，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/82d2fef024c7",
+   "pwd": "q1G7",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-46c386cd01ba9312",
+   "updatedAt": "2026-10-13T10:14:34+08:00",
+   "addedAt": "2026-10-13T10:14:34+08:00"
+  },
+  {
+   "id": "5880989ecc14",
+   "title": "【陕旅（三）】五上英语一课一练",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "英语",
+    "5年级"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "【陕旅（三）】五上英语一课一练",
+   "shareUrl": "https://pan.quark.cn/s/8b22d554cca3",
+   "pwd": "V8gE",
+   "sourceUrl": "https://quarksource.com/resource/陕旅-三-五上英语一课一练-faf6435f",
+   "updatedAt": "2026-10-13T10:14:34+08:00",
+   "addedAt": "2026-10-13T10:14:34+08:00"
+  },
+  {
+   "id": "9d9931fc3da7",
+   "title": "八上英语期中复习（25个专题）",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "英语",
+    "8年级"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "八上英语期中复习（25个专题）",
+   "shareUrl": "https://pan.quark.cn/s/87a7dd8a19c5",
+   "pwd": "AME3",
+   "sourceUrl": "https://quarksource.com/resource/八上英语期中复习-25个专题-faa6d87c",
+   "updatedAt": "2026-10-13T10:14:34+08:00",
+   "addedAt": "2026-10-13T10:14:34+08:00"
+  },
+  {
+   "id": "163990480b7c",
+   "title": "矢量剪切画背景的年终述职报告PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "PPT模板"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "矢量剪切画背景的年终述职报告ppt模板-483920c3de",
+   "shareUrl": "https://pan.quark.cn/s/8559c26a6f2a",
+   "pwd": "wrIc",
+   "sourceUrl": "https://quarksource.com/resource/矢量剪切画背景的年终述职报告ppt模板-483920c3de",
+   "updatedAt": "2026-10-13T10:14:34+08:00",
+   "addedAt": "2026-10-13T10:14:34+08:00"
+  },
+  {
+   "id": "fd565150a803",
+   "title": "2027李梦圆国考公告解读",
+   "category": "exam",
+   "subcategory": "gongkao",
+   "tags": [
+    "国考",
+    "2027",
+    "李梦圆",
+    "公告解读"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年国考公告解读（李梦圆）。",
+   "shareUrl": "https://pan.quark.cn/s/291d241092ca",
+   "pwd": "CbfO",
+   "sourceUrl": "https://pan.quark.cn/s/1c247a52bd46",
+   "updatedAt": "2026-10-13T22:55:00+08:00",
+   "addedAt": "2026-10-13T22:55:00+08:00"
+  },
+  {
+   "id": "4caf16405d06",
+   "title": "2027国考白皮书",
+   "category": "exam",
+   "subcategory": "gongkao",
+   "tags": [
+    "国考",
+    "2027",
+    "白皮书"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年国考白皮书。",
+   "shareUrl": "https://pan.quark.cn/s/cb43055f4884",
+   "pwd": "C5Os",
+   "sourceUrl": "https://pan.quark.cn/s/9613fa9e0665",
+   "updatedAt": "2026-10-13T22:55:00+08:00",
+   "addedAt": "2026-10-13T22:55:00+08:00"
+  },
+  {
+   "id": "5bf7757e3277",
+   "title": "2027陈怀安国考公告解读",
+   "category": "exam",
+   "subcategory": "gongkao",
+   "tags": [
+    "国考",
+    "2027",
+    "陈怀安",
+    "公告解读"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年国考公告解读（陈怀安）。",
+   "shareUrl": "https://pan.quark.cn/s/0bf7f9e9a197",
+   "pwd": "5H3p",
+   "sourceUrl": "https://pan.quark.cn/s/d5f48bb01fdd",
+   "updatedAt": "2026-10-13T22:55:00+08:00",
+   "addedAt": "2026-10-13T22:55:00+08:00"
+  },
+  {
+   "id": "f5f1ce8d2940",
+   "title": "2027李铁国考选岗指导",
+   "category": "exam",
+   "subcategory": "gongkao",
+   "tags": [
+    "国考",
+    "2027",
+    "李铁",
+    "选岗"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年国考选岗指导（李铁）。",
+   "shareUrl": "https://pan.quark.cn/s/d99282264394",
+   "pwd": "nf9Q",
+   "sourceUrl": "https://pan.quark.cn/s/18967574b59f",
+   "updatedAt": "2026-10-13T22:55:00+08:00",
+   "addedAt": "2026-10-13T22:55:00+08:00"
+  },
+  {
+   "id": "39c1ad999cb4",
+   "title": "2027国考资料包-分数线岗位表专业目录",
+   "category": "exam",
+   "subcategory": "gongkao",
+   "tags": [
+    "国考",
+    "2027",
+    "分数线",
+    "岗位表",
+    "专业目录"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年国考资料包：分数线、岗位表、专业目录。",
+   "shareUrl": "https://pan.quark.cn/s/dcc4d396159e",
+   "pwd": "2HoT",
+   "sourceUrl": "https://pan.quark.cn/s/356130a74cd9",
+   "updatedAt": "2026-10-13T22:55:00+08:00",
+   "addedAt": "2026-10-13T22:55:00+08:00"
+  },
+  {
+   "id": "cfd644d8c49e",
+   "title": "2025年高考化学试卷（江苏卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "化学",
+    "江苏",
+    "2025"
+   ],
+   "size": "",
+   "formats": "\"[\\\"DOCX\\\"]\"",
+   "desc": "2025年高考化学试卷（江苏卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/1a8b1104ce32",
+   "pwd": "uRqY",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6f1ddc5a69d9223a",
+   "updatedAt": "2026-10-14T10:05:30+08:00",
+   "addedAt": "2026-10-14T10:05:30+08:00"
+  },
+  {
+   "id": "be426f677e78",
+   "title": "2024年上海中考物理真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "物理",
+    "上海",
+    "2024"
+   ],
+   "size": "",
+   "formats": "\"[\\\"DOCX\\\"]\"",
+   "desc": "2024年上海中考物理真题，收录 原卷版、解析版，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/8f1787f2d474",
+   "pwd": "PVgC",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-2dbeaebe8d390c98",
+   "updatedAt": "2026-10-14T10:05:30+08:00",
+   "addedAt": "2026-10-14T10:05:30+08:00"
+  },
+  {
+   "id": "f2615f0d2904",
+   "title": "人教（一）一课一练",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "英语",
+    "3年级"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "人教（一）一课一练",
+   "shareUrl": "https://pan.quark.cn/s/5cd26ea7c49b",
+   "pwd": "adM9",
+   "sourceUrl": "https://quarksource.com/resource/人教-一-一课一练-fa940ed4",
+   "updatedAt": "2026-10-14T10:05:30+08:00",
+   "addedAt": "2026-10-14T10:05:30+08:00"
+  },
+  {
+   "id": "8df49ed54a98",
+   "title": "【仁爱】七下英语期中、期末试卷（有听力）",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "英语",
+    "7年级"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "【仁爱】七下英语期中、期末试卷（有听力）",
+   "shareUrl": "https://pan.quark.cn/s/13f4153f72cd",
+   "pwd": "U7qQ",
+   "sourceUrl": "https://quarksource.com/resource/仁爱-七下英语期中-期末试卷-有听力-fb4246d1",
+   "updatedAt": "2026-10-14T10:05:30+08:00",
+   "addedAt": "2026-10-14T10:05:30+08:00"
+  },
+  {
+   "id": "a3b3d38f25b7",
+   "title": "紫色攀登者背景的-无畏征程赢战未来-个人述职报告PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "PPT模板"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "紫色攀登者背景的-无畏征程赢战未来-个人述职报告ppt模板-572d093b4b",
+   "shareUrl": "https://pan.quark.cn/s/f270e0934299",
+   "pwd": "ezhg",
+   "sourceUrl": "https://quarksource.com/resource/紫色攀登者背景的-无畏征程赢战未来-个人述职报告ppt模板-572d093b4b",
+   "updatedAt": "2026-10-14T10:05:30+08:00",
+   "addedAt": "2026-10-14T10:05:30+08:00"
+  },
+  {
+   "id": "6d9e7a07bc32",
+   "title": "2027仲春之阳数字推理讲练集（理论+刷题）",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "2027",
+    "行测",
+    "数字推理",
+    "仲春之阳"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年公考数字推理讲练集（仲春之阳）：理论 + 刷题。",
+   "shareUrl": "https://pan.quark.cn/s/b15ab0f3fabc",
+   "pwd": "I5vx",
+   "sourceUrl": "https://pan.quark.cn/s/3e0f50c9a264",
+   "updatedAt": "2026-10-14T20:55:10+08:00",
+   "addedAt": "2026-10-14T20:55:10+08:00"
+  },
+  {
+   "id": "064aced57fdd",
+   "title": "2027刘义恒图形推理700题",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "2027",
+    "行测",
+    "图形推理",
+    "刘义恒"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年公考图形推理 700 题（刘义恒）。",
+   "shareUrl": "https://pan.quark.cn/s/f7a7d79b1d21",
+   "pwd": "7TBU",
+   "sourceUrl": "https://pan.quark.cn/s/a0a976ea9974",
+   "updatedAt": "2026-10-14T20:55:10+08:00",
+   "addedAt": "2026-10-14T20:55:10+08:00"
+  },
+  {
+   "id": "838954ae1bc0",
+   "title": "2027袁东申论领跑营冲刺预测班",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "2027",
+    "申论",
+    "冲刺预测",
+    "袁东"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年公考申论领跑营冲刺预测班（袁东）。",
+   "shareUrl": "https://pan.quark.cn/s/dfc9833cd090",
+   "pwd": "7heR",
+   "sourceUrl": "https://pan.quark.cn/s/06e48673fdba",
+   "updatedAt": "2026-10-14T20:55:10+08:00",
+   "addedAt": "2026-10-14T20:55:10+08:00"
+  },
+  {
+   "id": "a2a88049ec5c",
+   "title": "2027行测+申论（五合一）超大杯刷题营",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "2027",
+    "行测",
+    "申论",
+    "刷题营"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年公考行测+申论刷题营（五合一·超大杯）。",
+   "shareUrl": "https://pan.quark.cn/s/d52666e45507",
+   "pwd": "FjZB",
+   "sourceUrl": "https://pan.quark.cn/s/f0efc0783539",
+   "updatedAt": "2026-10-14T20:55:10+08:00",
+   "addedAt": "2026-10-14T20:55:10+08:00"
+  },
+  {
+   "id": "cba024b99325",
+   "title": "2027行测+申论（六合一）实战公考疯狂刷2500题",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "2027",
+    "行测",
+    "申论",
+    "2500题"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年公考行测+申论实战刷题（六合一·2500 题）。",
+   "shareUrl": "https://pan.quark.cn/s/594ba48fd5ef",
+   "pwd": "inDi",
+   "sourceUrl": "https://pan.quark.cn/s/5cd1b9c6b316",
+   "updatedAt": "2026-10-14T20:55:10+08:00",
+   "addedAt": "2026-10-14T20:55:10+08:00"
+  },
+  {
+   "id": "13224d16be44",
+   "title": "2025年高考化学试卷（浙江1月卷）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "高考",
+    "化学",
+    "2025",
+    "浙江"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025年高考化学试卷（浙江1月卷），含空白卷与解析卷。",
+   "shareUrl": "https://pan.quark.cn/s/ab92849acdc8",
+   "pwd": "2SwW",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-86ecc07b625a154b",
+   "updatedAt": "2026-10-15T10:06:56+08:00",
+   "addedAt": "2026-10-15T10:07:10+08:00"
+  },
+  {
+   "id": "7033cb5a4b5e",
+   "title": "2024年上海中考生物真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "生物",
+    "2024",
+    "上海"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2024年上海中考生物真题，含答案与解析。",
+   "shareUrl": "https://pan.quark.cn/s/f00b266b9486",
+   "pwd": "crVE",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-0885a20920e0e7e0",
+   "updatedAt": "2026-10-15T10:06:56+08:00",
+   "addedAt": "2026-10-15T10:07:10+08:00"
+  },
+  {
+   "id": "266debe0cee1",
+   "title": "【人教】七上数学一课一练",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "数学",
+    "七年级",
+    "人教",
+    "一课一练"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "人教版七年级上册数学一课一练，同步教材单元练习。",
+   "shareUrl": "https://pan.quark.cn/s/bbf992173dc8",
+   "pwd": "Eh22",
+   "sourceUrl": "https://quarksource.com/resource/人教-七上数学一课一练-fdf50cf1",
+   "updatedAt": "2026-10-15T10:06:56+08:00",
+   "addedAt": "2026-10-15T10:07:10+08:00"
+  },
+  {
+   "id": "a4314063173a",
+   "title": "一上语文1-8单元基础复习",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "语文",
+    "一年级",
+    "单元复习",
+    "基础"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "小学一年级上册语文1-8单元基础复习资料。",
+   "shareUrl": "https://pan.quark.cn/s/c60e15657f00",
+   "pwd": "GGfO",
+   "sourceUrl": "https://quarksource.com/resource/一上语文1-8单元基础复习-fd8f9c13",
+   "updatedAt": "2026-10-15T10:06:56+08:00",
+   "addedAt": "2026-10-15T10:07:10+08:00"
+  },
+  {
+   "id": "18edf8bc747a",
+   "title": "山峰高山背景的励志风述职报告PPT模板",
+   "category": "office",
+   "subcategory": "zhishu",
+   "tags": [
+    "述职报告",
+    "PPT模板",
+    "励志"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "山峰高山背景励志风述职报告PPT模板，适合个人述职汇报。",
+   "shareUrl": "https://pan.quark.cn/s/8683eb876e86",
+   "pwd": "gwrm",
+   "sourceUrl": "https://quarksource.com/resource/山峰高山背景的励志风述职报告ppt模板-637445d7a1",
+   "updatedAt": "2026-10-15T10:06:56+08:00",
+   "addedAt": "2026-10-15T10:07:10+08:00"
+  },
+  {
+   "id": "d92678b9dde6",
+   "title": "2027《新东方•高中秋季培优讲义》（高一高二）（数学物理）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "高中",
+    "数学",
+    "物理",
+    "培优",
+    "新东方",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027版新东方高中秋季培优讲义（高一高二，数学+物理）。",
+   "shareUrl": "https://pan.quark.cn/s/989725a75b71",
+   "pwd": "jrU4",
+   "sourceUrl": "https://pan.quark.cn/s/335e7a32ab2e",
+   "updatedAt": "2026-10-15T15:30:55+08:00",
+   "addedAt": "2026-10-15T15:31:26+08:00"
+  },
+  {
+   "id": "34f3a91b1218",
+   "title": "【高中英语】2027版 单元阅读理解提升题型专练人教",
+   "category": "exam",
+   "subcategory": "yingyu",
+   "tags": [
+    "高中",
+    "英语",
+    "阅读理解",
+    "人教版",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027版高中英语单元阅读理解提升题型专练（人教版）。",
+   "shareUrl": "https://pan.quark.cn/s/31cfd6481229",
+   "pwd": "r69w",
+   "sourceUrl": "https://pan.quark.cn/s/2b1168674ac4",
+   "updatedAt": "2026-10-15T15:30:55+08:00",
+   "addedAt": "2026-10-15T15:31:26+08:00"
+  },
+  {
+   "id": "30ce19639217",
+   "title": "导数中的切线问题全归纳--2027年高考数学",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "高考",
+    "数学",
+    "导数",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年高考数学：导数中的切线问题全归纳。",
+   "shareUrl": "https://pan.quark.cn/s/0df9106851d3",
+   "pwd": "ZUW3",
+   "sourceUrl": "https://pan.quark.cn/s/9bd5321bd2a6",
+   "updatedAt": "2026-10-15T15:30:55+08:00",
+   "addedAt": "2026-10-15T15:31:26+08:00"
+  },
+  {
+   "id": "fd2550c4a326",
+   "title": "高中数学核心知识背记手册（背记版）",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "高中",
+    "数学",
+    "背记手册"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "高中数学核心知识背记手册（背记版）。",
+   "shareUrl": "https://pan.quark.cn/s/a100b5f13bd4",
+   "pwd": "pZpa",
+   "sourceUrl": "https://pan.quark.cn/s/aec4d013c43f",
+   "updatedAt": "2026-10-15T15:30:55+08:00",
+   "addedAt": "2026-10-15T15:31:26+08:00"
+  },
+  {
+   "id": "8041212e7c4a",
+   "title": "超唯美高中数学基础知识必备手册填空版和背记版",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "高中",
+    "数学",
+    "基础知识",
+    "填空",
+    "背记"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "超唯美高中数学基础知识必备手册（填空版 + 背记版）。",
+   "shareUrl": "https://pan.quark.cn/s/8afa1c99f4b5",
+   "pwd": "M1dk",
+   "sourceUrl": "https://pan.quark.cn/s/2ca906b6edeb",
+   "updatedAt": "2026-10-15T15:30:55+08:00",
+   "addedAt": "2026-10-15T15:31:26+08:00"
+  },
+  {
+   "id": "38227a0f7c4f",
+   "title": "2026-2027辽宁各市高中上学期月考试卷汇总",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "高中",
+    "月考",
+    "试卷",
+    "辽宁",
+    "2026",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2026-2027学年辽宁各市高中上学期月考试卷汇总。",
+   "shareUrl": "https://pan.quark.cn/s/04dc0bee6f3f",
+   "pwd": "8IfR",
+   "sourceUrl": "https://pan.quark.cn/s/c3cd63f8b5c5",
+   "updatedAt": "2026-10-15T15:30:55+08:00",
+   "addedAt": "2026-10-15T15:31:26+08:00"
+  },
+  {
+   "id": "65fac3dc4492",
+   "title": "2025年高考化学试卷（河北卷）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "高考",
+    "化学",
+    "2025",
+    "河北"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025年高考化学试卷（河北卷），含空白卷与解析卷。",
+   "shareUrl": "https://pan.quark.cn/s/1ebc642c0faf",
+   "pwd": "4SCu",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-14ab7d02d3efb7b6",
+   "updatedAt": "2026-10-16T10:06:35+08:00",
+   "addedAt": "2026-10-16T10:06:43+08:00"
+  },
+  {
+   "id": "0c8adde2dfbe",
+   "title": "2024年云南中考英语真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "英语",
+    "2024",
+    "云南"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2024年云南中考英语真题，含答案与解析。",
+   "shareUrl": "https://pan.quark.cn/s/2904910b6d2d",
+   "pwd": "Nsi1",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-ebe75ca9ce5b7ecc",
+   "updatedAt": "2026-10-16T10:06:35+08:00",
+   "addedAt": "2026-10-16T10:06:43+08:00"
+  },
+  {
+   "id": "201e9e35c020",
+   "title": "【通用】三年级口算练习",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "数学",
+    "三年级",
+    "口算",
+    "小学"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "小学三年级数学口算练习资料，适合日常计算能力训练。",
+   "shareUrl": "https://pan.quark.cn/s/64a778f26f7c",
+   "pwd": "kosc",
+   "sourceUrl": "https://quarksource.com/resource/通用-三年级口算练习-fdf49d77",
+   "updatedAt": "2026-10-16T10:06:35+08:00",
+   "addedAt": "2026-10-16T10:06:43+08:00"
+  },
+  {
+   "id": "735ebdf29a4e",
+   "title": "【湘教】七上地理综合检测",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "地理",
+    "七年级",
+    "湘教",
+    "初中"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "湘教版七年级上册地理综合检测，同步教材单元检测。",
+   "shareUrl": "https://pan.quark.cn/s/d2aa8e1a9f98",
+   "pwd": "tB23",
+   "sourceUrl": "https://quarksource.com/resource/湘教-七上地理综合检测-fd2ab78f",
+   "updatedAt": "2026-10-16T10:06:35+08:00",
+   "addedAt": "2026-10-16T10:06:43+08:00"
+  },
+  {
+   "id": "ba834a783137",
+   "title": "青色花卉背景的教师述职报告PPT模板",
+   "category": "office",
+   "subcategory": "zhishu",
+   "tags": [
+    "述职报告",
+    "PPT模板",
+    "教师",
+    "青色"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "青色花卉背景教师述职报告PPT模板，适合教师述职汇报。",
+   "shareUrl": "https://pan.quark.cn/s/591d8c45cc9f",
+   "pwd": "d4GF",
+   "sourceUrl": "https://quarksource.com/resource/青色花卉背景的教师述职报告ppt模板-5d753e728a",
+   "updatedAt": "2026-10-16T10:06:35+08:00",
+   "addedAt": "2026-10-16T10:06:43+08:00"
+  },
+  {
+   "id": "668ae6474269",
+   "title": "小p2027年笔记",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "2027",
+    "笔记",
+    "小p"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "小p 2027 年公考笔记。",
+   "shareUrl": "https://pan.quark.cn/s/ec5ccc0a0f29",
+   "pwd": "iEM9",
+   "sourceUrl": "https://pan.quark.cn/s/617bc434fcb4",
+   "updatedAt": "2026-10-16T23:36:33+08:00",
+   "addedAt": "2026-10-16T23:36:33+08:00"
+  },
+  {
+   "id": "c3cf5d88af1c",
+   "title": "2027杨攀政治理论实战冲刺课",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "2027",
+    "政治理论",
+    "杨攀",
+    "冲刺"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年公考政治理论实战冲刺课（杨攀）。",
+   "shareUrl": "https://pan.quark.cn/s/f2dc808a3d43",
+   "pwd": "2d55",
+   "sourceUrl": "https://pan.quark.cn/s/07097fff1457",
+   "updatedAt": "2026-10-16T23:36:33+08:00",
+   "addedAt": "2026-10-16T23:36:33+08:00"
+  },
+  {
+   "id": "c3a388e48a1b",
+   "title": "何炜健判断推理百题带刷",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "2027",
+    "判断推理",
+    "何炜健",
+    "刷题"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "何炜健判断推理百题带刷（2027公考）。",
+   "shareUrl": "https://pan.quark.cn/s/b58637b788d5",
+   "pwd": "3Ugw",
+   "sourceUrl": "https://pan.quark.cn/s/65be4320fba6",
+   "updatedAt": "2026-10-16T23:36:33+08:00",
+   "addedAt": "2026-10-16T23:36:33+08:00"
+  },
+  {
+   "id": "f0a1e231696d",
+   "title": "2025年高考化学试卷（河南卷）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "高考",
+    "化学",
+    "2025",
+    "河南"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025年高考化学试卷（河南卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/9cea99153045",
+   "pwd": "NPKz",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-c481a16188e49c2b",
+   "updatedAt": "2026-10-17T10:05:36+08:00",
+   "addedAt": "2026-10-17T10:06:15+08:00"
+  },
+  {
+   "id": "689ac351626a",
+   "title": "2024年云南中考语文真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "语文",
+    "2024",
+    "云南"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2024年云南中考语文真题，收录 原卷版、解析版，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/3bb1f656de33",
+   "pwd": "dQt5",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-a06099f59359e3d1",
+   "updatedAt": "2026-10-17T10:05:36+08:00",
+   "addedAt": "2026-10-17T10:06:15+08:00"
+  },
+  {
+   "id": "da795ded70ec",
+   "title": "【PEP】三上英语一课一练（有听力）",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "英语",
+    "三年级",
+    "PEP",
+    "小学",
+    "一课一练"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "PEP人教版三年级上册英语一课一练，含听力练习，同步教材单元。",
+   "shareUrl": "https://pan.quark.cn/s/ac8bb480d18a",
+   "pwd": "FpOZ",
+   "sourceUrl": "https://quarksource.com/resource/pep-三上英语一课一练-有听力-fa8bbad4",
+   "updatedAt": "2026-10-17T10:05:36+08:00",
+   "addedAt": "2026-10-17T10:06:15+08:00"
+  },
+  {
+   "id": "ca21de3a4d0d",
+   "title": "【沪粤】九上物理一课一练",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "物理",
+    "九年级",
+    "沪粤",
+    "初中",
+    "一课一练"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "沪粤版九年级上册物理一课一练，同步教材章节训练。",
+   "shareUrl": "https://pan.quark.cn/s/3a49270ce9ad",
+   "pwd": "6LN4",
+   "sourceUrl": "https://quarksource.com/resource/沪粤-九上物理一课一练-fbf88fe8",
+   "updatedAt": "2026-10-17T10:05:36+08:00",
+   "addedAt": "2026-10-17T10:06:15+08:00"
+  },
+  {
+   "id": "7fbe67444b77",
+   "title": "唯美小清新竞聘述职PPT模板",
+   "category": "office",
+   "subcategory": "zhishu",
+   "tags": [
+    "述职报告",
+    "PPT模板",
+    "竞聘",
+    "小清新"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "唯美小清新风格竞聘述职PPT模板，适合岗位竞聘与述职汇报。",
+   "shareUrl": "https://pan.quark.cn/s/dc500b42bb9b",
+   "pwd": "KKiz",
+   "sourceUrl": "https://quarksource.com/resource/唯美小清新竞聘述职ppt模板-a623a14f8c",
+   "updatedAt": "2026-10-17T10:05:36+08:00",
+   "addedAt": "2026-10-17T10:06:15+08:00"
+  },
+  {
+   "id": "c5815018ce2e",
+   "title": "【上海华育中学】2027版初中英语新题型—情景对话练习本",
+   "category": "exam",
+   "subcategory": "yingyu",
+   "tags": [
+    "初中",
+    "英语",
+    "情景对话",
+    "练习本",
+    "华育中学",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "【上海华育中学】2027版初中英语新题型——情景对话练习本。",
+   "shareUrl": "https://pan.quark.cn/s/7a07b8e28d5e",
+   "pwd": "TyVb",
+   "sourceUrl": "https://pan.quark.cn/s/dc32ead9005d",
+   "updatedAt": "2026-10-17T10:56:00+08:00",
+   "addedAt": "2026-10-17T10:56:01+08:00"
+  },
+  {
+   "id": "3d65ef3fdc21",
+   "title": "新七八上英语备课学霸培优试卷",
+   "category": "exam",
+   "subcategory": "yingyu",
+   "tags": [
+    "初中",
+    "英语",
+    "培优",
+    "试卷",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "新七八上英语备课学霸培优试卷。",
+   "shareUrl": "https://pan.quark.cn/s/711d4daa565b",
+   "pwd": "WBLg",
+   "sourceUrl": "https://pan.quark.cn/s/3599bbf0c9f6",
+   "updatedAt": "2026-10-17T10:56:00+08:00",
+   "addedAt": "2026-10-17T10:56:01+08:00"
+  },
+  {
+   "id": "1c607d356fc7",
+   "title": "2026-2027学年地大附校九上10月自测卷",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "九年级",
+    "自测卷",
+    "2026",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2026-2027学年地大附校九年级上册10月自测卷。",
+   "shareUrl": "https://pan.quark.cn/s/2b8683008b1d",
+   "pwd": "JwQ0",
+   "sourceUrl": "https://pan.quark.cn/s/fda74f8f8c6b",
+   "updatedAt": "2026-10-17T10:56:00+08:00",
+   "addedAt": "2026-10-17T10:56:01+08:00"
+  },
+  {
+   "id": "a9e4a68b5adf",
+   "title": "2027《基础训练》（9年级）（7科全）",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "九年级",
+    "基础训练",
+    "7科",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027《基础训练》9年级（7科全）。",
+   "shareUrl": "https://pan.quark.cn/s/eea2b743aa98",
+   "pwd": "kL0z",
+   "sourceUrl": "https://pan.quark.cn/s/f826f6e53a78",
+   "updatedAt": "2026-10-17T10:56:00+08:00",
+   "addedAt": "2026-10-17T10:56:01+08:00"
+  },
+  {
+   "id": "0b9694779dae",
+   "title": "2027《基础训练》（8年级上）（8科全）",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "八年级",
+    "基础训练",
+    "8科",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027《基础训练》8年级上（8科全）。",
+   "shareUrl": "https://pan.quark.cn/s/aa6759282a90",
+   "pwd": "RzGe",
+   "sourceUrl": "https://pan.quark.cn/s/3783be4449b0",
+   "updatedAt": "2026-10-17T10:56:00+08:00",
+   "addedAt": "2026-10-17T10:56:01+08:00"
+  },
+  {
+   "id": "54a3229f400b",
+   "title": "2027《基础训练》（7年级上）（7科全）",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "七年级",
+    "基础训练",
+    "7科",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027《基础训练》7年级上（7科全）。",
+   "shareUrl": "https://pan.quark.cn/s/082c27579c09",
+   "pwd": "63sE",
+   "sourceUrl": "https://pan.quark.cn/s/79a3ce9ddef3",
+   "updatedAt": "2026-10-17T10:56:00+08:00",
+   "addedAt": "2026-10-17T10:56:01+08:00"
+  },
+  {
+   "id": "74106ad1d2d2",
+   "title": "2025年高考化学试卷（湖北卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "高考",
+    "2025",
+    "化学",
+    "湖北",
+    "真题"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025年高考化学试卷（湖北卷），含空白卷与解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/3e74352b7453",
+   "pwd": "bmds",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-28b4922212e1b748",
+   "updatedAt": "2026-10-18T10:05:33+08:00",
+   "addedAt": "2026-10-18T10:08:15+08:00"
+  },
+  {
+   "id": "039c543162ca",
+   "title": "2024年云南中考历史真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "2024",
+    "历史",
+    "云南",
+    "真题"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2024年云南中考历史真题，含原卷版与解析版，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/6573187da35b",
+   "pwd": "uqot",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-bcffd9323f48247e",
+   "updatedAt": "2026-10-18T10:05:33+08:00",
+   "addedAt": "2026-10-18T10:08:15+08:00"
+  },
+  {
+   "id": "2d3a9aad08b4",
+   "title": "【人教】七上数学专题复习",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "数学",
+    "七年级",
+    "初中",
+    "人教",
+    "专题复习"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "人教七年级上册数学专题复习资料包，含综合测试与专项提升，共 36 份资料。",
+   "shareUrl": "https://pan.quark.cn/s/e0e6e3ca71c3",
+   "pwd": "WaCD",
+   "sourceUrl": "https://quarksource.com/resource/人教-七上数学专题复习-fb88d637",
+   "updatedAt": "2026-10-18T10:08:01+08:00",
+   "addedAt": "2026-10-18T10:08:15+08:00"
+  },
+  {
+   "id": "4b23004145ab",
+   "title": "小学语文【写作素材】",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "语文",
+    "小学",
+    "写作素材",
+    "作文",
+    "积累"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "小学语文写作素材资料包，含作文金句与素材积累，共 27 份资料。",
+   "shareUrl": "https://pan.quark.cn/s/3b0c96c74c13",
+   "pwd": "jsOO",
+   "sourceUrl": "https://quarksource.com/resource/小学语文-写作素材-f46f3bfa",
+   "updatedAt": "2026-10-18T10:08:01+08:00",
+   "addedAt": "2026-10-18T10:08:15+08:00"
+  },
+  {
+   "id": "3082c22b8b3d",
+   "title": "员工转正述职报告PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "述职报告",
+    "PPT模板",
+    "转正",
+    "职场",
+    "办公"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "员工转正述职报告PPT模板，23 页可编辑，适合职场转正与述职汇报。",
+   "shareUrl": "https://pan.quark.cn/s/ebbcbad350ef",
+   "pwd": "qU0g",
+   "sourceUrl": "https://quarksource.com/resource/员工转正述职报告ppt模板-756ee91f2e",
+   "updatedAt": "2026-10-18T10:08:01+08:00",
+   "addedAt": "2026-10-18T10:08:15+08:00"
+  },
+  {
+   "id": "0de62962d67e",
+   "title": "2025年高考历史试卷（四川卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "高考",
+    "历史",
+    "2025",
+    "四川"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025年高考历史试卷（四川卷），收录解析卷，含参考答案与解析。",
+   "shareUrl": "https://pan.quark.cn/s/46746f1e01bd",
+   "pwd": "guks",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-945cf3badb100464",
+   "updatedAt": "2026-10-19T10:20:27+08:00",
+   "addedAt": "2026-10-19T10:20:49+08:00"
+  },
+  {
+   "id": "d8ab6e34bb1c",
+   "title": "2024年云南中考地理真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "地理",
+    "2024",
+    "云南"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2024年云南中考地理真题，收录原卷版、解析版，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/4f9ad5d471d4",
+   "pwd": "ItKR",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-752ad37c126f252b",
+   "updatedAt": "2026-10-19T10:20:27+08:00",
+   "addedAt": "2026-10-19T10:20:49+08:00"
+  },
+  {
+   "id": "2e0946c4c30d",
+   "title": "青岛63-一课一练",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "数学",
+    "五年级",
+    "青岛版",
+    "小学",
+    "一课一练"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "青岛版（63制）小学数学一课一练，同步教材单元，共整理 82 份资料。",
+   "shareUrl": "https://pan.quark.cn/s/bc9d841c1967",
+   "pwd": "jxBc",
+   "sourceUrl": "https://quarksource.com/resource/青岛63-一课一练-fc1aad15",
+   "updatedAt": "2026-10-19T10:20:27+08:00",
+   "addedAt": "2026-10-19T10:20:49+08:00"
+  },
+  {
+   "id": "0cf2fe6629d5",
+   "title": "【沪教】九上英语知识清单讲练测",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "英语",
+    "九年级",
+    "沪教版",
+    "初中",
+    "知识清单"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "沪教版九年级上册英语知识清单讲练测，含综合测试、专项提升与知识总结，共 26 份资料。",
+   "shareUrl": "https://pan.quark.cn/s/bbdee996cb8b",
+   "pwd": "1IQ0",
+   "sourceUrl": "https://quarksource.com/resource/沪教-九上英语知识清单讲练测-f93eecef",
+   "updatedAt": "2026-10-19T10:20:27+08:00",
+   "addedAt": "2026-10-19T10:20:49+08:00"
+  },
+  {
+   "id": "6c4a527c2fc2",
+   "title": "立体岗位竞聘述职报告PPT模板",
+   "category": "office",
+   "subcategory": "zhishu",
+   "tags": [
+    "述职报告",
+    "PPT模板",
+    "竞聘",
+    "职场",
+    "办公"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "立体风格岗位竞聘述职报告PPT模板，适合竞聘上岗与述职汇报。",
+   "shareUrl": "https://pan.quark.cn/s/ee98a67a8c00",
+   "pwd": "zYt5",
+   "sourceUrl": "https://quarksource.com/resource/立体岗位竞聘述职报告ppt模板-f969f23ec7",
+   "updatedAt": "2026-10-19T10:20:27+08:00",
+   "addedAt": "2026-10-19T10:20:49+08:00"
+  },
+  {
+   "id": "37c027bc6710",
+   "title": "备战2027年高考数学一轮复习全套PPT课件和word讲义(全品高考复习方案标准版)",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "高考",
+    "数学",
+    "一轮复习",
+    "PPT",
+    "讲义",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "备战2027年高考数学一轮复习全套 PPT 课件 + Word 讲义（全品高考复习方案·标准版）。",
+   "shareUrl": "https://pan.quark.cn/s/01a190dcdb2f",
+   "pwd": "aTGm",
+   "sourceUrl": "https://pan.quark.cn/s/802bc57fa2d5",
+   "updatedAt": "2026-10-19T12:57:14+08:00",
+   "addedAt": "2026-10-19T12:57:15+08:00"
+  },
+  {
+   "id": "798d33a940bf",
+   "title": "【凉学长】高中数学·课本精讲课程（人教A版课本全讲解）",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "高中",
+    "数学",
+    "课本精讲",
+    "人教A版",
+    "凉学长"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "【凉学长】高中数学课本精讲课程（人教A版课本全讲解）。",
+   "shareUrl": "https://pan.quark.cn/s/46a72e0060f3",
+   "pwd": "fxVo",
+   "sourceUrl": "https://pan.quark.cn/s/af71c0f40724",
+   "updatedAt": "2026-10-19T12:57:14+08:00",
+   "addedAt": "2026-10-19T12:57:15+08:00"
+  },
+  {
+   "id": "4679df880448",
+   "title": "2026北京北京中学高三9月月考生物",
+   "category": "exam",
+   "subcategory": "shengwu",
+   "tags": [
+    "高三",
+    "生物",
+    "月考",
+    "北京中学",
+    "2026"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2026学年北京中学高三 9 月月考生物试卷。",
+   "shareUrl": "https://pan.quark.cn/s/61408be2f26e",
+   "pwd": "iZo9",
+   "sourceUrl": "https://pan.quark.cn/s/0432970e9985",
+   "updatedAt": "2026-10-19T12:57:14+08:00",
+   "addedAt": "2026-10-19T12:57:15+08:00"
+  },
+  {
+   "id": "711e1d5d9c48",
+   "title": "2027届高考《全基础题型一轮复习专练》（数学）",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "高考",
+    "数学",
+    "基础题型",
+    "一轮复习",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027届高考《全基础题型一轮复习专练》（数学）。",
+   "shareUrl": "https://pan.quark.cn/s/6368d2bebe1b",
+   "pwd": "he1i",
+   "sourceUrl": "https://pan.quark.cn/s/651667beb39b",
+   "updatedAt": "2026-10-19T12:57:14+08:00",
+   "addedAt": "2026-10-19T12:57:15+08:00"
+  },
+  {
+   "id": "c2df8e733caf",
+   "title": "2027版高中《MST导数新思路》（数学）",
+   "category": "exam",
+   "subcategory": "shuxue",
+   "tags": [
+    "高考",
+    "数学",
+    "导数",
+    "MST",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027版高中《MST导数新思路》（数学）。",
+   "shareUrl": "https://pan.quark.cn/s/a038bc329370",
+   "pwd": "4n15",
+   "sourceUrl": "https://pan.quark.cn/s/5f4f9aae5a76",
+   "updatedAt": "2026-10-19T12:57:14+08:00",
+   "addedAt": "2026-10-19T12:57:15+08:00"
+  },
+  {
+   "id": "ef34bc4e5831",
+   "title": "2027届高考生物：变异与进化四大易混点",
+   "category": "exam",
+   "subcategory": "shengwu",
+   "tags": [
+    "高考",
+    "生物",
+    "变异与进化",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027届高考生物：变异与进化四大易混点。",
+   "shareUrl": "https://pan.quark.cn/s/db166c195ae7",
+   "pwd": "SMk9",
+   "sourceUrl": "https://pan.quark.cn/s/8c9541e4c9d1",
+   "updatedAt": "2026-10-19T12:57:14+08:00",
+   "addedAt": "2026-10-19T12:57:15+08:00"
+  },
+  {
+   "id": "ea6c8f34378b",
+   "title": "2025年高考化学试卷（湖南卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "高考",
+    "化学",
+    "2025",
+    "湖南"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025年高考化学试卷（湖南卷），收录空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/22a7c47eb362",
+   "pwd": "lrFD",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6d322ffbdb747474",
+   "updatedAt": "2026-10-20T10:04:16+08:00",
+   "addedAt": "2026-10-20T10:04:29+08:00"
+  },
+  {
+   "id": "3d451688d844",
+   "title": "2025年高考化学试卷（甘肃卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "高考",
+    "化学",
+    "2025",
+    "甘肃"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025年高考化学试卷（甘肃卷），收录空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/c089e5ccd6aa",
+   "pwd": "dVUf",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-6180070c909f77d7",
+   "updatedAt": "2026-10-20T10:04:16+08:00",
+   "addedAt": "2026-10-20T10:04:29+08:00"
+  },
+  {
+   "id": "d4ef203a5c1d",
+   "title": "【人教】八上地理期末专项练习",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "地理",
+    "八年级",
+    "人教",
+    "期末",
+    "专项练习"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "人教版八年级上册地理期末专项练习，按专项分类整理，含我国人口状况等专题。",
+   "shareUrl": "https://pan.quark.cn/s/83ea476e57ed",
+   "pwd": "IrGS",
+   "sourceUrl": "https://quarksource.com/resource/人教-八上地理期末专项练习-fdf40680",
+   "updatedAt": "2026-10-20T10:04:16+08:00",
+   "addedAt": "2026-10-20T10:04:29+08:00"
+  },
+  {
+   "id": "c02c3f94771b",
+   "title": "【苏教】六下数学知识清单",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "数学",
+    "六年级",
+    "苏教",
+    "知识清单",
+    "小学"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "苏教版六年级下册数学知识清单，按单元梳理扇形统计图等核心知识点。",
+   "shareUrl": "https://pan.quark.cn/s/d95c82565bcf",
+   "pwd": "mWnX",
+   "sourceUrl": "https://quarksource.com/resource/苏教-六下数学知识清单-fd3c6622",
+   "updatedAt": "2026-10-20T10:04:16+08:00",
+   "addedAt": "2026-10-20T10:04:29+08:00"
+  },
+  {
+   "id": "ca15296ee78e",
+   "title": "蓝色商务风竞聘述职报告PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "PPT模板",
+    "述职报告",
+    "竞聘",
+    "蓝色",
+    "商务"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "蓝色商务风竞聘述职报告 PPT 模板，适用于岗位竞聘、年度述职汇报。",
+   "shareUrl": "https://pan.quark.cn/s/651e386b352e",
+   "pwd": "IkTO",
+   "sourceUrl": "https://quarksource.com/resource/蓝色商务风竞聘述职报告ppt模板-738d2b9012",
+   "updatedAt": "2026-10-20T10:04:16+08:00",
+   "addedAt": "2026-10-20T10:04:29+08:00"
+  },
+  {
+   "id": "0e68b61aac62",
+   "title": "2027年初级会计",
+   "category": "exam",
+   "subcategory": "zhiye",
+   "tags": [
+    "初级会计",
+    "2027",
+    "职业资格"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年初级会计考试资料合集（初级会计职称）。",
+   "shareUrl": "https://pan.quark.cn/s/c1083e561da1",
+   "pwd": "",
+   "sourceUrl": "https://pan.quark.cn/s/c1083e561da1",
+   "updatedAt": "2026-10-20T19:00:31+08:00",
+   "addedAt": "2026-10-20T19:00:32+08:00"
+  },
+  {
+   "id": "f4bafd8bcee6",
+   "title": "2027年社会工作者",
+   "category": "exam",
+   "subcategory": "zhiye",
+   "tags": [
+    "社会工作者",
+    "2027",
+    "职业资格"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年社会工作者考试资料合集。",
+   "shareUrl": "https://pan.quark.cn/s/bef16e45901a",
+   "pwd": "",
+   "sourceUrl": "https://pan.quark.cn/s/bef16e45901a",
+   "updatedAt": "2026-10-20T19:00:31+08:00",
+   "addedAt": "2026-10-20T19:00:32+08:00"
+  },
+  {
+   "id": "18147f8a2bcb",
+   "title": "2027年初中级审计师",
+   "category": "exam",
+   "subcategory": "zhiye",
+   "tags": [
+    "审计师",
+    "2027",
+    "职业资格"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年初中级审计师考试资料合集。",
+   "shareUrl": "https://pan.quark.cn/s/cdac13cfdb10",
+   "pwd": "",
+   "sourceUrl": "https://pan.quark.cn/s/cdac13cfdb10",
+   "updatedAt": "2026-10-20T19:00:31+08:00",
+   "addedAt": "2026-10-20T19:00:32+08:00"
+  },
+  {
+   "id": "ff2a87e506cc",
+   "title": "2027年高级经济师",
+   "category": "exam",
+   "subcategory": "zhiye",
+   "tags": [
+    "高级经济师",
+    "2027",
+    "职业资格"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年高级经济师考试资料合集。",
+   "shareUrl": "https://pan.quark.cn/s/459e5caedae9",
+   "pwd": "",
+   "sourceUrl": "https://pan.quark.cn/s/459e5caedae9",
+   "updatedAt": "2026-10-20T19:00:31+08:00",
+   "addedAt": "2026-10-20T19:00:32+08:00"
+  },
+  {
+   "id": "b262be7f969d",
+   "title": "2027资产评估师",
+   "category": "exam",
+   "subcategory": "zhiye",
+   "tags": [
+    "资产评估师",
+    "2027",
+    "职业资格"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年资产评估师考试资料合集。",
+   "shareUrl": "https://pan.quark.cn/s/591c2732a980",
+   "pwd": "",
+   "sourceUrl": "https://pan.quark.cn/s/591c2732a980",
+   "updatedAt": "2026-10-20T19:00:31+08:00",
+   "addedAt": "2026-10-20T19:00:32+08:00"
+  },
+  {
+   "id": "a02653d962b3",
+   "title": "27年初会计押题班",
+   "category": "exam",
+   "subcategory": "zhiye",
+   "tags": [
+    "初级会计",
+    "押题班",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "27年初会计押题班资料合集。",
+   "shareUrl": "https://pan.quark.cn/s/793e42f36015",
+   "pwd": "",
+   "sourceUrl": "https://pan.quark.cn/s/793e42f36015",
+   "updatedAt": "2026-10-20T19:00:31+08:00",
+   "addedAt": "2026-10-20T19:00:32+08:00"
+  },
+  {
+   "id": "b03eb7030eed",
+   "title": "27年中级会计押题班",
+   "category": "exam",
+   "subcategory": "zhiye",
+   "tags": [
+    "中级会计",
+    "押题班",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "27年中级会计押题班资料合集。",
+   "shareUrl": "https://pan.quark.cn/s/3bd71f003f86",
+   "pwd": "",
+   "sourceUrl": "https://pan.quark.cn/s/3bd71f003f86",
+   "updatedAt": "2026-10-20T19:00:31+08:00",
+   "addedAt": "2026-10-20T19:00:32+08:00"
+  },
+  {
+   "id": "353a2f0e9676",
+   "title": "2026秋五哥（舅）九年级期中考试福利资料",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "九年级",
+    "期中",
+    "2026秋"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2026秋五哥（舅）九年级期中考试福利资料合集。",
+   "shareUrl": "https://pan.quark.cn/s/2a0d0755565e",
+   "pwd": "pYDl",
+   "sourceUrl": "https://pan.quark.cn/s/2a0d0755565e",
+   "updatedAt": "2026-10-21T15:02:40+08:00",
+   "addedAt": "2026-10-21T15:02:44+08:00"
+  },
+  {
+   "id": "8893ba284f2d",
+   "title": "2027《状元成才路•状元大课堂》（9年级上）（数学）（人教版）",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "初中",
+    "九年级",
+    "数学",
+    "人教版",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027版《状元成才路·状元大课堂》九年级上册数学（人教版）。",
+   "shareUrl": "https://pan.quark.cn/s/0787f6f4ec0a",
+   "pwd": "y6Do",
+   "sourceUrl": "https://pan.quark.cn/s/0787f6f4ec0a",
+   "updatedAt": "2026-10-21T15:02:40+08:00",
+   "addedAt": "2026-10-21T15:02:44+08:00"
+  },
+  {
+   "id": "06aa6e580b14",
+   "title": "26秋上学期《期中真题汇编》789年级全科（陕西专用）",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "期中",
+    "真题汇编",
+    "陕西",
+    "789年级"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "26秋上学期《期中真题汇编》7/8/9年级全科，陕西专用。",
+   "shareUrl": "https://pan.quark.cn/s/0fd423b2d07e",
+   "pwd": "lg6j",
+   "sourceUrl": "https://pan.quark.cn/s/0fd423b2d07e",
+   "updatedAt": "2026-10-21T15:02:40+08:00",
+   "addedAt": "2026-10-21T15:02:44+08:00"
+  },
+  {
+   "id": "d612a1b669a2",
+   "title": "新上好课10.19北师期中考点大串讲（讲义、模拟卷、真题重组卷、知识清单、期中专项训练）",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "北师版",
+    "期中",
+    "大串讲"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "新上好课10.19北师期中考点大串讲：讲义、模拟卷、真题重组卷、知识清单、期中专项训练。",
+   "shareUrl": "https://pan.quark.cn/s/beac11b833ce",
+   "pwd": "GwzM",
+   "sourceUrl": "https://pan.quark.cn/s/beac11b833ce",
+   "updatedAt": "2026-10-21T15:02:40+08:00",
+   "addedAt": "2026-10-21T15:02:44+08:00"
+  },
+  {
+   "id": "9438b3faea69",
+   "title": "2027版初中《培优讲义》789年级上册（数学）（人教）",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "初中",
+    "培优讲义",
+    "数学",
+    "人教版",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027版初中《培优讲义》7/8/9年级上册数学（人教版）。",
+   "shareUrl": "https://pan.quark.cn/s/ccca80ae1f76",
+   "pwd": "uqkT",
+   "sourceUrl": "https://pan.quark.cn/s/ccca80ae1f76",
+   "updatedAt": "2026-10-21T15:02:40+08:00",
+   "addedAt": "2026-10-21T15:02:44+08:00"
+  },
+  {
+   "id": "2f7d3477c11d",
+   "title": "初中书面表达主题分类训练27主题",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "初中",
+    "英语",
+    "作文",
+    "书面表达"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "初中英语书面表达主题分类训练，共27个主题。",
+   "shareUrl": "https://pan.quark.cn/s/e52cc88a51c3",
+   "pwd": "4mH7",
+   "sourceUrl": "https://pan.quark.cn/s/e52cc88a51c3",
+   "updatedAt": "2026-10-21T15:02:40+08:00",
+   "addedAt": "2026-10-21T15:02:44+08:00"
+  },
+  {
+   "id": "55b9a9c1253e",
+   "title": "广州市中考数学近六年真题汇编",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "数学",
+    "广州",
+    "真题"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "广州市中考数学近六年真题汇编。",
+   "shareUrl": "https://pan.quark.cn/s/4d60cbaeb052",
+   "pwd": "iCjg",
+   "sourceUrl": "https://pan.quark.cn/s/4d60cbaeb052",
+   "updatedAt": "2026-10-21T15:02:40+08:00",
+   "addedAt": "2026-10-21T15:02:44+08:00"
+  },
+  {
+   "id": "d388d0cc80a7",
+   "title": "2026秋《中考英语题型专练》",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "英语",
+    "题型专练",
+    "2026秋"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2026秋《中考英语题型专练》。",
+   "shareUrl": "https://pan.quark.cn/s/fe6b1aeaeede",
+   "pwd": "EsS3",
+   "sourceUrl": "https://pan.quark.cn/s/fe6b1aeaeede",
+   "updatedAt": "2026-10-21T15:02:40+08:00",
+   "addedAt": "2026-10-21T15:02:44+08:00"
+  },
+  {
+   "id": "24bb5ff9f3fc",
+   "title": "2027《中考语文•一模分类汇编》",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "语文",
+    "一模",
+    "分类汇编",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027《中考语文·一模分类汇编》。",
+   "shareUrl": "https://pan.quark.cn/s/31fedfc643e0",
+   "pwd": "ltSr",
+   "sourceUrl": "https://pan.quark.cn/s/31fedfc643e0",
+   "updatedAt": "2026-10-21T15:02:40+08:00",
+   "addedAt": "2026-10-21T15:02:44+08:00"
+  },
+  {
+   "id": "1a0788c2bb10",
+   "title": "2025年高考化学试卷（重庆卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "化学",
+    "重庆",
+    "2025",
+    "高考"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025年高考化学试卷（重庆卷），含空白卷与解析卷，重庆考区考生可直接对答案、查漏补缺。",
+   "shareUrl": "https://pan.quark.cn/s/70fbaa622b9e",
+   "pwd": "QobI",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-a579dc4a913cc8c0",
+   "updatedAt": "2026-10-22T11:15:04+08:00",
+   "addedAt": "2026-10-22T11:15:18+08:00"
+  },
+  {
+   "id": "a68e5fd3f610",
+   "title": "2024年云南中考生物真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "生物",
+    "云南",
+    "2024",
+    "中考"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2024年云南中考生物真题，原卷+解析，云南中考生物刷题与考点复盘一份够用。",
+   "shareUrl": "https://pan.quark.cn/s/91cb126516e8",
+   "pwd": "RmCn",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-9b171a7bbad1f4c6",
+   "updatedAt": "2026-10-22T11:15:04+08:00",
+   "addedAt": "2026-10-22T11:15:18+08:00"
+  },
+  {
+   "id": "3a3fc36d2dee",
+   "title": "【浙教】八上科学知识清单",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "浙教",
+    "八年级",
+    "科学",
+    "知识点"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "浙教版八年级上册科学知识清单，按章节梳理核心概念与考点，期末复习直接背。",
+   "shareUrl": "https://pan.quark.cn/s/9ac56c1d20e3",
+   "pwd": "5gwp",
+   "sourceUrl": "https://quarksource.com/resource/浙教-八上科学知识清单-fb9b5174",
+   "updatedAt": "2026-10-22T11:15:04+08:00",
+   "addedAt": "2026-10-22T11:15:18+08:00"
+  },
+  {
+   "id": "8afa814fdf84",
+   "title": "小学语文【名著阅读、文学常识】",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "小学",
+    "语文",
+    "名著阅读",
+    "文学常识"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "小学语文名著阅读与文学常识整理，覆盖常考名著与常识考点，适合小升初与日常积累。",
+   "shareUrl": "https://pan.quark.cn/s/10fb63c87aaa",
+   "pwd": "VCyb",
+   "sourceUrl": "https://quarksource.com/resource/小学语文-名著阅读-文学常识-fbd58740",
+   "updatedAt": "2026-10-22T11:15:04+08:00",
+   "addedAt": "2026-10-22T11:15:18+08:00"
+  },
+  {
+   "id": "b6e311fa3665",
+   "title": "蓝色高山山峰背景岗位竞聘述职报告PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "述职报告",
+    "竞聘",
+    "PPT模板",
+    "商务"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "蓝色高山山峰背景岗位竞聘述职报告PPT模板，商务风版式可编辑，改字即用。",
+   "shareUrl": "https://pan.quark.cn/s/9e345cb8e86f",
+   "pwd": "0BFa",
+   "sourceUrl": "https://quarksource.com/resource/蓝色高山山峰背景岗位竞聘述职报告ppt模板-44ea6f80e4",
+   "updatedAt": "2026-10-22T11:15:04+08:00",
+   "addedAt": "2026-10-22T11:15:18+08:00"
+  },
+  {
+   "id": "4d440be80263",
+   "title": "2025年高考化学试卷（陕晋青宁卷）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "高考",
+    "化学",
+    "2025",
+    "真题",
+    "陕晋青宁"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025年高考化学真题（陕晋青宁卷），含试卷与答案解析。",
+   "shareUrl": "https://pan.quark.cn/s/c1da2a59cffe",
+   "pwd": "4ZvA",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-fcdc70ca30073cf4",
+   "updatedAt": "2026-10-23T10:07:27+08:00",
+   "addedAt": "2026-10-23T10:09:23+08:00"
+  },
+  {
+   "id": "131671b147dc",
+   "title": "2024年吉林中考数学真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "中考",
+    "数学",
+    "吉林",
+    "2024",
+    "真题"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2024年吉林省中考数学真题及答案解析。",
+   "shareUrl": "https://pan.quark.cn/s/9636fd205873",
+   "pwd": "8BEj",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-578bf331b01b7c0b",
+   "updatedAt": "2026-10-23T10:07:27+08:00",
+   "addedAt": "2026-10-23T10:09:23+08:00"
+  },
+  {
+   "id": "9ec69eb01b0b",
+   "title": "四上语文1-8单元基础复习",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "小学",
+    "四年级",
+    "语文",
+    "单元复习",
+    "上册"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "四年级上册语文1-8单元基础复习资料，按单元整理。",
+   "shareUrl": "https://pan.quark.cn/s/3264808223d1",
+   "pwd": "AlpS",
+   "sourceUrl": "https://quarksource.com/resource/四上语文1-8单元基础复习-fd10552b",
+   "updatedAt": "2026-10-23T10:07:27+08:00",
+   "addedAt": "2026-10-23T10:09:23+08:00"
+  },
+  {
+   "id": "1b4b0a641550",
+   "title": "七上数学期中模拟试卷（13个版本）",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "初中",
+    "七年级",
+    "数学",
+    "期中",
+    "模拟卷"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "七年级上册数学期中模拟试卷，共13个版本，适合考前刷题。",
+   "shareUrl": "https://pan.quark.cn/s/450dd0e8a048",
+   "pwd": "LsMX",
+   "sourceUrl": "https://quarksource.com/resource/七上数学期中模拟试卷-13个版本-f7081c30",
+   "updatedAt": "2026-10-23T10:07:27+08:00",
+   "addedAt": "2026-10-23T10:09:23+08:00"
+  },
+  {
+   "id": "6121494d87f9",
+   "title": "蓝色简约竞聘晋升述职报告PPT模板",
+   "category": "office",
+   "subcategory": "zhishu",
+   "tags": [
+    "述职报告",
+    "竞聘",
+    "PPT模板",
+    "商务"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "蓝色简约风格的竞聘晋升述职报告PPT模板，版式可编辑，改字即用。",
+   "shareUrl": "https://pan.quark.cn/s/46a8007ef757",
+   "pwd": "jwuJ",
+   "sourceUrl": "https://quarksource.com/resource/蓝色简约竞聘晋升述职报告ppt模板-927f635953",
+   "updatedAt": "2026-10-23T10:07:27+08:00",
+   "addedAt": "2026-10-23T10:09:23+08:00"
+  },
+  {
+   "id": "85365e2be9f8",
+   "title": "2027年赵晓曦言语实战500题",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "言语理解",
+    "2027",
+    "刷题"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027年赵晓曦言语实战500题资料。",
+   "shareUrl": "https://pan.quark.cn/s/a5dcf242ecae",
+   "pwd": "7OIr",
+   "sourceUrl": "https://pan.quark.cn/s/a5dcf242ecae",
+   "addedAt": "2026-10-23T22:18:30+08:00",
+   "updatedAt": "2026-10-23T22:18:30+08:00"
+  },
+  {
+   "id": "bd661d887b7b",
+   "title": "2027拾伊数量关系刷题课",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "数量关系",
+    "2027",
+    "刷题课"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027拾伊数量关系刷题课资料。",
+   "shareUrl": "https://pan.quark.cn/s/9e8df5bac8b2",
+   "pwd": "XHS2",
+   "sourceUrl": "https://pan.quark.cn/s/9e8df5bac8b2",
+   "addedAt": "2026-10-23T22:18:30+08:00",
+   "updatedAt": "2026-10-23T22:18:30+08:00"
+  },
+  {
+   "id": "28dfcaefe4fa",
+   "title": "2027公考套卷实战班（10套卷）+冲刺点睛",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "套卷",
+    "冲刺",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027公考套卷实战班（10套卷）+冲刺点睛资料。",
+   "shareUrl": "https://pan.quark.cn/s/d602f61be2c2",
+   "pwd": "m4y3",
+   "sourceUrl": "https://pan.quark.cn/s/d602f61be2c2",
+   "addedAt": "2026-10-23T22:18:30+08:00",
+   "updatedAt": "2026-10-23T22:18:30+08:00"
+  },
+  {
+   "id": "551ef035b20e",
+   "title": "2027行测+申论（六合一）实战公考疯狂刷2500题",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "行测",
+    "申论",
+    "刷题",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027行测+申论（六合一）实战公考疯狂刷2500题资料。",
+   "shareUrl": "https://pan.quark.cn/s/594ba48fd5ef",
+   "pwd": "inDi",
+   "sourceUrl": "https://pan.quark.cn/s/594ba48fd5ef",
+   "addedAt": "2026-10-23T22:18:30+08:00",
+   "updatedAt": "2026-10-23T22:18:30+08:00"
+  },
+  {
+   "id": "d64aa49d46f5",
+   "title": "2027国省事考小黑政治理论常识全家桶",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "政治理论",
+    "常识",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027国省事考小黑政治理论常识全家桶资料。",
+   "shareUrl": "https://pan.quark.cn/s/3d57e9c83d1e",
+   "pwd": "m2H6",
+   "sourceUrl": "https://pan.quark.cn/s/3d57e9c83d1e",
+   "addedAt": "2026-10-23T22:18:30+08:00",
+   "updatedAt": "2026-10-23T22:18:30+08:00"
+  },
+  {
+   "id": "4ae0a2148b29",
+   "title": "2027行测+申论（五合一）超大杯刷题营",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "行测",
+    "申论",
+    "刷题营",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027行测+申论（五合一）超大杯刷题营资料。",
+   "shareUrl": "https://pan.quark.cn/s/d52666e45507",
+   "pwd": "FjZB",
+   "sourceUrl": "https://pan.quark.cn/s/d52666e45507",
+   "addedAt": "2026-10-23T22:18:30+08:00",
+   "updatedAt": "2026-10-23T22:18:30+08:00"
+  },
+  {
+   "id": "40a96be800af",
+   "title": "2027邓健资料分析200题",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "资料分析",
+    "2027",
+    "刷题"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027邓健资料分析200题资料。",
+   "shareUrl": "https://pan.quark.cn/s/84810b0d6ff0",
+   "pwd": "bO61",
+   "sourceUrl": "https://pan.quark.cn/s/84810b0d6ff0",
+   "addedAt": "2026-10-23T22:18:30+08:00",
+   "updatedAt": "2026-10-23T22:18:30+08:00"
+  },
+  {
+   "id": "9ba39108d3ba",
+   "title": "2027薛睿国考冲刺形式逻辑＆分析推理（一拖五、一拖二）",
+   "category": "exam",
+   "subcategory": "guokao",
+   "tags": [
+    "公考",
+    "逻辑判断",
+    "分析推理",
+    "国考",
+    "2027"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2027薛睿国考冲刺形式逻辑＆分析推理（一拖五、一拖二）资料。",
+   "shareUrl": "https://pan.quark.cn/s/e49505defb6e",
+   "pwd": "rD0X",
+   "sourceUrl": "https://pan.quark.cn/s/e49505defb6e",
+   "addedAt": "2026-10-23T22:18:30+08:00",
+   "updatedAt": "2026-10-23T22:18:30+08:00"
+  },
+  {
+   "id": "6dbb9fda5929",
+   "title": "2025年高考化学试卷（黑吉辽蒙卷）",
+   "category": "exam",
+   "subcategory": "huaxue",
+   "tags": [
+    "化学",
+    "2025",
+    "高考",
+    "黑吉辽蒙"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2025年高考化学试卷（黑吉辽蒙卷），收录 空白卷、解析卷，共 2 个文件。",
+   "shareUrl": "https://pan.quark.cn/s/5a187e77fcb2",
+   "pwd": "0svG",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-349617459cbb6f7f",
+   "addedAt": "2026-10-25T10:08:21+08:00",
+   "updatedAt": "2026-10-25T10:08:21+08:00"
+  },
+  {
+   "id": "f713c43af7c5",
+   "title": "2024年吉林中考语文真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "语文",
+    "2024",
+    "吉林",
+    "中考"
+   ],
+   "size": "",
+   "formats": "[\"DOCX\"]",
+   "desc": "2024年吉林中考语文真题，收录原卷与解析，适合中考备考刷题。",
+   "shareUrl": "https://pan.quark.cn/s/e21596ed75a6",
+   "pwd": "m2jf",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-8a5422933d697dfb",
+   "addedAt": "2026-10-25T10:08:21+08:00",
+   "updatedAt": "2026-10-25T10:08:21+08:00"
+  },
+  {
+   "id": "c01109eed87f",
+   "title": "【沪科】九年级物理(全一册)单元测试卷",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "物理",
+    "九年级",
+    "单元测试卷",
+    "沪科版"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "沪科版九年级物理全一册单元测试卷，按章配套，适合同步检测。",
+   "shareUrl": "https://pan.quark.cn/s/2d8696c63b7e",
+   "pwd": "Ermk",
+   "sourceUrl": "https://quarksource.com/resource/沪科-九年级物理-全一册-单元测试卷-fe0e786c",
+   "addedAt": "2026-10-25T10:08:21+08:00",
+   "updatedAt": "2026-10-25T10:08:21+08:00"
+  },
+  {
+   "id": "1550f3e11dc1",
+   "title": "【西师】四下数学课前预习单",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "数学",
+    "四年级",
+    "课前预习单",
+    "西师版"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "西师大版四年级下册数学课前预习单，按课时配套，课前预习用。",
+   "shareUrl": "https://pan.quark.cn/s/2cc33eeb8506",
+   "pwd": "Q0C2",
+   "sourceUrl": "https://quarksource.com/resource/西师-四下数学课前预习单-fdb80f37",
+   "addedAt": "2026-10-25T10:08:21+08:00",
+   "updatedAt": "2026-10-25T10:08:21+08:00"
+  },
+  {
+   "id": "8448bb784ea8",
+   "title": "棕色抽象几何图形背景流程管理培训ppt模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "PPT模板",
+    "培训",
+    "流程管理",
+    "棕色商务"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "棕色抽象几何背景流程管理培训 PPT 模板，适合企业内训与流程宣讲。",
+   "shareUrl": "https://pan.quark.cn/s/13c7a4e890e6",
+   "pwd": "Gs4E",
+   "sourceUrl": "https://quarksource.com/resource/棕色抽象几何图形背景流程管理培训ppt模板-60f6496080",
+   "addedAt": "2026-10-25T10:08:21+08:00",
+   "updatedAt": "2026-10-25T10:08:21+08:00"
+  },
+  {
+   "id": "3f43f54a7ac3",
+   "title": "新9上化学期中真题重组卷（湖南、苏州、长沙、无锡、盐城等专用）",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "化学",
+    "期中",
+    "真题重组卷"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "新9上化学期中真题重组卷，湖南/苏州/长沙/无锡/盐城等地区专用。",
+   "shareUrl": "https://pan.quark.cn/s/7af98a812257",
+   "pwd": "lMiZ",
+   "sourceUrl": "https://pan.quark.cn/s/7af98a812257",
+   "addedAt": "2026-10-26T00:31:22+08:00",
+   "updatedAt": "2026-10-26T00:31:22+08:00"
+  },
+  {
+   "id": "a7301266a632",
+   "title": "新8上数学期中真题重组卷（广东、广州、深圳、内蒙、新疆等专用10.22日）",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "数学",
+    "期中",
+    "真题重组卷"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "新8上数学期中真题重组卷，广东/广州/深圳/内蒙/新疆等地区专用（10.22更新）。",
+   "shareUrl": "https://pan.quark.cn/s/40cdf8fdf210",
+   "pwd": "nJ2A",
+   "sourceUrl": "https://pan.quark.cn/s/40cdf8fdf210",
+   "addedAt": "2026-10-26T00:31:22+08:00",
+   "updatedAt": "2026-10-26T00:31:22+08:00"
+  },
+  {
+   "id": "06a855de3925",
+   "title": "新8上数学期中真题重组卷（安徽、北京、上海、江苏南通、成都、吉林省等专用）",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "数学",
+    "期中",
+    "真题重组卷"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "新8上数学期中真题重组卷，安徽/北京/上海/南通/成都/吉林等地区专用。",
+   "shareUrl": "https://pan.quark.cn/s/54c37ede2b0c",
+   "pwd": "sWq2",
+   "sourceUrl": "https://pan.quark.cn/s/54c37ede2b0c",
+   "addedAt": "2026-10-26T00:31:22+08:00",
+   "updatedAt": "2026-10-26T00:31:22+08:00"
+  },
+  {
+   "id": "a033b422f15c",
+   "title": "培优辅导 初一初二初三数学跟踪练习 学而思培优教研中心",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "数学",
+    "培优",
+    "学而思"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "培优辅导：初一初二初三数学跟踪练习，学而思培优教研中心。",
+   "shareUrl": "https://pan.quark.cn/s/fe3706b06a91",
+   "pwd": "qiiw",
+   "sourceUrl": "https://pan.quark.cn/s/fe3706b06a91",
+   "addedAt": "2026-10-26T00:31:22+08:00",
+   "updatedAt": "2026-10-26T00:31:22+08:00"
+  },
+  {
+   "id": "2332a817a9af",
+   "title": "《2026秋10月月考模拟｜考前刷题检测含解析版》789上（语数英物化）",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "月考",
+    "模拟卷",
+    "含解析"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2026秋10月月考模拟，考前刷题检测含解析版，789年级上册语数英物化。",
+   "shareUrl": "https://pan.quark.cn/s/bb8f075ec7b8",
+   "pwd": "MuoX",
+   "sourceUrl": "https://pan.quark.cn/s/bb8f075ec7b8",
+   "addedAt": "2026-10-26T00:31:22+08:00",
+   "updatedAt": "2026-10-26T00:31:22+08:00"
+  },
+  {
+   "id": "f5c818e00510",
+   "title": "《初中数学知识大框架及考试占比》",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "数学",
+    "知识框架"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "初中数学知识大框架及考试占比梳理。",
+   "shareUrl": "https://pan.quark.cn/s/9cad245117d3",
+   "pwd": "dAFQ",
+   "sourceUrl": "https://pan.quark.cn/s/9cad245117d3",
+   "addedAt": "2026-10-26T00:31:22+08:00",
+   "updatedAt": "2026-10-26T00:31:22+08:00"
+  },
+  {
+   "id": "2c796f8e5f4a",
+   "title": "刘晓燕随堂趣讲初中英语26年上册789",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "英语",
+    "刘晓燕",
+    "2026"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "刘晓燕随堂趣讲初中英语2026年上册，789年级。",
+   "shareUrl": "https://pan.quark.cn/s/718a449af26d",
+   "pwd": "mjsM",
+   "sourceUrl": "https://pan.quark.cn/s/718a449af26d",
+   "addedAt": "2026-10-26T00:31:22+08:00",
+   "updatedAt": "2026-10-26T00:31:22+08:00"
+  },
+  {
+   "id": "1e8d6459e45f",
+   "title": "【名校之约】2025-2026名校之约九年级上册期中套卷",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "初中",
+    "九年级",
+    "期中",
+    "套卷",
+    "名校之约"
+   ],
+   "size": "",
+   "formats": "",
+   "desc": "2025-2026学年名校之约九年级上册期中套卷。",
+   "shareUrl": "https://pan.quark.cn/s/7d0692121fe2",
+   "pwd": "kCgi",
+   "sourceUrl": "https://pan.quark.cn/s/7d0692121fe2",
+   "addedAt": "2026-10-26T00:31:22+08:00",
+   "updatedAt": "2026-10-26T00:31:22+08:00"
+  },
+  {
+   "id": "73dd16a2b331",
+   "title": "2025年高考政治试卷（安徽卷）",
+   "category": "exam",
+   "subcategory": "gaokao",
+   "tags": [
+    "政治",
+    "安徽",
+    "2025"
+   ],
+   "size": "",
+   "formats": "DOCX",
+   "desc": "2025年高考政治试卷（安徽卷），收录空白卷、解析卷。",
+   "shareUrl": "https://pan.quark.cn/s/f023f63dceed",
+   "pwd": "sdw2",
+   "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-9878fecf85dea830",
+   "updatedAt": "2026-10-26T10:16:39+08:00",
+   "addedAt": "2026-10-26T10:16:39+08:00"
+  },
+  {
+   "id": "e1daa88f5505",
+   "title": "2024年四川乐山市中考数学真题",
+   "category": "exam",
+   "subcategory": "zhongkao",
+   "tags": [
+    "数学",
+    "四川",
+    "乐山",
+    "2024"
+   ],
+   "size": "",
+   "formats": "DOCX",
+   "desc": "2024年四川乐山市中考数学真题，含答案解析。",
+   "shareUrl": "https://pan.quark.cn/s/9f8257da5a52",
+   "pwd": "JMou",
+   "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-7f6f65e2011c5560",
+   "updatedAt": "2026-10-26T10:16:39+08:00",
+   "addedAt": "2026-10-26T10:16:39+08:00"
+  },
+  {
+   "id": "39769456203b",
+   "title": "【西师】二年级数学知识清单",
+   "category": "study",
+   "subcategory": "primary",
+   "tags": [
+    "数学",
+    "二年级",
+    "知识清单",
+    "西师版"
+   ],
+   "size": "",
+   "formats": "DOCX",
+   "desc": "西师版二年级数学下册知识清单，梳理全册核心知识点。",
+   "shareUrl": "https://pan.quark.cn/s/f2bb68b06b9f",
+   "pwd": "0f7b",
+   "sourceUrl": "https://quarksource.com/resource/西师-知识清单-fbec79f9",
+   "updatedAt": "2026-10-26T10:16:39+08:00",
+   "addedAt": "2026-10-26T10:16:39+08:00"
+  },
+  {
+   "id": "a69b2d70470b",
+   "title": "2024中考语文一轮复习之语言文字应用讲练测（9个专题）",
+   "category": "study",
+   "subcategory": "junior",
+   "tags": [
+    "语文",
+    "九年级",
+    "中考复习",
+    "语言文字应用",
+    "2024"
+   ],
+   "size": "",
+   "formats": "DOCX",
+   "desc": "2024中考语文一轮复习语言文字应用专项，9个专题讲练测。",
+   "shareUrl": "https://pan.quark.cn/s/afce303fe2cd",
+   "pwd": "8Q63",
+   "sourceUrl": "https://quarksource.com/resource/2024中考语文一轮复习之语言文字应用讲练测-9个专题-fa5e2fec",
+   "updatedAt": "2026-10-26T10:16:39+08:00",
+   "addedAt": "2026-10-26T10:16:39+08:00"
+  },
+  {
+   "id": "589b79131bb7",
+   "title": "蓝色电脑键盘背景企业竞聘转正述职报告PPT模板",
+   "category": "office",
+   "subcategory": "ppt",
+   "tags": [
+    "PPT模板",
+    "述职报告",
+    "竞聘",
+    "转正",
+    "蓝色商务"
+   ],
+   "size": "",
+   "formats": "PPTX",
+   "desc": "蓝色电脑键盘背景企业竞聘、员工转正述职报告PPT模板。",
+   "shareUrl": "https://pan.quark.cn/s/64e5eb68d50b",
+   "pwd": "w6oh",
+   "sourceUrl": "https://quarksource.com/resource/蓝色电脑键盘背景企业竞聘员工转正述职报告ppt模板-43352f7f24",
+   "updatedAt": "2026-10-26T10:16:39+08:00",
+   "addedAt": "2026-10-26T10:16:39+08:00"
+  }
+ ]
 }
