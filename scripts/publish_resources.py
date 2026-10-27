@@ -39,13 +39,21 @@ def main():
         items = items.get("items", [])
 
     share_map = {}
+    title_map = {}
     if a.shares:
         sh = json.load(open(a.shares, encoding="utf-8"))
         for r in sh.get("share_results", sh if isinstance(sh, list) else []):
             src = r.get("url") or r.get("source_url")
             dst = r.get("share_url") or r.get("shareUrl")
-            if src and dst:
+            if not dst:
+                continue
+            if src:
                 share_map[src] = r
+            # share_results 通常只有 title/name，没有源站 url；按标题兜底匹配。
+            # 2026-10-27 事故：只按 url 匹配 → 5 条 shareUrl/pwd 全写成空串且静默落库。
+            t = (r.get("title") or r.get("name") or "").strip()
+            if t:
+                title_map[t] = r
 
     db_path = os.path.join(ROOT, "data/resources.json")
     db = json.load(open(db_path, encoding="utf-8"))
@@ -53,6 +61,7 @@ def main():
     now_iso = datetime.now().astimezone().isoformat(timespec="seconds")
 
     added = 0
+    no_share = []
     for it in items:
         src = it.get("url") or it.get("sourceUrl")
         if not src:
@@ -62,7 +71,7 @@ def main():
         if rid_ in existing:
             print(f"[skip] 已存在 {rid_} {it.get('title')}")
             continue
-        sr = share_map.get(src, {})
+        sr = share_map.get(src) or title_map.get((it.get("title") or "").strip()) or {}
         entry = {
             "id": rid_,
             "title": it.get("title", ""),
@@ -80,6 +89,8 @@ def main():
             "addedAt": now_iso,
             "updatedAt": now_iso,
         }
+        if not entry["shareUrl"]:
+            no_share.append(f"{rid_} {entry['title']}")
         existing[rid_] = entry
         added += 1
         print(f"[add] {rid_} {entry['title']}")
@@ -90,6 +101,9 @@ def main():
 
     # 写入前必填校验：缺字段就中止，绝不静默落库。
     # 2026-10-22 事故：addedAt 全站为空，公告脚本据此判定「今日无新增」，静默漏发一整天。
+    if no_share:
+        print(f"[fatal] {len(no_share)} 条没匹配到永久分享链接，拒绝写入：{no_share[:8]}", file=sys.stderr)
+        raise SystemExit(2)
     missing = [it.get("id") for it in db["items"] if not it.get("addedAt") or not it.get("updatedAt")]
     if missing:
         print(f"[fatal] {len(missing)} 条缺 addedAt/updatedAt，拒绝写入：{missing[:8]}", file=sys.stderr)
