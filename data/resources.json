@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-26T15:57:55+08:00",
-  "count": 184,
+  "updatedAt": "2026-10-27T12:54:21+08:00",
+  "count": 189,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -3659,6 +3659,114 @@
       "sourceUrl": "https://pan.quark.cn/s/461d8514065e",
       "addedAt": "2026-10-26T15:57:55+08:00",
       "updatedAt": "2026-10-26T15:57:55+08:00"
+    },
+    {
+      "id": "efb0f49c4de3",
+      "title": "2025年高考历史试卷（安徽卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "高考",
+        "历史",
+        "安徽",
+        "2025",
+        "真题"
+      ],
+      "size": "",
+      "formats": [
+        "DOCX"
+      ],
+      "desc": "2025年高考历史试卷（安徽卷），收录 空白卷、解析卷，共 2 个文件。",
+      "shareUrl": "",
+      "pwd": "",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-f14bae34a63aa0eb",
+      "addedAt": "2026-10-27T12:54:21+08:00",
+      "updatedAt": "2026-10-27T12:54:21+08:00"
+    },
+    {
+      "id": "4ef0516a93ef",
+      "title": "2025年高考地理试卷（北京卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "高考",
+        "地理",
+        "北京",
+        "2025",
+        "真题"
+      ],
+      "size": "",
+      "formats": [
+        "DOCX"
+      ],
+      "desc": "2025年高考地理试卷（北京卷），收录 空白卷、解析卷，共 2 个文件。",
+      "shareUrl": "",
+      "pwd": "",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-b211a14493a15c1f",
+      "addedAt": "2026-10-27T12:54:21+08:00",
+      "updatedAt": "2026-10-27T12:54:21+08:00"
+    },
+    {
+      "id": "22e36ed5ed5c",
+      "title": "2023小升初数学知识点全体系梳理（6份）",
+      "category": "study",
+      "subcategory": "zhishidian",
+      "tags": [
+        "小升初",
+        "数学",
+        "六年级",
+        "知识点",
+        "2023"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "2023小升初数学知识点全体系梳理（6份），小学六年级数学知识点系统梳理资料。",
+      "shareUrl": "",
+      "pwd": "",
+      "sourceUrl": "https://quarksource.com/resource/2023小升初数学知识点全体系梳理-6份-f6197051",
+      "addedAt": "2026-10-27T12:54:21+08:00",
+      "updatedAt": "2026-10-27T12:54:21+08:00"
+    },
+    {
+      "id": "4c20dd1dd9b0",
+      "title": "八上生物知识点总结（多版本）",
+      "category": "study",
+      "subcategory": "zhishidian",
+      "tags": [
+        "生物",
+        "八年级",
+        "上册",
+        "知识点"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "八年级上册生物知识点总结（多版本），多个教材版本知识点归纳。",
+      "shareUrl": "",
+      "pwd": "",
+      "sourceUrl": "https://quarksource.com/resource/八上生物知识点总结-多版本-f7ad8a72",
+      "addedAt": "2026-10-27T12:54:21+08:00",
+      "updatedAt": "2026-10-27T12:54:21+08:00"
+    },
+    {
+      "id": "58326b7896e2",
+      "title": "紫色矢量商务人士背景团队凝聚力企业培训ppt模板",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": [
+        "PPT模板",
+        "企业培训",
+        "团队建设",
+        "紫色",
+        "商务"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "紫色矢量商务人士背景的团队凝聚力企业培训 PPT 模板，适合职场培训与团队建设主题使用。",
+      "shareUrl": "",
+      "pwd": "",
+      "sourceUrl": "https://quarksource.com/resource/紫色矢量商务人士背景团队凝聚力企业培训ppt模板-076124930b",
+      "addedAt": "2026-10-27T12:54:21+08:00",
+      "updatedAt": "2026-10-27T12:54:21+08:00"
     }
   ]
 }
