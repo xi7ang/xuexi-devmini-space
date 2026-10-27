@@ -1,10 +1,16 @@
 {
   "announcementModal": {
     "enabled": true,
-    "version": "2026-10-26-21",
+    "version": "2026-10-27-21",
     "title": "📢 学习资料站公告",
     "content": "本站每日更新学习资料：高考/中考真题、中小学试卷与知识点、办公 PPT 模板，一键转存夸克网盘，永久有效。",
     "items": [
+      {
+        "date": "2026-10-27",
+        "tag": "更新",
+        "title": "【2026-10-27】学习资料更新通知",
+        "content": "今天这波有点猛，一口气上了 11 份 ⚡️ 高考真题、小升初/八上知识点、PPT 模板，还有一大票 2027 国考和选调预测卷，翻翻看有没有对得上号的：\n\n📚《2025年高考历史试卷（安徽卷）》（高考真题）\n安徽卷历史空白卷 + 解析卷，做完直接对答案\n详情：https://xuexi.devmini.space/resource.html?id=efb0f49c4de3\n\n📚《2025年高考地理试卷（北京卷）》（高考真题）\n北京卷地理空白卷 + 解析卷，区域地理考前过一遍\n详情：https://xuexi.devmini.space/resource.html?id=4ef0516a93ef\n\n📚《2023小升初数学知识点全体系梳理（6份）》（知识点）\n小升初数学六大板块一次梳理完，六年级总复习当提纲用\n详情：https://xuexi.devmini.space/resource.html?id=22e36ed5ed5c\n\n📚《八上生物知识点总结（多版本）》（知识点）\n多教材版本对照的八上生物知识点，版本对得上就背这本\n详情：https://xuexi.devmini.space/resource.html?id=4c20dd1dd9b0\n\n📚《紫色矢量商务人士背景团队凝聚力企业培训ppt模板》（PPT 模板）\n紫色商务风团队培训模板，改标题就能拿去内训\n详情：https://xuexi.devmini.space/resource.html?id=58326b7896e2\n\n📚《2027上岸李陈判断一拖五方法论》（国考）\n判断推理「一拖五」题型的解法套路，行测卡这类的先看它\n详情：https://xuexi.devmini.space/resource.html?id=f36edea189c6\n\n📚《2027冯泽政治理论带背》（国考）\n冯泽政治理论带背，通勤路上听也能过一遍\n详情：https://xuexi.devmini.space/resource.html?id=7195997bf33a\n\n📚《2027年湖北省选调优秀大学毕业生终极预测五套卷》（国考）\n湖北选调专属五套预测卷，考前按套刷保持手感\n详情：https://xuexi.devmini.space/resource.html?id=05fa593bb9a1\n\n📚《2027年四川省选调优秀大学毕业生《行测》终极预测五套卷》（国考）\n四川选调行测五套预测卷，掐时间模拟正合适\n详情：https://xuexi.devmini.space/resource.html?id=e0c097881c44\n\n📚《2027年国家公务员考试《行测》终极预测五套卷（地市级）》（国考）\n地市级行测五套预测卷，国考冲刺按套数练节奏\n详情：https://xuexi.devmini.space/resource.html?id=1c07540e956d\n\n📚《2027年贵州省选调优秀大学毕业生《行测》终极预测五套卷》（国考）\n贵州选调行测五套预测卷，报贵州岗的对口练\n详情：https://xuexi.devmini.space/resource.html?id=31ed35a3722c\n\n链接打不开、资料对不上号、想补某个省份的版本——来群里喊一声，看到就安排～"
+      },
       {
         "date": "2026-10-26",
         "tag": "更新",
@@ -126,6 +132,6 @@
         "content": "同学们，网站更新啦 🎉\n\n⭐ 收藏：在资料详情页点「☆ 收藏」，之后点顶部「⭐ 收藏」一键找回，好资料不迷路～\n📢 公告：新增公告弹窗，每天的更新公告都收在这里，点开就能看。\n\n收藏只存在你自己的浏览器里，不上传服务器——换设备记得重新收藏～\n\n资源挂了或找不到，来群里喊一声，看到就补。"
       }
     ],
-    "watermark": "2026-10-26T15:57:55+08:00"
+    "watermark": "2026-10-27T13:00:48+08:00"
   }
 }
