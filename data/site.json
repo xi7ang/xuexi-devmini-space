@@ -1,10 +1,16 @@
 {
   "announcementModal": {
     "enabled": true,
-    "version": "2026-10-28-22",
+    "version": "2026-10-29-24",
     "title": "📢 学习资料站公告",
     "content": "本站每日更新学习资料：高考/中考真题、中小学试卷与知识点、办公 PPT 模板，一键转存夸克网盘，永久有效。",
     "items": [
+      {
+        "date": "2026-10-29",
+        "tag": "更新",
+        "title": "【2026-10-29】学习资料更新通知",
+        "content": "晚上好，今晚这批资料全部上架了 🐧\n\n从国考冲刺卷到高考真题，再到初中地理和班会 PPT，一天攒下的都在这儿了，慢慢挑：\n\n📚《2027年国家公务员考试《行测》终极预测五套卷（行政执法）》（国考）（10-28 上新）\n考前压轴五套，掐着时间刷完正好上考场。详情：https://xuexi.devmini.space/resource.html?id=1fb08c844026\n\n📚《2027年国家公务员考试《行测》终极预测五套卷（副省级）》（国考）（10-28 上新）\n副省级这套出题更绕，最后阶段找手感的别错过。详情：https://xuexi.devmini.space/resource.html?id=cfb3bfbf6044\n\n📚《安徽省情省况》（国考）（10-28 上新）\n常识里的送分题，安徽考生的必背清单。详情：https://xuexi.devmini.space/resource.html?id=ca7b1a64a2c2\n\n📚《广东省情省况》（国考）（10-28 上新）\n广东本地时政省情一网打尽，常识模块直接捡分。详情：https://xuexi.devmini.space/resource.html?id=62261f43786e\n\n📚《山西省情省况》（国考）（10-28 上新）\n山西的省情素材整理得很干净，背起来不费劲。详情：https://xuexi.devmini.space/resource.html?id=1c777ef9e6f3\n\n📚《江西省情省况》（国考）（10-28 上新）\n江西考生专属的常识弹药库，考前翻两遍就够。详情：https://xuexi.devmini.space/resource.html?id=2c27c0068e74\n\n📚《甘肃省情省况》（国考）（10-28 上新）\n甘肃的省情考点都在里面，别在常识上白丢分。详情：https://xuexi.devmini.space/resource.html?id=4441785c3f68\n\n📚《湖北省情省况》（国考）（10-28 上新）\n湖北的省情脉络捋得很清楚，适合碎片时间看。详情：https://xuexi.devmini.space/resource.html?id=3e1408948990\n\n📚《山东省情省况》（国考）（10-28 上新）\n山东考生看这份，省情常识基本就稳了。详情：https://xuexi.devmini.space/resource.html?id=d3b22df11703\n\n📚《2027国考冲刺卷4套行政执法》（国考）（10-28 上新）\n行政执法专项冲刺，四套刷完手感就回来了。详情：https://xuexi.devmini.space/resource.html?id=04da0e4bf17b\n\n📚《2027国考冲刺卷4套地市级》（国考）（10-28 上新）\n地市级岗位对口，题型和难度都对得上。详情：https://xuexi.devmini.space/resource.html?id=fd5b5cdb050d\n\n📚《2027国考冲刺卷4套副省级》（国考）（10-28 上新）\n副省级冲刺卷，最后关头练节奏最合适。详情：https://xuexi.devmini.space/resource.html?id=d9656abfcc88\n\n📚《2025年高考数学试卷（新高考Ⅱ卷）》（高考真题）（10-29 上新）\n空白卷配解析卷，先自己做一遍再对答案才有效。详情：https://xuexi.devmini.space/resource.html?id=029e66c832b0\n\n📚《2025年高考物理试卷（云南卷）》（高考真题）（10-29 上新）\n云南卷物理，空白卷加解析卷一套配齐。详情：https://xuexi.devmini.space/resource.html?id=400b31a82b3e\n\n📚《【鲁教54】七上数学期中、期末试卷（暂缺期中）》（试卷）（10-29 上新）\n期中卷暂缺，期末那几套先存着，考前正好用。详情：https://xuexi.devmini.space/resource.html?id=66ee26d8dc5a\n\n📚《【中图】八上地理知识背诵与默写》（知识点）（10-29 上新）\n背默一体，考前突击地形气候这块特别管用。详情：https://xuexi.devmini.space/resource.html?id=03db77ef17a0\n\n📚《用电安全主题班会PPT模板》（教学课件）（10-29 上新）\n拿来即用的班会模板，主题班会直接投放。详情：https://xuexi.devmini.space/resource.html?id=de960c40d9ff\n\n链接打不开、资料对不上号，来群里喊一声，看到就补～"
+      },
       {
         "date": "2026-10-28",
         "tag": "更新",
@@ -138,6 +144,6 @@
         "content": "同学们，网站更新啦 🎉\n\n⭐ 收藏：在资料详情页点「☆ 收藏」，之后点顶部「⭐ 收藏」一键找回，好资料不迷路～\n📢 公告：新增公告弹窗，每天的更新公告都收在这里，点开就能看。\n\n收藏只存在你自己的浏览器里，不上传服务器——换设备记得重新收藏～\n\n资源挂了或找不到，来群里喊一声，看到就补。"
       }
     ],
-    "watermark": "2026-10-28T10:10:00+08:00"
+    "watermark": "2026-10-29T10:10:30+08:00"
   }
 }
