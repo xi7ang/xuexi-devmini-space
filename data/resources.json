@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-28T23:21:51+08:00",
-  "count": 212,
+  "updatedAt": "2026-10-29T10:10:30+08:00",
+  "count": 217,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -4236,6 +4236,114 @@
       "sourceUrl": "https://pan.quark.cn/s/92dbaaa0497b",
       "addedAt": "2026-10-28T23:21:51+08:00",
       "updatedAt": "2026-10-28T23:21:51+08:00"
+    },
+    {
+      "id": "029e66c832b0",
+      "title": "2025年高考数学试卷（新高考Ⅱ卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "高考",
+        "数学",
+        "2025",
+        "真题",
+        "新高考Ⅱ卷"
+      ],
+      "size": "",
+      "formats": "DOCX",
+      "desc": "2025年高考数学试卷（新高考Ⅱ卷），收录空白卷与解析卷。",
+      "shareUrl": "https://pan.quark.cn/s/daf26821d5b9",
+      "pwd": "7XVd",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-a455493df3031e2e",
+      "addedAt": "2026-10-29T10:10:30+08:00",
+      "updatedAt": "2026-10-29T10:10:30+08:00"
+    },
+    {
+      "id": "400b31a82b3e",
+      "title": "2025年高考物理试卷（云南卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "高考",
+        "物理",
+        "云南",
+        "2025",
+        "真题"
+      ],
+      "size": "",
+      "formats": "DOCX",
+      "desc": "2025年高考物理试卷（云南卷），收录空白卷与解析卷。",
+      "shareUrl": "https://pan.quark.cn/s/3717d3b62d17",
+      "pwd": "xqYW",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-15d03fc3509384d6",
+      "addedAt": "2026-10-29T10:10:30+08:00",
+      "updatedAt": "2026-10-29T10:10:30+08:00"
+    },
+    {
+      "id": "66ee26d8dc5a",
+      "title": "【鲁教54】七上数学期中、期末试卷（暂缺期中）",
+      "category": "study",
+      "subcategory": "shijuan",
+      "tags": [
+        "数学",
+        "七年级",
+        "上册",
+        "期中",
+        "期末",
+        "鲁教54",
+        "试卷"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "鲁教版（五四制）七年级上册数学期中、期末试卷合集，本期暂缺期中卷。",
+      "shareUrl": "https://pan.quark.cn/s/7f035d923c02",
+      "pwd": "bhvE",
+      "sourceUrl": "https://quarksource.com/resource/鲁教54-七上数学期中-期末试卷-暂缺期中-fa5ea46d",
+      "addedAt": "2026-10-29T10:10:30+08:00",
+      "updatedAt": "2026-10-29T10:10:30+08:00"
+    },
+    {
+      "id": "03db77ef17a0",
+      "title": "【中图】八上地理知识背诵与默写",
+      "category": "study",
+      "subcategory": "zhishidian",
+      "tags": [
+        "地理",
+        "八年级",
+        "上册",
+        "知识点",
+        "默写",
+        "中图版"
+      ],
+      "size": "",
+      "formats": "",
+      "desc": "中图版八年级上册地理知识点背诵与默写资料，适合考前强化记忆。",
+      "shareUrl": "https://pan.quark.cn/s/2744d319f6d6",
+      "pwd": "N3R7",
+      "sourceUrl": "https://quarksource.com/resource/中图-八上地理知识背诵与默写-f4e704e9",
+      "addedAt": "2026-10-29T10:10:30+08:00",
+      "updatedAt": "2026-10-29T10:10:30+08:00"
+    },
+    {
+      "id": "de960c40d9ff",
+      "title": "用电安全主题班会PPT模板",
+      "category": "office",
+      "subcategory": "kejian",
+      "tags": [
+        "PPT模板",
+        "课件",
+        "班会",
+        "用电安全",
+        "主题教育"
+      ],
+      "size": "",
+      "formats": "PPTX",
+      "desc": "用电安全主题班会 PPT 模板，适合中小学安全教育主题班会使用。",
+      "shareUrl": "https://pan.quark.cn/s/2d81eb4bf845",
+      "pwd": "GzSA",
+      "sourceUrl": "https://quarksource.com/resource/用电安全主题班会ppt模板-155fccc0de",
+      "addedAt": "2026-10-29T10:10:30+08:00",
+      "updatedAt": "2026-10-29T10:10:30+08:00"
     }
   ]
 }
