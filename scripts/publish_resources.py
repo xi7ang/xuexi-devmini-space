@@ -117,8 +117,16 @@ def main():
         subprocess.run(["git", "add", "-A"], cwd=ROOT, check=True)
         subprocess.run(["git", "commit", "-m", f"data: 新增 {added} 条资源 ({date.today()})"],
                        cwd=ROOT, check=True)
+        # 推之前先对齐远端：远端有 bot 提交时裸 push 会被拒（2026-10-26 实测过一次）。
+        # --autostash 兜住未暂存改动（本仓 dist/ 是被跟踪文件，rebase 曾以
+        # "unstaged changes" 中止）。
+        rb = subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=ROOT)
+        if rb.returncode != 0:
+            print("[git] pull --rebase 失败（可能有冲突）→ 已中止 push；请手工处理后重试",
+                  file=sys.stderr)
+            raise SystemExit(3)
         subprocess.run(["git", "push"], cwd=ROOT, check=True)
-        print("[git] pushed")
+        print("[git] pulled --rebase + pushed")
 
 
 if __name__ == "__main__":
