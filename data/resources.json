@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-01T10:06:14+08:00",
-  "count": 234,
+  "updatedAt": "2026-11-05T18:45:54+08:00",
+  "count": 239,
   "items": [
     {
       "id": "9fcd2984bf50",
@@ -4689,6 +4689,99 @@
       "sourceUrl": "https://pan.quark.cn/s/71a58de8c8a4",
       "addedAt": "2026-11-01T10:06:14+08:00",
       "updatedAt": "2026-11-01T10:06:14+08:00"
+    },
+    {
+      "id": "8066370ee339",
+      "title": "2025年高考历史试卷（四川卷）",
+      "category": "exam",
+      "subcategory": "gaokao",
+      "tags": [
+        "历史",
+        "2025",
+        "四川"
+      ],
+      "size": "",
+      "formats": "PDF",
+      "desc": "2025年高考历史试卷（四川卷），收录试卷与解析，可直接打印使用。",
+      "shareUrl": "https://pan.quark.cn/s/46746f1e01bd",
+      "pwd": "guks",
+      "sourceUrl": "https://quarksource.com/resource/gaokao-zhenti-e36fa455d002be47",
+      "updatedAt": "2026-11-05T18:45:54+08:00",
+      "addedAt": "2026-11-05T18:45:54+08:00"
+    },
+    {
+      "id": "b0f6dc3f0f93",
+      "title": "2024年云南中考道法真题",
+      "category": "exam",
+      "subcategory": "zhongkao",
+      "tags": [
+        "道法",
+        "2024",
+        "云南"
+      ],
+      "size": "",
+      "formats": "PDF",
+      "desc": "2024年云南中考道法真题，收录试卷与解析，可直接打印使用。",
+      "shareUrl": "https://pan.quark.cn/s/ff5dc83a3fdb",
+      "pwd": "yvjM",
+      "sourceUrl": "https://quarksource.com/resource/zhongkao-zhenti-ab63f8010daa283d",
+      "updatedAt": "2026-11-05T18:45:54+08:00",
+      "addedAt": "2026-11-05T18:45:54+08:00"
+    },
+    {
+      "id": "90b74f75b14c",
+      "title": "五年级下册单元测试卷英语三1陕旅Unit",
+      "category": "study",
+      "subcategory": "primary",
+      "tags": [
+        "英语",
+        "5年级",
+        "一课一练"
+      ],
+      "size": "",
+      "formats": "DOCX",
+      "desc": "五年级下册单元测试卷英语三1陕旅Unit，5年级英语同步练习资料。",
+      "shareUrl": "https://pan.quark.cn/s/0d50152d5b86",
+      "pwd": "qYHi",
+      "sourceUrl": "https://quarksource.com/resource/陕旅-三-单元测试卷-fc69050a",
+      "updatedAt": "2026-11-05T18:45:54+08:00",
+      "addedAt": "2026-11-05T18:45:54+08:00"
+    },
+    {
+      "id": "480965ff5e9b",
+      "title": "六上 Module 1 Unit 1 练习",
+      "category": "study",
+      "subcategory": "primary",
+      "tags": [
+        "英语",
+        "6年级",
+        "一课一练"
+      ],
+      "size": "",
+      "formats": "DOCX",
+      "desc": "六上 Module 1 Unit 1 练习，6年级英语同步练习资料。",
+      "shareUrl": "https://pan.quark.cn/s/ed1ade9b2722",
+      "pwd": "46PG",
+      "sourceUrl": "https://quarksource.com/resource/外研-一-一课一练-fb4039bb",
+      "updatedAt": "2026-11-05T18:45:54+08:00",
+      "addedAt": "2026-11-05T18:45:54+08:00"
+    },
+    {
+      "id": "ecafe60d2621",
+      "title": "棕色简约职场人士背景高效团队建设和管理ppt模板",
+      "category": "office",
+      "subcategory": "ppt",
+      "tags": [
+        "PPT模板"
+      ],
+      "size": "",
+      "formats": "PPTX",
+      "desc": "棕色简约职场人士背景高效团队建设和管理ppt模板，可直接编辑使用的 PPT 模板。",
+      "shareUrl": "https://pan.quark.cn/s/2feae8dbdf9d",
+      "pwd": "DqDr",
+      "sourceUrl": "https://quarksource.com/resource/棕色简约职场人士背景高效团队建设和管理ppt模板-1cb6d4008a",
+      "updatedAt": "2026-11-05T18:45:54+08:00",
+      "addedAt": "2026-11-05T18:45:54+08:00"
     }
   ]
 }
