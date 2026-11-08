@@ -10,6 +10,8 @@ on:
       - 'data/taxonomy.json'
       - 'scripts/build_sitemap.py'
       - 'scripts/gen_resource_pages.py'
+      - 'scripts/check_links.py'
+      - '.github/workflows/sitemap.yml'
   workflow_dispatch:
 
 permissions:
