@@ -62,14 +62,22 @@ def pwd_id_of(share_url: str) -> str:
     return tail.split("?")[0].split("-")[0].strip()
 
 
-async def check_one(client: httpx.AsyncClient, pwd_id: str, timeout: float) -> tuple:
-    """返回 (状态, 说明)。状态 ∈ ok / expired / net。"""
+async def check_one(client: httpx.AsyncClient, pwd_id: str, pwd: str, timeout: float) -> tuple:
+    """返回 (状态, 说明)。
+
+    状态 ∈ ok / expired / needs_pwd / net
+      ok        链接可用
+      expired   分享已过期（真死链）
+      needs_pwd 链接还在，但提取码不对或缺失 —— **不是死链**，
+                 是站内 pwd 字段写错了（用户会点不开但网盘没坏）
+      net       网络异常（不算失效）
+    """
     for attempt in range(3):
         try:
             r = await client.post(
                 TOKEN_URL,
                 params=_params(pwd_id),
-                json={"pwd_id": pwd_id, "passcode": ""},
+                json={"pwd_id": pwd_id, "passcode": pwd or ""},
                 headers=QUARK_HEADERS,
                 timeout=timeout,
             )
@@ -86,9 +94,13 @@ async def check_one(client: httpx.AsyncClient, pwd_id: str, timeout: float) -> t
             d = j["data"]
             return "ok", f"expired_type={d.get('expired_type')} expired_at={d.get('expired_at')}"
         msg = str(j.get("message") or j.get("code") or "no-data")
+        # 顺序很重要：先判「过期」，再判「提取码」。
+        # 2026-11-08 教训：带提取码的分享在**裸请求**下会回「需要提取码」，
+        # 若把它当「过期」就会把好链接误报成死链（实测误报 6 条）。
         if "过期" in msg or "expired" in msg.lower():
             return "expired", msg
-        # 其它业务错误：算失效（链接确实打不开），但说明里保留原文
+        if "提取码" in msg or "passcode" in msg.lower() or "密码" in msg:
+            return "needs_pwd", msg
         return "expired", msg
     return "net", "retries exhausted"
 
@@ -111,7 +123,8 @@ async def main() -> int:
         url = it.get("shareUrl") or ""
         pid = pwd_id_of(url)
         if pid:
-            targets.append((it.get("id", ""), it.get("title", ""), url, pid))
+            # 提取码必须一起带上：裸请求下带提取码的分享不给码就取不到 token。
+            targets.append((it.get("id", ""), it.get("title", ""), url, pid, it.get("pwd") or ""))
 
     if not targets:
         print("[info] 没有需要体检的夸克分享")
@@ -120,32 +133,38 @@ async def main() -> int:
     sem = asyncio.Semaphore(max(1, a.concurrency))
 
     async def worker(t):
-        iid, title, url, pid = t
+        iid, title, url, pid, pwd = t
         async with sem:
             async with httpx.AsyncClient(timeout=a.timeout) as client:
-                state, detail = await check_one(client, pid, a.timeout)
+                state, detail = await check_one(client, pid, pwd, a.timeout)
         return {"id": iid, "title": title, "shareUrl": url, "state": state, "detail": detail}
 
     async with httpx.AsyncClient(timeout=a.timeout) as client:
         results = await asyncio.gather(*[worker(t) for t in targets])
 
     dead = [r for r in results if r["state"] == "expired"]
+    needpwd = [r for r in results if r["state"] == "needs_pwd"]
     net = [r for r in results if r["state"] == "net"]
     ok = [r for r in results if r["state"] == "ok"]
 
     if a.json:
         print(json.dumps({"checked": len(results), "ok": len(ok),
-                          "expired": len(dead), "net_error": len(net),
-                          "dead": dead, "net": net}, ensure_ascii=False, indent=2))
+                          "expired": len(dead), "needs_pwd": len(needpwd),
+                          "net_error": len(net),
+                          "dead": dead, "needs_pwd_list": needpwd, "net": net},
+                         ensure_ascii=False, indent=2))
     else:
-        print(f"体检 {len(results)} 条：有效 {len(ok)} · 失效 {len(dead)} · 网络异常 {len(net)}")
+        print(f"体检 {len(results)} 条：有效 {len(ok)} · 失效 {len(dead)} · "
+              f"提取码不符 {len(needpwd)} · 网络异常 {len(net)}")
         for r in dead:
             print(f"  ❌ {r['id']} | {r['title'][:36]:38} | {r['shareUrl']} | {r['detail']}")
+        for r in needpwd:
+            print(f"  ⚠ {r['id']} | {r['title'][:36]:38} | {r['shareUrl']} | {r['detail']}（链接在，pwd 不对）")
         for r in net:
             print(f"  ⚠ {r['id']} | {r['title'][:36]:38} | 网络异常（不算失效）：{r['detail']}")
         if dead:
-            print(f"\n失效链接需重建分享：重转存 → 建分享务必传 expired_type=1（永久）→ 更新 shareUrl/pwd")
-    return 1 if dead else 0
+            print("\n失效链接需重建分享：重转存 → 建分享务必传 expired_type=1（永久）→ 更新 shareUrl/pwd")
+    return 1 if (dead or needpwd) else 0
 
 
 if __name__ == "__main__":

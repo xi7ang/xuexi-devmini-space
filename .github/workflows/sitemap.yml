@@ -39,6 +39,12 @@ jobs:
           python scripts/stamp_assets.py
       - name: Validate sitemap XML
         run: python -c "import xml.dom.minidom as m; m.parse('sitemap.xml'); print('sitemap.xml OK')"
+      # 分享链接体检：只报告、不阻断构建。
+      # 2026-11-08 教训：10-20 那批 7 条用了短期分享（expired_type=2），
+      # 静默过期后站内躺了 19 天没人发现 —— 所以每次数据变动都顺手体检一次。
+      - name: Check share links (report only)
+        continue-on-error: true
+        run: python scripts/check_links.py --timeout 30
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
