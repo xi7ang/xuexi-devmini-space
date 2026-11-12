@@ -1,10 +1,16 @@
 {
   "announcementModal": {
     "enabled": true,
-    "version": "2026-11-11-29",
+    "version": "2026-11-12-30",
     "title": "📢 学习资料站公告",
     "content": "本站每日更新学习资料：高考/中考真题、中小学试卷与知识点、办公 PPT 模板，一键转存夸克网盘，永久有效。",
     "items": [
+      {
+        "date": "2026-11-12",
+        "tag": "更新",
+        "title": "【2026-11-12】学习资料更新通知",
+        "content": "今天这批有点狠 💥 17 份高中教辅一口气上架，数学物理化学语文英语全齐，模考完正好拿来自查补漏～\n\n📚2027《53金卷•高中数学全优卷》选修1（人教A版）（中小学资料）\n高中数学校内同步全优卷，人教A版选修1，跟着课本一章一章刷 + 详情：https://xuexi.devmini.space/resource.html?id=3251102c99f5\n\n📚2027《53金卷•高考一轮复习单元突破卷》数学（中小学资料）\n一轮复习按单元突破，哪块薄就先补哪块 + 详情：https://xuexi.devmini.space/resource.html?id=e26ad5f2221c\n\n📚2027《53•高考数学必备知识》（中小学资料）\n高考数学必备知识清单，考前查漏比翻课本快得多 + 详情：https://xuexi.devmini.space/resource.html?id=bb0fc1b227b0\n\n📚2027版高中《数心引力讲义》一轮复习高峰班（数学）（中小学资料）\n一轮复习高峰班讲义，拔高题型的路子拆得够细 + 详情：https://xuexi.devmini.space/resource.html?id=06a855e3258f\n\n📚2027《陶然•高考英语总复习》(完形填空+语法填空+阅读理解+听力)（中小学资料）\n完形、语法填空、阅读、听力四件套一次配齐 + 详情：https://xuexi.devmini.space/resource.html?id=844aceb6f2b8\n\n📚《高中语文阅读技巧全归纳（共331页）》（中小学资料）\n331页阅读技巧全归纳，答题套路整理成表，照着用 + 详情：https://xuexi.devmini.space/resource.html?id=cc31fddf6bcb\n\n📚2027版《高中语文·古诗文解析情景默写》（全五册）（学生+教师版）（中小学资料）\n古诗文解析配情景默写，学生版教师版都给了 + 详情：https://xuexi.devmini.space/resource.html?id=d113284fa60c\n\n📚《高考物理教辅合集》（中小学资料）\n物理教辅打包合集，一轮二轮都能挑着用 + 详情：https://xuexi.devmini.space/resource.html?id=74e50306e347\n\n📚《赢在会学高中物理》全6本-王邦平（中小学资料）\n王邦平全6本，从概念到模型系统讲透 + 详情：https://xuexi.devmini.space/resource.html?id=5412ef0bb5f6\n\n📚2027《小龙教师保分特训》（高考）（物理）（中小学资料）\n保分特训，先把该拿的分稳稳攥住 + 详情：https://xuexi.devmini.space/resource.html?id=b93efec07602\n\n📚《2027-北京专版-3年高考2年模拟 数学》（中小学资料）\n北京专版3年高考2年模拟，本地题型最对味 + 详情：https://xuexi.devmini.space/resource.html?id=86741c6935a9\n\n📚《26-27北京生物高一高二期中试题与答案》（中小学资料）\n北京生物期中真题带答案，考前自测正合适 + 详情：https://xuexi.devmini.space/resource.html?id=b761dba4dab1\n\n📚《最全抽象函数模型--2027年高考数学》（中小学资料）\n抽象函数模型一次收全，压轴题的常客 + 详情：https://xuexi.devmini.space/resource.html?id=dd1c42bc28e5\n\n📚《高考数学压轴培优教程（导数+圆锥曲线+新定义）》（中小学资料）\n导数、圆锥曲线、新定义三块压轴专题，一本打通 + 详情：https://xuexi.devmini.space/resource.html?id=c0a0478eeeac\n\n📚《高中化学基础与解法全集》（中小学资料）\n化学基础加解法全集，方程式和计算一起过一遍 + 详情：https://xuexi.devmini.space/resource.html?id=2851391df1b1\n\n📚2027版高考《天利38套五年高考真题汇编详解Plus版》（语数外理化生史）（中小学资料）\n天利38套Plus，语数外理化生史七科真题详解 + 详情：https://xuexi.devmini.space/resource.html?id=207838b52696\n\n📚《重点高中自主招生辅导讲义》数学789年级全册（2026）（中小学资料）\n自主招生讲义789年级全册，冲重点高中的看这个 + 详情：https://xuexi.devmini.space/resource.html?id=c1b87bee9b16\n\n顺手存进夸克，别等要用的时候找不到。链接打不开、资料对不上号，来群里喊一声～"
+      },
       {
         "date": "2026-11-11",
         "tag": "更新",
@@ -180,6 +186,6 @@
         "content": "同学们，网站更新啦 🎉\n\n⭐ 收藏：在资料详情页点「☆ 收藏」，之后点顶部「⭐ 收藏」一键找回，好资料不迷路～\n📢 公告：新增公告弹窗，每天的更新公告都收在这里，点开就能看。\n\n收藏只存在你自己的浏览器里，不上传服务器——换设备记得重新收藏～\n\n资源挂了或找不到，来群里喊一声，看到就补。"
       }
     ],
-    "watermark": "2026-11-11T19:36:36+08:00"
+    "watermark": "2026-11-12T20:27:20+08:00"
   }
 }
