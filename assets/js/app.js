@@ -237,7 +237,7 @@ function cardHTML(it) {
   const demo = it.demo ? '<span class="badge">示例</span>' : '';
   const today = datePart(it.updatedAt) === localDateKey();
   const meta = [catName(it.category), it.subcategory ? subName(it.category, it.subcategory) : '', it.updatedAt ? fmtShort(it.updatedAt) : ''].filter(Boolean).join(' · ');
-  return `<a class="card" href="${href}">
+  return `<a class="card" href="${href}" data-card-motion tabindex="0">
     <span class="card-bar" style="background:${catColor(it.category)}" aria-hidden="true"></span>
     <div class="card-top">
       <div class="card-ico" style="background:${catColor(it.category)}1a">${iconOf(it)}</div>
@@ -298,6 +298,34 @@ function renderSubchips() {
 
 function paint() {
   $('#grid').innerHTML = gridOf(filterItems());
+  bindCardMotion($('#grid'));
+}
+
+/* 资源卡片的反馈不是靠一堆无意义的 hover 阴影：指针位置驱动轻微 3D 偏转，
+   同时把 CSS 自定义变量交给彩色边框。键盘用户仍然获得 focus-visible 状态，
+   触屏设备不会被强行模拟 hover。 */
+function bindCardMotion(root = document) {
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  root.querySelectorAll('[data-card-motion]').forEach(card => {
+    if (card.dataset.motionBound) return;
+    card.dataset.motionBound = '1';
+    const reset = () => {
+      card.style.removeProperty('--rx'); card.style.removeProperty('--ry');
+      card.style.removeProperty('--tx'); card.style.removeProperty('--ty');
+    };
+    card.addEventListener('pointermove', e => {
+      if (e.pointerType === 'touch') return;
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - .5;
+      const y = (e.clientY - r.top) / r.height - .5;
+      card.style.setProperty('--rx', `${(y * -5).toFixed(2)}deg`);
+      card.style.setProperty('--ry', `${(x * 6).toFixed(2)}deg`);
+      card.style.setProperty('--tx', `${(x * 2).toFixed(1)}px`);
+      card.style.setProperty('--ty', `${(y * 2).toFixed(1)}px`);
+    });
+    card.addEventListener('pointerleave', reset);
+    card.addEventListener('blur', reset, true);
+  });
 }
 
 // 分类 chip 点击后把状态同步进 URL（可分享 / 可回退）；只对分类页生效
@@ -400,6 +428,7 @@ function renderSearch() {
     <div class="sec-title">搜索「${esc(q)}」 <small>找到 ${items.length} 条${fuzzy}</small></div>
     ${body}
   </div>`;
+  bindCardMotion($('#main'));
 }
 
 function renderResource() {
@@ -453,6 +482,7 @@ function renderResource() {
   const sb = $('#share-btn'); if (sb) sb.addEventListener('click', () => openShare(sb.dataset.url, sb.dataset.id, sb));
   const fb = $('#fav-btn'); if (fb) fb.addEventListener('click', () => toggleFavClick(fb.dataset.id));
   const cp = $('#copy-pwd'); if (cp) cp.addEventListener('click', () => copyPwd(cp));
+  bindCardMotion($('#main'));
 }
 
 function openShare(url, id, btn) {
@@ -488,6 +518,7 @@ function renderFavorites() {
     ${body}
   </div>`;
   $$('.fav-del').forEach(b => b.addEventListener('click', () => removeFavClick(b.dataset.id)));
+  bindCardMotion($('#main'));
 }
 
 /* ---------- 搜索匹配（归一化 + 级联分层，命中即停；无依赖） ---------- */
